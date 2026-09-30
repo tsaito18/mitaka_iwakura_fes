@@ -1,0 +1,37 @@
+LOADING_PLANETS:	กำลังโหลดแคตตาล็อกCF96
+LOADING_EARTH_ATMOSPHERE:	กำลังโหลดข้อมูลบรรรยากาศโลก
+LOADING_MINOR_PLANETS:	กำลังโหลดข้อมูลดาวเคระห์น้อย
+INIT_OORT_CLOUD:	กำลังประมวลผลเมฆออร์ต
+LOADING_STARS:	กำลังโหลดข้อมูลดาว
+LOADING_EXOPLANETS:	กำลังโหลดข้อมูลดาวเคราะห์นอกระบบ
+LOADING_GLOBULAR_CLUSTERS:	กำลังโหลดข้อมูลกระจุกดาวทรงกลม
+LOADING_GLOBULAR_CLUSTER_MODEL:	กำลังโหลดแบบจำลองกระจุกดาวทรงกลม
+LOADING_VERA_OBJECTS:	กำลังโหลดข้อมูลวัตถุสำรวจโดย VERA
+LOADING_OUR_GALAXY_MODEL:	กำลังโหลดแบบจำลองกาแล็กซีของเรา
+LOADING_NEARBY_GALAXIES:	กำลังโหลดข้อมูลกาแล็กซีที่อยู่ใกล้เคียง
+LOADING_DISTANT_GALAXIES:	กำลังโหลดข้อมูลกาแล็กซีที่อยู่ห่างไกล
+LOADING_QSOS:	กำลังโหลดข้อมูล QSO
+LOADING_CONSTELLATIONS:	กำลังโหลดข้อมูลกลุ่มดาว
+LOADING_CONSTELLATION_ILLUSTS:	กำลังโหลดภาพร่างกลุ่มดาว
+LOADING_NGC_DATA:	กำลังโหลดข้อมูลบัญชี NGC
+LOADING_PLACES:	กำลังโหลดข้อมูลสถานที่
+LOADING_TOPOGRAPHY:	กำลังโหลดภูมิประเทศ
+LOADING_SPACECRAFT:	กำลังโหลดข้อมูลยานอวกาศ
+INIT_DISPLAY_LIST:	กำลังสร้างรายการแสดง
+
+LOADING_SUN_PLANET_TEXTURE:	กำลังโหลดภาพพื้นผิวดวงอาทิตย์และดาวเคราะห์
+LOADING_EARTH_DETAILED_TEXTURE:	กำลังโหลดภาพพื้นผิวของโลกแบบละเอียด
+LOADING_EARTH_CLOUD_TEXTURE:	กำลังโหลดภาพเมฆบนโลก
+LOADING_EARTH_CITY_LIGHT_TEXTURE:	กำลังโหลดภาพแสงเมืองบนโลก
+LOADING_EARTH_SPECULAR_MAP:	กำลังโหลดแผนที่ของโลกแบบ Spacular
+LOADING_SATELLITES_TEXTURE:	กำลังโหลดภาพพื้นผิวดวงจันทร์บริวาร
+LOADING_MINOR_PLANET_TEXTURE:	กำลังโหลดภาพพื้นผิวดาวเคราะห์น้อย
+INIT_STAR_TEXTURE:	กำลังสร้างภาพพื้นผิวดาวฤกษ์
+LOADING_GALAXTIC_CENTER_BG_TEXTURE:	กำลังโหลดภาพพื้นหลังใจกลางกาแล็กซี
+LOADING_GALAXY_TEXTURE:	กำลังโหลดภาพกาแล็กซี
+LOADING_MILKYWAY_TEXTURE:	กำลังโหลดภาพทางช้างเผือก
+LOADING_CMB:	กำลังโหลดภาพรังสีไมโครเวฟพื้นหลัง
+
+LOADING_COMPLETED:	เสร็จสิ้น
+
+WATING_FOR_NETWORK_CONNECTION:	กำลังเชื่อมต่อเครือข่าย

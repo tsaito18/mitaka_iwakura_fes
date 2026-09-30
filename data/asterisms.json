@@ -1,0 +1,52 @@
+{
+	"Asterisms": [
+	{
+		"Key": "SUMMER_TRIANGLE",
+		"LabelKey": "SUMMER_TRIANGLE",
+		"LabelPos": [ 296.0, 32.0 ],
+		"Lines": [
+			[ "HIP_91262", "HIP_97649", "HIP_102098", "HIP_91262" ]
+		]
+	},
+	{
+		"Key": "WINTER_TRIANGLE",
+		"LabelKey": "WINTER_TRIANGLE",
+		"LabelPos": [ 101.0, -2.0 ],
+		"Lines": [
+			[ "HIP_32349", "HIP_37279", "HIP_27989", "HIP_32349" ]
+		]
+	},
+	{
+		"Key": "SPRING_TRIANGLE",
+		"LabelKey": "SPRING_TRIANGLE",
+		"LabelPos": [ 198.0, 7.0 ],
+		"Lines": [
+			[ "HIP_69673", "HIP_65474", "HIP_57632", "HIP_69673" ]
+		]
+	},
+	{
+		"Key": "BIG_DIPPER",
+		"LabelKey": "BIG_DIPPER",
+		"LabelPos": [ 191.0, 56.0 ],
+		"Lines": [
+			[ "HIP_54061", "HIP_53910", "HIP_58001", "HIP_59774", "HIP_62956", "HIP_65378", "HIP_67301" ]
+		]
+	},
+	{
+		"Key": "GREAT_SQUARE_PEGASUS",
+		"LabelKey": "GREAT_SQUARE_PEGASUS",
+		"LabelPos": [ 354.0, 22.0 ],
+		"Lines": [
+			[ "HIP_113963", "HIP_113881", "HIP_677", "HIP_1067", "HIP_113963" ]
+		]
+	},
+	{
+		"Key": "WINTER_HEXAGON",
+		"LabelKey": "WINTER_HEXAGON",
+		"LabelPos": [ 115.0, 14.0 ],
+		"Lines": [
+			[ "HIP_32349", "HIP_37279", "HIP_37826", "HIP_24608", "HIP_21421", "HIP_24436", "HIP_32349" ]
+		]
+	}
+	]
+}

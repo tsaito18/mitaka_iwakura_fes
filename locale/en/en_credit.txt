@@ -1,0 +1,32 @@
+
+\Center{
+These results are based on "Construction of 4-Dimensional Digital Universe\\
+and Its Application to Research and Education" funded by Research and\\
+Development for Applying Advanced Computational Science and Technology\\
+of Japan Science and Technology Agency (ACT-JST: 2001-2004),\\
+and "Construction of an Image Distribution System for the 4-Dimensional\\
+Digital Universe " funded by the Special Coordination Fund for Promoting\\
+Science and Technology of the Japanese Ministry of Education, Culture,\\
+Sports, Science and Technology as part of their Program for the Effective\\
+Promotion of Joint Research with Industry, Academia and Government\\
+(2004 - 2007).
+}
+
+\Vspace[5]
+
+\Center Research Institution\\
+\Vspace[0.5]
+
+\Center{
+\Size[0.83]
+National Astronomical Observatory of Japan (NAOJ)\\
+Musashino Art University\\
+RIKEN\\
+Japan Science Foundation (JSF)\\
+Konica Minolta Planetarium Co., Ltd\\
+GOTO INC\\
+}
+
+
+\Vspace[15]
+

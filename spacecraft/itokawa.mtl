@@ -1,0 +1,8 @@
+newmtl mat_itokawaSG
+illum 4
+Kd 0.64 0.64 0.64
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump itokawa_n_0-1.png -bm 1
+Ni 1.00
+Ks 0.07 0.07 0.07

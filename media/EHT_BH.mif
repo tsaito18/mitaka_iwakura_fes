@@ -1,0 +1,12 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\EHT_BH.jpg
+FILE_PATH:	.\images\EHT_BH.jpg
+
+
+[default]
+MENU_TITLE:	Black Hole Shadow of M87
+
+[ja, ja_ruby]
+MENU_TITLE: M87のブラックホールシャドウ
+

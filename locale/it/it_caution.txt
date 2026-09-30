@@ -1,0 +1,12 @@
+\Center{Per favore…} \\
+\Size[0.45]
+\Vspace[1.0]
+\Color[1,0.8,0.2]
+· In caso di nausea, togliete gli occhiali.\\
+\Vspace[0.5]
+\Color[1,1,1]
+· È vietato toccare lo schermo.\\
+\Vspace[0.5]
+· Spegnere la suoneria dei cellulari.\\
+\Vspace[0.5]
+· È vietato mangiare o bere durante la presentazione.

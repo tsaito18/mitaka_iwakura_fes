@@ -1,0 +1,16 @@
+KEY:		SCF_PIONEER_10
+MODEL:		Pioneer.obj
+SCALE:		0.01
+OFFSET:		0,0,0
+TRAJECTORY:	Pioneer10.ppi
+ORIGIN:		SS_BC
+
+[default]
+NAME:			Pioneer 10
+
+[ja]
+NAME:			パイオニア１０号
+
+[ja_ruby]
+NAME:			パイオニア１０{号|ごう}
+

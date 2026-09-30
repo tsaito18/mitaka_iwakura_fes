@@ -1,0 +1,163 @@
+//---  Preset New Horizons
+DefCommandSet[PRESET_NEW_HORIZONS, PRESET]
+	KeyString(New Horizons' Closest Approach to Pluto)
+	KeyString[ja, ja_ruby](ニュー・ホライズンズの冥王星接近)
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetDateTime(2015/7/14 11:00:10.0 0.0 )
+	SetTimeStep(10SEC)
+	SetOrientation(3.84e-2, 4.15e-2, 8.02e-1, 5.95e-1)
+	SetTarget(SCF_NEW_HORIZONS)
+	SetViewTarget(SCF_NEW_HORIZONS)
+	SetScale(9.0e-13)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Hayabusa2
+DefCommandSet[PRESET_HAYABUSA_2, PRESET]
+	KeyString(Hayabusa2 Earth Swing-by)
+	KeyString[ja, ja_ruby](はやぶさ2の地球スイングバイ)
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetDateTime(2015/12/3 7:30:10.0 0.0)
+	SetTimeStep(1MIN)
+	SetOrientation(9.01e-1, 5.66e-2, 6.03e-2, 4.26e-1)
+	SetTarget(SCF_HAYABUSA_2)
+	SetViewTarget(SCF_HAYABUSA_2)
+	SetScale(9.07e-13)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Akatsuki
+DefCommandSet[PRESET_AKATSUKI, PRESET]
+	KeyString(Akatsuki's Second Attempt to Enter Orbit of Venus)
+	KeyString[ja, ja_ruby](あかつきの金星周回軌道再投入)
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetDateTime(2015/12/7 00:30:10.0 0.0)
+	SetTimeStep(10SEC)
+	SetOrientation(-2.97e-1, 5.38e-1, -4.88e-1, 6.21e-1)
+	SetTarget(SCF_AKATSUKI)
+	SetViewTarget(SCF_AKATSUKI)
+	SetScale(6.22e-13)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Juno
+DefCommandSet[PRESET_JUNO, PRESET]
+	KeyString(Arrival of Juno at Jupiter)
+	KeyString[ja, ja_ruby](ジュノーの木星到達)
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetDateTime(2016/7/4 23:30:10.0 0.0)
+	SetTimeStep(1MIN)
+	SetOrientation(-3.45e-2, 1.05e-1, -2.49e-1, 9.62e-1)
+	SetTarget(SCF_JUNO)
+	SetViewTarget(SCF_JUNO)
+	SetScale(4.77e-13)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Sgr A*
+DefCommandSet[PRESET_BLACKHOLE_GC, PRESET]
+	KeyString(Supermassive Black Hole at the Galactic Center)
+	KeyString[ja, ja_ruby](銀河系中心の巨大ブラックホール)
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetTimeStep(1MONTH)
+	SetOrientation(-3.99e-1, -3.08e-1, -6.87e-1, 5.24e-1)
+	SetTarget(SGR_A_STAR)
+	SetViewTarget(SGR_A_STAR)
+	SetScale(5.117e-4)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Eclipse on 2009/7/22
+DefCommandSet[PRESET_ECLIPSE_2009, PRESET]
+	KeyString(Solar Eclipse of July 22, 2009 as Seen from Space)
+	KeyString[ja, ja_ruby](宇宙空間から見た2009年7月22日の日食)
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetDateTime(2009/7/22 11:00:10.0 9.0)
+	SetTimeStep(1MIN)
+	SetOrientation(9.41e-2, 2.83e-2, -6.70e-1, -7.36e-1)
+	SetTarget(PLNT_EARTH)
+	SetViewTarget(PLNT_EARTH)
+	SetScale(1.3e-9)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Eclipse on 2016/3/9 at Tokyo
+DefCommandSet[PRESET_ECLIPSE_2016, PRESET]
+	KeyString(Partial Solar Eclipse of March 9, 2016 (Tokyo, Japan))
+	KeyString[ja, ja_ruby](2016年3月9日の部分日食（日本・東京）)
+
+	SetMainMode(MODE_MAIN_PLANETARIUM)
+	SetDateTime(2016/3/9 10:12:10.0 9.0)
+	SetTimeStep(10SEC)
+	SetOrientation(9.41e-2, 2.83e-2, -6.70e-1, -7.36e-1)
+	SetTarget(PLNT_EARTH)
+	SetViewTarget(SUN)
+	SetScale(1.3e-9)
+	SetPlanetariumAngle(5.0)
+	SetLonLat(139.54125, 35.6725)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Eclipse on 2016/3/9 at Ternate
+DefCommandSet[PRESET_ECLIPSE_2016_2, PRESET]
+	KeyString(Solar Eclipse of July 22, 2009 as Seen from Space)
+	KeyString[ja, ja_ruby](2016年3月9日の皆既日食（インドネシア・テルナテ島）)
+
+	SetMainMode(MODE_MAIN_PLANETARIUM)
+	SetDateTime(2016/3/8 23:36:10.0 0.0)
+	SetTimeStep(10SEC)
+	SetOrientation(9.41e-2, 2.83e-2, -6.70e-1, -7.36e-1)
+	SetTarget(PLNT_EARTH)
+	SetViewTarget(SUN)
+	SetScale(1.3e-9)
+	SetPlanetariumAngle(5.0)
+	SetLonLat(127.36667, 0.78333)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Cassini's Grand Finale
+DefCommandSet[PRESET_CASSINI, PRESET]
+	KeyString(Cassini's Grand Finale)
+	KeyString[ja, ja_ruby](カッシーニのグランドフィナーレ)
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetDateTime(2017/9/8 23:20:10.0 0.0)
+	SetTimeStep(10SEC)
+	SetOrientation(-5.92e-1, -3.07e-1, -6.10e-1, -4.28e-1)
+	SetTarget(SCF_CASSINI)
+	SetViewTarget(SCF_CASSINI)
+	SetScale(1.046e-12)
+	SetZoomMode(ZOOM_REAL_SCALE)
+
+
+
+//---  Preset Cassini's Grand Finale
+DefCommandSet[PRESET_CASSINI_2, PRESET]
+	KeyString(Cassini's Grand Finale (Wide Field))
+	KeyString[ja, ja_ruby](カッシーニのグランドフィナーレ（遠景）)
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetDateTime(2017/9/8 01:00:10.0 0.0)
+	SetTimeStep(10MIN)
+	SetOrientation(-5.37e-1, -2.26e-1, -6.16e-1, -5.30e-1)
+	SetTarget(PLNT_SATURN)
+	SetViewTarget(PLNT_SATURN)
+	SetScale(1.553e-7)
+	SetZoomMode(ZOOM_REAL_SCALE)
+	SwitchOn(SPACECRAFT_TRAJECTORY, SPACECRAFT_SELECT)
+	RemoveSelection(SCF_ALL)
+	AddSelection(SCF_CASSINI)

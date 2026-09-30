@@ -1,0 +1,12 @@
+\Center{Please...} \\
+\Size[0.45]
+\Vspace[1.0]
+\Color[1,0.8,0.2]
+· If you feel sick, take off your 3D glasses. \\
+\Vspace[0.5]
+\Color[1,1,1]
+· Do not touch the lenses.\\
+\Vspace[0.5]
+· Turn off cell phones and other alarms.\\
+\Vspace[0.5]
+· Do not eat or drink during the presentation.

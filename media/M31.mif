@@ -1,0 +1,38 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\M31.jpg
+FILE_PATH:	.\images\M31.jpg
+
+
+[default]
+MENU_TITLE:	Andromeda Galaxy
+
+[ja, ja_ruby]
+MENU_TITLE:	アンドロメダ銀河
+
+[ja_ruby]
+DISP_TITLE:	アンドロメダ{銀河|ぎんが}
+
+[es]
+MENU_TITLE:	Galaxia de Andrómeda
+
+[fr]
+MENU_TITLE:	Galaxie d'Andromède
+
+[it]
+MENU_TITLE:	Galassia di Andromeda
+
+[pt]
+MENU_TITLE:	Galáxia de Andrómeda
+
+[id]
+MENU_TITLE:	Galaksi Andromeda
+
+[th]
+MENU_TITLE:	กาแล็กซี่แอนโดรเมดา
+
+[zh]
+MENU_TITLE:	仙女座星系
+
+[zh_tr]
+MENU_TITLE:	仙女座星系

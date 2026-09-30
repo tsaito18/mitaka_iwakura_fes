@@ -1,0 +1,169 @@
+%===== 使用しているデータ =====
+\Center
+使用しているデータ\\
+\Vspace[0.3]
+
+\Center{
+\Size[0.67]
+Planetary Orbital Elements, NASA JPL, Solar System Dynamics\\
+Planetary Satellite Mean Orbital Parameters, NASA JPL, Solar System Dynamics\\
+Ephemerides of planets between 1900 and 2100, Chapront+, 1996\\
+Orbital Elements of Minor Planets 1998, Batrakov+, 1997\\
+List of Transneptunian Objects, IAU Minor Planet Center\\
+The Hipparcos and Tycho Catalogues, ESA, 1997\\
+Globular Clusters in the Milky Way, Harris, 1997\\
+Nearby Galaxies Catalogue, Tully, 1988\\
+SDSS Data Release 4, Sloan Digital Sky Survey, 2005\\
+NGC 2000.0, \c Sky Publishing, Ed. Sinnott, 1988\\
+HORISONS System, NASA JPL\\
+GTOPO 30, U.S.Geological Survey\\
+Mars Global Surveyor MOLA data (MGS-M-MOLA-5-MEGDR-L3-V1.0), NASA, 2003\\
+Bright Star Catalogue, 5th Revised Ed., Hoffleit+, 1991\\
+Masses and Orbital Characteristics of Extrasolar Planets, California & Carnegie Planet Search\\
+Constellation Boundary Data, Davenhall+, 1989\\
+}
+
+\Vspace[2]
+
+
+
+%===== 使用している画像・モデル =====
+\Center
+使用している画像・モデル\\
+
+\Vspace[0.5]
+
+\Center{
+\Size[0.67]
+地球:Blue Marble, NASA Earth Observatory\\
+金星、木星、ガリレオ衛星、土星のリング: Bjorn Jonsson's collection\\
+その他の惑星と太陽、月、および天王星のリング: James Hastings-Trew's collection\\
+フォボス、ダイモス、ミマス: Caltech/JPL/USGS\\
+タイタン: JPL/Caltech\\
+カロン: David Seal\\
+天の川: Axel Mellinger's All Sky Milky Way Panorama\\
+赤外線で見た天の川: The Two Micron All Sky Survey (2MASS), IPAC\\
+マゼラン雲: 谷中洋司\\
+星座絵:島初季\\
+カッシーニの３Dモデル:NASA JPL および 平沢翔太\\
+ボイジャー・パイオニアの３Dモデル:中村有紀\\
+}
+
+\Vspace[2]
+
+
+
+
+%===== データ協力 =====
+\Center
+データ協力\\
+
+\Vspace[0.5]
+
+\Center{
+\Size[0.67]
+斉藤貴之\\
+千秋博紀\\
+中里直人\\
+中西裕之\\
+納田明達\\
+濱田剛\\
+船渡陽子\\
+松本倫明\\
+安田直樹\\
+矢作日出樹\\
+和田桂一\\
+和田浩二\\
+Chan Sze Ting\\
+}
+
+\Vspace[2]
+
+
+
+%===== 協力 =====
+\Center
+協力\\
+
+\Vspace[0.5]
+
+\Center{
+\Size[0.67]
+国立天文台 広報普及室\\
+国立天文台 すばる望遠鏡\\
+国立天文台 理論研究部\\
+水本好彦\\
+林　正彦\\
+近田義広\\
+福江純\\
+松本倫明\\
+富阪幸治\\
+蜷川由彦\\
+宮木朝子\\
+}
+
+\Vspace[10]
+
+
+
+%===== メンバー =====
+\Center ４次元デジタル宇宙プロジェクト\\
+
+\Vspace[0.5]
+
+\Center{
+\Size[0.83]
+\Table[10, 8, 10]
+プロジェクトリーダー&観山正見&国立天文台\\
+ &牧野淳一郎&国立天文台\\
+\Vspace[0.5]
+プロジェクトアドバイザー&海部宣男&国立天文台\\
+\Vspace[1.5]
+
+プロジェクトメンバー&縣　秀彦&国立天文台\\
+ &小久保英一郎&国立天文台\\
+ &林満          &国立天文台\\
+ &加藤恒彦      &国立天文台\\
+ &武田隆顕      &国立天文台\\
+ &岩下由美      &国立天文台\\
+ &小野智子      &国立天文台\\
+ &Catherine Ishida  &国立天文台\\
+ &三浦均        &武蔵野美術大学\\
+ &戎崎俊一      &理化学研究所\\
+ &高幣俊之      &理化学研究所\\
+ &額谷宙彦      &理化学研究所\\
+ &田代英俊 &日本科学技術振興財団\\
+ &奥野　光 &日本科学技術振興財団\\
+ &中村　隆 &日本科学技術振興財団\\
+}
+
+
+\Vspace[20]
+
+\Center{
+本成果は、独立行政法人科学技術振興機構 計算科学技術活用型\\
+特定研究開発推進事業(ACT-JST)「４次元デジタル宇宙データの構築\\
+とその応用」（2001年-2004年）、および、 文部科学省科学技術\\
+振興調整費 産学官共同研究の効果的な推進プログラムにおける\\
+実施課題 「４次元デジタル宇宙映像配給システムの構築」\\
+（2004年 - 2007年） によるものです。\\
+}
+
+\Vspace[5]
+
+\Center 研究実施機関\\
+\Vspace[0.5]
+
+\Center{
+\Size[0.83]
+国立天文台\\
+武蔵野美術大学\\
+理化学研究所\\
+日本科学技術振興財団\\
+コニカミノルタプラネタリウム\\
+五藤光学研究所\\
+}
+
+
+\Vspace[7]
+

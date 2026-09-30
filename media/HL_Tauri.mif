@@ -1,0 +1,38 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\ALMA_HL_Tauri.jpg
+FILE_PATH:	.\images\ALMA_HL_Tauri.jpg
+
+
+[default]
+MENU_TITLE:	HL Tauri
+
+[ja, ja_ruby]
+MENU_TITLE:	おうし座HL星
+
+[ja_ruby]
+DISP_TITLE:	おうし{座|ざ}HL{星|せい}
+
+[es]
+MENU_TITLE:	HL Tauri
+
+[fr]
+MENU_TITLE:	HL Tauri
+
+[it]
+MENU_TITLE:	HL Tauri
+
+[pt]
+MENU_TITLE:	HL Tauri
+
+[id]
+MENU_TITLE:	HL Tauri
+
+[th]
+MENU_TITLE:	HLกลุ่มดาววัว
+
+[zh]
+MENU_TITLE:金牛座 HL
+
+[zh_tr]
+MENU_TITLE:金牛座 HL

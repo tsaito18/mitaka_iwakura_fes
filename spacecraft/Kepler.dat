@@ -1,0 +1,15 @@
+﻿KEY:		SCF_KEPLER
+MODEL:		Kepler.obj
+SCALE:		0.04
+OFFSET:		0,0,-20
+TRAJECTORY:	Kepler.ppi
+ORIGIN:		SS_BC
+
+[default]
+NAME:			Kepler
+
+[ja]
+NAME:			ケプラー
+
+[ja_ruby]
+NAME:			ケプラー

@@ -1,0 +1,192 @@
+// デフォルトの初期化コマンド
+DefCommandSet[INIT]
+	// モードの初期化
+	SetTarget(PLNT_EARTH)
+	SetMainMode(MODE_MAIN_PLANETARIUM)
+	SetTimeZoneDT(9.0)
+	SetDateToday()
+	SetTime(20:00:00)
+	SetModesToDefault()
+
+	SetPlanetariumView( Azimuth:180.0, Latitude:18.0, AzimuthLanding:180.0, LatitudeLanding:18.0, ViewAngle:45.0)
+
+	// スイッチの初期化
+	SetKeyGroup(
+		// キーグループ名
+		SW_INI,
+		// 以下オンにするスイッチ
+		SUN_DISP, SUN_NAME, SUN_GLARE,
+		PLANET_DISP, PLANET_NAME, PLANET_ORBIT, PLANET_SELECT, PLANET_DISP_BILLBOARD, PLANET_CLOUD,
+		SATELLITE_DISP, SATELLITE_NAME, SATELLITE_ORBIT, SATELLITE_SELECT,
+		MINOR_PLANET_DISP, MINOR_PLANET_NAME, MINOR_PLANET_ORBIT, MINOR_PLANET_SELECT,
+		TNO_DISP, TNO_NAME, TNO_ORBIT, TNO_SELECT, OORT_CLOUD_DISP,
+		ISO_NAME, ISO_ORBIT, ISO_SELECT,
+		STAR_DISP, STAR_NAME, STAR_ORBIT, STAR_SELECT,
+		OUR_GALAXY_DISP, OUR_GALAXY_NAME,
+		SGR_A_ST_DISP, GALACTIC_CENTER_BG_DISP, GLOB_CLSTR_DISP,
+		NEARBY_GALAXY_DISP, NEARBY_GALAXY_NAME, NEARBY_GALAXY_SELECT,
+		DISTANT_GALAXY_DISP, QSO_DISP,
+		SPACECRAFT_DISP, SPACECRAFT_NAME, SPACECRAFT_TRAJECTORY, SPACECRAFT_SELECT,
+		ECLIPSE_DISP,
+		CONSTELLATION_SELECT_SPACE,
+		SCALE_CIRCLE_DISP,
+		GROUND_DISP,
+		DATE_DISP,
+		CALC_ABERRATION,
+		SURFACE_POINTER_DISP, INFO_WINDOW_DISP,
+		ENABLE_SHADER,
+		ENABLE_BLACKOUT_SHORTCUT,
+		//4D2U_LOGO_DISP, ON_SCREEN_CREDITS_DISP
+	)
+	SwitchSet(SW_INI)
+
+	// 地名
+	ClearPlaces()
+	LoadPlaceFile(places.dat)
+
+	// 星座線
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Cen, CNST_CMa, CNST_Ori
+	) 
+	LoadAsterismFile(constellation_lines.json)
+	DefAsterismCollection(AstrCollectKey:ASTR_CNST_ALL, AstrGroupKey:ConstellationLines, KeyGroup:CNST_ALL, ColorKey:ConstellationLine, FadeSpaceMode:False)
+	DefAsterismCollection(AstrCollectKey:ASTR_CNST_SELECT, AstrGroupKey:ConstellationLines, KeyGroup:CNST_SELECT, ColorKey:ConstellationLine, FadeSpaceMode:False)
+
+	// 星座の境界線
+	LoadAsterismFile(constellation_boundaries.json)
+	DefAsterismCollection(AstrCollectKey:ASTR_CNST_BND_ALL, AstrGroupKey:ConstellationBoundaries, KeyGroup:CNST_ALL, ColorKey:ConstellationBoundary, FadeSpaceMode:True)
+	DefAsterismCollection(AstrCollectKey:ASTR_CNST_BND_SELECT, AstrGroupKey:ConstellationBoundaries, KeyGroup:CNST_SELECT, ColorKey:ConstellationBoundary, FadeSpaceMode:True)
+
+	// アステリズム
+	SetKeyGroup(
+		ASTERISMS_ALL,
+		SUMMER_TRIANGLE, WINTER_TRIANGLE, SPRING_TRIANGLE,
+		BIG_DIPPER, GREAT_SQUARE_PEGASUS, WINTER_HEXAGON
+	)
+	SetKeyGroup(
+		ASTERISMS_SELECT,
+		SUMMER_TRIANGLE, WINTER_TRIANGLE, BIG_DIPPER
+	)
+	LoadAsterismFile(asterisms.json)
+	DefAsterismCollection(AstrCollectKey:ASTR_ASTERISM_ALL, AstrGroupKey:Asterisms, KeyGroup:ASTERISMS_ALL, ColorKey:Asterism, FadeSpaceMode:False)
+	DefAsterismCollection(AstrCollectKey:ASTR_ASTERISM_SELECT, AstrGroupKey:Asterisms, KeyGroup:ASTERISMS_SELECT, ColorKey:Asterism, FadeSpaceMode:False)
+
+
+
+
+
+
+
+// 離陸時の動作
+DefCommandSet[AT_TAKEOFF]
+	ResetViewTarget()
+	SwitchOff(
+		CONSTELLATION_NAME, CONSTELLATION_LINE, CONSTELLATION_ILLUST, CONSTELLATION_BOUNDARY,
+		ASTERISM_DISP, ASTERISM_NAME, GRID_ECLIPTIC_DISP
+	)
+
+
+// 着陸時の動作
+DefCommandSet[AT_LANDING]
+
+
+
+// 〇ボタンを押したときの動作
+DefCommandSet[BUTTON_CIR]
+	EnterSubMode(SUBMODE_MENU)
+
+
+// △ボタンを押したときの動作
+DefCommandSet[BUTTON_TRI]
+	LandingTakeoff()
+
+
+// □ボタンを押したときの動作(プラネタリウムモード)
+DefCommandSet[BUTTON_SQR_PLANETARIUM]
+	SwitchToggle(
+	CONSTELLATION_LINE,
+	SUN_NAME, PLANET_NAME, SATELLITE_NAME, MINOR_PLANET_NAME, TNO_NAME, ISO_NAME, STAR_NAME,
+	CONSTELLATION_NAME, GRID_ECLIPTIC_DISP, DATE_DISP
+	)
+
+
+// □ボタンを押したときの動作(宇宙空間モード)
+DefCommandSet[BUTTON_SQR_SPACE]
+	SwitchToggle(
+	SUN_NAME, PLANET_NAME, SATELLITE_NAME, MINOR_PLANET_NAME, TNO_NAME, ISO_NAME, STAR_NAME,
+	OUR_GALAXY_NAME, NEARBY_GALAXY_NAME, SPACECRAFT_NAME,
+	SCALE_CIRCLE_DISP,
+	DATE_DISP, SURFACE_POINTER_DISP
+	)
+
+
+// Playボタンを押したときの動作
+DefCommandSet[BUTTON_PLAY]
+	StartSequence(STARTUP_SEQUENCE)
+
+
+// Selectボタンを押したときの動作
+DefCommandSet[BUTTON_SELECT]
+	EnterSubMode(SUBMODE_POINTER)
+
+
+// ×+△（Z+S）を押したときの動作
+DefCommandSet[BUTTON_CRS_TRI]
+	SwitchOff(REALTIME_MODE)
+	SetDateToday()
+	SetTime(20:00:00)
+
+
+// ×+□（Z+A）を押したときの動作
+DefCommandSet[BUTTON_CRS_SQR]
+	SwitchToggle(PLANET_CITY_LIGHT)
+
+
+// ×+L3（Z+5）を押したときの動作
+DefCommandSet[BUTTON_CRS_L3]
+	ResetViewTarget()
+
+
+// ×+R3（Z+6）を押したときの動作
+DefCommandSet[BUTTON_CRS_R3]
+	EnterSubMode(SUBMODE_BLACKOUT)
+
+
+// Start up sequence
+DefSequence[STARTUP_SEQUENCE]
+	KeyString(番組タイトルのシーケンス)
+	//--  Credits
+	SwitchOff(SUN_NAME, PLANET_NAME, SATELLITE_NAME, MINOR_PLANET_NAME, TNO_NAME,
+	STAR_NAME, STAR_BAYER, STAR_FRAMSTEED, STAR_HIP,
+	CONSTELLATION_NAME, ASTERISM_NAME, DATE_DISP)
+	SetTitlePage(TITLE_PAGE_CREDITS)
+	StartAnimation(ANIMATION_CREDITS)
+	Pause()
+
+	//--  Attention
+	ExecCommandSet(INIT)
+	SwitchOff(SUN_NAME, PLANET_NAME, SATELLITE_NAME, MINOR_PLANET_NAME, TNO_NAME,
+	STAR_NAME, STAR_BAYER, STAR_FRAMSTEED, STAR_HIP,
+	CONSTELLATION_NAME, ASTERISM_NAME, DATE_DISP)
+	SetTitlePage(TITLE_PAGE_ATTENTION)
+	Pause()
+
+	//--  Title
+	SetTitlePage(TITLE_PAGE_TITLE)
+	StartAnimation(ANIMATION_TITLE)
+	Pause()
+
+	//--  Theme
+	SetTitlePage(TITLE_PAGE_THEME)
+	StartAnimation(ANIMATION_THEME)
+
+	//--  At exit
+	AtExit:
+	SetTitlePage(TITLE_PAGE_NONE)
+
+
+
+// ショートカットキー
+DefCommandSet[OnKey_F1]
+	SwitchToggle(KEY_HELP_DISP)

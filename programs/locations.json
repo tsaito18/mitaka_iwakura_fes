@@ -1,0 +1,67 @@
+{
+	"Locations": [
+		{
+			"Key": "Mitaka",
+			"Pos": [139.54125, 35.6725],
+			"EllipsoidalHeight": 94.4,
+			"TimeDelta": 9,
+			"Labels": ["Mitaka", "ja:三鷹", "ja_ruby:みたか"]
+		},
+		{
+			"Key": "Tokyo",
+			"Pos": [139.74136, 35.6581],
+			"EllipsoidalHeight": 63.0,
+			"TimeDelta": 9,
+			"Labels": ["Tokyo", "ja:東京", "ja_ruby:とうきょう"]
+		},
+		{
+			"Key": "Sapporo",
+			"Pos": [141.35, 43.0667],
+			"EllipsoidalHeight": 49.3,
+			"TimeDelta": 9,
+			"Labels": ["Sapporo", "ja:札幌", "ja_ruby:さっぽろ"]
+		},
+		{
+			"Key": "Sendai",
+			"Pos": [140.8667, 38.2667],
+			"EllipsoidalHeight": 87.6,
+			"TimeDelta": 9,
+			"Labels": ["Sendai", "ja:仙台", "ja_ruby:せんだい"]
+		},
+		{
+			"Key": "Nagoya",
+			"Pos": [136.9167, 35.1667],
+			"EllipsoidalHeight": 47.0,
+			"TimeDelta": 9,
+			"Labels": ["Nagoya", "ja:名古屋", "ja_ruby:なごや"]
+		},
+		{
+			"Key": "Kyoto",
+			"Pos": [135.75, 35.0167],
+			"EllipsoidalHeight": 79.7,
+			"TimeDelta": 9,
+			"Labels": ["Kyoto", "ja:京都", "ja_ruby:きょうと"]
+		},
+		{
+			"Key": "Hiroshima",
+			"Pos": [132.45, 34.3833],
+			"EllipsoidalHeight": 37.1,
+			"TimeDelta": 9,
+			"Labels": ["Hiroshima", "ja:広島", "ja_ruby:ひろしま"]
+		},
+		{
+			"Key": "Fukuoka",
+			"Pos": [130.4, 33.5833],
+			"EllipsoidalHeight": 34.5,
+			"TimeDelta": 9,
+			"Labels": ["Fukuoka", "ja:福岡", "ja_ruby:ふくおか"]
+		},
+		{
+			"Key": "Naha",
+			"Pos": [127.6667, 26.2167],
+			"EllipsoidalHeight": 35.2,
+			"TimeDelta": 9,
+			"Labels": ["Naha", "ja:那覇", "ja_ruby:なは"]
+		}
+	]
+}

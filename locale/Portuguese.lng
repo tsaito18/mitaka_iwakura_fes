@@ -1,0 +1,15 @@
+NAME:			Portuguese
+NAME_KEY:		LANG_PORTUGUESE
+ISO639:			pt
+LANG_ID:		pt
+FONT:			meiryo.ttc, Times.ttf
+STRINGS:		./common/common.txt
+STRINGS:		./common/langlist.txt
+STRINGS:		./en/en_place_names.txt
+STRINGS:		./pt/pt_strings.txt
+STRINGS:		./pt/pt_menu_strings.txt
+STRINGS:		./pt/pt_splash_strings.txt
+STRINGS:		./pt/pt_place_names.txt
+CAUTION_TEXT:		./pt/pt_caution.txt
+TITLE_IMAGE:		./en/en_4dtheater_title.png
+END_CREDITS:		./en/en_credit.txt

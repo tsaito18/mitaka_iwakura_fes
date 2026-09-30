@@ -1,0 +1,22 @@
+newmtl blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd foil_goldA_c.png
+bump foil_A_n.png -bm 0.6
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks -mm 0 0.988633 foil_goldA_s.png
+Ns 18.00
+newmtl blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd hori01_c.png
+bump hori01_n.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks hori01_s.png
+Ns 18.00

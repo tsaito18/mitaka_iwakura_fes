@@ -1,0 +1,15 @@
+NAME:			Japanese with Kana Reading
+NAME_KEY:		LANG_JAPANESE_RUBY
+ISO639:		ja
+LANG_ID:		ja_ruby
+FONT:			meiryo.ttc, MSGothic.ttc
+STRINGS:		./common/common.txt
+STRINGS:		./common/langlist.txt
+STRINGS:		./en/en_place_names.txt
+STRINGS:		./ja/ja_ruby_strings.txt
+STRINGS:		./ja/ja_menu_strings.txt
+STRINGS:		./ja/ja_splash_strings.txt
+STRINGS:		./ja/ja_ruby_place_names.txt
+CAUTION_TEXT:	./ja/ja_ruby_caution.txt
+TITLE_IMAGE:		./ja/ja_4dtheater_title.png
+END_CREDITS:	./ja/ja_credit.txt

@@ -1,0 +1,38 @@
+MEDIA_TYPE:	PopupImage
+
+FILE_PATH:	.\images\ly.jpg
+FILE_PATH:	.\images\ly.jpg
+
+
+[default]
+MENU_TITLE:	light-year
+
+[ja, ja_ruby]
+MENU_TITLE:	光年
+
+[ja_ruby]
+DISP_TITLE:	{光年|こうねん}
+
+[es]
+MENU_TITLE:	Año Luz
+
+[fr]
+MENU_TITLE:	Année-lumière
+
+[it]
+MENU_TITLE:	Anno Luce
+
+[pt]
+MENU_TITLE:	Ano-Luz
+
+[id]
+MENU_TITLE:	Tahun Cahaya
+
+[th]
+MENU_TITLE:	ปีแสง
+
+[zh]
+MENU_TITLE:	光年
+
+[zh_tr]
+MENU_TITLE:	光年

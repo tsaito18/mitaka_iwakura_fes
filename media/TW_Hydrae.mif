@@ -1,0 +1,38 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\ALMA_TW_Hydrae.jpg
+FILE_PATH:	.\images\ALMA_TW_Hydrae.jpg
+
+
+[default]
+MENU_TITLE:	TW Hydrae
+
+[ja, ja_ruby]
+MENU_TITLE:	うみへび座TW星
+
+[ja_ruby]
+DISP_TITLE:	うみへび{座|ざ}TW{星|せい}
+
+[es]
+MENU_TITLE:	TW Hydrae
+
+[fr]
+MENU_TITLE:	TW Hydrae
+
+[it]
+MENU_TITLE:	TW Hydrae
+
+[pt]
+MENU_TITLE:	TW Hidra
+
+[id]
+MENU_TITLE:	TW Hydrae
+
+[th]
+MENU_TITLE:	TW กลุ่มดาวไฮดรา
+
+[zh]
+MENU_TITLE:	长蛇座 TW
+
+[zh_tr]
+MENU_TITLE:	長蛇座 TW

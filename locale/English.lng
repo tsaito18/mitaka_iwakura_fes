@@ -1,0 +1,13 @@
+NAME:			English
+NAME_KEY:		LANG_ENGLISH
+ISO639:		en
+LANG_ID:		en
+FONT:			meiryo.ttc, Times.ttf
+STRINGS:		./common/common.txt
+STRINGS:		./en/en_strings.txt
+STRINGS:		./en/en_menu_strings.txt
+STRINGS:		./en/en_splash_strings.txt
+STRINGS:		./en/en_place_names.txt
+CAUTION_TEXT:	./en/en_caution.txt
+TITLE_IMAGE:		./en/en_4dtheater_title.png
+END_CREDITS:	./en/en_credit.txt

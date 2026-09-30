@@ -1,0 +1,499 @@
+DefSequence[v170_Features, PRESET]
+	KeyString(バージョン1.7.0の新機能)
+
+	SetMainMode(MODE_MAIN_PLANETARIUM)
+	SetPlanetariumAngle(5.446e+01)
+	SetLonLat(139.54125, 35.6725)
+	SetDateTime(2021/7/7 20:00:0.5 9.0)
+	SetPlanetariumAzimuth(181.741)
+	SetPlanetariumLatitude(15.100)
+	SetHeadOrientation(1.000e+00, 0.000e+00, 0.000e+00, 0.000e+00)
+	SetModesToDefault()
+	SwitchSet(
+		SUN_DISP, SUN_NAME, SUN_GLARE, PLANET_DISP,
+		PLANET_NAME, PLANET_ORBIT, PLANET_SELECT, PLANET_CLOUD,
+		SATELLITE_DISP, SATELLITE_NAME, SATELLITE_ORBIT, SATELLITE_SELECT,
+		MINOR_PLANET_DISP, MINOR_PLANET_NAME, MINOR_PLANET_ORBIT, MINOR_PLANET_SELECT,
+		TNO_DISP, TNO_NAME, TNO_ORBIT, TNO_SELECT,
+		OORT_CLOUD_DISP, STAR_DISP, STAR_NAME, STAR_ORBIT,
+		STAR_SELECT, OUR_GALAXY_DISP, OUR_GALAXY_NAME, SGR_A_ST_DISP,
+		GALACTIC_CENTER_BG_DISP, GLOB_CLSTR_DISP, NEARBY_GALAXY_DISP, NEARBY_GALAXY_NAME,
+		NEARBY_GALAXY_SELECT, DISTANT_GALAXY_DISP, QSO_DISP,
+		//CMB_DISP,
+		SPACECRAFT_DISP, SPACECRAFT_NAME, SPACECRAFT_SELECT, ECLIPSE_DISP,
+		CONSTELLATION_SELECT_SPACE, SCALE_CIRCLE_DISP, GROUND_DISP,
+		DATE_DISP, 
+		//SURFACE_POINTER_DISP,
+		ENABLE_SHADER, ENABLE_BLACKOUT_SHORTCUT,
+		SUBTITLES_DISP
+	)
+	SetTarget(PLNT_EARTH)
+	SetTransitionParams(DT1:1.0, DT2:1.0)
+
+	SetSubtitle(Text:これはシーケンスです。Xキーを押して進めてください, Size:1.0, X:0.0, Y:0.5, Color:#FFFFFF, Display:True)
+
+
+	Pause()
+	SetSubtitle(Text:（Zキーを押せばいつでもシーケンスをやめることができます）)
+
+	Pause()
+	SetSubtitle(Text:バージョン1.7.0 の新機能をいくつか紹介します)
+
+	Pause()
+	SetSubtitle(Text:)
+	
+	Transition(2)
+	SetPlanetariumAzimuth(75.701)
+	SetPlanetariumLatitude(37.200)
+
+	Pause(0)
+	SetSubtitle(Text:バージョン1.7.0では「アステリズム」を表示できるようになりました)
+
+	Pause()
+	SwitchOn(ASTERISM_DISP, ASTERISM_NAME)
+
+	Pause()
+
+	Transition(2)
+	SetPlanetariumAngle(5.859e+01)
+	SetPlanetariumAzimuth(232.394)
+	SetPlanetariumLatitude(51.895)
+
+	Pause()
+
+	Transition(1)
+	SetPlanetariumAngle(5.859e+01)
+	SetPlanetariumAzimuth(321.397)
+	SetPlanetariumLatitude(54.313)
+	
+
+
+	Pause()
+	SetSubtitle(Text:ユーザーがアステリズムを新たに作成することもできます)
+
+	Pause()
+	SwitchOff(ASTERISM_DISP, ASTERISM_NAME)
+	SetSubtitle(Text:)
+
+	Pause()
+
+	SetMainMode(MODE_MAIN_SPACE)
+	SetScale(1.073e-07)
+	SetDateTime(2021/2/27 12:00:0.5 9.0)
+	SetOrientation(3.941e-01, -4.631e-02, 5.180e-01, 7.578e-01)
+	SetTarget(PLNT_EARTH)
+
+	SetSubtitle(Text:コマンドによりラベルや線の色を変えることができるようになりました)
+
+	Pause()
+	SetColors(NameObject: #FF0000)
+
+	Pause(0.5)
+	SetColors(NameSatellite: #FF5500)
+
+	Pause(0.5)
+	SetColors(OrbitSatellite: #FFAA00)
+
+	Pause(0.5)
+	SetColors(Date: #FFFF00)
+
+	Pause()
+	SetColors(NameObject: #00BFFF)
+	SetColors(NameSatellite: #F0E68C)
+	SetColors(OrbitSatellite: #8C916A)
+	SetColors(Date: #BCE9D0)
+	SetSubtitle(Text:)
+
+
+
+	Pause()
+
+
+	Transition(3.0)
+
+	SetScale(7.078e-10)
+	SetOrientation(7.472e-01, 2.440e-01, 3.488e-01, 5.103e-01)
+
+	Pause()
+	SetSubtitle(Text:地名の表示機能も強化されました)
+
+	Pause()
+	SetSubtitle(Text:コマンドによって地名を追加したり)
+	SetStrings(PLACE_EARTH_TEST1:地名1, PLACE_EARTH_TEST2:地名2, PLACE_EARTH_TEST3:地名3)
+	RemovePlaces(PLNT_EARTH, PLACE_EARTH_TEST1, PLACE_EARTH_TEST2, PLACE_EARTH_TEST3)
+
+	Pause()
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST1, Lon:139.55, Lat:33.67)
+
+	Transition(.5)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST2, Lon:139.55, Lat:31.67)
+
+	Transition(.5)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST3, Lon:139.55, Lat:29.67)
+
+	//SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_MT_FUJI, Lon:138.73, Lat:35.36)
+
+	Pause()
+	SetSubtitle(Text:色を変えたり)
+
+	Pause()
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST1, Color:#FF0000)
+
+	Transition(.5)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST2, Color:#FF8800)
+
+	Transition(.5)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST3, Color:#FFFF00)
+
+	Pause()
+	SetSubtitle(Text:文字の大きさを変えたり)
+
+	Pause()
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST1, Size:2.0)
+
+	Transition(.5)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST2, Size:3.0)
+
+	Transition(.5)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST3, Size:4.0)
+
+	Pause()
+	SetSubtitle(Text:個別に表示・非表示を設定することができます)
+
+	Pause()
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST3, Display:False)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST2, Display:False)
+
+	Transition(.5)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST1, Display:False)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST2, Display:True)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST3, Display:False)
+
+	Transition(.5)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST1, Display:False)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST2, Display:False)
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST3, Display:True)
+
+	Pause()
+	SetPlace(ObjectKey:PLNT_EARTH, PlaceKey:PLACE_EARTH_TEST3, Display:False)
+	SetSubtitle(Text:)
+
+	Pause()
+	SetSubtitle(Text:1つの天体上の地名設定を一度に行うこともできます)
+
+	Pause()
+	SetAllPlaces(ObjectKey:PLNT_EARTH, Color:#FF8800, Size: 1.0, Display:True)
+
+	Pause()
+	SetAllPlaces(ObjectKey:PLNT_EARTH, Display:False)
+	SetSubtitle(Text:)
+
+	Pause()
+
+	Transition(2.0)
+	SetScale(6.457e-08)
+
+	Pause()
+	SetSubtitle(Text:また、表示モードとして「正距円筒図法」にも対応しました)
+
+	Pause()
+	SetDispMode(MODE_DISPLAY_EQUIRECTANGULAR)
+	SetMilkyway(MILKYWAY_VISIBLE2)
+	SetSubtitle(Text:これが「正距円筒図法」モードです)
+
+
+	Pause()
+	SetNumOfExtraRotation(1)
+
+	Transition(5.0)
+	SetOrientation(7.837e-01, 3.034e-01, 2.567e-01, 4.774e-01)
+
+	Pause()
+	SetSubtitle(Text:これにより簡易VRにも対応できます)
+
+	Pause()
+	SetDispMode(MODE_DISPLAY_NORMAL)
+	SetMilkyway(MILKYWAY_VISIBLE)
+	SetSubtitle(Text:)
+
+	Pause()
+
+	SetSubtitle(Text:字幕表示機能も強化されました)
+
+	Pause()
+	SetSubtitle(Text:字幕ウィンドウを複数作ることができます)
+
+	Pause()
+	SetSubtitle(Text:これは標準の字幕ウィンドウです)
+
+	Pause()
+	SetSubtitle(WindowKey:Win1, Text:これは新たに追加した字幕ウィンドウです, X:-8, Y:10, Size:1.0)
+
+	Pause()
+	SetSubtitle(WindowKey:Win2, Text:これも新たに追加した字幕ウィンドウです, X:5, Y:22, Size:1.0)
+
+	Pause()
+	SetSubtitle(Text:字幕ウィンドウごとに色を変えたり)
+
+	Pause()
+	SetSubtitle(Color:#FF0000)
+
+	Pause(0.5)
+	SetSubtitle(WindowKey:Win1, Color:#FF8800)
+
+	Pause(0.5)
+	SetSubtitle(WindowKey:Win2, Color:#FFFF00)
+
+	Pause()
+	SetSubtitle(Text:文字サイズを変えたり)
+
+	Pause()
+	SetSubtitle(Size:1.5)
+
+	Pause(0.5)
+	SetSubtitle(WindowKey:Win1, Size:0.5)
+
+	Pause(0.5)
+	SetSubtitle(WindowKey:Win2, Size:2.0)
+
+	Pause()
+	SetSubtitle(Text:個別に表示をオン・オフすることができます)
+
+	Pause()
+	SetSubtitle(WindowKey:Win1, Display:False)
+	SetSubtitle(WindowKey:Win2, Display:False)
+
+	Pause(0.5)
+	SetSubtitle(WindowKey:Win2, Display:False)
+	SetSubtitle(WindowKey:Win1, Display:True)
+	SetSubtitle(Display:False)
+
+	Pause(0.5)
+	SetSubtitle(WindowKey:Win1, Display:False)
+	SetSubtitle(WindowKey:Win2, Display:True)
+
+	Pause(0.5)
+	SetSubtitle(Color:#FFFFFF, Size:1.0)
+	SetSubtitle(Display:True)
+	SetSubtitle(WindowKey:Win1, Display:False)
+	SetSubtitle(WindowKey:Win2, Display:False)
+
+	Pause()
+	SetSubtitle(Text:字幕の表示位置も自由に設定できます)
+
+	Pause()
+	SetSubtitle(Y:1.0)
+
+	Pause(0.1)
+	SetSubtitle(Y:1.5)
+
+	Pause(0.1)
+	SetSubtitle(Y:2.0)
+
+	Pause(0.1)
+	SetSubtitle(Y:2.5)
+
+	Pause(0.1)
+	SetSubtitle(Y:3.0)
+
+	Pause(0.1)
+	SetSubtitle(Y:3.5)
+
+	Pause(0.1)
+	SetSubtitle(Y:4.0)
+
+	Pause(0.1)
+	SetSubtitle(X:0.5)
+
+	Pause(0.1)
+	SetSubtitle(X:1.0)
+
+	Pause(0.1)
+	SetSubtitle(X:1.5)
+
+	Pause(0.1)
+	SetSubtitle(X:2.0)
+
+	Pause(0.1)
+	SetSubtitle(X:2.5)
+
+	Pause(0.1)
+	SetSubtitle(X:3.0)
+
+	Pause(0.1)
+	SetSubtitle(X:3.5)
+
+	Pause(0.1)
+	SetSubtitle(X:4.0)
+
+	Pause()
+	SetSubtitle(Text:また、字幕の表示モードも3種類から選択できるようになりました, X:0.0, Y:0.5)
+
+	Pause()
+	SetSubtitle(Text:この字幕は標準の「ウィンドウモード」です)
+
+	Pause()
+	SetSubtitle(Text:天体のラベルの位置に字幕を表示することもできます)
+
+	Pause()
+	SetSubtitle(WindowKey:Win1, Type:ObjectLabel, ObjectKey:PLNT_EARTH, Text:これは地球のラベル位置の字幕です, X:0, Y:0, Size:1.0, Color:#FFFFFF, Display:True)
+
+	Pause(0.5)
+	SetSubtitle(WindowKey:Win2, Type:ObjectLabel, ObjectKey:SAT_E_MOON, Text:これは月のラベル位置の字幕です, X:0, Y:0, Size:1.0, Color:#FFFFFF, Display:True)
+
+	Pause()
+	SetSubtitle(Text:これが「オブジェクトラベル」モードの字幕です)
+
+	Pause()
+	SetNumOfExtraRotation(1)
+
+	Transition(2.0)
+	SetOrientation(7.472e-01, 2.440e-01, 3.488e-01, 5.103e-01)
+
+
+	Pause()
+	SetSubtitle(Text:惑星、衛星だけでなく任意の天体のラベルの位置に字幕を表示することもできます)
+
+	Pause()
+	SetSubtitle(WindowKey:Win1, Display:False)
+	SetSubtitle(WindowKey:Win2, Display:False)
+
+	Transition(2.0)
+	SetScale(9.890e+00)
+	SetOrientation(7.890e-01, 3.141e-01, -4.951e-01, 1.835e-01)
+
+	Pause()
+	SetSubtitle(WindowKey:Win1, Type:ObjectLabel, ObjectKey:HIP_71683, Text:これはアルファケンタウリのラベル位置の字幕です, X:0, Y:0, Size:1.0, Color:#FFFFFF, Display:True)
+
+	Pause()
+	SetSubtitle(WindowKey:Win1, Text:)
+
+	Transition(2.0)
+	SetScale(6.715e+06)
+	SetOrientation(1.649e-01, -4.553e-01, 4.007e-01, 7.778e-01)
+
+	Pause()
+	SetSubtitle(WindowKey:Win1, Type:ObjectLabel, ObjectKey:NBG_NGC_224, Text:これはアンドロメダ銀河のラベル位置の字幕です, X:0, Y:0, Size:1.0, Color:#FFFFFF, Display:True)
+
+	Pause()
+	SetSubtitle(Text:)
+	SetSubtitle(WindowKey:Win1, Text:)
+
+	Pause()
+
+	Transition(5.0)
+	SetOrientation(7.472e-01, 2.440e-01, 3.488e-01, 5.103e-01)
+	SetScale(6.457e-08)
+
+	Pause()
+	SetSubtitle(Text:そして、ドームマスターモードや正距円筒図法モード用に、)
+
+	Pause()
+	SetSubtitle(Text:標準の視線の正面方向に字幕を表示することもできます)
+
+	Pause()
+	SetOrientation(7.472e-01, 2.440e-01, 3.488e-01, 5.103e-01)
+	SetDispMode(MODE_DISPLAY_DOME_MASTER)
+	SetMilkyway(MILKYWAY_VISIBLE2)
+	SetSubtitle(WindowKey:Win1, Type:Front, Text:これが「フロント表示」モードの字幕です)
+	SetSubtitle(WindowKey:Win2, Type:Window, Text:ドームマスターモード, X:15, Y:22.5, Display:True)
+
+	Pause()
+	SetNumOfExtraRotation(1)
+
+	Transition(3.0)
+	SetOrientation(7.837e-01, 3.034e-01, 2.567e-01, 4.774e-01)
+
+	Pause()
+	SetOrientation(7.472e-01, 2.440e-01, 3.488e-01, 5.103e-01)
+	SetDispMode(MODE_DISPLAY_EQUIRECTANGULAR)
+	SetSubtitle(WindowKey:Win2, Type:Window, Text:正距円筒図法モード)
+	SetNumOfExtraRotation(1)
+
+	Transition(3.0)
+	SetOrientation(7.837e-01, 3.034e-01, 2.567e-01, 4.774e-01)
+
+	Pause()
+	SetDispMode(MODE_DISPLAY_NORMAL)
+	SetMilkyway(MILKYWAY_VISIBLE)
+	SetSubtitle(Text:)
+	SetSubtitle(WindowKey:Win1, Text:)
+	SetSubtitle(WindowKey:Win2, Text:)
+
+	Pause()
+	SetSubtitle(Text:コマンドで現在の時間刻みの整数倍の時間を)
+
+	Pause()
+	SetSubtitle(Text:進めたり戻したりできるようになりました)
+	SetTimeStep(1DAY)
+
+	Pause()
+	AdvanceTimeStep(1)
+
+	Pause(0.5)
+	AdvanceTimeStep(1)
+
+	Pause(0.5)
+	AdvanceTimeStep(1)
+
+	Pause(0.5)
+	AdvanceTimeStep(1)
+
+	Pause(0.5)
+	AdvanceTimeStep(1)
+
+	Pause(0.5)
+	AdvanceTimeStep(1)
+
+	Pause(0.5)
+	AdvanceTimeStep(1)
+
+	Pause(0.5)
+	AdvanceTimeStep(1)
+
+	Pause()
+
+	AdvanceTimeStep(-1)
+
+	Pause(0.5)
+	AdvanceTimeStep(-1)
+
+	Pause(0.5)
+	AdvanceTimeStep(-1)
+
+	Pause(0.5)
+	AdvanceTimeStep(-1)
+
+	Pause(0.5)
+	AdvanceTimeStep(-1)
+
+	Pause(0.5)
+	AdvanceTimeStep(-1)
+
+	Pause(0.5)
+	AdvanceTimeStep(-1)
+
+	Pause(0.5)
+	AdvanceTimeStep(-1)
+
+	Pause()
+	SetSubtitle(Text:そのほか、情報ウィンドウの表示機能も強化され)
+
+	Pause()
+	SetSubtitle(Text:マウスポインタの位置の各種座標値を表示することができるようになりました)
+
+	Pause()
+	SetSubtitle(Text:ぜひ Mitaka バージョン 1.7.0 をご活用ください！)
+
+
+	Pause()
+	SetSubtitle(Text:これでシーケンスを終わります)
+
+	AtExit:
+	DeleteSubtitleWindows(Win1, Win2)
+	SetModesToDefault()
+	SetViewTarget(PLNT_EARTH)
+	ExecCommandSet(INIT)
+
+
+

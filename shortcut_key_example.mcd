@@ -1,0 +1,25 @@
+//---  
+DefCommandSet[OnKey_Numpad0]
+	SwitchToggle(CONSTELLATION_NAME)
+
+DefCommandSet[OnKey_Numpad1]
+	SwitchToggle(CONSTELLATION_LINE)
+
+DefCommandSet[OnKey_Numpad2]
+	SwitchToggle(CONSTELLATION_ILLUST)
+
+DefCommandSet[OnKey_Numpad3]
+	SwitchToggle(CONSTELLATION_BOUNDARY)
+
+DefCommandSet[OnKey_Numpad4]
+	SwitchToggle(CONSTELLATION_SELECT_PLNT)
+
+
+DefCommandSet[OnKey_Numpad7]
+	SetKeyGroup(CNST_SELECT, CNST_CMi)
+	
+DefCommandSet[OnKey_Numpad8]
+	SetKeyGroup(CNST_SELECT, CNST_CMa) 
+
+DefCommandSet[OnKey_Numpad9]
+	SetKeyGroup(CNST_SELECT, CNST_Ori) 

@@ -1,0 +1,14 @@
+# Blender MTL File: 'Ryugu.blend'
+# Material Count: 1
+
+newmtl Material_34
+Ns 198.039216
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 9
+map_Kd Ryugu.png
+map_d Ryugu.png

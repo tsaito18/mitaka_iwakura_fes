@@ -1,0 +1,923 @@
+//=====  Solar System  =====
+SOLAR_SYSTEM:	ระบบสุริยะ
+SUN:	ดวงอาทิตย์
+
+PLNT_MERCURY:	ดาวพุธ
+PLNT_VENUS:	ดาวศุกร์
+PLNT_EARTH:	โลก
+PLNT_MARS:	ดาวอังคาร
+PLNT_JUPITER:	ดาวพฤหัสบดี
+PLNT_SATURN:	ดาวเสาร์
+PLNT_URANUS:	ดาวยูเรนัส
+PLNT_NEPTUNE:	ดาวเนปจูน
+PLNT_PLUTO:	ดาวพลูโต
+
+
+
+//=====  Satellites  =====
+//---  Earth  ---
+SAT_E_MOON:	ดวงจันทร์
+//---  Mars  ---
+SAT_M_PHOBOS:	โฟบอส
+SAT_M_DEIMOS:	ไดมอส
+//---  Jupiter  ---
+SAT_J_IO:	ไอโอ
+SAT_J_EUROPA:	ยูโรปา
+SAT_J_GANYMEDE:	แกนีมีด
+SAT_J_CALLISTO:	คัลลิสโต
+SAT_J_AMALTHEA:	อะมัลเทีย
+SAT_J_THEBE:	ทีบี
+SAT_J_ADRASTEA:	แอดราสเทีย
+SAT_J_METIS:	มีทีส
+SAT_J_HIMALIA:	ไฮเมเลีย
+SAT_J_ELARA:	เอลารา
+SAT_J_PASIPHAE:	พาซิฟาอี
+SAT_J_SINOPE:	ซิโนพี
+SAT_J_LYSITHEA:	ไลซิเทีย
+SAT_J_CARME:	คาร์มี
+SAT_J_ANANKE:	อะแนงคี
+SAT_J_LEDA:	ลีดา
+SAT_J_CALLIRRHOE:	คัลลีโรอี
+SAT_J_THEMISTO:	ทีมิสโต
+SAT_J_MEGACLITE:	เมกาไคลตี
+SAT_J_TAYGETE:	เทย์จิที
+SAT_J_CHALDENE:	แคลดีนี
+SAT_J_HARPALYKE:	ฮาร์แพลิกี
+SAT_J_KALYKE:	แคลิกี
+SAT_J_IOCASTE:	ไอโอแคสตี
+SAT_J_ERINOME:	เอริโนมี
+SAT_J_ISONOE:	ไอโซโนอี
+SAT_J_PRAXIDIKE:	แพรกซิดิกี
+SAT_J_AUTONOE:	ออโทโนอี
+SAT_J_THYONE:	ไทโอนี
+SAT_J_HERMIPPE:	เฮอร์มิปพี
+SAT_J_AITNE:	ไอท์นี
+SAT_J_EURYDOME:	ยูริโดมี
+SAT_J_EUANTHE:	ยูแอนที
+SAT_J_EUPORIE:	ยูพอเรีย
+SAT_J_ORTHOSIE:	ออร์โทเซีย
+SAT_J_SPONDE:	สปอนดี
+SAT_J_KALE:	เคลี
+SAT_J_PASITHEE:	พาซิที
+SAT_J_HEGEMONE:	ฮีเจมอนี
+SAT_J_MNEME:	นีมี
+SAT_J_AOEDE:	เออีดี
+SAT_J_THELXINOE:	เทลซีโนอี
+SAT_J_ARCHE:	อาร์คี
+SAT_J_KALLICHORE:	คัลไลโครี
+SAT_J_HELIKE:	เฮลิกี
+SAT_J_CARPO:	คาร์โป
+SAT_J_EUKELADE:	ยูเคลาดี
+SAT_J_CYLLENE:	ซิลีนี
+SAT_J_KORE:	คอรี
+SAT_J_HERSE:	เฮอร์ซี
+SAT_J_DIA:	ไดอา
+SAT_J_2003_J2:	S/2003 J 2
+SAT_J_2003_J3:	S/2003 J 3
+SAT_J_2003_J4:	S/2003 J 4
+SAT_J_2003_J5:	S/2003 J 5
+SAT_J_2003_J9:	S/2003 J 9
+SAT_J_2003_J10:	S/2003 J 10
+SAT_J_2003_J12:	S/2003 J 12
+SAT_J_2003_J15:	S/2003 J 15
+SAT_J_2003_J16:	S/2003 J 16
+SAT_J_2003_J18:	S/2003 J 18
+SAT_J_2003_J19:	S/2003 J 19
+SAT_J_2003_J23:	S/2003 J 23
+SAT_J_2010_J1:	S/2010 J 1
+SAT_J_2010_J2:	S/2010 J 2
+SAT_J_2011_J1:	S/2011 J 1
+SAT_J_2011_J2:	S/2011 J 2
+//---  Saturn  ---
+SAT_S_MIMAS:	มิมัส
+SAT_S_ENCELADUS:	เอนเซลาดัส
+SAT_S_TETHYS:	ทีทิส
+SAT_S_DIONE:	ไดโอนี
+SAT_S_RHEA:	รีอา
+SAT_S_TITAN:	ไททัน
+SAT_S_HYPERION:	ไฮเพียเรียน
+SAT_S_IAPETUS:	ไอแอพิตัส
+SAT_S_PHOEBE:	ฟีบี
+SAT_S_JANUS:	เจนัส
+SAT_S_EPIMETHEUS:	เอพิมีเทียส
+SAT_S_HELENE:	เฮลินี
+SAT_S_TELESTO:	ทีเลสโต
+SAT_S_CALYPSO:	คาลิปโซ
+SAT_S_ATLAS:	แอตลัส
+SAT_S_PROMETHEUS:	โพรมีเทียส
+SAT_S_PANDORA:	แพนดอรา
+SAT_S_PAN:	แพน
+SAT_S_METHONE:	มีโทนี
+SAT_S_PALLENE:	พัลลีนี
+SAT_S_POLYDEUCES:	พอลีดูซิส
+SAT_S_DAPHNIS:	แดฟนิส
+SAT_S_ANTHE:	แอนที
+SAT_S_AEGAEON:	อีจีออน
+SAT_S_YMIR:	อิเมียร์
+SAT_S_PAALIAQ:	พาเลียก
+SAT_S_TARVOS:	ทาร์โวส
+SAT_S_IJIRAQ:	อียิราก
+SAT_S_SUTTUNGR:	ซุตทุงเออร์
+SAT_S_KIVIUQ:	คิีเวียก
+SAT_S_MUNDILFARI:	มุนดิลแฟรี
+SAT_S_ALBIORIX:	แอลบิออริกซ์
+SAT_S_SKATHI:	สกาที
+SAT_S_ERRIAPUS:	เอร์รีแอปัส
+SAT_S_SIARNAQ:	ซีอาร์นาก
+SAT_S_THRYMR:	ทรีเมอร์
+SAT_S_NARVI:	นาร์วี
+SAT_S_AEGIR:	ไอเอียร์
+SAT_S_BEBHIONN:	เบวีน
+SAT_S_BERGELMIR:	แบร์เยลเมียร์
+SAT_S_BESTLA:	เบสท์ลา
+SAT_S_FARBAUTI:	ฟาร์เบาตี
+SAT_S_FENRIR:	เฟนเรียร์
+SAT_S_FORNJOT:	ฟอร์นยอต
+SAT_S_HATI:	ฮาตี
+SAT_S_HYRROKKIN:	ฮิร์รอกคิน
+SAT_S_KARI:	คารี
+SAT_S_LOGE:	ลอยเอ
+SAT_S_SKOLL:	สคอล
+SAT_S_SURTUR:	เซอร์เทอร์
+SAT_S_JARNSAXA:	ยาร์นแซกซา
+SAT_S_GREIP:	เกรพ
+SAT_S_TARQEQ:	ทาร์เคก
+SAT_S_2004_S7:	S/2004 S 7
+SAT_S_2004_S12:	S/2004 S 12
+SAT_S_2004_S13:	S/2004 S 13
+SAT_S_2004_S17:	S/2004 S 17
+SAT_S_2006_S1:	S/2006 S 1
+SAT_S_2006_S3:	S/2006 S 3
+SAT_S_2007_S2:	S/2007 S 2
+SAT_S_2007_S3:	S/2007 S 3
+//---  Uranus  ---
+SAT_U_ARIEL:	แอเรียล
+SAT_U_UMBRIEL:	อัมเบรียล
+SAT_U_TITANIA:	ทิเทเนีย
+SAT_U_OBERON:	โอเบอรอน
+SAT_U_MIRANDA:	มิแรนดา
+SAT_U_CORDELIA:	คอร์ดีเลีย
+SAT_U_OPHELIA:	โอฟีเลีย
+SAT_U_BIANCA:	เบียงกา
+SAT_U_CRESSIDA:	เครสซิดา
+SAT_U_DESDEMONA:	เดซดิโมนา
+SAT_U_JULIET:	จูเลียต
+SAT_U_PORTIA:	ปอร์ชา
+SAT_U_ROSALIND:	รอซาลินด์
+SAT_U_BELINDA:	บีลินดา
+SAT_U_PUCK:	พัก
+SAT_U_CALIBAN:	แคลิแบน
+SAT_U_SYCORAX:	ซิเคอแรกซ์
+SAT_U_PROSPERO:	พรอสเพอโร
+SAT_U_SETEBOS:	เซทิบัส
+SAT_U_STEPHANO:	สเตฟาโน
+SAT_U_TRINCULO:	ทริงคูโล
+SAT_U_FRANCISCO:	แฟรนซิสโค
+SAT_U_MARGARET:	มาร์การิต
+SAT_U_FERDINAND:	เฟอร์ดิแนนด์
+SAT_U_PERDITA:	เพอร์ดิตา
+SAT_U_MAB:	แมบ
+SAT_U_CUPID:	คิวปิด
+//---  Neptune  ---
+SAT_N_TRITON:	ไทรทัน
+SAT_N_NEREID:	เนียรีด
+SAT_N_NAIAD:	เนแอด
+SAT_N_THALASSA:	ทาแลสซา
+SAT_N_DESPINA:	เดสพีนา
+SAT_N_GALATEA:	แกลาเทีย
+SAT_N_LARISSA:	ลาริสซา
+SAT_N_PROTEUS:	โพรเทียส
+SAT_N_2004_N1:	S/2004 N 1
+SAT_N_HALIMEDE:	แฮลิมีดี
+SAT_N_PSAMATHE:	แซมาที
+SAT_N_SAO:	เซโอ
+SAT_N_LAOMEDEIA:	เลโอมีเดีย
+SAT_N_NESO:	นีโซ
+//---  Pluto  ---
+SAT_P_CHARON:	แครอน
+SAT_P_NIX:	นิกซ์
+SAT_P_HYDRA:	ไฮดรา
+SAT_P_KERBEROS:	เคอร์เบอรอส
+SAT_P_STYX:	สติกซ์
+
+
+
+//=====  Solar system small bodies  =====
+//---  Minor Planets  ---
+MP_1:	ซีรีส
+MP_2:	แพลลัส
+MP_3:	จูโน
+MP_4:	เวสตา
+MP_8:	ฟลอรา
+MP_9:	มีทิส
+MP_10:	ไฮเจีย
+MP_24:	ทีมิส
+MP_25:	โฟเซีย
+MP_153:	ฮิลดา
+MP_158:	โคโรนิส
+MP_170:	มาเรีย
+MP_221:	อีออส
+MP_243:	ไอดา
+MP_279:	ทูลี
+MP_401:	ออตทิเลีย
+MP_433:	เอียรอส
+MP_434:	ฮังกาเรีย
+MP_588:	อาคิลลีส
+MP_617:	พาโทรคลัส
+MP_887:	อาลินดา
+MP_903:	นีลลี
+MP_944:	ฮิแดลโก
+MP_1088:	มิตากะ
+MP_1221:	อามอร์
+MP_1373:	ซินซินแนติ
+MP_1566:	อิคารัส
+MP_1862:	อพอลโล
+MP_2060:	ไครอน
+MP_2062:	อาเทิน
+MP_2100:	รา-ชาลอม
+MP_3200:	เฟทอน
+MP_5145:	โฟลัส
+MP_5261:	ยูรีกา
+MP_5496:	1973 NA
+MP_7066:	เนสซัส
+MP_25143:	อิโตกาวะ
+MP_162173:	ริวงู
+MP_24158:	โคกุโบะ
+//---  Centaurs and Scattered-Disk Objects  ---
+MP_136199:	อีริส
+MP_90377:	เซดนา
+MP_83982:	แครนทอร์
+MP_60558:	อิเคคลัส
+MP_55576:	แอมิคัส
+MP_54598:	บีนอร์
+MP_52975:	ซิลลารัส
+MP_52872:	โอคีโรอี
+MP_49036:	เพลิออน
+MP_32532:	เทเรอุส
+MP_31824:	เอลาทัส
+MP_10370:	ไฮโลโนมี
+MP_10199:	แคริโคล
+MP_8405:	แอสโบลัส
+//---  Transneptunian Objects  ---
+//MP_134340:	Pluto
+MP_136472:	มาเคมาเค
+MP_136108:	เฮาเมอา
+MP_90482:	ออร์คัส
+MP_58534:	โลกอส
+MP_53311:	ดูเคเรียน
+MP_50000:	ควาอัวร์
+MP_38628:	ฮูยา
+MP_38083:	แรดาแมนทัส
+MP_28978:	อิกไซออน
+MP_20000:	วรุณ
+MP_19521:	เคออส
+
+
+
+//---  Orbit Type Name
+MP_ORBIT_TYPE_UNDEF:	ยังไม่ระบุ
+MP_ORBIT_TYPE_ATIRA:	อาทีรา
+MP_ORBIT_TYPE_ATEN:	อาเทิน
+MP_ORBIT_TYPE_APOLLO:	อพอลโล
+MP_ORBIT_TYPE_AMOR:	อามอร์
+MP_ORBIT_TYPE_OBJ_Q_LE_1_665:	วัตถุที่มี q < 1.665 หน่วยดาราศาสตร์
+MP_ORBIT_TYPE_HUNGARIA:	ฮังกาเรีย
+MP_ORBIT_TYPE_PHOCAEA:	โฟเซีย
+MP_ORBIT_TYPE_HILDA:	ฮิลดา
+MP_ORBIT_TYPE_JUPITER_TROJAN:	ดาวเคราะห์น้อยโทรจัน
+MP_ORBIT_TYPE_CENTAUR:	เซนทอร์
+MP_ORBIT_TYPE_SDO:	วัตถุในแถบหินกระจาย
+MP_ORBIT_TYPE_TNO:	วัตถุพ้นดาวเนปจูน
+
+
+
+//=====  Stars  =====
+HIP_13847:	อะคามาร์
+HIP_7588:	อะเคอร์นาร์
+HIP_60718:	เอครักซ์
+HIP_44066:	อะคูเบนซ์
+HIP_50335:	แอดฮาฟีรา
+HIP_33579:	อะดารา
+HIP_109268:	อัลแนร์
+HIP_102618:	อัลบาลี
+HIP_95947:	อัลบรีโอ
+//HIP_17702:	Alcyone
+HIP_17702:	การะจุกดาวลูกไก่
+HIP_21421:	โรหิณี,อัลเดบารัน
+HIP_105199:	อัลเดอรามีน
+HIP_106032:	อัลฟิริก
+HIP_100064:	อัลจิดิ
+HIP_1067:	อัลจินิบ
+HIP_50583:	อัลจิบา
+HIP_14576:	อัลกอล์
+HIP_60965:	อัลกอแรบ
+HIP_31681:	อัลเฮนา
+HIP_62956:	อัลลิออท
+HIP_67301:	อัลเคด
+HIP_75411:	อัลคาลูโรฟส์
+HIP_53740:	อัลเคส
+HIP_9640:	อัลมาช
+HIP_88635:	อัลแนสล์
+HIP_26311:	อัลไนลาม
+HIP_26727:	อัลนิแทค
+HIP_46390:	อัลฟาร์ด
+HIP_76267:	อัลเฟคคา
+HIP_677:	อัลเฟอแรทซ์
+HIP_98036:	อัลไซน์
+HIP_97649:	อัลแทร์
+HIP_35904:	อลูดรา
+HIP_55219:	อลูลา โบเรียลลีส
+HIP_92946:	อัลยา
+HIP_110003:	แอนชา
+HIP_2081:	แองคา
+HIP_80763:	แอนทาเรส
+HIP_69673:	ดวงแก้ว, อาร์กทูรัส
+HIP_95241:	อาร์กาบ
+HIP_25985:	อร์เนบ
+HIP_42911:	อเซลลัส ออสตราลิส
+HIP_42806:	อเซลลัส โบเรียลลิส
+HIP_45556:	แอสพิดิสก์
+HIP_18246:	อทิกซ์
+HIP_17847:	แอทลาส
+HIP_82273:	เอเทีย
+HIP_41037:	เอเวีย
+HIP_13701:	อซา
+HIP_8645:	บาเทน ไคทอส
+HIP_62434:	บีครักซ์
+HIP_19587:	เบียด
+HIP_25336:	เบลลาทริกซ์
+HIP_27989:	เบเทลจุส
+HIP_109427:	บีแฮม
+HIP_30438:	คาโนปัส
+HIP_24608:	คาเพลลา
+HIP_746:	แคฟ
+HIP_36850:	คาสเตอร์
+HIP_86742:	ชีบาลเรีย
+HIP_61317:	ชารา
+HIP_54879:	เชอร์ตัน
+HIP_63125:	คอร์ คาโรลี
+HIP_23875:	เคอร์ซา
+HIP_100345:	แดบบี
+HIP_102098:	หางหงส์, เดเนบ
+HIP_107556:	เดเนบ อัลจีดี
+HIP_57632:	เดเนโบลา
+HIP_3419:	เดเนบ ไคทอส
+HIP_54061:	ดูเบห์
+HIP_75458:	อีดาซิค
+HIP_17499:	อิเล็กตรา
+HIP_25428:	เอ็ลนาท
+HIP_87833:	เอ็ลทานิน
+HIP_107315:	อีนิฟ
+HIP_116727:	เออร์ไร
+HIP_113368:	โฟมัลฮัลท์
+HIP_30122:	ฟูรูด
+HIP_61084:	กาครักซ์
+HIP_107259:	การ์เนต สตาร์
+HIP_56211:	ไกอาซาร์
+HIP_59803:	เกียนาฮ์
+HIP_36188:	โกไมซา
+HIP_78820:	กราฟเฟียส
+HIP_87585:	กรูมิอัม
+HIP_9884:	ฮามาล
+HIP_112029:	โฮมาม
+HIP_90185:	กาอัส ออสตาลีส
+HIP_90496:	กาอัส โลเรียลลีส
+HIP_89931:	กาอัส เมเดีย
+HIP_104987:	คิตาลฟา
+HIP_72607:	โคแชบ
+HIP_80816:	คอร์เนโฟรอส
+HIP_68702:	ฮาดาร์
+HIP_85696:	เลซาธ
+HIP_113963:	มาร์แคบ
+HIP_112158:	มาตาร์
+HIP_32246:	เม็บซูตา
+HIP_59774:	เมกรีซ
+HIP_28360:	เมนกาลิแนน
+HIP_14135:	เมนการ์
+HIP_68933:	เมนเคนท์
+HIP_18614:	เมนคิบ
+HIP_53910:	เมอแรค
+HIP_45238:	ไมอาพลาซิดัส
+HIP_25930:	มินตากะ
+HIP_10826:	ไมรา
+HIP_5447:	มิราดช์
+HIP_15863:	อัลจีนิบ
+HIP_30324:	เมอร์แซม
+HIP_65378:	ไมซาร์
+HIP_67927:	มูฟริด
+HIP_41704:	มูสคิดา
+HIP_106985:	แนซิิรา
+HIP_73555:	เนกคาร
+HIP_25606:	ไนฮ์อา
+HIP_94376:	นอดัส เซคันดัส
+HIP_92855:	นันกี
+HIP_75695:	นูซาคาน
+HIP_100751:	พีคอกค์
+HIP_26634:	แฟคท์
+HIP_58001:	เฟคดา
+HIP_75097:	เฟอร์คาด
+HIP_11767:	ดาวเหนือ, โพลารี
+HIP_37826:	พอลลักซ์
+HIP_61941:	พอร์ริมา
+HIP_37279:	โพรซิออน
+HIP_48455:	ราซาลัส
+HIP_86032:	ราเซลฮาจูส
+HIP_84345:	ราส อัลเจฮิ
+HIP_85670:	รัสตาบาน
+HIP_49669:	หัวใจสิงห์, เรกูลัส
+HIP_24436:	ไรเจล
+//HIP_71683:	Rigil Centaurus
+HIP_71683:	อัลฟา เซนทอรี
+HIP_6686:	รัชบาห์
+HIP_95347:	รักแบต
+HIP_84012:	เซบิค
+HIP_110395:	ซาแดชเบีย
+HIP_112748:	ซาแดลบาริ
+HIP_109074:	ซาแดลเมริค
+HIP_106278:	ซาแดลซูด
+HIP_100453:	แซดร์
+HIP_27366:	ซาอิฟ
+HIP_113881:	ซีท
+HIP_3179:	เซดาร์
+HIP_71075:	เซจินัส
+HIP_85927:	เชาลา
+HIP_92420:	ซีีเลียก
+HIP_8903:	เชอราตัน
+HIP_32349:	ดาวโจร, ซิริอัส
+HIP_113136:	สแกต
+HIP_65474:	ดาวรวงข้าว, สไปกา
+HIP_93194:	ซูลาแฟท
+HIP_69701:	ไซร์มา
+HIP_44127:	ทาลิธา
+HIP_50801:	ทาเนีย ออสตาลีส
+HIP_50372:	ทาเนีย โบเรียลลีส
+HIP_97278:	ทาราเซด
+HIP_68756:	ทูบาน
+HIP_77070:	ยูนูคาลไฮย์
+HIP_91262:	เวกา
+HIP_63608:	วินดีเมียทริกซ์
+HIP_35550:	วาแซท
+HIP_27628:	แวซ์น
+HIP_79882:	เยด โพสตีเรีย
+HIP_79593:	เยด ไพร์
+HIP_60129:	เซเนียฮ์
+HIP_18543:	เซาแร็ก
+HIP_57757:	แซฟอิจาวา
+HIP_54872:	ซอสมา
+HIP_72622:	ซุเบนเอลจานูบี
+HIP_74785:	ซูเบนเออชามาลี
+HIP_70890:	พรอกซิมา
+HIP_20894:	กระจุกดาวไฮยาดีส
+//---  Exoplanets  ---
+HIP_113357:	51 Peg
+HIP_43587:	55 Cnc
+HIP_7513:	υAnd
+HIP_16537:	εEri
+STAR_TRAPPIST_1:	TRAPPIST-1
+
+
+
+//=====  S-stars  =====
+S_STAR_S1:	S1
+S_STAR_S2:	S2
+S_STAR_S4:	S4
+S_STAR_S5:	S5
+S_STAR_S6:	S6
+S_STAR_S8:	S8
+S_STAR_S9:	S9
+S_STAR_S12:	S12
+S_STAR_S13:	S13
+S_STAR_S14:	S14
+S_STAR_S17:	S17
+S_STAR_S18:	S18
+S_STAR_S19:	S19
+S_STAR_S21:	S21
+S_STAR_S24:	S24
+S_STAR_S27:	S27
+S_STAR_S29:	S29
+S_STAR_S31:	S31
+S_STAR_S33:	S33
+S_STAR_S38:	S38
+S_STAR_S66:	S66
+S_STAR_S67:	S67
+S_STAR_S71:	S71
+S_STAR_S83:	S83
+S_STAR_S87:	S87
+S_STAR_S96:	S96
+S_STAR_S97:	S97
+
+
+
+//=====  VERA Objects  =====
+VERA_NGC6334N:	NGC6334N
+VERA_G353_27_0_64:	G353.27+0.64
+VERA_G005_88_00_39:	G005.88-00.39
+VERA_G034_39_00_22:	G034.39+00.22
+VERA_G048_60_00_02:	G048.60+00.02
+VERA_G048_99_00_30:	G048.99-00.30
+VERA_G049_19_00_33:	G049.19-00.33
+VERA_IRAS19213_1723:	IRAS19213+1723
+VERA_ON1:	ON1
+VERA_IRAS20056_3350:	IRAS20056+3350
+VERA_IRAS20143_3634:	IRAS20143+3634
+VERA_ON2N:	ON2N
+VERA_IRAS20126_4104:	IRAS20126+4104
+VERA_AFGL2789:	AFGL2789
+VERA_IRAS21379_5106:	IRAS21379+5106
+VERA_IRAS22198_6336:	IRAS22198+6336
+VERA_IRAS22480_6002:	IRAS22480+6002
+VERA_IRAS22555_6213:	IRAS22555+6213
+VERA_NGC281:	NGC281
+VERA_W3OH:	W3OH
+VERA_L1448C:	L1448C
+VERA_NGC1333:	NGC1333
+VERA_IRAS05137_3919:	IRAS05137+3919
+VERA_IRAS05168_3634:	IRAS05168+3634
+VERA_IRAS06061_2151:	IRAS06061+2151
+VERA_S252:	S252
+VERA_G192_16_03_81:	G192.16-03.81
+VERA_S269:	S269
+VERA_NGC2264:	NGC2264
+VERA_ORION_NEBULA:	เนบิวลานายพราน
+VERA_IRAS07427_2400:	IRAS07427-2400
+VERA_RHO_OPH_EAST:	rho-Oph-East
+VERA_PZ_CAS:	PZ-Cas
+VERA_VY_CMA:	VY-CMa
+VERA_R_AQR:	R-Aqr
+VERA_IRAS18286_0959:	IRAS18286-0959
+VERA_IRAS19312_1950:	IRAS19312+1950
+VERA_T_LEP:	T-Lep
+VERA_RX_BOO:	RX-Boo
+VERA_SY_SCL:	SY-Scl
+VERA_S_CRT:	S-Crt
+VERA_RW_LEP:	RW-Lep
+
+
+
+//=====  Globular Clusters  =====
+GC_NGC_5139:	โอเมกา เซนทอรี
+GC_NGC_6205:	กระจุกดาวทรงกลม M13
+
+
+
+//=====  Nearby Galaxies  =====
+//---  Local group  ---
+NBG_NGC_224:	กาแล็กซี่แอนโดรเมดา
+NBG_NGC_598:	กาแล็กซีสามเหลี่ยม
+NBG_NGC_205:	M110
+NBG_NGC_221:	M32
+NBG_TULLY_2367:	กาแล็กซี WLM
+NBG_UGC_192:	IC 10
+NBG_TULLY_58:	เมฆแมกเจลแลนเล็ก
+NBG_TULLY_445:	เมฆแมกเจลแลนใหญ่
+NBG_UGC_668:	IC 1613
+NBG_UGC_5364:	ลิโอ A
+NBG_TULLY_803:	เซกซ์แทนต์  A
+NBG_UGC_5373:	เซกซ์แทนต์ B
+NBG_UGC_12613:	กาแล็กซีแคระในกลุ่มดาวม้าบิน
+NBG_TULLY_62:	กาแล็กซีแคระในกลุ่มดาวช่างแกะสลัก
+NBG_TULLY_178:	กาแล็กซีแคระในกลุ่มดาวเตาหลอม
+NBG_UGC_5470:	กาแล็กซีแคระ ลิโอ 1
+NBG_UGC_6253:	กาแล็กซีแคระ ลิโอ 2
+NBG_UGC_9749:	กาแล็กซีแคระในกลุ่มดาวหมีเล็ก
+NBG_UGC_10822:	กาแล็กซีแคระในกลุ่มดาวมังกร
+NBG_TULLY_2114:	กาแล็กซีแคระไร้รูปร่างในกลุ่มดาวคนยิงธนู
+NBG_TULLY_348:	UGC-A 86
+NBG_TULLY_384:	UGC-A 92
+NBG_PGC_19441:	กาแล็กซีแคระในกลุ่มดาวกระดูกงูเรือ
+NBG_UNDEF_1:	กาแล็กซีแคระในกลุ่มดาวหมาใหญ่
+NBG_UNDEF_2:	Virgo I
+NBG_NGC_6822:	กาแล็กซีของบาในาร์นาร์ด
+NBG_NGC_147:	NGC 147
+NBG_NGC_185:	NGC 185
+NBG_NGC_3109:	NGC 3109
+//---  Messier  ---
+NBG_NGC_4472:	M49
+NBG_NGC_5194:	M51
+NBG_NGC_4579:	M58
+NBG_NGC_4621:	M59
+NBG_NGC_4649:	M60
+NBG_NGC_4303:	M61
+NBG_NGC_5055:	M63
+NBG_NGC_4826:	M64
+NBG_NGC_3623:	M65
+NBG_NGC_3627:	M66
+NBG_NGC_628:	M74
+NBG_NGC_1068:	M77
+NBG_NGC_3031:	M81
+NBG_NGC_3034:	M82
+NBG_NGC_5236:	M83
+NBG_NGC_4374:	M84
+NBG_NGC_4382:	M85
+NBG_NGC_4406:	M86
+NBG_NGC_4486:	M87
+NBG_NGC_4501:	M88
+NBG_NGC_4552:	M89
+NBG_NGC_4569:	M90
+NBG_NGC_4736:	M94
+NBG_NGC_3351:	M95
+NBG_NGC_3368:	M96
+NBG_NGC_4192:	M98
+NBG_NGC_4254:	M99
+NBG_NGC_4321:	M100
+NBG_NGC_5457:	M101
+NBG_NGC_4594:	M104
+NBG_NGC_3379:	M105
+NBG_NGC_4258:	M106
+NBG_NGC_3556:	M108
+NBG_NGC_3992:	M109
+//---  Others  ---
+// Antennae
+NBG_NGC_4038:	กาแล็กซีหนวดแมลง
+NBG_NGC_5128:	เซนทอรัส A
+
+
+
+//=====  Other Labels  =====
+LABEL_MINOR_PLANETS:	แถบดาวเคราะห์น้อย
+LABEL_OORT_CLOUD:	เมฆออร์ต
+LABEL_OUR_GALAXY:	กาแล็กซีของเรา
+OUR_GALAXY:	กาแล็กซีของเรา
+SGR_A_STAR:	บริเวณ Sagittarius A
+GALACTIC_CENTER:	ใจกลางกาแล็กซี
+
+
+
+//=====  Constellations  =====
+CNST_And:	กลุ่มดาวแอนโดรเมดา
+CNST_Ant:	กลุ่มดาวเครื่องสูบลม
+CNST_Aps:	กลุ่มดาวนกการเวก
+CNST_Aql:	กลุ่มดาวนกอินทรี
+CNST_Aqr:	กลุ่มดาวคนแบกหม้อน้ำ
+CNST_Ara:	กลุ่มดาวแท่นบูชา
+CNST_Ari:	กลุ่มดาวแกะ
+CNST_Aur:	กลุ่มดาวสารถี
+CNST_Boo:	กลุ่มดาวคนเลี้ยงสัตว์
+CNST_Cae:	กลุ่มดาวสิ่ว
+CNST_Cam:	กลุ่มดาวยีราฟ
+CNST_Cap:	กลุ่มดาวแพะทะเล
+CNST_Car:	กลุ่มดาวกระดูกงูเรือ
+CNST_Cas:	กลุ่มดาวแคสซิโอเปีย (ค้างคาว)
+CNST_Cen:	กลุ่มดาวคนครึ่งม้า
+CNST_Cep:	กลุ่มดาวเซเฟอุส
+CNST_Cet:	กลุ่มดาวเซตุส
+CNST_Cha:	กลุ่มดาวกิ้งก่าคะมีเลียน
+CNST_Cir:	กลุ่มดาววงเวียน
+CNST_CMa:	กลุ่มดาวหมาใหญ่
+CNST_CMi:	กลุ่มดาวหมาเล็ก
+CNST_Cnc:	กลุ่มดาวปู
+CNST_Col:	กลุ่มดาวนกเขา
+CNST_Com:	กลุ่มดาวผมเบเรนิซ
+CNST_CrA:	กลุ่มดาวมงกุฎใต้
+CNST_CrB:	กลุ่มดาวมงกุฎเหนือ
+CNST_Crt:	กลุ่มดาวถ้วย
+CNST_Cru:	กลุ่มดาวกางเขนใต้
+CNST_Crv:	กลุ่มดาวนกกา
+CNST_CVn:	กลุ่มดาวหมาล่าเนื้อ
+CNST_Cyg:	กลุ่มดาวหงส์
+CNST_Del:	กลุ่มดาวโลมา
+CNST_Dor:	กลุ่มดาวปลากระโทงแทง
+CNST_Dra:	กลุ่มดาวมังกร
+CNST_Equ:	กลุ่มดาวม้าแกลบ
+CNST_Eri:	กลุ่มดาวแม่น้ำ
+CNST_For:	กลุ่มดาวเตาหลอม
+CNST_Gem:	กลุ่มดาวคนคู่ (โลง)
+CNST_Gru:	กลุ่มดาวนกกระเรียน
+CNST_Her:	กลุ่มดาวเฮอร์คิวลีส
+CNST_Hor:	กลุ่มดาวนาฬิกา
+CNST_Hya:	กลุ่มดาวงูไฮดรา
+CNST_Hyi:	กลุ่มดาวงูไฮดรัส
+CNST_Ind:	กลุ่มดาวอินเดียนแดง
+CNST_Lac:	กลุ่มดาวกิ้งก่า
+CNST_Leo:	กลุ่มดาวสิงโต
+CNST_Lep:	กลุ่มดาวกระต่ายป่า
+CNST_Lib:	กลุ่มดาวคันชั่ง
+CNST_LMi:	กลุ่มดาวสิงโตเล็ก
+CNST_Lup:	กลุ่มดาวหมาป่า
+CNST_Lyn:	กลุ่มดาวแมวป่า
+CNST_Lyr:	กลุ่มดาวพิณ
+CNST_Men:	กลุ่มดาวภูเขา
+CNST_Mic:	กลุ่มดาวกล้องจุลทรรศน์
+CNST_Mon:	กลุ่มดาวม้าเขาเดียว
+CNST_Mus:	กลุ่มดาวแมลงวัน
+CNST_Nor:	กลุ่มดาวไม้ฉาก
+CNST_Oct:	กลุ่มดาวออกแทนต์
+CNST_Oph:	กลุ่มดาวคนแบกงู
+CNST_Ori:	กลุ่มดาวนายพราน
+CNST_Pav:	กลุ่มดาวนกยูง
+CNST_Peg:	กลุ่มดาวม้าบิน
+CNST_Per:	กลุ่มดาวเพอร์ซิอัส
+CNST_Phe:	กลุ่มดาวนกฟีนิกซ์
+CNST_Pic:	กลุ่มดาวขาตั้งภาพ
+CNST_PsA:	กลุ่มดาวปลาใต้
+CNST_Psc:	กลุ่มดาวปลาคู่
+CNST_Pup:	กลุ่มดาวท้ายเรือ
+CNST_Pyx:	กลุ่มดาวเข็มทิศ
+CNST_Ret:	กลุ่มดาวตาข่าย
+CNST_Scl:	กลุ่มดาวช่างแกะสลัก
+CNST_Sco:	กลุ่มดาวแมงป่อง
+CNST_Sct:	กลุ่มดาวโล่
+CNST_Ser:	กลุ่มดาวงู
+CNST_Sex:	กลุ่มดาวเซกซ์แทนต์
+CNST_Sge:	กลุ่มดาวลูกศร
+CNST_Sgr:	กลุ่มดาวคนยิงธนู
+CNST_Tau:	กลุ่มดาววัว
+CNST_Tel:	กลุ่มดาวกล้องโทรทรรศน์
+CNST_TrA:	กลุ่มดาวสามเหลี่ยมใต้
+CNST_Tri:	กลุ่มดาวสามเหลี่ยม
+CNST_Tuc:	กลุ่มดาวนกทูแคน
+CNST_UMa:	กลุ่มดาวหมีใหญ่ (จระเข้)
+CNST_UMi:	กลุ่มดาวหมีเล็ก
+CNST_Vel:	กลุ่มดาวใบเรือ
+CNST_Vir:	กลุ่มดาวหญิงสาว 
+CNST_Vol:	กลุ่มดาวปลาบิน 
+CNST_Vul:	กลุ่มดาวหมาจิ้งจอก 
+
+
+
+//=====  Date  =====
+DATE_FMT:	%M %D, %Y
+MONTH_1:	มกราคม
+MONTH_2:	กุมภาพันธ์
+MONTH_3:	มีนาคม
+MONTH_4:	เมษายน
+MONTH_5:	พฤษภาคม
+MONTH_6:	มิถุนายน
+MONTH_7:	กรกฎาคม
+MONTH_8:	สิงหาคม
+MONTH_9:	กันยายน
+MONTH_10:	ตุลาคม
+MONTH_11:	พฤศจิกายน
+MONTH_12:	ธันวาคม
+
+
+
+//=====  Scale Lines  =====
+SCL_10MKM:	10 ล้านกิโลเมตร
+SCL_1AU:	1 หน่วยดาราศาสตร์
+SCL_10AU:	10 หน่วยดาราศาสตร์
+SCL_100AU:	100 หน่วยดาราศาสตร์
+SCL_1KAU:	1000 หน่วยดาราศาสตร์
+SCL_10KAU:	10000 หน่วยดาราศาสตร์
+SCL_1LY:	1 ปีแสง
+SCL_3LY:	3 ปีแสง
+SCL_10LY:	10 ปีแสง
+SCL_30LY:	30ปีแสง
+SCL_100LY:	100 ปีแสง
+SCL_300LY:	300 ปีแสง
+SCL_1KLY:	1000 ปีแสง
+SCL_3KLY:	3000 ปีแสง
+SCL_10KLY:	10000 ปีแสง
+SCL_100KLY:	100000 ปีแสง
+SCL_1MLY:	1ล้าน ปีแสง
+SCL_10MLY:	10 ล้าน ปีแสง
+SCL_100MLY:	100 ล้าน ปีแสง
+SCL_1GLY:	1 พันล้าน ปีแสง
+SCL_10GLY:	1 หมื่นล้าน ปีแสง
+SCL_13GLY:	1 หมื่น 3800 ล้าน ปีแสง
+
+
+
+//=====  Time steps  =====
+TIMESTEP_1SEC:	1 วินาที
+TIMESTEP_10SEC:	10 วินาที
+TIMESTEP_1MIN:	1 นาที
+TIMESTEP_10MIN:	10 นาที
+TIMESTEP_1HOUR:	1 ชั่วโมง
+TIMESTEP_4HOURS:	4 ชั่วโมง
+TIMESTEP_1DAY:	1 วัน
+TIMESTEP_1WEEK:	1 สัปดาห์
+TIMESTEP_1MONTH:	1 เดือน
+TIMESTEP_1YEAR:	1 ปี
+TIMESTEP_10YEARS:	10 ปี
+TIMESTEP_100YEARS:	100 ปี
+
+
+
+//=====  Info Texts  =====
+INFO_TYPE:	ชนิด
+INFO_TYPE_UNDEFINED:	ยังไม่ระบุ
+INFO_TYPE_PLANET:	ดาวเคราะห์
+INFO_TYPE_SATELLITE:	ดวงจันทร์บริวาร
+INFO_TYPE_MINOR_PLANET:	ดาวเคราะห์น้อย
+INFO_TYPE_DWARF_PLANET:	ดาวเคราะห์แคระ
+INFO_TYPE_PLUTOID:	ดาวเคราะห์แคระ (พลูตอยด์)
+INFO_TYPE_STAR:	ดาวฤกษ์
+INFO_TYPE_S_STAR:	ดาวฤกษ์
+INFO_TYPE_SMBH:	หลุมดำมวลยิ่งยวด
+INFO_TYPE_GLOBULAR_CLUSTER:	กระจุกดาวทรงกลม
+INFO_TYPE_GALAXY:	กาแล็กซี
+INFO_TYPE_SPACECRAFT:	ยานอวกาศ
+INFO_MP_NUMBER:	หมายเลขดาวเคราะห์น้อย
+INFO_HIP_NUMBER:	HIP
+INFO_MP_ORBIT_TYPE:	ประเภทวงโคจร
+INFO_STAR_SPECTRAL_TYPE:	ประเภทสเปกตรัม
+INFO_STAR_SPECTRAL_TYPE_EARLY: 	ประเภทสเปกตรัมช่วงต้น
+INFO_STAR_SPECTRAL_TYPE_LATE: 	ประเภทสเปกตรัมช่วงปลาย
+INFO_STAR_WITH_PLANET:	มีดาวเคราะห์
+INFO_TYPE_VERA_TYPE_SFR:	บริเวณดาวฤกษ์เกิดใหม่
+INFO_TYPE_VERA_TYPE_AGB:	ดาวยักษ์แบบอะซิมโทติก
+INFO_TYPE_VERA_TYPE_UNKNOWN:	ไม่ทราบ
+INFO_GALAXY_TYPE:	ประเภทกาแล็กซี
+INFO_GALAXY_TYPE_UNDETERMINED:	จำแนกไม่ได้
+INFO_GALAXY_TYPE_E:	กาแล็กซีทรงรี
+INFO_GALAXY_TYPE_E_S0:	กาแล็กซีทรงรี/รูปเลนส์
+INFO_GALAXY_TYPE_S0:	กาแล็กซีรูปเลนส์
+INFO_GALAXY_TYPE_S0_A:	กาแล็กซีรูปเลนส์/กังหัน
+INFO_GALAXY_TYPE_S:	กาแล็กซีกังหัน
+INFO_GALAXY_TYPE_SB:	กาแล็กซีกังหันแบบมีคาน
+INFO_GALAXY_TYPE_SI:	กาแล็กซีกังหัน/ไร้รูปร่าง
+INFO_GALAXY_TYPE_IR:	กาแล็กซีไร้รูปร่าง
+INFO_GALAXY_TYPE_P:	กาแล็กซีแปลก
+INFO_OBSERVATION:	การสังเกตการณ์
+INFO_OBS_VERA:	VERA
+
+
+
+//=====  Compass  =====
+COMPASS_S:	ใต้
+COMPASS_SE:	ตะวันออกเฉียงใต้
+COMPASS_E:	ตะวันออก
+COMPASS_NE:	ตะวันออกเฉียงเหนือ
+COMPASS_N:	เหนือ
+COMPASS_NW:	ตะวันตกเฉียงเหนือ
+COMPASS_W:	ตะวันตก
+COMPASS_SW:	ตะวันตกเฉียงใต้
+
+
+
+//=====  3D Charts  =====
+3DCHART_PLANETS_TITLE:	ดาวเคราะห์ของระบบสุริยะ
+3DCHART_TNOS_TITLE:	วัตถุพ้นดาวเนปจูนขนาดใหญ่
+3DCHART_STARS_TITLE:	สีและอุณหภูมิของดาว
+3DCHART_STARS_ZETA_ORIONIS:	ซีตา นายพราน
+3DCHART_STARS_SPICA:	สไปกา
+3DCHART_STARS_VEGA:	เวกา
+3DCHART_STARS_SUN:	ดวงอาทิตย์
+3DCHART_STARS_BETELGEUSE:	บีเทลจุส
+3DCHART_STARS_DEG:	เคลวิน
+
+
+
+//=====  View Info  =====
+VIEWINFO_POS_VIEW:	ตำแหน่งของมุมมอง
+VIEWINFO_POS_TARGET:	ตำแหน่งของเป้าหมาย
+VIEWINFO_DISTANCE:	ระยะทาง
+VIEWINFO_AU:	หน่วยดาราศาสตร์
+VIEWINFO_LY:	ปีแสง
+VIEWINFO_VIEW_ANGLE:	มุมมอง
+VIEWINFO_DEG:	องศา
+VIEWINFO_ORIENTATION:	แนวการวางตัว
+VIEWINFO_VIEW_DIRECTION_FMT:	ทิศทางในการมอง
+
+DBGINFO_WINDOW_SIZE:	ขนาดหน้าต่าง
+DBGINFO_NUM_CHARS:	จำนวนตัวอักษร
+DBGINFO_JULIAN_DATE:	วันจูเลียน
+DBGINFO_SCALE:	สเกล
+DBGINFO_LOG_SCALE:	Log Scale
+
+
+
+//=====  Help  =====
+HELP_X:	X
+HELP_X_CMT:	เปิดเมนูหน้าจอ
+HELP_Z:	Z
+HELP_Z_CMT:	ปิดเมนูหน้าจอ
+HELP_ARROW:	ลูกศร
+HELP_ARROW_CMT:	เปลี่ยนมุมมอง
+HELP_1_ARROW:	1 + ลูกศร
+HELP_1_ARROW_CMT:	หมุนมุมมอง(สำหรับโหมดอวกาศ)
+HELP_PAGEUP:	PAGE UP
+HELP_PAGEUP_CMT:	ขยาย
+HELP_PAGEDOWN:	PAGE DOWN
+HELP_PAGEDOWN_CMT:	ย่อ
+HELP_4:	4
+HELP_4_CMT:	เลื่อนเวลาไปข้างหน้า
+HELP_3:	3
+HELP_3_CMT:	เลื่อนเวลาย้อนหลัง
+HELP_Z_4:	Z + 4
+HELP_Z_4_CMT:	เร่งช่วงเวลา ( ถึง 100 ปี)
+HELP_Z_3:	Z + 3
+HELP_Z_3_CMT:	ลดช่วงเวลา (ถึง 10 วินาที)
+HELP_A:	A
+HELP_A_CMT:	แสดงหรือซ่อนชื่อ
+HELP_S:	S
+HELP_S_CMT:	ลงจอดหรือขึ้นบิน
+HELP_T:	T
+HELP_T_CMT:	เข้าใกล้เป้าหมาย
+HELP_C:	C
+HELP_C_CMT:	จับภาพหน้าจอ ('capture.png')
+HELP_F:	F
+HELP_F_CMT:	แสดงหรือซ่อนอัตราเฟรมต่อวินาที  (FPS)
+HELP_L:	L
+HELP_L_CMT:	เปิด-ปิด แสงเมือง
+
+
+
+//=====  Theater  =====
+THEATER_TITLE:	โรงฉายดาวดิจิตอล 4 มิติ
+
+
+
+//=====  Others  =====
+WAITING_CONNECTION_FMT:	กำลังเชื่อมต่อ

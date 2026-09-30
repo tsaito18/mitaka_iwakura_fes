@@ -1,0 +1,15 @@
+KEY:		SCF_VOYAGER_II
+MODEL:		Voyager.obj
+SCALE:		0.008
+//OFFSET:		0,0,0
+TRAJECTORY:	Voyager_II.ppi
+ORIGIN:		SS_BC
+
+[default]
+NAME:			Voyager II
+
+[ja]
+NAME:			ボイジャー２号
+
+[ja_ruby]
+NAME:			ボイジャー２{号|ごう}

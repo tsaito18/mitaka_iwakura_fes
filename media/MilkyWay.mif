@@ -1,0 +1,38 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\MilkyWay_Mellinger.jpg
+FILE_PATH:	.\images\MilkyWay_Mellinger.jpg
+
+
+[default]
+MENU_TITLE:	Milky Way
+
+[ja, ja_ruby]
+MENU_TITLE:	天の川
+
+[ja_ruby]
+DISP_TITLE:	{天|あま}の{川|がわ}
+
+[es]
+MENU_TITLE:	Vía Láctea
+
+[fr]
+MENU_TITLE:	Voie Lactée
+
+[it]
+MENU_TITLE:	Via Lattea
+
+[pt]
+MENU_TITLE:	Via Láctea
+
+[id]
+MENU_TITLE:	Bima Sakti
+
+[th]
+MENU_TITLE:	ทางช้างเผือก
+
+[zh]
+MENU_TITLE:	银河
+
+[zh_tr]
+MENU_TITLE:	銀河

@@ -1,0 +1,116 @@
+[ja, ja_ruby]
+LANG_ENGLISH:			英語
+LANG_JAPANESE:			日本語
+LANG_JAPANESE_RUBY:	日本語（ルビ付き）
+LANG_FRENCH:			フランス語
+LANG_SPANISH:			スペイン語
+LANG_ITALIAN:			イタリア語
+LANG_INDONESIA:			インドネシア語
+LANG_PORTUGUESE:		ポルトガル語
+LANG_THAI:				タイ語
+LANG_CHINESE:			中国語（簡体字）
+LANG_CHINESE_TR:		中国語（繁体字）
+
+[es]
+LANG_ENGLISH:		Inglés
+LANG_JAPANESE:		Japonés
+LANG_JAPANESE_RUBY:	Japonés (con pronunciación)
+LANG_SPANISH:		Español
+LANG_FRENCH:		Francés
+LANG_INDONESIA:		Indonesio
+LANG_ITALIAN:		Italiano
+LANG_PORTUGUESE:	Portugués
+LANG_THAI:			Tailandés
+LANG_CHINESE:		Chino (simplificado)
+LANG_CHINESE_TR:	Chino (tradicional)
+
+[fr]
+LANG_ENGLISH:		Anglais
+LANG_JAPANESE:		Japonais
+LANG_JAPANESE_RUBY:	Japonais (avec prononciation)
+LANG_SPANISH:		Espagnol
+LANG_FRENCH:		Français
+LANG_INDONESIA:		Indonésien
+LANG_ITALIAN:		Italien
+LANG_PORTUGUESE:	Portuguais
+LANG_THAI:			Thaïlandais
+LANG_CHINESE:		Chinois (simplifié)
+LANG_CHINESE_TR:	Chinois (traditionnel)
+
+[id]
+LANG_ENGLISH:		Inggris
+LANG_JAPANESE:		Jepang
+LANG_JAPANESE_RUBY:	Jepang (dengan pelafalan)
+LANG_SPANISH:		Spanyol
+LANG_FRENCH:		Perancis
+LANG_INDONESIA:		Indonesia
+LANG_ITALIAN:		Italia
+LANG_PORTUGUESE:	Portugis
+LANG_THAI:			Thai
+LANG_CHINESE:		Mandarin (disederhanakan)
+LANG_CHINESE_TR:	Mandarin (tradisional)
+
+[it]
+LANG_ENGLISH:		Inglese
+LANG_JAPANESE:		Giapponese
+LANG_JAPANESE_RUBY:	Giapponese (con pronuncia)
+LANG_SPANISH:		Spagnolo
+LANG_FRENCH:		Francese
+LANG_INDONESIA:		Indonesiano
+LANG_ITALIAN:		Italiano
+LANG_PORTUGUESE:	Portoghese
+LANG_THAI:		Thailandese
+LANG_CHINESE:		Cinese (semplificato)
+LANG_CHINESE_TR:	Cinese (tradizionale)
+
+[pt]
+LANG_ENGLISH:		Inglês
+LANG_JAPANESE:		Japonês
+LANG_JAPANESE_RUBY:	Japonês (com pronúncia)
+LANG_SPANISH:		Espanhol
+LANG_FRENCH:		Francês
+LANG_INDONESIA:		Indonésio
+LANG_ITALIAN:		Italiano
+LANG_PORTUGUESE:	Português
+LANG_THAI:			Tailandês
+LANG_CHINESE:		Chinês (simplificado)
+LANG_CHINESE_TR:	Chinês (tradicional)
+
+[th]
+LANG_ENGLISH:		อังกฤษ
+LANG_JAPANESE:		ญี่ปุ่น
+LANG_JAPANESE_RUBY:	ญี่ปุ่น (พร้อมการออกเสียง)
+LANG_SPANISH:		สเปน
+LANG_FRENCH:		ฝรั่งเศส
+LANG_INDONESIA:		อินโดนีเซีย
+LANG_ITALIAN:		อิตาลี
+LANG_PORTUGUESE:	โปรตุเกส
+LANG_THAI:		ไทย
+LANG_CHINESE:		จีน (อักษรตัวย่อ)
+LANG_CHINESE_TR:	จีน (อักษรตัวเต็ม)
+
+[zh]
+LANG_ENGLISH:		英文
+LANG_JAPANESE:		日文
+LANG_JAPANESE_RUBY:	日文(付注音)
+LANG_SPANISH:		西班牙文
+LANG_FRENCH:		法文
+LANG_INDONESIA:		印尼文
+LANG_ITALIAN:		意大利文
+LANG_PORTUGUESE:	葡萄牙文
+LANG_THAI:			泰文
+LANG_CHINESE:		中文（简体）
+LANG_CHINESE_TR:	中文（繁体）
+
+[zh_tr]
+LANG_ENGLISH:		英文
+LANG_JAPANESE:		日文
+LANG_JAPANESE_RUBY:	日文(付注音)
+LANG_SPANISH:		西班牙文
+LANG_FRENCH:		法文
+LANG_INDONESIA:		印尼文
+LANG_ITALIAN:		意大利文
+LANG_PORTUGUESE:	葡萄牙文
+LANG_THAI:			泰文
+LANG_CHINESE:		中文（簡體）
+LANG_CHINESE_TR:	中文（繁體）

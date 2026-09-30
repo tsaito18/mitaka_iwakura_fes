@@ -1,0 +1,15 @@
+KEY:		SCF_HAYABUSA_2
+MODEL:		hayabusa2.obj
+SCALE:		0.04
+//OFFSET:		0,0,0
+TRAJECTORY:	Hayabusa2.ppi
+ORIGIN:		SS_BC
+
+[default]
+NAME:			Hayabusa2
+
+[ja]
+NAME:			はやぶさ２
+
+[ja_ruby]
+NAME:			はやぶさ２

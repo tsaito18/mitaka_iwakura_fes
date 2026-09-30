@@ -1,0 +1,38 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\Orion.jpg
+FILE_PATH:	.\images\Orion.jpg
+
+
+[default]
+MENU_TITLE:	Orion Nebula
+
+[ja, ja_ruby]
+MENU_TITLE:	オリオン星雲
+
+[ja_ruby]
+DISP_TITLE:	オリオン{星雲|せいうん}
+
+[es]
+MENU_TITLE:	Nebulosa de Orión
+
+[fr]
+MENU_TITLE:	Nébuleuse d'Orion
+
+[it]
+MENU_TITLE:	Nebulosa di Orione
+
+[pt]
+MENU_TITLE:	Nebulosa de Orionte
+
+[id]
+MENU_TITLE:	Nebula Orion
+
+[th]
+MENU_TITLE:	เนบิวลานายพราน
+
+[zh]
+MENU_TITLE:	猎户座星云
+
+[zh_tr]
+MENU_TITLE:	獵戶座大星雲

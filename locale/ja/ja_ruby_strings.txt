@@ -1,0 +1,950 @@
+//=====  Solar System  =====
+SOLAR_SYSTEM:		{太陽系|たいようけい}
+SUN:				{太陽|たいよう}
+
+PLNT_MERCURY:		{水星|すいせい}
+PLNT_VENUS:			{金星|きんせい}
+PLNT_EARTH:			{地球|ちきゅう}
+PLNT_MARS:			{火星|かせい}
+PLNT_JUPITER:		{木星|もくせい}
+PLNT_SATURN:		{土星|どせい}
+PLNT_URANUS:		{天王星|てんのうせい}
+PLNT_NEPTUNE:		{海王星|かいおうせい}
+PLNT_PLUTO:			{冥王星|めいおうせい}
+
+
+
+//=====  Satellites  =====
+//---  Earth  ---
+SAT_E_MOON:		{月|つき}	// Moon
+//---  Mars  ---
+SAT_M_PHOBOS:       フォボス           // Phobos
+SAT_M_DEIMOS:       ダイモス           // Deimos
+//---  Jupiter  ---
+SAT_J_IO:           イオ             // Io
+SAT_J_EUROPA:       エウロパ           // Europa
+SAT_J_GANYMEDE:     ガニメデ           // Ganymede
+SAT_J_CALLISTO:     カリスト           // Callisto
+SAT_J_AMALTHEA:     アマルテア          // Amalthea
+SAT_J_THEBE:        テーベ            // Thebe
+SAT_J_ADRASTEA:     アドラステア         // Adrastea
+SAT_J_METIS:        メティス           // Metis
+SAT_J_HIMALIA:      ヒマリア           // Himalia
+SAT_J_ELARA:        エララ            // Elara
+SAT_J_PASIPHAE:     パシファエ          // Pasiphae
+SAT_J_SINOPE:       シノペ            // Sinope
+SAT_J_LYSITHEA:     リシテア           // Lysithea
+SAT_J_CARME:        カルメ            // Carme
+SAT_J_ANANKE:       アナンケ           // Ananke
+SAT_J_LEDA:         レダ             // Leda
+SAT_J_CALLIRRHOE:   カリロエ			// Callirrhoe
+SAT_J_THEMISTO:     テミスト			// Themisto
+SAT_J_MEGACLITE:    メガクリテ			// Megaclite
+SAT_J_TAYGETE:      タイゲテ			// Taygete
+SAT_J_CHALDENE:     カルデネ			// Chaldene
+SAT_J_HARPALYKE:    ハルパリケ			// Harpalyke
+SAT_J_KALYKE:       カリュケ			// Kalyke
+SAT_J_IOCASTE:      イオカステ			// Iocaste
+SAT_J_ERINOME:      エリノメ			// Erinome
+SAT_J_ISONOE:       イソノエ			// Isonoe
+SAT_J_PRAXIDIKE:    プラクシディケ		// Praxidike
+SAT_J_AUTONOE:      アウトノエ			// Autonoe
+SAT_J_THYONE:       スィオネ			// Thyone
+SAT_J_HERMIPPE:     ヘルミッペ			// Hermippe
+SAT_J_AITNE:        アイトネ			// Aitne
+SAT_J_EURYDOME:     エウリドメ			// Eurydome
+SAT_J_EUANTHE:      エウアンテ			// Euanthe
+SAT_J_EUPORIE:      エウポリエ			// Euporie
+SAT_J_ORTHOSIE:     オーソシエ			// Orthosie
+SAT_J_SPONDE:       スポンデ			// Sponde
+SAT_J_KALE:         カレ				// Kale
+SAT_J_PASITHEE:     パシテー			// Pasithee
+SAT_J_HEGEMONE:     ヘゲモネ			// Hegemone
+SAT_J_MNEME:        ムネーメ			// Mneme
+SAT_J_AOEDE:        アエーデ			// Aoede
+SAT_J_THELXINOE:    テルクシノエ		// Thelxinoe
+SAT_J_ARCHE:        アーケ			// Arche
+SAT_J_KALLICHORE:   カリコレ			// Kallichore
+SAT_J_HELIKE:       ヘリケ			// Helike
+SAT_J_CARPO:        カルポ			// Carpo
+SAT_J_EUKELADE:     エウケラデ			// Eukelade
+SAT_J_CYLLENE:      キュレーネ			// Cyllene
+SAT_J_KORE:         コレー			// Kore
+SAT_J_HERSE:        ヘルセ			// Herse
+SAT_J_DIA:          ダイア			// Dia
+SAT_J_2003_J2:      "S/2003 J 2"
+SAT_J_2003_J3:      "S/2003 J 3"
+SAT_J_2003_J4:      "S/2003 J 4"
+SAT_J_2003_J5:      "S/2003 J 5"
+SAT_J_2003_J9:      "S/2003 J 9"
+SAT_J_2003_J10:     "S/2003 J 10"
+SAT_J_2003_J12:     "S/2003 J 12"
+SAT_J_2003_J15:     "S/2003 J 15"
+SAT_J_2003_J16:     "S/2003 J 16"
+SAT_J_2003_J18:     "S/2003 J 18"
+SAT_J_2003_J19:     "S/2003 J 19"
+SAT_J_2003_J23:     "S/2003 J 23"
+SAT_J_2010_J1:      "S/2010 J 1"
+SAT_J_2010_J2:      "S/2010 J 2"
+SAT_J_2011_J1:      "S/2011 J 1"
+SAT_J_2011_J2:      "S/2011 J 2"
+//---  Saturn  ---
+SAT_S_MIMAS:        ミマス            // Mimas
+SAT_S_ENCELADUS:    エンケラドゥス        // Enceladus
+SAT_S_TETHYS:       テティス           // Tethys
+SAT_S_DIONE:        ディオネ           // Dione
+SAT_S_RHEA:         レア             // Rhea
+SAT_S_TITAN:        タイタン           // Titan
+SAT_S_HYPERION:     ハイペリオン         // Hyperion
+SAT_S_IAPETUS:      イアペトゥス         // Iapetus
+SAT_S_PHOEBE:       フェーベ           // Phoebe
+SAT_S_JANUS:        ヤヌス            // Janus
+SAT_S_EPIMETHEUS:   エピメテウス         // Epimetheus
+SAT_S_HELENE:       ヘレネ            // Helene
+SAT_S_TELESTO:      テレスト           // Telesto
+SAT_S_CALYPSO:      カリプソ           // Calypso
+SAT_S_ATLAS:        アトラス           // Atlas
+SAT_S_PROMETHEUS:   プロメテウス         // Prometheus
+SAT_S_PANDORA:      パンドラ           // Pandora
+SAT_S_PAN:          パン             // Pan
+SAT_S_METHONE:      メトネ			// Methone
+SAT_S_PALLENE:      パレネ			// Pallene
+SAT_S_POLYDEUCES:   ポリデウケス		// Polydeuces
+SAT_S_DAPHNIS:      ダフニス			// Daphnis
+SAT_S_ANTHE:        アンテ			// Anthe
+SAT_S_AEGAEON:      アイガイオン		// Aegaeon
+SAT_S_YMIR:         ユミル			// Ymir
+SAT_S_PAALIAQ:      パーリアク			// Paaliaq
+SAT_S_TARVOS:       タルヴォス			// Tarvos
+SAT_S_IJIRAQ:       イジラク			// Ijiraq
+SAT_S_SUTTUNGR:     スットゥングル		// Suttungr
+SAT_S_KIVIUQ:       キビウク			// Kiviuq
+SAT_S_MUNDILFARI:   ムンディルファリ	// Mundilfari
+SAT_S_ALBIORIX:     アルビオリックス	// Albiorix
+SAT_S_SKATHI:       スカジ			// Skathi
+SAT_S_ERRIAPUS:     エリアプス			// Erriapus
+SAT_S_SIARNAQ:      シャルナク			// Siarnaq
+SAT_S_THRYMR:       スリュムル			// Thrymr
+SAT_S_NARVI:        ナルヴィ			// Narvi
+SAT_S_AEGIR:        エーギル			// Aegir
+SAT_S_BEBHIONN:     ベビォン			// Bebhionn
+SAT_S_BERGELMIR:    ベルゲルミル		// Bergelmir
+SAT_S_BESTLA:       ベストラ			// Bestla
+SAT_S_FARBAUTI:     ファールバウティ	// Farbauti
+SAT_S_FENRIR:       フェンリル			// Fenrir
+SAT_S_FORNJOT:      フォルニョート		// Fornjot
+SAT_S_HATI:         ハティ			// Hati
+SAT_S_HYRROKKIN:    ヒュロッキン		// Hyrrokkin
+SAT_S_KARI:         カーリ			// Kari
+SAT_S_LOGE:         ロゲ				// Loge
+SAT_S_SKOLL:        スコル			// Skoll
+SAT_S_SURTUR:       スルト			// Surtur
+SAT_S_JARNSAXA:     ヤールンサクサ		// Jarnsaxa
+SAT_S_GREIP:        グレイプ			// Greip
+SAT_S_TARQEQ:       タルクェク			// Tarqeq
+SAT_S_2004_S7:      "S/2004 S 7"
+SAT_S_2004_S12:     "S/2004 S 12"
+SAT_S_2004_S13:     "S/2004 S 13"
+SAT_S_2004_S17:     "S/2004 S 17"
+SAT_S_2006_S1:      "S/2006 S 1"
+SAT_S_2006_S3:      "S/2006 S 3"
+SAT_S_2007_S2:      "S/2007 S 2"
+SAT_S_2007_S3:      "S/2007 S 3"
+//---  Uranus  ---
+SAT_U_ARIEL:        エアリエル          // Ariel
+SAT_U_UMBRIEL:      ウンブリエル         // Umbriel
+SAT_U_TITANIA:      ティタニア          // Titania
+SAT_U_OBERON:       オベロン           // Oberon
+SAT_U_MIRANDA:      ミランダ           // Miranda
+SAT_U_CORDELIA:     コーディリア		// Cordelia
+SAT_U_OPHELIA:      オフィーリア		// Ophelia
+SAT_U_BIANCA:       ビアンカ			// Bianca
+SAT_U_CRESSIDA:     クレシダ			// Cressida
+SAT_U_DESDEMONA:    デズデモーナ		// Desdemona
+SAT_U_JULIET:       ジュリエット		// Juliet
+SAT_U_PORTIA:       ポーシャ			// Portia
+SAT_U_ROSALIND:     ロザリンド			// Rosalind
+SAT_U_BELINDA:      ベリンダ			// Belinda
+SAT_U_PUCK:         パック			// Puck
+SAT_U_CALIBAN:      キャリバン			// Caliban
+SAT_U_SYCORAX:      シコラクス			// Sycorax
+SAT_U_PROSPERO:     プロスペロー		// Prospero
+SAT_U_SETEBOS:      セティボス			// Setebos
+SAT_U_STEPHANO:     ステファノー		// Stephano
+SAT_U_TRINCULO:     トリンキュロー		// Trinculo
+SAT_U_FRANCISCO:    フランシスコ		// Francisco
+SAT_U_MARGARET:     マーガレット		// Margaret
+SAT_U_FERDINAND:    ファーディナンド	// Ferdinand
+SAT_U_PERDITA:      ペルディータ		// Perdita
+SAT_U_MAB:          マブ				// Mab
+SAT_U_CUPID:        キューピッド		// Cupid
+//---  Neptune  ---
+SAT_N_TRITON:       トリトン          // Triton
+SAT_N_NEREID:       ネレイド          // Nereid
+SAT_N_NAIAD:        ナイアド			// Naiad
+SAT_N_THALASSA:     タラッサ			// Thalassa
+SAT_N_DESPINA:      デスピナ			// Despina
+SAT_N_GALATEA:      ガラテア			// Galatea
+SAT_N_LARISSA:      ラリッサ			// Larissa
+SAT_N_PROTEUS:      プロテウス			// Proteus
+SAT_N_2004_N1:      "S/2004 N 1"
+SAT_N_HALIMEDE:     ハリメデ			// Halimede
+SAT_N_PSAMATHE:     プサマテ			// Psamathe
+SAT_N_SAO:          サオ				// Sao
+SAT_N_LAOMEDEIA:    ラオメデイア		// Laomedeia
+SAT_N_NESO:         ネソ				// Neso
+//---  Pluto  ---
+SAT_P_CHARON:       カロン            // Charon
+SAT_P_NIX:          ニクス            // Nix
+SAT_P_HYDRA:        ヒドラ            // Hydra
+SAT_P_KERBEROS:     ケルベロス          // Kerberos
+SAT_P_STYX:         スティクス          // Styx
+
+
+
+//=====  Solar system small bodies  =====
+//---  Minor Planets  ---
+MP_1:			ケレス		// Ceres
+MP_2:			パラス		// Pallas
+MP_3:			ジュノー		// Juno
+MP_4:			ベスタ		// Vesta
+MP_8:			フローラ		// Flora
+MP_9:			メティス		// Metis
+MP_10:			ヒギエア		// Hygiea
+MP_24:			テミス		// Themis
+MP_25:			フォカエア		// Phocaea
+MP_153:			ヒルダ		// Hilda
+MP_158:			コロニス		// Koronis
+MP_170:			マリア		// Maria
+MP_221:			エオス		// Eos
+MP_243:			イダ			// Ida
+MP_279:			チューレ		// Thule
+MP_401:			オッティリア	// Ottilia
+MP_433:			エロス		// Eros
+MP_434:			ハンガリア　	// Hungaria
+MP_588:			アキレス 		// Achilles
+MP_617:			パトロクロス	// Patroclus
+MP_887:			アリンダ		// Alinda
+MP_903:			ニーリー		// Nealley
+MP_944:			イダルゴ		// Hidalgo
+MP_1088:		ミタカ		// Mitaka
+MP_1221:		アモール		// Amor
+MP_1373:		シンシナティ	// Cincinnati
+MP_1566:		イカルス		// Icarus
+MP_1862:		アポロ		// Apollo
+MP_2060:		キロン		// Chiron
+MP_2062:		アテン 		// Aten
+MP_2100:		ラー・シャローム	// Ra-Shalom
+MP_3040:		コザイ		// Kozai
+MP_3200:		ファエトン		// Phaethon
+MP_5145:		フォルス		// Pholus
+MP_5261:		エウレカ		// Eureka
+MP_5496:		1973 NA
+MP_7066:		ネッスス		// Nessus
+MP_25143:		イトカワ		// Itokawa
+MP_162173:		リュウグウ
+MP_24158:		コクボ
+MP_101955:		ベンヌ
+//---  Centaurs and Scattered-Disk Objects  ---
+MP_136199:		エリス		// Eris
+MP_90377:		セドナ		// Sedna
+MP_83982:		クラントル		// Crantor
+MP_60558:		エケクルス		// Echeclus
+MP_55576:		アミクス		// Amycus
+MP_54598:		ビエノール		// Bienor
+MP_52975:		キルラルス		// Cyllarus
+MP_52872:		オキロエ		// Okyrhoe
+MP_49036:		ペリオン		// Pelion
+MP_32532:		テレウス		// Thereus
+MP_31824:		エラトゥス		// Elatus
+MP_10370:		ヒュロノメ		// Hylonome
+MP_10199:		カリクロー		// Chariklo
+MP_8405:		アスボルス		// Asbolus
+//---  Transneptunian Objects  ---
+//MP_134340:	Pluto
+MP_136472:		マケマケ		// Makemake, 2005 FY9
+MP_136108:		ハウメア		// Haumea, 2003 EL61
+MP_90482:		オルクス		// Orcus
+MP_58534:		ロゴス		// Logos
+MP_53311:		デウカリオン	// Deucalion
+MP_50000:		クワオアー		// Quaoar
+MP_38628:		フヤ			// Huya
+MP_38083:		ラダマントゥス		// Rhadamanthus
+MP_28978:		イクシオン		// Ixion
+MP_20000:		ヴァルナ		// Varuna
+MP_19521:		カオス		// Chaos
+MP_486958:		アロコス
+//---  Interstellar Objects  ---
+MP_1I_2017_U1:	オウムアムア
+MP_2I_2019_Q4:	ボリソフ{彗星|すいせい}
+
+
+
+//---  Orbit Type Name
+MP_ORBIT_TYPE_UNDEF:			未定義
+MP_ORBIT_TYPE_ATIRA:			アティラ群
+MP_ORBIT_TYPE_ATEN:				アテン群
+MP_ORBIT_TYPE_APOLLO:			アポロ群
+MP_ORBIT_TYPE_AMOR:				アモール群
+MP_ORBIT_TYPE_OBJ_Q_LE_1_665:	q < 1.665 au の天体
+MP_ORBIT_TYPE_HUNGARIA:			ハンガリア群
+MP_ORBIT_TYPE_PHOCAEA:			フォカエア群
+MP_ORBIT_TYPE_HILDA:			ヒルダ群
+MP_ORBIT_TYPE_JUPITER_TROJAN:	木星のトロヤ群
+MP_ORBIT_TYPE_CENTAUR:			ケンタウルス族
+MP_ORBIT_TYPE_SDO:				散乱円盤天体
+MP_ORBIT_TYPE_TNO:				太陽系外縁天体
+MP_ORBIT_TYPE_ISO:				恒星間天体
+
+
+
+//=====  Stars  =====
+HIP_13847:		アカマル			// Acamar
+HIP_7588:		アケルナル		// Achernar
+HIP_60718:		アクルックス		// Acrux
+HIP_44066:		アクベンス		// Acubens
+HIP_50335:		アダフェラ		// Adhafera
+HIP_33579:		アダラ			// Adhara
+HIP_109268:		アルナイル		// Al Na'ir
+HIP_102618:		アルバリ			// Albali
+HIP_95947:		アルビレオ		// Albireo
+//HIP_17702:	Alcyone
+HIP_17702:		すばる			// Pleiades
+HIP_21421:		アルデバラン		// Aldebaran
+HIP_105199:		アルデラミン		// Alderamin
+HIP_106032:		アルフィルク		// Alfirk
+HIP_100064:		アルゲディ		// Algedi
+HIP_1067:		アルゲニブ		// Algenib
+HIP_50583:		アルギエバ		// Algieba
+HIP_14576:		アルゴル			// Algol
+HIP_60965:		アルゴラブ		// Algorab
+HIP_31681:		アルヘナ			// Alhena
+HIP_62956:		アリオト			// Alioth
+HIP_67301:		アルカイド		// Alkaid
+HIP_75411:		アルカルロプス	// Alkalurops
+HIP_53740:		アルケス			// Alkes
+HIP_9640:		アルマク			// Almach
+HIP_88635:		アル・ナスル		// Alnasl
+HIP_26311:		アルニラム		// Alnilam
+HIP_26727:		アルニタク		// Alnitak
+HIP_46390:		アルファルド		// Alphard
+HIP_76267:		アルフェッカ		// Alphecca
+HIP_677:		アルフェラッツ	// Alpheratz
+HIP_98036:		アルシャイン		// Alshain
+HIP_97649:		アルタイル		// Altair
+HIP_35904:		アルドラ			// Aludra
+HIP_55219:		アルラ・ボレアリス	// Alula Borealis
+HIP_92946:		アルヤ			// Alya
+HIP_110003:		アンカ			// Ancha
+HIP_2081:		アンカ			// Ankaa
+HIP_80763:		アンタレス		// Antares
+HIP_69673:		アルクトゥルス	// Arcturus
+HIP_95241:		アルカブ			// Arkab
+HIP_25985:		アルネブ			// Arneb
+HIP_42911:		アセルス・アウストラリス	// Asellus Australis
+HIP_42806:		アセルス・ボレアリス		// Asellus Borealis
+HIP_45556:		アスピディスケ			// Aspidiske
+HIP_18246:		アティク			// Atik
+HIP_17847:		アトラス			// Atlas
+HIP_82273:		アトリア			// Atria
+HIP_41037:		アビオル			// Avior
+HIP_13701:		アザー			// Azha
+HIP_8645:		バテン・カイトス	// Baten Kaitos
+HIP_62434:		ベクルックス		// Becrux
+HIP_19587:		ベイド			// Beid
+HIP_25336:		ベラトリックス	// Bellatrix
+HIP_27989:		ベテルギウス		// Betelgeuse
+HIP_109427:		ビハム			// Biham
+HIP_30438:		カノープス		// Canopus
+HIP_24608:		カペラ			// Capella
+HIP_746:		カフ				// Caph
+HIP_36850:		カストル			// Castor
+HIP_86742:		ケバルライ		// Cebalrai
+HIP_61317:		カラ				// Chara
+HIP_54879:		シェルタン		// Chertan
+HIP_63125:		コル・カロリ		// Cor Caroli
+HIP_23875:		クルサ			// Cursa
+HIP_100345:		ダビー			// Dabih
+HIP_102098:		デネブ			// Deneb
+HIP_107556:		デネブ・アルゲディ	// Deneb Algedi
+HIP_57632:		デネボラ			// Denebola
+HIP_3419:		デネブ・カイトス	// Deneb Kaitos
+HIP_54061:		ドゥベー			// Dubhe
+HIP_75458:		エダシク			// Edasich
+HIP_17499:		エレクトラ		// Electra
+HIP_25428:		エルナト			// Elnath
+HIP_87833:		エルタニン		// Eltanin
+HIP_107315:		エニフ			// Enif
+HIP_116727:		エライ			// Errai
+HIP_113368:		フォーマルハウト	// Fomalhaut
+HIP_30122:		フルド			// Furud
+HIP_61084:		ガクルックス		// Gacrux
+HIP_107259:		ガーネット・スター	// Garnet Star
+HIP_56211:		ギアンサル		// Giausar
+HIP_59803:		ギエナ			// Gienah
+HIP_36188:		ゴメイサ			// Gomeisa
+HIP_78820:		グラフィアス		// Graffias
+HIP_87585:		グルミウム		// Grumium
+HIP_9884:		ハマル			// Hamal
+HIP_112029:		ホマン			// Homam
+HIP_90185:		カウス・アウストラリス	// Kaus Australis
+HIP_90496:		カウス・ボレアリス		// Kaus Borealis
+HIP_89931:		カウス・メディア		// Kaus Media
+HIP_104987:		キタルファ			// Kitalpha
+HIP_72607:		コカブ				// Kochab
+HIP_80816:		コルネフオロス		// Kornephoros
+HIP_68702:		ハダル				// Hadar
+HIP_85696:		レサート				// Lesath
+HIP_113963:		マルカブ				// Markab
+HIP_112158:		マタル				// Matar
+HIP_32246:		メブスタ				// Mebsuta
+HIP_59774:		メグレズ				// Megrez
+HIP_28360:		メンカリナン			// Menkalinan
+HIP_14135:		メンカル				// Menkar
+HIP_68933:		メンケント			// Menkent
+HIP_18614:		メンキブ				// Menkib
+HIP_53910:		メラク				// Merak
+HIP_45238:		ミアプラキドゥス		// Miaplacidus
+HIP_25930:		ミンタカ				// Mintaka
+HIP_10826:		ミラ					// Mira
+HIP_5447:		ミラク				// Mirach
+HIP_15863:		アルゲニブ			// Algenib
+HIP_30324:		ミルザム				// Mirzam
+HIP_65378:		ミザール				// Mizar
+HIP_67927:		ムフリッド			// Muphrid
+HIP_41704:		ムシダ				// Muscida
+HIP_106985:		ナシラ				// Nashira
+HIP_73555:		ネカル				// Nekkar
+HIP_25606:		ニハル				// Nihal
+HIP_94376:		ノドゥス・セクンドゥス	// Nodus Secundus
+HIP_92855:		ヌンキ				// Nunki
+HIP_75695:		ヌサカン				// Nusakan
+HIP_100751:		ピーコック			// Peacock
+HIP_26634:		ファクト				// Phact
+HIP_58001:		フェクダ				// Phecda
+HIP_75097:		フェルカド			// Pherkad
+HIP_11767:		{北極星|ほっきょくせい}	// Polaris
+HIP_37826:		ポルックス			// Pollux
+HIP_61941:		ポリマ				// Porrima
+HIP_37279:		プロキオン			// Procyon
+HIP_48455:		ラサラス				// Rasalas
+HIP_86032:		ラス・アルハゲ		// Rasalhague
+HIP_84345:		ラス・アルゲティ		// Ras Algethi
+HIP_85670:		ラスタバン			// Rastaban
+HIP_49669:		レグルス				// Regulus
+HIP_24436:		リゲル				// Rigel
+//HIP_71683:	Rigil Centaurus
+HIP_71683:		アルファ・ケンタウリ	// Alpha Centauri
+HIP_6686:		ルクバー				// Ruchbah
+HIP_95347:		ルクバト				// Rukbat
+HIP_84012:		サビク				// Sabik
+HIP_110395:		サダクビア			// Sadachbia
+HIP_112748:		サダルバリ			// Sadalbari
+HIP_109074:		サダルメリク			// Sadalmelik
+HIP_106278:		サダルスウド			// Sadalsuud
+HIP_100453:		サドル				// Sadr
+HIP_27366:		サイフ				// Saiph
+HIP_113881:		シェアト				// Scheat
+HIP_3179:		シェダル				// Schedar
+HIP_71075:		セギヌス				// Seginus
+HIP_85927:		シャウラ				// Shaula
+HIP_92420:		シェリァク			// Sheliak
+HIP_8903:		シェラタン			// Sheratan
+HIP_32349:		シリウス				// Sirius
+HIP_113136:		スカト				// Skat
+HIP_65474:		スピカ				// Spica
+HIP_93194:		スラファト			// Sulafat
+HIP_69701:		シュルマ				// Syrma
+HIP_44127:		タリタ				// Talitha
+HIP_50801:		タニア・アウストラリス	// Tania Australis
+HIP_50372:		タニア・ポレアレリス	// Tania Borealis
+HIP_97278:		タラゼド				// Tarazed
+HIP_68756:		トゥバン				// Thuban
+HIP_77070:		ウヌク・エルハイア		// Unukalhai
+HIP_91262:		ベガ					// Vega
+HIP_63608:		ヴィンデミアトリックス	// Vindemiatrix
+HIP_35550:		ワサト				// Wasat
+HIP_27628:		ワズン				// Wazn
+HIP_79882:		イェド・ポステリオル	// Yed Posterior
+HIP_79593:		イェド・プリオル		// Yed Prior
+HIP_60129:		ザニア				// Zaniah
+HIP_18543:		ザウラク				// Zaurak
+HIP_57757:		ザヴィャヴァ			// Zavijava
+HIP_54872:		ゾズマ				// Zosma
+HIP_72622:		ズベン・エル・ゲヌビ	// Zubenelgenubi
+HIP_74785:		ズベン・エス・カマリ	// Zubeneschamali
+HIP_70890:		プロキシマ			// Proxima
+HIP_20894:		ヒアデス{星団|せいだん}	// Hyades
+//---  Exoplanets  ---
+HIP_113357:		51 Peg				// 51 Peg
+HIP_43587:		55 Cnc				// 55 Cnc
+HIP_7513:		υAnd				// upssilon And
+HIP_16537:		εEri				// epsilon Eri
+STAR_TRAPPIST_1:	トラピスト-1
+
+
+
+//=====  S-stars  =====
+S_STAR_S1:     S1
+S_STAR_S2:     S2
+S_STAR_S4:     S4
+S_STAR_S5:     S5
+S_STAR_S6:     S6
+S_STAR_S8:     S8
+S_STAR_S9:     S9
+S_STAR_S12:    S12
+S_STAR_S13:    S13
+S_STAR_S14:    S14
+S_STAR_S17:    S17
+S_STAR_S18:    S18
+S_STAR_S19:    S19
+S_STAR_S21:    S21
+S_STAR_S24:    S24
+S_STAR_S27:    S27
+S_STAR_S29:    S29
+S_STAR_S31:    S31
+S_STAR_S33:    S33
+S_STAR_S38:    S38
+S_STAR_S66:    S66
+S_STAR_S67:    S67
+S_STAR_S71:    S71
+S_STAR_S83:    S83
+S_STAR_S87:    S87
+S_STAR_S96:    S96
+S_STAR_S97:    S97
+
+
+
+//=====  VERA Objects  =====
+VERA_NGC6334N:           NGC6334N
+VERA_G353_27_0_64:       G353.27+0.64
+VERA_G005_88_00_39:      G005.88-00.39
+VERA_G034_39_00_22:      G034.39+00.22
+VERA_G048_60_00_02:      G048.60+00.02
+VERA_G048_99_00_30:      G048.99-00.30
+VERA_G049_19_00_33:      G049.19-00.33
+VERA_IRAS19213_1723:     IRAS19213+1723
+VERA_ON1:                ON1
+VERA_IRAS20056_3350:     IRAS20056+3350
+VERA_IRAS20143_3634:     IRAS20143+3634
+VERA_ON2N:               ON2N
+VERA_IRAS20126_4104:     IRAS20126+4104
+VERA_AFGL2789:           AFGL2789
+VERA_IRAS21379_5106:     IRAS21379+5106
+VERA_IRAS22198_6336:     IRAS22198+6336
+VERA_IRAS22480_6002:     IRAS22480+6002
+VERA_IRAS22555_6213:     IRAS22555+6213
+VERA_NGC281:             NGC281
+VERA_W3OH:               W3OH
+VERA_L1448C:             L1448C
+VERA_NGC1333:            NGC1333
+VERA_IRAS05137_3919:     IRAS05137+3919
+VERA_IRAS05168_3634:     IRAS05168+3634
+VERA_IRAS06061_2151:     IRAS06061+2151
+VERA_S252:               S252
+VERA_G192_16_03_81:      G192.16-03.81
+VERA_S269:               S269
+VERA_NGC2264:            NGC2264
+VERA_ORION_NEBULA:       オリオン{星雲|せいうん}     // Orion Nebula
+VERA_IRAS07427_2400:     IRAS07427-2400
+VERA_RHO_OPH_EAST:       rho-Oph-East
+VERA_PZ_CAS:             PZ-Cas
+VERA_VY_CMA:             VY-CMa
+VERA_R_AQR:              R-Aqr
+VERA_IRAS18286_0959:     IRAS18286-0959
+VERA_IRAS19312_1950:     IRAS19312+1950
+VERA_T_LEP:              T-Lep
+VERA_RX_BOO:             RX-Boo
+VERA_SY_SCL:             SY-Scl
+VERA_S_CRT:              S-Crt
+VERA_RW_LEP:             RW-Lep
+
+
+
+//=====  Globular Clusters  =====
+GC_NGC_5139:			ω Cen
+GC_NGC_6205:			{球状星団|きゅうじょうせいだん}M13
+
+
+
+//=====  Nearby Galaxies  =====
+//---  Local group  ---
+NBG_NGC_224:        アンドロメダ{銀河|ぎんが}		// Andromeda Galaxy
+NBG_NGC_598:        さんかく{座|ざ}{銀河|ぎんが}	// Triangulum Galaxy
+NBG_NGC_205:        M110
+NBG_NGC_221:        M32
+NBG_TULLY_2367:     WLM Galaxy
+NBG_UGC_192:        IC 10
+NBG_TULLY_58:       {小|しょう}マゼラン{雲|うん}	// SMC
+NBG_TULLY_445:      {大|だい}マゼラン{雲|うん}		// LMC
+NBG_UGC_668:        IC 1613
+NBG_UGC_5364:       しし{座|ざ} A					// Leo A
+NBG_TULLY_803:      ろくぶんぎ{座|ざ} A			// Sextans A
+NBG_UGC_5373:       ろくぶんぎ{座|ざ} B			// Sextans B
+NBG_UGC_12613:      ペガスス{座|ざ}{矮小|わいしょう}{銀河|ぎんが}
+NBG_TULLY_62:       ちょうこくしつ{座|ざ}{矮小|わいしょう}{銀河|ぎんが}	// Sculptor
+NBG_TULLY_178:      ろ{座|ざ}{矮小|わいしょう}{銀河|ぎんが}				// Fornax
+NBG_UGC_5470:       Leo I
+NBG_UGC_6253:       Leo II
+NBG_UGC_9749:       こぐま{座|ざ}{矮小|わいしょう}{銀河|ぎんが}			// Ursa Minor Dwarf
+NBG_UGC_10822:      りゅう{座|ざ}{矮小|わいしょう}{銀河|ぎんが}			// Draco Dwarf
+NBG_TULLY_2114:     いて{座|ざ}{矮小|わいしょう}{不規則|ふきそく}{銀河|ぎんが}	// SagDIG
+NBG_TULLY_348:      UGC-A 86
+NBG_TULLY_384:      UGC-A 92
+NBG_PGC_19441:      りゅうこつ{座|ざ}{矮小|わいしょう}{銀河|ぎんが}		// Carina Dwarf
+NBG_UNDEF_1:        おおいぬ{座|ざ}{矮小|わいしょう}{銀河|ぎんが}			// Canis Major Dwarf
+NBG_UNDEF_2:	Virgo I
+NBG_NGC_6822:       バーナードの{銀河|ぎんが}		// Barnard's Galaxy
+NBG_NGC_147:        NGC 147
+NBG_NGC_185:        NGC 185
+NBG_NGC_3109:       NGC 3109
+//---  Messier  ---
+NBG_NGC_4472:       M49
+NBG_NGC_5194:       M51
+NBG_NGC_4579:       M58
+NBG_NGC_4621:       M59
+NBG_NGC_4649:       M60
+NBG_NGC_4303:       M61
+NBG_NGC_5055:       M63
+NBG_NGC_4826:       M64
+NBG_NGC_3623:       M65
+NBG_NGC_3627:       M66
+NBG_NGC_628:        M74
+NBG_NGC_1068:       M77
+NBG_NGC_3031:       M81
+NBG_NGC_3034:       M82
+NBG_NGC_5236:       M83
+NBG_NGC_4374:       M84
+NBG_NGC_4382:       M85
+NBG_NGC_4406:       M86
+NBG_NGC_4486:       M87
+NBG_NGC_4501:       M88
+NBG_NGC_4552:       M89
+NBG_NGC_4569:       M90
+NBG_NGC_4736:       M94
+NBG_NGC_3351:       M95
+NBG_NGC_3368:       M96
+NBG_NGC_4192:       M98
+NBG_NGC_4254:       M99
+NBG_NGC_4321:       M100
+NBG_NGC_5457:       M101
+NBG_NGC_4594:       M104
+NBG_NGC_3379:       M105
+NBG_NGC_4258:       M106
+NBG_NGC_3556:       M108
+NBG_NGC_3992:       M109
+//---  Others  ---
+// Antennae
+NBG_NGC_4038:       アンテナ{銀河|ぎんが} (NGC 4038)
+//NBG_NGC_4039:	アンテナ銀河 (NGC 4039)
+NBG_NGC_5128:       ケンタウルス{座|ざ} A
+
+
+
+//=====  Other Labels  =====
+LABEL_MINOR_PLANETS:	{小惑星|しょうわくせい}{帯|たい}
+LABEL_OORT_CLOUD:		オールトの{雲|くも}
+LABEL_OUR_GALAXY:		{銀河系|ぎんがけい}
+OUR_GALAXY:				{銀河系|ぎんがけい}
+SGR_A_STAR:				いて{座|ざ}A\S*
+GALACTIC_CENTER:		{銀河系|ぎんがけい}{中心|ちゅうしん}
+
+
+//=====  Fixed View Point  =====
+FIXED_VIEW_POINT:	注目点を固定
+
+
+//=====  Constellations  =====
+CNST_And:		アンドロメダ		// Andromeda
+CNST_Ant:		ポンプ			// Antlia
+CNST_Aps:		ふうちょう		// Apus
+CNST_Aql:		わし				// Aquila
+CNST_Aqr:		みずがめ			// Aquarius
+CNST_Ara:		さいだん			// Ara
+CNST_Ari:		おひつじ			// Aries
+CNST_Aur:		ぎょしゃ			// Auriga
+CNST_Boo:		うしかい			// Bootes
+CNST_Cae:		ちょうこくぐ		// Caelum
+CNST_Cam:		きりん			// Camelopardalis
+CNST_Cap:		やぎ				// Capricornus
+CNST_Car:		りゅうこつ		// Carina
+CNST_Cas:		カシオペヤ		// Cassiopeia
+CNST_Cen:		ケンタウルス		// Centaurus
+CNST_Cep:		ケフェウス		// Cepheus
+CNST_Cet:		くじら			// Cetus
+CNST_Cha:		カメレオン		// Chamaeleon
+CNST_Cir:		コンパス			// Circinus
+CNST_CMa:		おおいぬ			// Canis Major
+CNST_CMi:		こいぬ			// Canis Minor
+CNST_Cnc:		かに				// Cancer
+CNST_Col:		はと				// Columba
+CNST_Com:		かみのけ			// Coma Berenices
+CNST_CrA:		みなみのかんむり	// Corona Australis
+CNST_CrB:		かんむり			// Corona Borealis
+CNST_Crt:		コップ			// Crater
+CNST_Cru:		みなみじゅうじ	// Crux
+CNST_Crv:		からす			// Corvus
+CNST_CVn:		りょうけん		// Canes Venatici
+CNST_Cyg:		はくちょう		// Cygnus
+CNST_Del:		いるか			// Delphinus
+CNST_Dor:		かじき			// Dorado
+CNST_Dra:		りゅう			// Draco
+CNST_Equ:		こうま			// Equuleus
+CNST_Eri:		エリダヌス		// Eridanus
+CNST_For:		ろ				// Fornax
+CNST_Gem:		ふたご			// Gemini
+CNST_Gru:		つる				// Grus
+CNST_Her:		ヘルクレス		// Hercules
+CNST_Hor:		とけい			// Horologium
+CNST_Hya:		うみへび			// Hydra
+CNST_Hyi:		みずへび			// Hydrus
+CNST_Ind:		インディアン		// Indus
+CNST_Lac:		とかげ			// Lacerta
+CNST_Leo:		しし				// Leo
+CNST_Lep:		うさぎ			// Lepus
+CNST_Lib:		てんびん			// Libra
+CNST_LMi:		こじし			// Leo Minor
+CNST_Lup:		おおかみ			// Lupus
+CNST_Lyn:		やまねこ			// Lynx
+CNST_Lyr:		こと				// Lyra
+CNST_Men:		テーブルさん		// Mensa
+CNST_Mic:		けんびきょう		// Microscopium
+CNST_Mon:		いっかくじゅう	// Monoceros
+CNST_Mus:		はえ				// Musca
+CNST_Nor:		じょうぎ			// Norma
+CNST_Oct:		はちぶんぎ		// Octans
+CNST_Oph:		へびつかい		// Ophiuchus
+CNST_Ori:		オリオン			// Orion
+CNST_Pav:		くじゃく			// Pavo
+CNST_Peg:		ペガスス			// Pegasus
+CNST_Per:		ペルセウス		// Perseus
+CNST_Phe:		ほうおう			// Phoenix
+CNST_Pic:		がか				// Pictor
+CNST_PsA:		みなみのうお		// Piscis Austrinus
+CNST_Psc:		うお				// Pisces
+CNST_Pup:		とも				// Puppis
+CNST_Pyx:		らしんばん		// Pyxis
+CNST_Ret:		レチクル			// Reticulum
+CNST_Scl:		ちょうこくしつ	// Sculptor
+CNST_Sco:		さそり			// Scorpius
+CNST_Sct:		たて				// Scutum
+CNST_Ser:		へび				// Serpens
+CNST_Sex:		ろくぶんぎ		// Sextans
+CNST_Sge:		や				// Sagitta
+CNST_Sgr:		いて				// Sagittarius
+CNST_Tau:		おうし			// Taurus
+CNST_Tel:		ぼうえんきょう	// Telescopium
+CNST_TrA:		みなみのさんかく	// Triangulum Australe
+CNST_Tri:		さんかく			// Triangulum
+CNST_Tuc:		きょしちょう		// Tucana
+CNST_UMa:		おおぐま			// Ursa Major
+CNST_UMi:		こぐま			// Ursa Minor
+CNST_Vel:		ほ				// Vela
+CNST_Vir:		おとめ			// Virgo
+CNST_Vol:		とびうお			// Volans
+CNST_Vul:		こぎつね			// Vulpecula
+
+
+//=====  Asterisms  =====
+SUMMER_TRIANGLE:	{夏|なつ}の{大三角|だいさんかく}
+WINTER_TRIANGLE:	{冬|ふゆ}の{大三角|だいさんかく}
+SPRING_TRIANGLE:	{春|はる}の{大三角|だいさんかく}
+BIG_DIPPER:			{北斗|ほくと}{七星|しちせい}
+GREAT_SQUARE_PEGASUS:	ペガススの{大四辺形|だいしへんけい}
+WINTER_HEXAGON:		{冬|ふゆ}のダイヤモンド
+
+
+//=====  Date  =====
+DATE_FMT:		%Y{年|ねん} %M{月|がつ} %D{日|にち}
+MONTH_1:		1
+MONTH_2:		2
+MONTH_3:		3
+MONTH_4:		4
+MONTH_5:		5
+MONTH_6:		6
+MONTH_7:		7
+MONTH_8:		8
+MONTH_9:		9
+MONTH_10:		10
+MONTH_11:		11
+MONTH_12:		12
+
+
+
+//=====  Scale Lines  =====
+SCL_10MKM:		1000{万|まん}km
+SCL_1AU:		1{天文単位|てんもんたんい}
+SCL_10AU:		10{天文単位|てんもんたんい}
+SCL_100AU:		100{天文単位|てんもんたんい}
+SCL_1KAU:		1000{天文単位|てんもんたんい}
+SCL_10KAU:		1{万|まん}{天文単位|てんもんたんい}
+SCL_1LY:		1{光年|こうねん}
+SCL_3LY:		3{光年|こうねん}
+SCL_10LY:		10{光年|こうねん}
+SCL_30LY:		30{光年|こうねん}
+SCL_100LY:		100{光年|こうねん}
+SCL_300LY:		300{光年|こうねん}
+SCL_1KLY:		1000{光年|こうねん}
+SCL_3KLY:		3000{光年|こうねん}
+SCL_10KLY:		1{万|まん}{光年|こうねん}
+SCL_100KLY:		10{万|まん}{光年|こうねん}
+SCL_1MLY:		100{万|まん}{光年|こうねん}
+SCL_10MLY:		1000{万|まん}{光年|こうねん}
+SCL_100MLY:		1{億|おく}{光年|こうねん}
+SCL_1GLY:		10{億|おく}{光年|こうねん}
+SCL_10GLY:		100{億|おく}{光年|こうねん}
+SCL_13GLY:		138{億|おく}{光年|こうねん}
+
+
+
+//=====  Time steps  =====
+TIMESTEP_1SEC:	１秒
+TIMESTEP_10SEC:		１０秒
+TIMESTEP_1MIN:		１分
+TIMESTEP_10MIN:		１０分
+TIMESTEP_1HOUR:		１時間
+TIMESTEP_4HOURS:	４時間
+TIMESTEP_1_SIDEREAL_DAY:	１恒星日
+TIMESTEP_1DAY:		１日
+TIMESTEP_1WEEK:		１週間
+TIMESTEP_1MONTH:	１月
+TIMESTEP_1YEAR:		１年
+TIMESTEP_10YEARS:	１０年
+TIMESTEP_100YEARS:	１００年
+
+
+
+//=====  Info Texts  =====
+INFO_TYPE:					種類
+INFO_TYPE_UNDEFINED:		未定義
+INFO_TYPE_PLANET:			惑星
+INFO_TYPE_SATELLITE:		衛星
+INFO_TYPE_MINOR_PLANET:		小惑星
+INFO_TYPE_DWARF_PLANET:		準惑星
+INFO_TYPE_PLUTOID:			準惑星 （冥王星型天体）
+INFO_TYPE_STAR:				恒星
+INFO_TYPE_S_STAR:			恒星
+INFO_TYPE_SMBH:				巨大ブラックホール
+INFO_TYPE_GLOBULAR_CLUSTER:	球状星団
+INFO_TYPE_GALAXY:			銀河
+INFO_TYPE_SPACECRAFT:		探査機
+INFO_MP_NUMBER:				小惑星番号
+INFO_HIP_NUMBER:			HIP 番号
+INFO_MP_ORBIT_TYPE:			軌道の種類
+INFO_STAR_SPECTRAL_TYPE:	スペクトル型
+INFO_STAR_SPECTRAL_TYPE_EARLY: 早期型
+INFO_STAR_SPECTRAL_TYPE_LATE: 晩期型
+INFO_STAR_WITH_PLANET:		惑星が存在
+INFO_TYPE_VERA_TYPE_SFR:	星形成領域
+INFO_TYPE_VERA_TYPE_AGB:	晩期型星
+INFO_TYPE_VERA_TYPE_UNKNOWN:	不明
+INFO_GALAXY_TYPE:			銀河型
+INFO_GALAXY_TYPE_UNDETERMINED:		未定義
+INFO_GALAXY_TYPE_E:			楕円銀河
+INFO_GALAXY_TYPE_E_S0:		楕円/レンズ状銀河
+INFO_GALAXY_TYPE_S0:		レンズ状銀河
+INFO_GALAXY_TYPE_S0_A:		レンズ状/渦巻銀河
+INFO_GALAXY_TYPE_S:			渦巻銀河
+INFO_GALAXY_TYPE_SB:		棒渦巻銀河
+INFO_GALAXY_TYPE_SI:		渦巻/不規則銀河
+INFO_GALAXY_TYPE_IR:		不規則銀河
+INFO_GALAXY_TYPE_P:			特異銀河
+INFO_OBSERVATION:			観測
+INFO_OBS_VERA:				VERA
+
+
+
+//=====  Compass  =====
+COMPASS_S:	{ 南 |みなみ}
+COMPASS_SE:	{南東|なんとう}
+COMPASS_E:	{東|ひがし}
+COMPASS_NE:	{北東|ほくとう}
+COMPASS_N:	{北|きた}
+COMPASS_NW:	{北西|ほくせい}
+COMPASS_W:	{西|にし}
+COMPASS_SW:	{南西|なんせい}
+
+
+
+//=====  3D Charts  =====
+3DCHART_PLANETS_TITLE:		{太陽系|たいようけい}の{惑星|わくせい}
+3DCHART_TNOS_TITLE:			{太陽系|たいようけい}{外縁|がいえん}{天体|てんたい}
+3DCHART_STARS_TITLE:		{星|ほし}の{色|いろ}と{温度|おんど}の{関係|かんけい}
+3DCHART_STARS_ZETA_ORIONIS:	オリオン{座|ざ}{ ζ |ぜーた}{星|せい}
+3DCHART_STARS_SPICA:		スピカ
+3DCHART_STARS_VEGA:			ベガ
+3DCHART_STARS_SUN:			{太陽|たいよう}
+3DCHART_STARS_BETELGEUSE:	ベテルギウス
+3DCHART_STARS_DEG:			{度|ど}
+
+
+
+//=====  View Info  =====
+VIEWINFO_POS_VIEW:			視点の位置
+VIEWINFO_POS_TARGET:		ターゲットの位置
+VIEWINFO_DISTANCE:			距離
+VIEWINFO_AU:				天文単位
+VIEWINFO_LY:				光年
+VIEWINFO_VIEW_ANGLE:		視野角
+VIEWINFO_DEG:				度
+VIEWINFO_ORIENTATION:		姿勢
+VIEWINFO_HEAD_ORIENTATION:	頭の向き
+VIEWINFO_VIEW_DIRECTION_FMT:	視線方向 : 方位角=%.1lf度  高度=%.1lf度
+
+DBGINFO_WINDOW_SIZE:		ウィンドウサイズ
+DBGINFO_NUM_CHARS:			文字数
+DBGINFO_JULIAN_DATE:		ユリウス日
+DBGINFO_SCALE:				スケール
+DBGINFO_LOG_SCALE:		対数スケール
+
+
+
+//=====  Help  =====
+HELP_X:				X
+HELP_X_CMT:			メニューを開く
+HELP_Z:				Z
+HELP_Z_CMT:			メニューを閉じる
+HELP_ARROW:			矢印キー
+HELP_ARROW_CMT:		視点を移動する
+HELP_1_ARROW:		１＋矢印キー
+HELP_1_ARROW_CMT:	旋回する（宇宙空間モードのみ）
+HELP_PAGEUP:		PAGE UP
+HELP_PAGEUP_CMT:	ズームイン
+HELP_PAGEDOWN:		PAGE DOWN
+HELP_PAGEDOWN_CMT:	ズームアウト
+HELP_4:				4
+HELP_4_CMT:			時間を進める
+HELP_3:				3
+HELP_3_CMT:			時間を戻す
+HELP_Z_4:			Z + 4
+HELP_Z_4_CMT:		時間刻みを長くする（最大100年）
+HELP_Z_3:			Z + 3
+HELP_Z_3_CMT:		時間刻みを短くする（最小10秒）
+HELP_A:				A
+HELP_A_CMT:			ラベルの表示・非表示
+HELP_S:				S
+HELP_S_CMT:			離陸・着陸をする
+HELP_T:				T
+HELP_T_CMT:			ターゲットの近くに移動する
+HELP_C:				C
+HELP_C_CMT:			画面をキャプチャする('capture.png')
+HELP_F:				F
+HELP_F_CMT:			描画のフレームレートを表示
+HELP_L:				L
+HELP_L_CMT:			夜景表示の切り替え
+
+
+
+//=====  Credits  =====
+CREDITS_TEXT:	©2005-2023 加藤恒彦, 4D2U Project, NAOJ
+CREDITS_TEXT_SDSS:	©2005-2023 加藤恒彦, ARC and SDSS, 4D2U Project, NAOJ
+
+
+
+//=====  Theater  =====
+THEATER_TITLE:				４{次元|じげん}デジタル{宇宙|うちゅう}シアター
+
+
+
+//=====  Others  =====
+WAITING_CONNECTION_FMT:		%s  接続待機中...

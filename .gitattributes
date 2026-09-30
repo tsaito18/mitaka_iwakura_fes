@@ -1,0 +1,2 @@
+data/Gaia_MW_intensity_map.dat filter=lfs diff=lfs merge=lfs -text
+data/*_topo.dat filter=lfs diff=lfs merge=lfs -text

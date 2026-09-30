@@ -1,0 +1,923 @@
+//=====  Solar System  =====
+SOLAR_SYSTEM:	Sistema Solare
+SUN:	Sole
+
+PLNT_MERCURY:	Mercurio
+PLNT_VENUS:	Venere
+PLNT_EARTH:	Terra
+PLNT_MARS:	Marte
+PLNT_JUPITER:	Giove
+PLNT_SATURN:	Saturno
+PLNT_URANUS:	Urano
+PLNT_NEPTUNE:	Nettuno
+PLNT_PLUTO:	Plutone
+
+
+
+//=====  Satellites  =====
+//---  Earth  ---
+SAT_E_MOON:	Luna
+//---  Mars  ---
+SAT_M_PHOBOS:	Phobos
+SAT_M_DEIMOS:	Deimos
+//---  Jupiter  ---
+SAT_J_IO:	Io
+SAT_J_EUROPA:	Europa
+SAT_J_GANYMEDE:	Ganimede
+SAT_J_CALLISTO:	Callisto
+SAT_J_AMALTHEA:	Amaltea
+SAT_J_THEBE:	Tebe
+SAT_J_ADRASTEA:	Adrastea
+SAT_J_METIS:	Metis
+SAT_J_HIMALIA:	Imalia
+SAT_J_ELARA:	Elara
+SAT_J_PASIPHAE:	Pasifae
+SAT_J_SINOPE:	Sinope
+SAT_J_LYSITHEA:	Lisitea
+SAT_J_CARME:	Carme
+SAT_J_ANANKE:	Ananke
+SAT_J_LEDA:	Leda
+SAT_J_CALLIRRHOE:	Calliroe
+SAT_J_THEMISTO:	Temisto
+SAT_J_MEGACLITE:	Megaclite
+SAT_J_TAYGETE:	Taigete
+SAT_J_CHALDENE:	Caldene
+SAT_J_HARPALYKE:	Arpalice
+SAT_J_KALYKE:	Calice
+SAT_J_IOCASTE:	Giocasta
+SAT_J_ERINOME:	Erinome
+SAT_J_ISONOE:	Isonoe
+SAT_J_PRAXIDIKE:	Prassidice
+SAT_J_AUTONOE:	Autonoe
+SAT_J_THYONE:	Tione
+SAT_J_HERMIPPE:	Ermippe
+SAT_J_AITNE:	Etna
+SAT_J_EURYDOME:	Euridome
+SAT_J_EUANTHE:	Euante
+SAT_J_EUPORIE:	Euporia
+SAT_J_ORTHOSIE:	Ortosia
+SAT_J_SPONDE:	Sponde
+SAT_J_KALE:	Cale
+SAT_J_PASITHEE:	Pasitea
+SAT_J_HEGEMONE:	Egemone
+SAT_J_MNEME:	Mneme
+SAT_J_AOEDE:	Aede
+SAT_J_THELXINOE:	Telsinoe
+SAT_J_ARCHE:	Arche
+SAT_J_KALLICHORE:	Callicore
+SAT_J_HELIKE:	Elice
+SAT_J_CARPO:	Carpo
+SAT_J_EUKELADE:	Eucelade
+SAT_J_CYLLENE:	Cilene
+SAT_J_KORE:	Core
+SAT_J_HERSE:	Erse
+SAT_J_DIA:	Dia
+SAT_J_2003_J2:	S/2003 J 2
+SAT_J_2003_J3:	S/2003 J 3
+SAT_J_2003_J4:	S/2003 J 4
+SAT_J_2003_J5:	S/2003 J 5
+SAT_J_2003_J9:	S/2003 J 9
+SAT_J_2003_J10:	S/2003 J 10
+SAT_J_2003_J12:	S/2003 J 12
+SAT_J_2003_J15:	S/2003 J 15
+SAT_J_2003_J16:	S/2003 J 16
+SAT_J_2003_J18:	S/2003 J 18
+SAT_J_2003_J19:	S/2003 J 19
+SAT_J_2003_J23:	S/2003 J 23
+SAT_J_2010_J1:	S/2010 J 1
+SAT_J_2010_J2:	S/2010 J 2
+SAT_J_2011_J1:	S/2011 J 1
+SAT_J_2011_J2:	S/2011 J 2
+//---  Saturn  ---
+SAT_S_MIMAS:	Mimas
+SAT_S_ENCELADUS:	Encelado
+SAT_S_TETHYS:	Teti
+SAT_S_DIONE:	Dione
+SAT_S_RHEA:	Rea
+SAT_S_TITAN:	Titano
+SAT_S_HYPERION:	Iperione
+SAT_S_IAPETUS:	Giapeto
+SAT_S_PHOEBE:	Febe
+SAT_S_JANUS:	Giano
+SAT_S_EPIMETHEUS:	Epimeteo
+SAT_S_HELENE:	Elena
+SAT_S_TELESTO:	Telesto
+SAT_S_CALYPSO:	Calipso
+SAT_S_ATLAS:	Atlante
+SAT_S_PROMETHEUS:	Prometeo
+SAT_S_PANDORA:	Pandora
+SAT_S_PAN:	Pan
+SAT_S_METHONE:	Metone
+SAT_S_PALLENE:	Pallene
+SAT_S_POLYDEUCES:	Polluce
+SAT_S_DAPHNIS:	Dafni
+SAT_S_ANTHE:	Antea
+SAT_S_AEGAEON:	Egeone
+SAT_S_YMIR:	Ymir
+SAT_S_PAALIAQ:	Paaliaq
+SAT_S_TARVOS:	Tarvos
+SAT_S_IJIRAQ:	Ijiraq
+SAT_S_SUTTUNGR:	Suttungr
+SAT_S_KIVIUQ:	Kiviuq
+SAT_S_MUNDILFARI:	Mundilfari
+SAT_S_ALBIORIX:	Albiorix
+SAT_S_SKATHI:	Skathi
+SAT_S_ERRIAPUS:	Erriapo
+SAT_S_SIARNAQ:	Siarnaq
+SAT_S_THRYMR:	Thrymr
+SAT_S_NARVI:	Narvi
+SAT_S_AEGIR:	Aegir
+SAT_S_BEBHIONN:	Bebhionn
+SAT_S_BERGELMIR:	Bergelmir
+SAT_S_BESTLA:	Bestla
+SAT_S_FARBAUTI:	Farbauti
+SAT_S_FENRIR:	Fenrir
+SAT_S_FORNJOT:	Forgot
+SAT_S_HATI:	Hate
+SAT_S_HYRROKKIN:	Hyrokkin
+SAT_S_KARI:	Kari
+SAT_S_LOGE:	Loge
+SAT_S_SKOLL:	Skill
+SAT_S_SURTUR:	Surtur
+SAT_S_JARNSAXA:	Jarnsaxa
+SAT_S_GREIP:	Greip
+SAT_S_TARQEQ:	Tarqeq
+SAT_S_2004_S7:	S/2004 S 7
+SAT_S_2004_S12:	S/2004 S 12
+SAT_S_2004_S13:	S/2004 S 13
+SAT_S_2004_S17:	S/2004 S 17
+SAT_S_2006_S1:	S/2006 S 1
+SAT_S_2006_S3:	S/2006 S 3
+SAT_S_2007_S2:	S/2007 S 2
+SAT_S_2007_S3:	S/2007 S 3
+//---  Uranus  ---
+SAT_U_ARIEL:	Ariel
+SAT_U_UMBRIEL:	Umbriel
+SAT_U_TITANIA:	Titania
+SAT_U_OBERON:	Oberon
+SAT_U_MIRANDA:	Miranda
+SAT_U_CORDELIA:	Cordelia
+SAT_U_OPHELIA:	Ofelia
+SAT_U_BIANCA:	Bianca
+SAT_U_CRESSIDA:	Cressida
+SAT_U_DESDEMONA:	Desdemona
+SAT_U_JULIET:	Giulietta
+SAT_U_PORTIA:	Porzia
+SAT_U_ROSALIND:	Rosalinda
+SAT_U_BELINDA:	Belinda
+SAT_U_PUCK:	Puck
+SAT_U_CALIBAN:	Calibano
+SAT_U_SYCORAX:	Sicorace
+SAT_U_PROSPERO:	Prospero
+SAT_U_SETEBOS:	Setebos
+SAT_U_STEPHANO:	Stefano
+SAT_U_TRINCULO:	Trinculo
+SAT_U_FRANCISCO:	Francisco
+SAT_U_MARGARET:	Margherita
+SAT_U_FERDINAND:	Ferdinando
+SAT_U_PERDITA:	Perdita
+SAT_U_MAB:	Mab
+SAT_U_CUPID:	Cupido
+//---  Neptune  ---
+SAT_N_TRITON:	Tritone
+SAT_N_NEREID:	Nereide
+SAT_N_NAIAD:	Naiade
+SAT_N_THALASSA:	Talassa
+SAT_N_DESPINA:	Despina
+SAT_N_GALATEA:	Galatea
+SAT_N_LARISSA:	Larissa
+SAT_N_PROTEUS:	Proteo
+SAT_N_2004_N1:	S/2004 N1
+SAT_N_HALIMEDE:	Alimede
+SAT_N_PSAMATHE:	Psamate
+SAT_N_SAO:	Sao
+SAT_N_LAOMEDEIA:	Laomedea
+SAT_N_NESO:	Neso
+//---  Pluto  ---
+SAT_P_CHARON:	Caronte
+SAT_P_NIX:	Notte
+SAT_P_HYDRA:	Idra
+SAT_P_KERBEROS:	Cerbero
+SAT_P_STYX:	Stige
+
+
+
+//=====  Solar system small bodies  =====
+//---  Minor Planets  ---
+MP_1:	Cerere
+MP_2:	Pallade
+MP_3:	Giunone
+MP_4:	Vesta
+MP_8:	Flora
+MP_9:	Metis
+MP_10:	Igea
+MP_24:	Temi
+MP_25:	Focea
+MP_153:	Hilda
+MP_158:	Coronide
+MP_170:	Maria
+MP_221:	Eos
+MP_243:	Ida
+MP_279:	Thule
+MP_401:	Ottilia
+MP_433:	Eros
+MP_434:	Hungaria
+MP_588:	Achille
+MP_617:	Patroclo
+MP_887:	Alinda
+MP_903:	Nealley
+MP_944:	Hidalgo
+MP_1088:	Mitaka
+MP_1221:	Amor
+MP_1373:	Cincinnati
+MP_1566:	Icaro
+MP_1862:	Apollo
+MP_2060:	Chirone
+MP_2062:	Aten
+MP_2100:	Ra-Shalom
+MP_3200:	Fetonte
+MP_5145:	Folo
+MP_5261:	Eureka
+MP_5496:	1973 NA
+MP_7066:	Nesso
+MP_25143:	Itokawa
+MP_162173:	Ryugu
+MP_24158:	Kokubo
+//---  Centaurs and Scattered-Disk Objects  ---
+MP_136199:	Eris
+MP_90377:	Sedna
+MP_83982:	Crantore
+MP_60558:	Echeclus
+MP_55576:	Amycus
+MP_54598:	Bienore
+MP_52975:	Cillaro
+MP_52872:	Ociroe
+MP_49036:	Pelio
+MP_32532:	Tereo
+MP_31824:	Elato
+MP_10370:	Ilonome
+MP_10199:	Cariclo
+MP_8405:	Asbolo
+//---  Transneptunian Objects  ---
+//MP_134340:	Pluto
+MP_136472:	Makemake
+MP_136108:	Haumea
+MP_90482:	Orco
+MP_58534:	Logos
+MP_53311:	Deucalione
+MP_50000:	Quaoar
+MP_38628:	Huya
+MP_38083:	Radamanto
+MP_28978:	Issione
+MP_20000:	Varuna
+MP_19521:	Caos
+
+
+
+//---  Orbit Type Name
+MP_ORBIT_TYPE_UNDEF:	Indefinito
+MP_ORBIT_TYPE_ATIRA:	Atira
+MP_ORBIT_TYPE_ATEN:	Aten
+MP_ORBIT_TYPE_APOLLO:	Apollo
+MP_ORBIT_TYPE_AMOR:	Amor
+MP_ORBIT_TYPE_OBJ_Q_LE_1_665:	Oggetto con q < 1.665 UA
+MP_ORBIT_TYPE_HUNGARIA:	Hungaria
+MP_ORBIT_TYPE_PHOCAEA:	Focea
+MP_ORBIT_TYPE_HILDA:	Hilda
+MP_ORBIT_TYPE_JUPITER_TROJAN:	Troiano di Giove
+MP_ORBIT_TYPE_CENTAUR:	Centauro
+MP_ORBIT_TYPE_SDO:	Oggetto del Disco Diffuso
+MP_ORBIT_TYPE_TNO:	Oggetto Transnettuniano
+
+
+
+//=====  Stars  =====
+HIP_13847:	Acamar
+HIP_7588:	Achernar
+HIP_60718:	Acrux
+HIP_44066:	Acubens
+HIP_50335:	Adhafera
+HIP_33579:	Adhara
+HIP_109268:	Al Na’ir
+HIP_102618:	Albali
+HIP_95947:	Albireo
+//HIP_17702:	Alcyone
+HIP_17702:	Pleiadi
+HIP_21421:	Aldebaran
+HIP_105199:	Alderamin
+HIP_106032:	Alfirk
+HIP_100064:	Algedi
+HIP_1067:	Algenib
+HIP_50583:	Algieba
+HIP_14576:	Algol
+HIP_60965:	Algorab
+HIP_31681:	Alhena
+HIP_62956:	Alioth
+HIP_67301:	Alkaid
+HIP_75411:	Alkalurops
+HIP_53740:	Alkes
+HIP_9640:	Almach
+HIP_88635:	Alnasl
+HIP_26311:	Alnilam
+HIP_26727:	Alnitak
+HIP_46390:	Alphard
+HIP_76267:	Alphecca
+HIP_677:	Alpheratz
+HIP_98036:	Alshain
+HIP_97649:	Altair
+HIP_35904:	Aludra
+HIP_55219:	Alula Borealis
+HIP_92946:	Alya
+HIP_110003:	Ancha
+HIP_2081:	Ankaa
+HIP_80763:	Antares
+HIP_69673:	Arturo
+HIP_95241:	Arkab
+HIP_25985:	Arneb
+HIP_42911:	Asellus Australis
+HIP_42806:	Asellus Borealis
+HIP_45556:	Aspidiske
+HIP_18246:	Atik
+HIP_17847:	Atlas
+HIP_82273:	Atria
+HIP_41037:	Avior
+HIP_13701:	Azha
+HIP_8645:	Baten Kaitos
+HIP_62434:	Becrux
+HIP_19587:	Beid
+HIP_25336:	Bellatrix
+HIP_27989:	Betelgeuse
+HIP_109427:	Biham
+HIP_30438:	Canopo
+HIP_24608:	Capella
+HIP_746:	Caph
+HIP_36850:	Castore
+HIP_86742:	Cebalrai
+HIP_61317:	Chara
+HIP_54879:	Chertan
+HIP_63125:	Cor Caroli
+HIP_23875:	Cursa
+HIP_100345:	Dabih
+HIP_102098:	Deneb
+HIP_107556:	Deneb Algedi
+HIP_57632:	Denebola
+HIP_3419:	Deneb Kaitos
+HIP_54061:	Dubhe
+HIP_75458:	Edasich
+HIP_17499:	Elettra
+HIP_25428:	Elnath
+HIP_87833:	Eltanin
+HIP_107315:	Enif
+HIP_116727:	Errai
+HIP_113368:	Fomalhaut
+HIP_30122:	Furud
+HIP_61084:	Gacrux
+HIP_107259:	Stella Granata
+HIP_56211:	Giausar
+HIP_59803:	Gienah (Gienah Cygni/Gienah Corvi)
+HIP_36188:	Gomeisa
+HIP_78820:	Graffias
+HIP_87585:	Grumium
+HIP_9884:	Hamal
+HIP_112029:	Homam
+HIP_90185:	Kaus Australis
+HIP_90496:	Kaus Borealis
+HIP_89931:	Kaus Media
+HIP_104987:	Kitalpha
+HIP_72607:	Kochab
+HIP_80816:	Kornephoros
+HIP_68702:	Hadar
+HIP_85696:	Lesath
+HIP_113963:	Markab
+HIP_112158:	Matar
+HIP_32246:	Mebsuta
+HIP_59774:	Megrez
+HIP_28360:	Menkalinan
+HIP_14135:	Menkar
+HIP_68933:	Menkent
+HIP_18614:	Menkib
+HIP_53910:	Merak
+HIP_45238:	Miaplacidus
+HIP_25930:	Mintaka
+HIP_10826:	Mira
+HIP_5447:	Mirach
+HIP_15863:	Algenib
+HIP_30324:	Mirzam
+HIP_65378:	Mizar
+HIP_67927:	Mufrid
+HIP_41704:	Muscida
+HIP_106985:	Nashira
+HIP_73555:	Nekkar
+HIP_25606:	Nihal
+HIP_94376:	Nodus Secundus
+HIP_92855:	Nunki
+HIP_75695:	Nusakan
+HIP_100751:	Peacock
+HIP_26634:	Phakt
+HIP_58001:	Phecda
+HIP_75097:	Pherkad
+HIP_11767:	Stella Polare
+HIP_37826:	Polluce
+HIP_61941:	Porrima
+HIP_37279:	Procione
+HIP_48455:	Rasalas
+HIP_86032:	Rasalhague
+HIP_84345:	Rasalgethi
+HIP_85670:	Rastaban
+HIP_49669:	Regolo
+HIP_24436:	Rigel
+//HIP_71683:	Rigil Centaurus
+HIP_71683:	Alpha Centauri
+HIP_6686:	Ruchbah
+HIP_95347:	Rukbat
+HIP_84012:	Sabik
+HIP_110395:	Sadachbia
+HIP_112748:	Sadalbari
+HIP_109074:	Sadalmelik
+HIP_106278:	Sadalsuud
+HIP_100453:	Sadr
+HIP_27366:	Saiph
+HIP_113881:	Scheat
+HIP_3179:	Schedar
+HIP_71075:	Seginus
+HIP_85927:	Shaula
+HIP_92420:	Sheliak
+HIP_8903:	Sheratan
+HIP_32349:	Sirio
+HIP_113136:	Skat
+HIP_65474:	Spica
+HIP_93194:	Sulafat
+HIP_69701:	Syrma
+HIP_44127:	Talitha
+HIP_50801:	Tania Australis
+HIP_50372:	Tania Borealis
+HIP_97278:	Tarazed
+HIP_68756:	Thuban
+HIP_77070:	Unukalhai
+HIP_91262:	Vega
+HIP_63608:	Vindemiatrix
+HIP_35550:	Wasat
+HIP_27628:	Wazn
+HIP_79882:	Yed Posterior
+HIP_79593:	Yed Prior
+HIP_60129:	Zaniah
+HIP_18543:	Zaurak
+HIP_57757:	Zavijava
+HIP_54872:	Zosma
+HIP_72622:	Zubenelgenubi
+HIP_74785:	Zubenelschemali
+HIP_70890:	Proxima
+HIP_20894:	Iadi
+//---  Exoplanets  ---
+HIP_113357:	51 Peg
+HIP_43587:	55 Cnc
+HIP_7513:	u And
+HIP_16537:	ε Eri
+STAR_TRAPPIST_1:	TRAPPIST-1
+
+
+
+//=====  S-stars  =====
+S_STAR_S1:	S1
+S_STAR_S2:	S2
+S_STAR_S4:	S4
+S_STAR_S5:	S5
+S_STAR_S6:	S6
+S_STAR_S8:	S8
+S_STAR_S9:	S9
+S_STAR_S12:	S12
+S_STAR_S13:	S13
+S_STAR_S14:	S14
+S_STAR_S17:	S17
+S_STAR_S18:	S18
+S_STAR_S19:	S19
+S_STAR_S21:	S21
+S_STAR_S24:	S24
+S_STAR_S27:	S27
+S_STAR_S29:	S29
+S_STAR_S31:	S31
+S_STAR_S33:	S33
+S_STAR_S38:	S38
+S_STAR_S66:	S66
+S_STAR_S67:	S67
+S_STAR_S71:	S71
+S_STAR_S83:	S83
+S_STAR_S87:	S87
+S_STAR_S96:	S96
+S_STAR_S97:	S97
+
+
+
+//=====  VERA Objects  =====
+VERA_NGC6334N:	NGC6334N
+VERA_G353_27_0_64:	G353.27+0.64
+VERA_G005_88_00_39:	G005.88-00.39
+VERA_G034_39_00_22:	G034.39+00.22
+VERA_G048_60_00_02:	G048.60+00.02
+VERA_G048_99_00_30:	G048.99-00.30
+VERA_G049_19_00_33:	G049.19-00.33
+VERA_IRAS19213_1723:	IRAS19213+1723
+VERA_ON1:	ON1
+VERA_IRAS20056_3350:	IRAS20056+3350
+VERA_IRAS20143_3634:	IRAS20143+3634
+VERA_ON2N:	ON2N
+VERA_IRAS20126_4104:	IRAS20126+4104
+VERA_AFGL2789:	AFGL2789
+VERA_IRAS21379_5106:	IRAS21379+5106
+VERA_IRAS22198_6336:	IRAS22198+6336
+VERA_IRAS22480_6002:	IRAS22480+6002
+VERA_IRAS22555_6213:	IRAS22555+6213
+VERA_NGC281:	NGC281
+VERA_W3OH:	W3OH
+VERA_L1448C:	L1448C
+VERA_NGC1333:	NGC1333
+VERA_IRAS05137_3919:	IRAS05137+3919
+VERA_IRAS05168_3634:	IRAS05168+3634
+VERA_IRAS06061_2151:	IRAS06061+2151
+VERA_S252:	S252
+VERA_G192_16_03_81:	G192.16-03.81
+VERA_S269:	S269
+VERA_NGC2264:	NGC2264
+VERA_ORION_NEBULA:	Nebulosa di Orione
+VERA_IRAS07427_2400:	IRAS07427-2400
+VERA_RHO_OPH_EAST:	rho-Oph-East
+VERA_PZ_CAS:	PZ-Cas
+VERA_VY_CMA:	VY-CMa
+VERA_R_AQR:	R-Aqr
+VERA_IRAS18286_0959:	IRAS18286-0959
+VERA_IRAS19312_1950:	IRAS19312+1950
+VERA_T_LEP:	T-Lep
+VERA_RX_BOO:	RX-Boo
+VERA_SY_SCL:	SY-Scl
+VERA_S_CRT:	S-Crt
+VERA_RW_LEP:	RW-Lep
+
+
+
+//=====  Globular Clusters  =====
+GC_NGC_5139:	ω Cen
+GC_NGC_6205:	Ammasso Globulare M13
+
+
+
+//=====  Nearby Galaxies  =====
+//---  Local group  ---
+NBG_NGC_224:	Galassia di Andromeda
+NBG_NGC_598:	Galassia del Triangolo
+NBG_NGC_205:	M110
+NBG_NGC_221:	M32
+NBG_TULLY_2367:	Galassia WLM
+NBG_UGC_192:	IC 10
+NBG_TULLY_58:	Piccola Nube di Magellano
+NBG_TULLY_445:	Grande Nube di Magellano
+NBG_UGC_668:	IC 1613
+NBG_UGC_5364:	Leo A
+NBG_TULLY_803:	Sestante A
+NBG_UGC_5373:	Sestante B
+NBG_UGC_12613:	Galassia Nana di Pegaso
+NBG_TULLY_62:	Galassia Nana dello Scultore
+NBG_TULLY_178:	Galassia Nana della Fornace
+NBG_UGC_5470:	Leo I
+NBG_UGC_6253:	Leo II
+NBG_UGC_9749:	Galassia Nana dell’Orsa Maggiore
+NBG_UGC_10822:	Galassia Nana del Dragone
+NBG_TULLY_2114:	SagDIG
+NBG_TULLY_348:	UGC-A 86
+NBG_TULLY_384:	UGC-A 92
+NBG_PGC_19441:	Galassia Nana della Carena
+NBG_UNDEF_1:	Galassia Nana del Cane Maggiore
+NBG_UNDEF_2:	Virgo I
+NBG_NGC_6822:	Galassia di Barnard
+NBG_NGC_147:	NGC 147
+NBG_NGC_185:	NGC 185
+NBG_NGC_3109:	NGC 3109
+//---  Messier  ---
+NBG_NGC_4472:	M49
+NBG_NGC_5194:	M51
+NBG_NGC_4579:	M58
+NBG_NGC_4621:	M59
+NBG_NGC_4649:	M60
+NBG_NGC_4303:	M61
+NBG_NGC_5055:	M63
+NBG_NGC_4826:	M64
+NBG_NGC_3623:	M65
+NBG_NGC_3627:	M66
+NBG_NGC_628:	M74
+NBG_NGC_1068:	M77
+NBG_NGC_3031:	M81
+NBG_NGC_3034:	M82
+NBG_NGC_5236:	M83
+NBG_NGC_4374:	M84
+NBG_NGC_4382:	M85
+NBG_NGC_4406:	M86
+NBG_NGC_4486:	M87
+NBG_NGC_4501:	M88
+NBG_NGC_4552:	M89
+NBG_NGC_4569:	M90
+NBG_NGC_4736:	M94
+NBG_NGC_3351:	M95
+NBG_NGC_3368:	M96
+NBG_NGC_4192:	M98
+NBG_NGC_4254:	M99
+NBG_NGC_4321:	M100
+NBG_NGC_5457:	M101
+NBG_NGC_4594:	M104
+NBG_NGC_3379:	M105
+NBG_NGC_4258:	M106
+NBG_NGC_3556:	M108
+NBG_NGC_3992:	M109
+//---  Others  ---
+// Antennae
+NBG_NGC_4038:	Galassie Antenne
+NBG_NGC_5128:	Centaurus A
+
+
+
+//=====  Other Labels  =====
+LABEL_MINOR_PLANETS:	Cintura degli Asteroidi
+LABEL_OORT_CLOUD:	Nube di Oort
+LABEL_OUR_GALAXY:	Nostra Galassia
+OUR_GALAXY:	Nostra Galassia
+SGR_A_STAR:	Sagittarius A\S*
+GALACTIC_CENTER:	Centro Galattico
+
+
+
+//=====  Constellations  =====
+CNST_And:	Andromeda
+CNST_Ant:	Macchina Pneumatica
+CNST_Aps:	Uccello del Paradiso
+CNST_Aql:	Aquila
+CNST_Aqr:	Acquario
+CNST_Ara:	Altare
+CNST_Ari:	Ariete
+CNST_Aur:	Auriga
+CNST_Boo:	Boote
+CNST_Cae:	Bulino
+CNST_Cam:	Giraffa
+CNST_Cap:	Capricorno
+CNST_Car:	Carena
+CNST_Cas:	Cassiopea
+CNST_Cen:	Centauro
+CNST_Cep:	Cefeo
+CNST_Cet:	Balena
+CNST_Cha:	Camaleonte
+CNST_Cir:	Compasso
+CNST_CMa:	Cane Maggiore
+CNST_CMi:	Cane Minore
+CNST_Cnc:	Cancro
+CNST_Col:	Colomba
+CNST_Com:	Chioma di Berenice
+CNST_CrA:	Corona Australe
+CNST_CrB:	Corona Boreale
+CNST_Crt:	Cratere
+CNST_Cru:	Croce del Sud
+CNST_Crv:	Corvo
+CNST_CVn:	Cani da Caccia
+CNST_Cyg:	Cigno
+CNST_Del:	Delfino
+CNST_Dor:	Dorado
+CNST_Dra:	Dragone
+CNST_Equ:	Cavallino
+CNST_Eri:	Eridano
+CNST_For:	Fornace
+CNST_Gem:	Gemelli
+CNST_Gru:	Gru
+CNST_Her:	Ercole
+CNST_Hor:	Orologio
+CNST_Hya:	Idra
+CNST_Hyi:	Idra Maschio
+CNST_Ind:	Indiano
+CNST_Lac:	Lucertola
+CNST_Leo:	Leone
+CNST_Lep:	Lepre
+CNST_Lib:	Bilancia
+CNST_LMi:	Leone Minore
+CNST_Lup:	Lupo
+CNST_Lyn:	Lince
+CNST_Lyr:	Lira
+CNST_Men:	Mensa
+CNST_Mic:	Microscopio
+CNST_Mon:	Unicorno
+CNST_Mus:	Mosca
+CNST_Nor:	Regolo
+CNST_Oct:	Ottante
+CNST_Oph:	Ofiuco
+CNST_Ori:	Orione
+CNST_Pav:	Pavone
+CNST_Peg:	Pegaso
+CNST_Per:	Perseo
+CNST_Phe:	Fenice
+CNST_Pic:	Pittore
+CNST_PsA:	Pesce Australe
+CNST_Psc:	Pesci
+CNST_Pup:	Poppa
+CNST_Pyx:	Bussola
+CNST_Ret:	Reticolo
+CNST_Scl:	Scultore
+CNST_Sco:	Scorpione
+CNST_Sct:	Scudo
+CNST_Ser:	Serpente
+CNST_Sex:	Sestante
+CNST_Sge:	Freccia
+CNST_Sgr:	Sagittario
+CNST_Tau:	Toro
+CNST_Tel:	Telescopio
+CNST_TrA:	Triangolo Australe
+CNST_Tri:	Triangolo
+CNST_Tuc:	Tucano
+CNST_UMa:	Orsa Maggiore
+CNST_UMi:	Orsa Minore
+CNST_Vel:	Vele
+CNST_Vir:	Vergine
+CNST_Vol:	Pesce Volante
+CNST_Vul:	Volpetta
+
+
+
+//=====  Date  =====
+DATE_FMT:	%D %M %Y
+MONTH_1:	Gennaio
+MONTH_2:	Febbraio
+MONTH_3:	Marzo
+MONTH_4:	Aprile
+MONTH_5:	Maggio
+MONTH_6:	Giugno
+MONTH_7:	Luglio
+MONTH_8:	Agosto
+MONTH_9:	Settembre
+MONTH_10:	Ottobre
+MONTH_11:	Novembre
+MONTH_12:	Dicembre
+
+
+
+//=====  Scale Lines  =====
+SCL_10MKM:	10 milioni di km
+SCL_1AU:	1 UA
+SCL_10AU:	10 UA
+SCL_100AU:	100 UA
+SCL_1KAU:	1000 UA
+SCL_10KAU:	10000 UA
+SCL_1LY:	1 anno luce
+SCL_3LY:	3 anni luce
+SCL_10LY:	10 anni luce
+SCL_30LY:	30 anni luce
+SCL_100LY:	100 anni luce
+SCL_300LY:	300 anni luce
+SCL_1KLY:	1000 anni luce
+SCL_3KLY:	3000 anni luce
+SCL_10KLY:	10000 anni luce
+SCL_100KLY:	100000 anni luce
+SCL_1MLY:	1 milione di anni luce
+SCL_10MLY:	10 milioni di anni luce
+SCL_100MLY:	100 milioni di anni luce
+SCL_1GLY:	1 miliardo di anni luce
+SCL_10GLY:	10 miliardi di anni luce
+SCL_13GLY:	13,8 miliardi di anni luce
+
+
+
+//=====  Time steps  =====
+TIMESTEP_1SEC:	1 secondo
+TIMESTEP_10SEC:	10 secondi
+TIMESTEP_1MIN:	1 minuto
+TIMESTEP_10MIN:	10 minuti
+TIMESTEP_1HOUR:	1 ora
+TIMESTEP_4HOURS:	4 ore
+TIMESTEP_1DAY:	1 giorno
+TIMESTEP_1WEEK:	1 settimana
+TIMESTEP_1MONTH:	1 mese
+TIMESTEP_1YEAR:	1 anno
+TIMESTEP_10YEARS:	10 anni
+TIMESTEP_100YEARS:	100 anni
+
+
+
+//=====  Info Texts  =====
+INFO_TYPE:	Tipo
+INFO_TYPE_UNDEFINED:	Indefinito
+INFO_TYPE_PLANET:	Pianeta
+INFO_TYPE_SATELLITE:	Satellite
+INFO_TYPE_MINOR_PLANET:	Pianeta Minore
+INFO_TYPE_DWARF_PLANET:	Pianeta Nano
+INFO_TYPE_PLUTOID:	Pianeta Nano (Plutoide)
+INFO_TYPE_STAR:	Stella
+INFO_TYPE_S_STAR:	Stella
+INFO_TYPE_SMBH:	Buco Nero Supermassiccio
+INFO_TYPE_GLOBULAR_CLUSTER:	Ammasso Globulare
+INFO_TYPE_GALAXY:	Galassia
+INFO_TYPE_SPACECRAFT:	Astronave
+INFO_MP_NUMBER:	Numero del Pianeta Minore
+INFO_HIP_NUMBER:	HIP
+INFO_MP_ORBIT_TYPE:	Classificazione Orbitale
+INFO_STAR_SPECTRAL_TYPE:	Classificazione Spettrale
+INFO_STAR_SPECTRAL_TYPE_EARLY: 	Stelle O, B, A
+INFO_STAR_SPECTRAL_TYPE_LATE: 	Stelle K, M
+INFO_STAR_WITH_PLANET:	Con Pianeti
+INFO_TYPE_VERA_TYPE_SFR:	Regione di Formazione Stellare
+INFO_TYPE_VERA_TYPE_AGB:	Ramo delle Giganti Asintotiche
+INFO_TYPE_VERA_TYPE_UNKNOWN:	Sconosciuto
+INFO_GALAXY_TYPE:	Tipo di Galassia
+INFO_GALAXY_TYPE_UNDETERMINED:	Indeterminato
+INFO_GALAXY_TYPE_E:	Galassia Ellittica
+INFO_GALAXY_TYPE_E_S0:	Galassia Ellittica/Lenticolare
+INFO_GALAXY_TYPE_S0:	Galassia Lenticolare
+INFO_GALAXY_TYPE_S0_A:	Galassia Lenticolare/Spirale
+INFO_GALAXY_TYPE_S:	Galassia Spirale
+INFO_GALAXY_TYPE_SB:	Galassia Spirale Barrata
+INFO_GALAXY_TYPE_SI:	Galassia Spirale/Irregolare
+INFO_GALAXY_TYPE_IR:	Galassia Irregolare
+INFO_GALAXY_TYPE_P:	Galassia Peculiare
+INFO_OBSERVATION:	Osservazione
+INFO_OBS_VERA:	VERA
+
+
+
+//=====  Compass  =====
+COMPASS_S:	S
+COMPASS_SE:	SE
+COMPASS_E:	E
+COMPASS_NE:	NE
+COMPASS_N:	N
+COMPASS_NW:	NO
+COMPASS_W:	O
+COMPASS_SW:	SO
+
+
+
+//=====  3D Charts  =====
+3DCHART_PLANETS_TITLE:	Pianeti del Sistema Solare
+3DCHART_TNOS_TITLE:	Grandi Oggetti Transnettuniani
+3DCHART_STARS_TITLE:	Colore e Temperatura delle Stelle
+3DCHART_STARS_ZETA_ORIONIS:	ζ Orionis
+3DCHART_STARS_SPICA:	Spica
+3DCHART_STARS_VEGA:	Vega
+3DCHART_STARS_SUN:	Sole
+3DCHART_STARS_BETELGEUSE:	Betelgeuse
+3DCHART_STARS_DEG:	K
+
+
+
+//=====  View Info  =====
+VIEWINFO_POS_VIEW:	Posizione del Punto di Vista
+VIEWINFO_POS_TARGET:	Posizione dell’Obiettivo
+VIEWINFO_DISTANCE:	Distanza
+VIEWINFO_AU:	UA
+VIEWINFO_LY:	Anni luce
+VIEWINFO_VIEW_ANGLE:	Angolo di Vista
+VIEWINFO_DEG:	deg
+VIEWINFO_ORIENTATION:	Orientazione
+VIEWINFO_VIEW_DIRECTION_FMT:	View direction : Azimuth=%.1lfdeg  Altitude=%.1lfdeg
+
+DBGINFO_WINDOW_SIZE:	Dimensione Finestra
+DBGINFO_NUM_CHARS:	Numero di Caratteri
+DBGINFO_JULIAN_DATE:	Giorno Giuliano
+DBGINFO_SCALE:	Scala
+DBGINFO_LOG_SCALE:	Scala Logaritmica
+
+
+
+//=====  Help  =====
+HELP_X:	X
+HELP_X_CMT:	Apri Menu
+HELP_Z:	A
+HELP_Z_CMT:	Chiudi Menu
+HELP_ARROW:	Tasto Freccia
+HELP_ARROW_CMT:	Cambia Direzione di Vista
+HELP_1_ARROW:	1 + Tasto Freccia
+HELP_1_ARROW_CMT:	Ruota Vista (Solo Modalità Spazio)
+HELP_PAGEUP:	Pagina Su
+HELP_PAGEUP_CMT:	Aumenta Zoom
+HELP_PAGEDOWN:	Pagina Giù
+HELP_PAGEDOWN_CMT:	Riduci Zoom
+HELP_4:	4
+HELP_4_CMT:	Tempo Avanti
+HELP_3:	3
+HELP_3_CMT:	Tempo Indietro
+HELP_Z_4:	Z + 4
+HELP_Z_4_CMT:	Aumenta Intervallo Temporale (Fino a 100 Anni)
+HELP_Z_3:	Z + 3
+HELP_Z_3_CMT:	Riduci Intervallo Temporale (Fino a 10 Secondi)
+HELP_A:	A
+HELP_A_CMT:	Mostra o Nascondi Etichette
+HELP_S:	S
+HELP_S_CMT:	Atterraggio o Decollo
+HELP_T:	T
+HELP_T_CMT:	Avvicina Obiettivo
+HELP_C:	C
+HELP_C_CMT:	Cattura Immagine (‘capture.png’)
+HELP_F:	F
+HELP_F_CMT:	Mostra o Nascondi FPS
+HELP_L:	L
+HELP_L_CMT:	Accendi o Spegni Luci Urbane
+
+
+
+//=====  Theater  =====
+THEATER_TITLE:	Teatro Digitale dell'Universo a 4-Dimensioni
+
+
+
+//=====  Others  =====
+WAITING_CONNECTION_FMT:	In Attesa della Connessione…

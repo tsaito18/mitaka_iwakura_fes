@@ -1,0 +1,12 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\SgrAstar.jpg
+FILE_PATH:	.\images\SgrAstar.jpg
+
+
+[default]
+MENU_TITLE:	Black Hole Shadow of SgrA*
+
+[ja, ja_ruby]
+MENU_TITLE: いて座A*のブラックホールシャドウ
+

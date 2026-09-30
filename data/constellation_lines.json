@@ -1,0 +1,784 @@
+{
+	"ConstellationLines": [
+	{
+		"Key": "CNST_And",
+		"LabelKey": "CNST_And",
+		"LabelPos": [10.000, 38.000],
+		"Lines": [
+			[ "HIP_113726", "HIP_116631", "HIP_1366", "HIP_2912", "HIP_677", "HIP_3092", "HIP_3693" ],
+			[ "HIP_116631", "HIP_116805", "HIP_116584" ],
+			[ "HIP_3092", "HIP_5447", "HIP_7513", "HIP_9640" ],
+			[ "HIP_5447", "HIP_4436", "HIP_3881", "HIP_5434", "HIP_7607" ]
+		]
+	},
+	{
+		"Key": "CNST_Ant",
+		"LabelKey": "CNST_Ant",
+		"LabelPos": [150.000, -35.000],
+		"Lines": [
+			[ "HIP_53502", "HIP_51172", "HIP_48926", "HIP_46515" ]
+		]
+	},
+	{
+		"Key": "CNST_Aps",
+		"LabelKey": "CNST_Aps",
+		"LabelPos": [240.000, -76.000],
+		"Lines": [
+			[ "HIP_72370", "HIP_80047", "HIP_81065", "HIP_81852" ]
+		]
+	},
+	{
+		"Key": "CNST_Aql",
+		"LabelKey": "CNST_Aql",
+		"LabelPos": [292.500, 2.000],
+		"Lines": [
+			[ "HIP_99473", "HIP_98036", "HIP_97649", "HIP_97278", "HIP_93747", "HIP_93244" ],
+			[ "HIP_97649", "HIP_96229", "HIP_95501", "HIP_93805" ],
+			[ "HIP_97278", "HIP_98103", "HIP_99742" ]
+		]
+	},
+	{
+		"Key": "CNST_Aqr",
+		"LabelKey": "CNST_Aqr",
+		"LabelPos": [335.000, -13.000],
+		"Lines": [
+			[ "HIP_102618", "HIP_106278", "HIP_109074", "HIP_110395", "HIP_110960", "HIP_111497", "HIP_112961", "HIP_113136", "HIP_114341", "HIP_114119", "HIP_113368", "HIP_115669", "HIP_116971", "HIP_114724", "HIP_111497" ],
+			[ "HIP_109074", "HIP_110003", "HIP_109139" ],
+			[ "HIP_110960", "HIP_110672" ]
+		]
+	},
+	{
+		"Key": "CNST_Ara",
+		"LabelKey": "CNST_Ara",
+		"LabelPos": [257.500, -55.000],
+		"Lines": [
+			[ "HIP_85792", "HIP_88714", "HIP_85258", "HIP_85267", "HIP_85727", "HIP_82363", "HIP_83081", "HIP_83153", "HIP_85792" ]
+		]
+	},
+	{
+		"Key": "CNST_Ari",
+		"LabelKey": "CNST_Ari",
+		"LabelPos": [37.500, 20.000],
+		"Lines": [
+			[ "HIP_9884", "HIP_8903", "HIP_8832", "HIP_14838" ]
+		]
+	},
+	{
+		"Key": "CNST_Aur",
+		"LabelKey": "CNST_Aur",
+		"LabelPos": [90.000, 42.000],
+		"Lines": [
+			[ "HIP_24608", "HIP_23015", "HIP_25428", "HIP_28380", "HIP_28360", "HIP_24608", "HIP_23416", "HIP_23767" ],
+			[ "HIP_23416", "HIP_23453" ]
+		]
+	},
+	{
+		"Key": "CNST_Boo",
+		"LabelKey": "CNST_Boo",
+		"LabelPos": [218.750, 30.000],
+		"Lines": [
+			[ "HIP_67459", "HIP_67927", "HIP_69673", "HIP_71053", "HIP_71075", "HIP_73555", "HIP_74666", "HIP_72105", "HIP_69673", "HIP_71762", "HIP_71795" ],
+			[ "HIP_71075", "HIP_69732", "HIP_70497" ],
+			[ "HIP_74666", "HIP_75411" ]
+		]
+	},
+	{
+		"Key": "CNST_Cae",
+		"LabelKey": "CNST_Cae",
+		"LabelPos": [72.500, -38.000],
+		"Lines": [
+			[ "HIP_21060", "HIP_21770", "HIP_21861", "HIP_23595" ]
+		]
+	},
+	{
+		"Key": "CNST_Cam",
+		"LabelKey": "CNST_Cam",
+		"LabelPos": [85.000, 70.000],
+		"Lines": [
+			[ "HIP_62572", "HIP_29997", "HIP_22783", "HIP_23522", "HIP_23040" ],
+			[ "HIP_29997", "HIP_17959", "HIP_22783" ],
+			[ "HIP_17959", "HIP_16228" ]
+		]
+	},
+	{
+		"Key": "CNST_Cap",
+		"LabelKey": "CNST_Cap",
+		"LabelPos": [312.500, -20.000],
+		"Lines": [
+			[ "HIP_100064", "HIP_100345", "HIP_104139", "HIP_105515", "HIP_106985", "HIP_107556" ],
+			[ "HIP_100345", "HIP_100881", "HIP_102485", "HIP_102978", "HIP_105881", "HIP_106723", "HIP_106985" ]
+		]
+	},
+	{
+		"Key": "CNST_Car",
+		"LabelKey": "CNST_Car",
+		"LabelPos": [130.000, -62.000],
+		"Lines": [
+			[ "HIP_30438", "HIP_45238", "HIP_50099", "HIP_52419", "HIP_51576", "HIP_50371", "HIP_45556", "HIP_41037", "HIP_38827", "HIP_30438" ],
+			[ "HIP_45238", "HIP_48002", "HIP_45556", "HIP_42913" ]
+		]
+	},
+	{
+		"Key": "CNST_Cas",
+		"LabelKey": "CNST_Cas",
+		"LabelPos": [15.000, 60.000],
+		"Lines": [
+			[ "HIP_746", "HIP_3179", "HIP_4427", "HIP_6686", "HIP_8886" ]
+		]
+	},
+	{
+		"Key": "CNST_Cen",
+		"LabelKey": "CNST_Cen",
+		"LabelPos": [200.000, -47.000],
+		"Lines": [
+			[ "HIP_71683", "HIP_66657", "HIP_68702" ],
+			[ "HIP_66657", "GC_NGC_5139", "HIP_62867", "HIP_61932", "HIP_60823", "HIP_59196", "HIP_55425", "HIP_56561" ],
+			[ "GC_NGC_5139", "HIP_68002", "HIP_68523", "HIP_68282", "HIP_67472", "HIP_67464", "HIP_65936", "HIP_65109", "HIP_62896" ],
+			[ "HIP_67464", "HIP_68245", "HIP_68862", "HIP_70300", "HIP_71865", "HIP_72010", "HIP_68933", "HIP_70300" ],
+			[ "HIP_68245", "HIP_71352", "HIP_73334" ]
+		]
+	},
+	{
+		"Key": "CNST_Cep",
+		"LabelKey": "CNST_Cep",
+		"LabelPos": [330.000, 70.000],
+		"Lines": [
+			[ "HIP_105199", "HIP_106032", "HIP_116727", "HIP_112724", "HIP_109492" ],
+			[ "HIP_101093", "HIP_102422", "HIP_105199", "HIP_109492", "HIP_109857", "HIP_110991" ]
+		]
+	},
+	{
+		"Key": "CNST_Cet",
+		"LabelKey": "CNST_Cet",
+		"LabelPos": [26.250, -12.000],
+		"Lines": [
+			[ "HIP_1562", "HIP_3419", "HIP_5364", "HIP_6537", "HIP_8645", "HIP_10826", "HIP_12387", "HIP_11484", "HIP_12828", "HIP_13954", "HIP_14135", "HIP_12706", "HIP_11484" ],
+			[ "HIP_9347", "HIP_8102", "HIP_8645" ],
+			[ "HIP_12770", "HIP_10826" ]
+		]
+	},
+	{
+		"Key": "CNST_Cha",
+		"LabelKey": "CNST_Cha",
+		"LabelPos": [160.000, -78.000],
+		"Lines": [
+			[ "HIP_40702", "HIP_51839", "HIP_60000", "HIP_52633", "HIP_40888", "HIP_40702" ]
+		]
+	},
+	{
+		"Key": "CNST_Cir",
+		"LabelKey": "CNST_Cir",
+		"LabelPos": [222.500, -63.000],
+		"Lines": [
+			[ "HIP_74824", "HIP_71908", "HIP_75323" ]
+		]
+	},
+	{
+		"Key": "CNST_CMa",
+		"LabelKey": "CNST_CMa",
+		"LabelPos": [100.000, -24.000],
+		"Lines": [
+			[ "HIP_34045", "HIP_32349", "HIP_33160", "HIP_34045", "HIP_33347", "HIP_33977", "HIP_34444", "HIP_35037", "HIP_35904" ],
+			[ "HIP_33347", "HIP_31592", "HIP_30324" ],
+			[ "HIP_31592", "HIP_33152", "HIP_31125" ],
+			[ "HIP_33152", "HIP_33579", "HIP_30122" ],
+			[ "HIP_34444", "HIP_33856", "HIP_33579", "HIP_32759", "HIP_30788" ]
+		]
+	},
+	{
+		"Key": "CNST_CMi",
+		"LabelKey": "CNST_CMi",
+		"LabelPos": [112.500, 6.000],
+		"Lines": [
+			[ "HIP_37279", "HIP_36188" ]
+		]
+	},
+	{
+		"Key": "CNST_Cnc",
+		"LabelKey": "CNST_Cnc",
+		"LabelPos": [127.500, 20.000],
+		"Lines": [
+			[ "HIP_44066", "HIP_42911", "HIP_42806", "HIP_43103" ],
+			[ "HIP_40526", "HIP_41822", "HIP_41909", "HIP_42806" ],
+			[ "HIP_42911", "HIP_41822" ]
+		]
+	},
+	{
+		"Key": "CNST_Col",
+		"LabelKey": "CNST_Col",
+		"LabelPos": [85.000, -34.000],
+		"Lines": [
+			[ "HIP_25859", "HIP_26634", "HIP_27628", "HIP_28199", "HIP_29807", "HIP_30277" ],
+			[ "HIP_27628", "HIP_28328" ]
+		]
+	},
+	{
+		"Key": "CNST_Com",
+		"LabelKey": "CNST_Com",
+		"LabelPos": [190.000, 23.000],
+		"Lines": [
+			[ "HIP_64241", "HIP_64394", "HIP_60742" ]
+		]
+	},
+	{
+		"Key": "CNST_CrA",
+		"LabelKey": "CNST_CrA",
+		"LabelPos": [277.500, -41.000],
+		"Lines": [
+			[ "HIP_93542", "HIP_94005", "HIP_94160", "HIP_94114", "HIP_93825", "HIP_93174", "HIP_91875" ]
+		]
+	},
+	{
+		"Key": "CNST_CrB",
+		"LabelKey": "CNST_CrB",
+		"LabelPos": [235.000, 30.000],
+		"Lines": [
+			[ "HIP_76127", "HIP_75695", "HIP_76267", "HIP_76952", "HIP_77512", "HIP_78159", "HIP_78493" ]
+		]
+	},
+	{
+		"Key": "CNST_Crt",
+		"LabelKey": "CNST_Crt",
+		"LabelPos": [170.000, -15.000],
+		"Lines": [
+			[ "HIP_53740", "HIP_54682", "HIP_55705", "HIP_57283", "HIP_58188", "HIP_56633", "HIP_55687", "HIP_55282", "HIP_53740" ]
+		]
+	},
+	{
+		"Key": "CNST_Cru",
+		"LabelKey": "CNST_Cru",
+		"LabelPos": [185.000, -60.000],
+		"Lines": [
+			[ "HIP_61084", "HIP_60718" ],
+			[ "HIP_62434", "HIP_59747" ]
+		]
+	},
+	{
+		"Key": "CNST_Crv",
+		"LabelKey": "CNST_Crv",
+		"LabelPos": [185.000, -18.000],
+		"Lines": [
+			[ "HIP_59199", "HIP_59316", "HIP_59803", "HIP_60965", "HIP_61359", "HIP_59316" ]
+		]
+	},
+	{
+		"Key": "CNST_CVn",
+		"LabelKey": "CNST_CVn",
+		"LabelPos": [195.000, 40.000],
+		"Lines": [
+			[ "HIP_63125", "HIP_61317" ]
+		]
+	},
+	{
+		"Key": "CNST_Cyg",
+		"LabelKey": "CNST_Cyg",
+		"LabelPos": [307.500, 43.000],
+		"Lines": [
+			[ "HIP_102098", "HIP_100453", "HIP_98110", "HIP_97629", "HIP_96683", "HIP_95947" ],
+			[ "HIP_104732", "HIP_102488", "HIP_100453", "HIP_97165", "HIP_96441", "HIP_95853", "HIP_94779" ]
+		]
+	},
+	{
+		"Key": "CNST_Del",
+		"LabelKey": "CNST_Del",
+		"LabelPos": [308.750, 12.000],
+		"Lines": [
+			[ "HIP_101421", "HIP_101769", "HIP_101958", "HIP_102532", "HIP_102281", "HIP_101769" ]
+		]
+	},
+	{
+		"Key": "CNST_Dor",
+		"LabelKey": "CNST_Dor",
+		"LabelPos": [75.000, -60.000],
+		"Lines": [
+			[ "HIP_19893", "HIP_21281", "HIP_26069", "HIP_27100" ]
+		]
+	},
+	{
+		"Key": "CNST_Dra",
+		"LabelKey": "CNST_Dra",
+		"LabelPos": [255.000, 60.000],
+		"Lines": [
+			[ "HIP_87585", "HIP_87833", "HIP_85670", "HIP_85819", "HIP_87585", "HIP_94376", "HIP_97433", "HIP_94648", "HIP_89908", "HIP_83895", "HIP_80331", "HIP_78527", "HIP_75458", "HIP_68756", "HIP_61281", "HIP_56211" ]
+		]
+	},
+	{
+		"Key": "CNST_Equ",
+		"LabelKey": "CNST_Equ",
+		"LabelPos": [317.500, 6.000],
+		"Lines": [
+			[ "HIP_105570", "HIP_104987", "HIP_104521" ],
+			[ "HIP_104987", "HIP_104858" ]
+		]
+	},
+	{
+		"Key": "CNST_Eri",
+		"LabelKey": "CNST_Eri",
+		"LabelPos": [57.500, -30.000],
+		"Lines": [
+			[ "HIP_7588", "HIP_9007", "HIP_10602", "HIP_11407", "HIP_12486", "HIP_13847", "HIP_15510", "HIP_17797", "HIP_17874", "HIP_20042", "HIP_20535", "HIP_21393", "HIP_17651", "HIP_16611", "HIP_15474", "HIP_14146", "HIP_13288", "HIP_12843", "HIP_13701", "HIP_15197", "HIP_16537", "HIP_17378", "HIP_18543", "HIP_19587", "HIP_21444", "HIP_22109", "HIP_22701", "HIP_23875" ]
+		]
+	},
+	{
+		"Key": "CNST_For",
+		"LabelKey": "CNST_For",
+		"LabelPos": [36.250, -33.000],
+		"Lines": [
+			[ "HIP_10320", "HIP_13147", "HIP_14879", "HIP_17304" ]
+		]
+	},
+	{
+		"Key": "CNST_Gem",
+		"LabelKey": "CNST_Gem",
+		"LabelPos": [105.000, 22.000],
+		"Lines": [
+			[ "HIP_32362", "HIP_31681", "HIP_34088", "HIP_35550", "HIP_37826", "HIP_36850", "HIP_34693", "HIP_32246", "HIP_30343", "HIP_29655", "HIP_28734" ],
+			[ "HIP_35350", "HIP_35550" ],
+			[ "HIP_33018", "HIP_34693" ]
+		]
+	},
+	{
+		"Key": "CNST_Gru",
+		"LabelKey": "CNST_Gru",
+		"LabelPos": [335.000, -47.000],
+		"Lines": [
+			[ "HIP_108085", "HIP_109111", "HIP_109908", "HIP_110997", "HIP_112122", "HIP_112623", "HIP_113638" ],
+			[ "HIP_109268", "HIP_112122", "HIP_114421", "HIP_114131" ]
+		]
+	},
+	{
+		"Key": "CNST_Her",
+		"LabelKey": "CNST_Her",
+		"LabelPos": [257.500, 27.000],
+		"Lines": [
+			[ "HIP_80463", "HIP_79045", "HIP_80170", "HIP_80816", "HIP_84345", "HIP_84379", "HIP_83207", "HIP_84380", "HIP_81833", "HIP_81693", "HIP_80816" ],
+			[ "HIP_84379", "HIP_85693", "HIP_86974", "HIP_87933", "HIP_88794", "HIP_88886" ],
+			[ "HIP_84380", "HIP_85112", "HIP_87808", "HIP_86414" ],
+			[ "HIP_81833", "HIP_81126", "HIP_79992", "HIP_79101" ],
+			[ "HIP_87933", "HIP_87998" ]
+		]
+	},
+	{
+		"Key": "CNST_Hor",
+		"LabelKey": "CNST_Hor",
+		"LabelPos": [50.000, -52.000],
+		"Lines": [
+			[ "HIP_19747", "HIP_12653", "HIP_12225", "HIP_12484", "HIP_14240", "HIP_13884" ]
+		]
+	},
+	{
+		"Key": "CNST_Hya",
+		"LabelKey": "CNST_Hya",
+		"LabelPos": [157.500, -20.000],
+		"Lines": [
+			[ "HIP_43813", "HIP_42313", "HIP_43109", "HIP_43813", "HIP_42799", "HIP_42402" ],
+			[ "HIP_43813", "HIP_45336", "HIP_47431", "HIP_46390", "HIP_48356", "HIP_49841", "HIP_51069", "HIP_52943", "HIP_54204", "HIP_56343", "HIP_57936", "HIP_64962", "HIP_68895", "HIP_72571" ]
+		]
+	},
+	{
+		"Key": "CNST_Hyi",
+		"LabelKey": "CNST_Hyi",
+		"LabelPos": [40.000, -72.000],
+		"Lines": [
+			[ "HIP_9236", "HIP_12394", "HIP_17678", "HIP_2021", "HIP_9236" ]
+		]
+	},
+	{
+		"Key": "CNST_Ind",
+		"LabelKey": "CNST_Ind",
+		"LabelPos": [320.000, -58.000],
+		"Lines": [
+			[ "HIP_101772", "HIP_105319", "HIP_103227" ],
+			[ "HIP_105319", "HIP_108431", "HIP_108870" ]
+		]
+	},
+	{
+		"Key": "CNST_Lac",
+		"LabelKey": "CNST_Lac",
+		"LabelPos": [336.250, 43.000],
+		"Lines": [
+			[ "HIP_110538", "HIP_111169", "HIP_110609", "HIP_111022", "HIP_110351", "HIP_111104", "HIP_109754", "HIP_109937" ]
+		]
+	},
+	{
+		"Key": "CNST_Leo",
+		"LabelKey": "CNST_Leo",
+		"LabelPos": [157.500, 15.000],
+		"Lines": [
+			[ "HIP_47508", "HIP_49637", "HIP_51624", "HIP_49669", "HIP_49583", "HIP_54872", "HIP_57632", "HIP_54879", "HIP_49669" ],
+			[ "HIP_49583", "HIP_50583", "HIP_50335", "HIP_48455", "HIP_47908", "HIP_46750" ],
+			[ "HIP_54879", "HIP_55642", "HIP_55434", "HIP_56647" ]
+		]
+	},
+	{
+		"Key": "CNST_Lep",
+		"LabelKey": "CNST_Lep",
+		"LabelPos": [81.250, -20.000],
+		"Lines": [
+			[ "HIP_23685", "HIP_25606", "HIP_25985", "HIP_27288", "HIP_28103" ],
+			[ "HIP_27072", "HIP_27654", "HIP_25985", "HIP_24305", "HIP_24327", "HIP_24244" ],
+			[ "HIP_27654", "HIP_27288" ],
+			[ "HIP_24305", "HIP_24845" ]
+		]
+	},
+	{
+		"Key": "CNST_Lib",
+		"LabelKey": "CNST_Lib",
+		"LabelPos": [227.500, -14.000],
+		"Lines": [
+			[ "HIP_73714", "HIP_72622", "HIP_74785", "HIP_76333", "HIP_77060", "HIP_77853" ],
+			[ "HIP_76333", "HIP_74392", "HIP_72622" ]
+		]
+	},
+	{
+		"Key": "CNST_LMi",
+		"LabelKey": "CNST_LMi",
+		"LabelPos": [155.000, 33.000],
+		"Lines": [
+			[ "HIP_53229", "HIP_51233", "HIP_49593", "HIP_46952" ]
+		]
+	},
+	{
+		"Key": "CNST_Lup",
+		"LabelKey": "CNST_Lup",
+		"LabelPos": [230.000, -40.000],
+		"Lines": [
+			[ "HIP_69996", "HIP_71536", "HIP_74395", "HIP_74911", "HIP_75264", "HIP_76297", "HIP_75141", "HIP_73273", "HIP_71860", "HIP_74395" ],
+			[ "HIP_76297", "HIP_78384", "HIP_78918", "HIP_77634", "HIP_78384" ],
+			[ "HIP_75141", "HIP_75177", "HIP_74857" ]
+		]
+	},
+	{
+		"Key": "CNST_Lyn",
+		"LabelKey": "CNST_Lyn",
+		"LabelPos": [117.500, 45.000],
+		"Lines": [
+			[ "HIP_45860", "HIP_45688", "HIP_44700", "HIP_44248", "HIP_41075", "HIP_36145", "HIP_30060" ]
+		]
+	},
+	{
+		"Key": "CNST_Lyr",
+		"LabelKey": "CNST_Lyr",
+		"LabelPos": [281.250, 36.000],
+		"Lines": [
+			[ "HIP_91919", "HIP_91262", "HIP_91971", "HIP_92791", "HIP_93194", "HIP_92420", "HIP_91971" ]
+		]
+	},
+	{
+		"Key": "CNST_Men",
+		"LabelKey": "CNST_Men",
+		"LabelPos": [85.000, -77.000],
+		"Lines": [
+			[ "HIP_29271", "HIP_36039", "HIP_27566", "HIP_25918", "HIP_22871", "HIP_23467", "HIP_29271" ]
+		]
+	},
+	{
+		"Key": "CNST_Mic",
+		"LabelKey": "CNST_Mic",
+		"LabelPos": [312.500, -37.000],
+		"Lines": [
+			[ "HIP_102831", "HIP_102989", "HIP_103738", "HIP_105140", "HIP_105382", "HIP_102693" ]
+		]
+	},
+	{
+		"Key": "CNST_Mon",
+		"LabelKey": "CNST_Mon",
+		"LabelPos": [105.000, -3.000],
+		"Lines": [
+			[ "HIP_37447", "HIP_34769", "HIP_32578", "HIP_30419", "HIP_30867" ],
+			[ "HIP_29651", "HIP_30419", "HIP_31216" ]
+		]
+	},
+	{
+		"Key": "CNST_Mus",
+		"LabelKey": "CNST_Mus",
+		"LabelPos": [187.500, -70.000],
+		"Lines": [
+			[ "HIP_61585", "HIP_62322", "HIP_63613", "HIP_61199", "HIP_61585", "HIP_59929", "HIP_57363" ]
+		]
+	},
+	{
+		"Key": "CNST_Nor",
+		"LabelKey": "CNST_Nor",
+		"LabelPos": [240.000, -50.000],
+		"Lines": [
+			[ "HIP_80582", "HIP_78914", "HIP_78639", "HIP_80000", "HIP_79509", "HIP_78662" ]
+		]
+	},
+	{
+		"Key": "CNST_Oct",
+		"LabelKey": "CNST_Oct",
+		"LabelPos": [315.000, -87.000],
+		"Lines": [
+			[ "HIP_107089", "HIP_112405", "HIP_70638", "HIP_107089" ]
+		]
+	},
+	{
+		"Key": "CNST_Oph",
+		"LabelKey": "CNST_Oph",
+		"LabelPos": [257.500, -4.000],
+		"Lines": [
+			[ "HIP_84970", "HIP_84012", "HIP_81377", "HIP_79882", "HIP_80883", "HIP_83000", "HIP_86032", "HIP_86742", "HIP_87108", "HIP_86284", "HIP_84880", "HIP_84012" ],
+			[ "HIP_81377", "HIP_80894", "HIP_80975" ],
+			[ "HIP_79882", "HIP_79593" ]
+		]
+	},
+	{
+		"Key": "CNST_Ori",
+		"LabelKey": "CNST_Ori",
+		"LabelPos": [80.000, 3.000],
+		"Lines": [
+			[ "HIP_27989", "HIP_26727", "HIP_27366", "HIP_24436", "HIP_25930", "HIP_25336", "HIP_26207", "HIP_27989", "HIP_28614", "HIP_29426", "HIP_29038", "HIP_27913" ],
+			[ "HIP_26727", "HIP_26311", "HIP_25930" ],
+			[ "HIP_25336", "HIP_22957", "HIP_22509", "HIP_22449", "HIP_22549", "HIP_22797" ]
+		]
+	},
+	{
+		"Key": "CNST_Pav",
+		"LabelKey": "CNST_Pav",
+		"LabelPos": [287.500, -65.000],
+		"Lines": [
+			[ "HIP_100751", "HIP_102395", "HIP_98495", "HIP_91792", "HIP_86929", "HIP_90098", "HIP_92609", "HIP_99240", "HIP_102395", "HIP_105858" ],
+			[ "HIP_99240", "HIP_98495" ]
+		]
+	},
+	{
+		"Key": "CNST_Peg",
+		"LabelKey": "CNST_Peg",
+		"LabelPos": [337.500, 17.000],
+		"Lines": [
+			[ "HIP_109410", "HIP_112158", "HIP_113881", "HIP_677", "HIP_1067", "HIP_113963", "HIP_113881", "HIP_112748", "HIP_112440", "HIP_109176", "HIP_107354" ],
+			[ "HIP_113963", "HIP_112447", "HIP_112029", "HIP_109427", "HIP_107315" ]
+		]
+	},
+	{
+		"Key": "CNST_Per",
+		"LabelKey": "CNST_Per",
+		"LabelPos": [50.000, 42.000],
+		"Lines": [
+			[ "HIP_8068", "HIP_13268", "HIP_14328", "HIP_15863", "HIP_17358", "HIP_19343", "HIP_19812", "HIP_19167" ],
+			[ "HIP_14328", "HIP_13531", "HIP_12777", "HIP_14576", "HIP_14354", "HIP_13254" ],
+			[ "HIP_12777", "HIP_14668", "HIP_15648", "HIP_17529", "HIP_18532", "HIP_18614", "HIP_18246", "HIP_17448" ]
+		]
+	},
+	{
+		"Key": "CNST_Phe",
+		"LabelKey": "CNST_Phe",
+		"LabelPos": [15.000, -48.000],
+		"Lines": [
+			[ "HIP_765", "HIP_2081", "HIP_5165", "HIP_6867", "HIP_8837", "HIP_7083", "HIP_5165", "HIP_5348" ]
+		]
+	},
+	{
+		"Key": "CNST_Pic",
+		"LabelKey": "CNST_Pic",
+		"LabelPos": [82.500, -52.000],
+		"Lines": [
+			[ "HIP_32607", "HIP_27530", "HIP_27321", "HIP_23649" ]
+		]
+	},
+	{
+		"Key": "CNST_PsA",
+		"LabelKey": "CNST_PsA",
+		"LabelPos": [330.000, -32.000],
+		"Lines": [
+			[ "HIP_113368", "HIP_113246", "HIP_112948", "HIP_111188", "HIP_109285", "HIP_107380", "HIP_109789", "HIP_111954", "HIP_113368" ]
+		]
+	},
+	{
+		"Key": "CNST_Psc",
+		"LabelKey": "CNST_Psc",
+		"LabelPos": [5.000, 10.000],
+		"Lines": [
+			[ "HIP_9487", "HIP_7884", "HIP_7007", "HIP_5743", "HIP_4906", "HIP_3786", "HIP_118268", "HIP_116771", "HIP_115830", "HIP_114971", "HIP_115738", "HIP_116928", "HIP_118268" ],
+			[ "HIP_9487", "HIP_8198", "HIP_7097", "HIP_5571", "HIP_5742", "HIP_6193", "HIP_5586" ]
+		]
+	},
+	{
+		"Key": "CNST_Pup",
+		"LabelKey": "CNST_Pup",
+		"LabelPos": [115.000, -32.000],
+		"Lines": [
+			[ "HIP_39953", "HIP_39429", "HIP_36377", "HIP_32768", "HIP_30438", "HIP_31685", "HIP_35264", "HIP_38170", "HIP_39757", "HIP_39429", "HIP_35264" ],
+			[ "HIP_36377", "HIP_35264" ],
+			[ "HIP_32768", "HIP_31685" ]
+		]
+	},
+	{
+		"Key": "CNST_Pyx",
+		"LabelKey": "CNST_Pyx",
+		"LabelPos": [132.500, -28.000],
+		"Lines": [
+			[ "HIP_43409", "HIP_42828", "HIP_42515", "HIP_39429" ]
+		]
+	},
+	{
+		"Key": "CNST_Ret",
+		"LabelKey": "CNST_Ret",
+		"LabelPos": [57.500, -63.000],
+		"Lines": [
+			[ "HIP_19780", "HIP_17440", "HIP_18744", "HIP_18597", "HIP_19921", "HIP_19780" ]
+		]
+	},
+	{
+		"Key": "CNST_Scl",
+		"LabelKey": "CNST_Scl",
+		"LabelPos": [7.500, -35.000],
+		"Lines": [
+			[ "HIP_4577", "HIP_7955", "HIP_950", "HIP_116231", "HIP_115102", "HIP_117452", "HIP_1708", "HIP_4577" ]
+		]
+	},
+	{
+		"Key": "CNST_Sco",
+		"LabelKey": "CNST_Sco",
+		"LabelPos": [245.000, -26.000],
+		"Lines": [
+			[ "HIP_78401", "HIP_80112", "HIP_80763", "HIP_81266", "HIP_82396", "HIP_82514", "HIP_82729", "HIP_84143", "HIP_86228", "HIP_87073", "HIP_86670", "HIP_85927", "HIP_87261" ],
+			[ "HIP_78820", "HIP_78401", "HIP_78265", "HIP_78104" ]
+		]
+	},
+	{
+		"Key": "CNST_Sct",
+		"LabelKey": "CNST_Sct",
+		"LabelPos": [277.500, -10.000],
+		"Lines": [
+			[ "HIP_92175", "HIP_91117", "HIP_90595" ]
+		]
+	},
+	{
+		"Key": "CNST_Ser",
+		"LabelKey": "CNST_Ser",
+		"LabelPos": [233.750, 8.000],
+		"Lines": [
+			[ "HIP_77233", "HIP_77450", "HIP_78072", "HIP_77233", "HIP_76276", "HIP_77070", "HIP_77622", "HIP_77516", "HIP_79593" ],
+			[ "HIP_84880", "HIP_86263", "HIP_86565", "HIP_88048", "HIP_89962", "HIP_92946" ]
+		]
+	},
+	{
+		"Key": "CNST_Sex",
+		"LabelKey": "CNST_Sex",
+		"LabelPos": [152.500, -1.000],
+		"Lines": [
+			[ "HIP_51437", "HIP_49641", "HIP_48437" ]
+		]
+	},
+	{
+		"Key": "CNST_Sge",
+		"LabelKey": "CNST_Sge",
+		"LabelPos": [295.000, 18.000],
+		"Lines": [
+			[ "HIP_98337", "HIP_97365", "HIP_96757" ],
+			[ "HIP_97365", "HIP_96837" ]
+		]
+	},
+	{
+		"Key": "CNST_Sgr",
+		"LabelKey": "CNST_Sgr",
+		"LabelPos": [285.000, -25.000],
+		"Lines": [
+			[ "HIP_95294", "HIP_95241", "HIP_95347", "HIP_93506", "HIP_93864", "HIP_92855", "HIP_92041", "HIP_90496", "HIP_89931", "HIP_90185", "HIP_89642" ],
+			[ "HIP_93864", "HIP_98066", "HIP_98412", "HIP_98032" ],
+			[ "HIP_92855", "HIP_93683", "HIP_94141", "HIP_95168" ],
+			[ "HIP_93683", "HIP_93085" ],
+			[ "HIP_90496", "HIP_89341" ],
+			[ "HIP_89931", "HIP_88635" ]
+		]
+	},
+	{
+		"Key": "CNST_Tau",
+		"LabelKey": "CNST_Tau",
+		"LabelPos": [67.500, 18.000],
+		"Lines": [
+			[ "HIP_26451", "HIP_21421", "HIP_20894", "HIP_20205", "HIP_20455", "HIP_20648", "HIP_20889", "HIP_21881", "HIP_25428" ],
+			[ "HIP_20889", "HIP_20635", "HIP_19038", "HIP_17702", "HIP_16083", "HIP_15900", "HIP_18724", "HIP_20205" ],
+			[ "HIP_15900", "HIP_18907", "HIP_16852" ],
+			[ "HIP_18724", "HIP_21589", "HIP_21402", "HIP_19860" ]
+		]
+	},
+	{
+		"Key": "CNST_Tel",
+		"LabelKey": "CNST_Tel",
+		"LabelPos": [285.000, -52.000],
+		"Lines": [
+			[ "HIP_89112", "HIP_90422", "HIP_90568", "HIP_95261", "HIP_99120" ]
+		]
+	},
+	{
+		"Key": "CNST_TrA",
+		"LabelKey": "CNST_TrA",
+		"LabelPos": [235.000, -65.000],
+		"Lines": [
+			[ "HIP_82273", "HIP_77952", "HIP_74946", "HIP_82273" ]
+		]
+	},
+	{
+		"Key": "CNST_Tri",
+		"LabelKey": "CNST_Tri",
+		"LabelPos": [30.000, 32.000],
+		"Lines": [
+			[ "HIP_8796", "HIP_10064", "HIP_10670", "HIP_8796" ]
+		]
+	},
+	{
+		"Key": "CNST_Tuc",
+		"LabelKey": "CNST_Tuc",
+		"LabelPos": [356.250, -68.000],
+		"Lines": [
+			[ "HIP_110130", "HIP_114996", "HIP_2484", "HIP_1599", "HIP_118322", "HIP_110838", "HIP_110130" ]
+		]
+	},
+	{
+		"Key": "CNST_UMa",
+		"LabelKey": "CNST_UMa",
+		"LabelPos": [165.000, 58.000],
+		"Lines": [
+			[ "HIP_67301", "HIP_65378", "HIP_62956", "HIP_59774", "HIP_58001", "HIP_57399", "HIP_48402", "HIP_48319", "HIP_46733", "HIP_45038", "HIP_41704", "HIP_46733", "HIP_54061", "HIP_59774" ],
+			[ "HIP_55219", "HIP_56034", "HIP_57399", "HIP_54539", "HIP_50801", "HIP_50372" ],
+			[ "HIP_48402", "HIP_46853", "HIP_44471", "HIP_44127" ]
+		]
+	},
+	{
+		"Key": "CNST_UMi",
+		"LabelKey": "CNST_UMi",
+		"LabelPos": [235.000, 78.000],
+		"Lines": [
+			[ "HIP_11767", "HIP_85822", "HIP_82080", "HIP_77055", "HIP_79822", "HIP_75097", "HIP_72607" ]
+		]
+	},
+	{
+		"Key": "CNST_Vel",
+		"LabelKey": "CNST_Vel",
+		"LabelPos": [142.500, -45.000],
+		"Lines": [
+			[ "HIP_39953", "HIP_44816", "HIP_46651", "HIP_50191", "HIP_51986", "HIP_52727", "HIP_48774", "HIP_45941", "HIP_42913", "HIP_39953" ]
+		]
+	},
+	{
+		"Key": "CNST_Vir",
+		"LabelKey": "CNST_Vir",
+		"LabelPos": [200.000, -2.000],
+		"Lines": [
+			[ "HIP_65474", "HIP_64238", "HIP_61941", "HIP_60129", "HIP_57757" ],
+			[ "HIP_69427", "HIP_64238", "HIP_69701", "HIP_71957" ],
+			[ "HIP_61941", "HIP_63090", "HIP_63608", "HIP_61960", "HIP_58948", "HIP_57380" ],
+			[ "HIP_66249", "HIP_63090", "HIP_68520", "HIP_72220" ]
+		]
+	},
+	{
+		"Key": "CNST_Vol",
+		"LabelKey": "CNST_Vol",
+		"LabelPos": [115.000, -69.000],
+		"Lines": [
+			[ "HIP_44382", "HIP_41312", "HIP_39794", "HIP_37504", "HIP_34481", "HIP_35228", "HIP_41312" ]
+		]
+	},
+	{
+		"Key": "CNST_Vul",
+		"LabelKey": "CNST_Vul",
+		"LabelPos": [302.500, 25.000],
+		"Lines": [
+			[ "HIP_95771", "HIP_97886", "HIP_103004" ]
+		]
+	}
+	]
+}

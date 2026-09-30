@@ -1,0 +1,21 @@
+newmtl ObjFBXASC091177FBXASC093SG
+illum 4
+Kd 0.56 0.51 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.83 0.63 0.12
+newmtl blinn2SG
+illum 4
+Kd 0.91 0.91 0.91
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.29 0.29 0.29
+newmtl blinn3SG
+illum 4
+Kd 0.56 0.51 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.83 0.63 0.12

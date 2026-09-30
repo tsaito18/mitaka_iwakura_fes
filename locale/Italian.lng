@@ -1,0 +1,15 @@
+NAME:		Italian
+NAME_KEY:	LANG_ITALIAN
+ISO639:		it
+LANG_ID:	it
+FONT:		meiryo.ttc, gara.ttf, times.ttf
+STRINGS:	./common/common.txt
+STRINGS:	./common/langlist.txt
+STRINGS:	./en/en_place_names.txt
+STRINGS:	./it/it_strings.txt
+STRINGS:	./it/it_menu_strings.txt
+STRINGS:	./it/it_splash_strings.txt
+STRINGS:	./it/it_place_names.txt
+CAUTION_TEXT:	./it/it_caution.txt
+TITLE_IMAGE:	./en/en_4dtheater_title.png
+END_CREDITS:	./en/en_credit.txt

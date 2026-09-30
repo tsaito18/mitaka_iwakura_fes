@@ -1,0 +1,20 @@
+{
+	"EclipseSettings": [
+	{
+		"Target": "PLNT_EARTH",
+		"ShadowingObjects": [ "SAT_E_MOON" ]
+	},
+	{
+		"Target": "SAT_E_MOON",
+		"ShadowingObjects": [ "PLNT_EARTH:#4D0000" ]
+	},
+	{
+		"Target": "PLNT_JUPITER",
+		"ShadowingObjects": [ "SAT_J_IO", "SAT_J_EUROPA", "SAT_J_GANYMEDE", "SAT_J_CALLISTO" ]
+	},
+	{
+		"Target": "PLNT_SATURN",
+		"ShadowingObjects": [ "SAT_S_TITAN" ]
+	}
+	]
+}

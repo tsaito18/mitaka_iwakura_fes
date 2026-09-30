@@ -1,0 +1,78 @@
+newmtl Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:phong6SG
+illum 4
+Kd 0.64 0.64 0.64
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.84 0.84 0.84
+Ns 7.54
+newmtl Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:phong4SG
+illum 4
+Kd 0.32 0.31 0.29
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.62 0.62 0.62
+Ns 18.00
+newmtl Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:phong5SG
+illum 4
+Kd 0.41 0.39 0.33
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.32 0.31 0.29
+Ns 18.00
+newmtl Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:phong6SG
+illum 4
+Kd 0.74 0.74 0.74
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.84 0.84 0.84
+Ns 7.54
+newmtl Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:phong7SG
+illum 4
+Kd 0.71 0.71 0.71
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.41 0.41 0.41
+Ns 18.00
+newmtl Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:Galileo_actual_05:phong8SG
+illum 4
+Kd 0.68 0.68 0.68
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.09 0.09 0.09
+Ns 18.00
+newmtl Galileo_actual_05:Galileo_actual_05:phong1SG
+illum 4
+Kd 1.00 0.90 0.56
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.45 0.28
+Ns 18.00
+newmtl Galileo_actual_05:Galileo_actual_05:phong2SG
+illum 4
+Kd 0.87 0.87 0.87
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.09 0.09 0.09
+Ns 18.00
+newmtl Galileo_actual_05:Galileo_actual_05:phong3SG
+illum 4
+Kd 0.55 0.50 0.47
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.66 0.55 0.47
+Ns 18.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

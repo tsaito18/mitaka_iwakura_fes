@@ -1,0 +1,58 @@
+newmtl blinn6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd foil_goldA_c.png
+bump foil_A_n.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks foil_goldA_s.png
+newmtl blinn8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd akatsuki_solar_c.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks akatsuki_solar_s.png
+newmtl blinn9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd akatsuki_antena_c.png
+bump akatsuki_antena_n.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks akatsuki_antena_s.png
+newmtl blinn10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd plate_shadowA_c.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks plate_shadowA_s.png
+newmtl blinn11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metalSet01_c.png
+bump metalSet01_n.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks metalSet01_s.png
+newmtl mat_silverSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -mm 0 0.578515 foil_silverA_c.png
+bump foil_A_n.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks foil_silverA_s.png

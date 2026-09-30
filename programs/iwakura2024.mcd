@@ -1,0 +1,438 @@
+DefSequence[IWAKURA2024, PRESET]
+	KeyString(岩倉祭2024 地学部プラネタリウム)
+
+	SetMainMode(MODE_MAIN_PLANETARIUM)
+	SetDispMode(MODE_DISPLAY_DOME_MASTER)
+	SetPlanetariumAngle(4.500e+01)
+	SetDateTime(2024/9/29 13:00:0.0 9.0)
+	//SetDateTime(2024/9/29 20:00:0.0 9.0)
+	SetPlanetariumAzimuth(180.000)
+	SetPlanetariumLatitude(25.343)
+	SetHeadOrientation(1.000e+00, 0.000e+00, 0.000e+00, 0.000e+00)
+	SetLandingSite(Kyoto)
+	SetModesToDefault()
+	SwitchSet(
+		SUN_DISP, SUN_GLARE,
+		PLANET_DISP, PLANET_SELECT, PLANET_CLOUD, PLANET_CITY_LIGHT,
+		MINOR_PLANET_DISP, MINOR_PLANET_SELECT,
+		TNO_DISP, TNO_SELECT, OORT_CLOUD_DISP,
+		STAR_DISP, STAR_SELECT,
+		SGR_A_ST_DISP, GALACTIC_CENTER_BG_DISP, GLOB_CLSTR_DISP,
+		OUR_GALAXY_DISP,
+		NEARBY_GALAXY_DISP, NEARBY_GALAXY_SELECT,
+		DISTANT_GALAXY_DISP, QSO_DISP,
+		GROUND_DISP,
+		DATE_DISP, ENABLE_SHADER,
+		ENABLE_BLACKOUT_SHORTCUT, SUBTITLES_DISP, CALC_ABERRATION
+	)
+	SetTarget(PLNT_EARTH)
+	SetTransitionParams(DT1:3.0, DT2:3.0)
+
+	// タイトル画像を表示
+	OpenMediaFile(Planetarium_title.mif)
+
+	// 20時まで時間を進める
+	Pause()
+	Transition(20)
+	SetDateTime(2024/9/29 20:00:0.0 9.0)
+
+	// 時刻を非表示
+	Pause(1)
+	SwitchOff(DATE_DISP)
+
+	// アステリズムを表示
+	Pause()
+	SwitchOn(ASTERISM_DISP, ASTERISM_NAME)
+
+	// ペガスス座の星座線・イラストを表示
+	Pause()
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Peg
+	)
+	SwitchOn(
+	  CONSTELLATION_NAME, CONSTELLATION_LINE,
+	  CONSTELLATION_ILLUST, CONSTELLATION_SELECT_PLNT
+	)
+
+	// 夏の大三角の星座線・イラストを表示
+	Pause()
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Cyg,
+		CNST_Lyr,
+		CNST_Aql
+	)
+
+	// 星座イラストを非表示
+	Pause()
+	SwitchOff(CONSTELLATION_ILLUST)
+
+	// アンドロメダ座を表示
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_And
+	)
+
+	// ペルセウス座を表示
+	Pause()
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Per
+	)
+
+	// カシオペア座を表示
+	Pause()
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Cas
+	)
+
+	// ケフェウス座を表示
+	Pause()	
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Cep
+	)
+
+	// 北極星を表示
+	Pause()
+	AddSelections(HIP_11767)
+	SwitchOn(STAR_NAME)
+
+	// みずがめ座を表示
+	Pause()
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Aqr
+	)
+
+	// 黄道 12 星座を順番に表示
+	Pause()
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Psc
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Ari
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Tau
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Gem
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Cnc
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Leo
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Vir
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Lib
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Sco
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Sgr
+	)
+
+	Pause(0.3)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Cap
+	)
+
+	// みずがめ座以外の天体を非表示
+	Pause()
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Aqr
+	)
+	RemoveSelections(HIP_11767)
+	SwitchOn(CONSTELLATION_ILLUST)
+	SwitchOff(ASTERISM_DISP, ASTERISM_NAME, STAR_NAME)
+
+	// 88 星座をすべて表示
+	Pause()
+	SwitchOff(CONSTELLATION_SELECT_PLNT)
+
+	// 星座などを非表示
+	Pause()
+	SwitchOff(
+		CONSTELLATION_NAME, CONSTELLATION_LINE, CONSTELLATION_ILLUST,
+	)
+	ClearKeyGroup(CNST_SELECT)
+
+	// 離陸
+	Pause(0)
+	SetMainMode(MODE_MAIN_SPACE)
+	SetScale(1.034e-13)
+	SetOrientation(3.033e-01, -2.211e-01, 2.467e-01, -8.935e-01)
+
+	// 地球の全体像を映す
+	Pause()
+	Transition(10)
+	SetScale(5.773e-10)
+
+	// 地球の明るい面を映す
+	Pause()
+	Transition(10)
+	SetOrientation(4.157e-01, 3.875e-01, -1.897e-01, -8.006e-01)
+
+	// 天体のラベルなどを表示
+	Pause()
+
+	SetKeyGroup(
+		SW_SPACE_MODE,
+		SUN_NAME,
+		PLANET_NAME, PLANET_ORBIT, PLANET_DISP_BILLBOARD,
+		SATELLITE_DISP, SATELLITE_NAME, SATELLITE_ORBIT, SATELLITE_SELECT,
+		MINOR_PLANET_NAME, MINOR_PLANET_ORBIT,
+		TNO_NAME, TNO_ORBIT,
+		ISO_NAME, ISO_ORBIT, ISO_SELECT,
+		STAR_NAME, STAR_ORBIT,
+		OUR_GALAXY_NAME, NEARBY_GALAXY_NAME,
+		SPACECRAFT_DISP, SPACECRAFT_NAME, SPACECRAFT_TRAJECTORY, SPACECRAFT_SELECT,
+		ECLIPSE_DISP, CONSTELLATION_SELECT_SPACE,
+		SCALE_CIRCLE_DISP
+	)
+	SwitchOn(SW_SPACE_MODE)
+
+	// デフォルトの選択天体より引用
+	AddSelections(
+		// 太陽系の天体
+		PLNT_MERCURY, PLNT_VENUS, PLNT_EARTH, PLNT_MARS,
+		PLNT_JUPITER, PLNT_SATURN, PLNT_URANUS, PLNT_NEPTUNE,
+		PLNT_PLUTO,
+
+		// 著名な衛星
+		SAT_E_MOON, SAT_M_PHOBOS, SAT_M_DEIMOS, SAT_J_IO,
+		SAT_J_EUROPA, SAT_J_GANYMEDE, SAT_J_CALLISTO, SAT_J_AMALTHEA,
+		SAT_J_HIMALIA, SAT_S_MIMAS, SAT_S_ENCELADUS, SAT_S_TETHYS,
+		SAT_S_DIONE, SAT_S_RHEA, SAT_S_TITAN, SAT_S_IAPETUS,
+		SAT_U_ARIEL, SAT_U_UMBRIEL, SAT_U_TITANIA, SAT_U_OBERON,
+		SAT_U_MIRANDA, SAT_N_TRITON, SAT_N_NEREID, SAT_P_CHARON,
+
+		// 小惑星
+		MP_1, MP_90377, MP_134340, MP_136108,
+		MP_136199, MP_136472, MP_162173, MP_1I_2017_U1,
+
+		// 著名な恒星
+		HIP_7588, HIP_95947, HIP_17702, HIP_21421,
+		HIP_97649, HIP_80763, HIP_69673, HIP_27989,
+		HIP_30438, HIP_24608, HIP_36850, HIP_102098,
+		HIP_57632, HIP_113368, HIP_11767, HIP_37826,
+		HIP_37279, HIP_49669, HIP_24436, HIP_71683,
+		HIP_32349, HIP_65474, HIP_91262, HIP_20894,
+
+		// 銀河系中心ブラックホールの周りをまわる恒星
+		S_STAR_S1, S_STAR_S2, S_STAR_S8, S_STAR_S12,
+		S_STAR_S13, S_STAR_S14,
+
+		// VERA 天体
+		VERA_S269, VERA_ORION_NEBULA,
+
+		// 著名な銀河
+		NBG_NGC_224, NBG_TULLY_58, NBG_TULLY_62, NBG_NGC_598,
+		NBG_TULLY_178, NBG_TULLY_445, NBG_PGC_19441, NBG_UNDEF_1,
+		NBG_UGC_5364, NBG_UGC_5470, NBG_UGC_6253, NBG_UGC_9749,
+		NBG_UGC_10822, NBG_UGC_12613, NBG_NGC_4486, NBG_NGC_5194
+	)
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Ori,
+		CNST_UMa,
+		CNST_Cen
+	)
+
+	// 恒星名がなぜか表示されないので、明示的に ON
+	// なぜか恒星名が表示されないので、明示的に ON
+	// SwitchOff(STAR_DISP, STAR_SELECT, STAR_NAME)
+	SwitchOn(STAR_DISP, STAR_SELECT, STAR_NAME)
+
+	// 月を映す
+	Pause(0)
+	Transition(10)
+	SetScale(2.614e-08)
+	SetOrientation(1.431e-01, -1.182e-01, 2.673e-01, -9.456e-01)
+
+	// 火星までの惑星を映す
+	Pause()
+	Transition(10)
+	SetScale(2.282e-05)
+	SetTarget(SUN)
+
+	// 時間を進めて、惑星の公転を見せる
+	Pause()
+	Transition(45)
+	SetDateTime(2025/9/29 20:00:0.0 9.0)
+
+	// 進めた時間を戻す
+	Pause()
+	SetDateTime(2024/9/29 20:00:0.0 9.0)
+
+	// 引いて、太陽系全体を映す
+	Pause(0)
+	Transition(10)
+	SetScale(1.834e-04)
+
+	// 1光年の線を映す
+	Pause()
+	Transition(20)
+	SetScale(1.059e+00)
+	SetOrientation(-5.131e-01, -4.139e-01, -7.011e-01, -2.719e-01)
+
+	// 1光年の説明を映す
+	Pause()
+	OpenMediaFile(ly_mod.mif)
+
+	// アルファ・ケンタウリを映す
+	Pause()
+	Transition(10)
+	SetScale(5.553e+00)
+	SetOrientation(-9.824e-02, -5.920e-01, -7.447e-01, 2.922e-01)
+
+	// シリウス・プロキオンなどを映す
+	Pause()
+	Transition(10)
+	SetScale(1.466e+01)
+	SetOrientation(4.643e-01, -6.555e-01, -5.529e-01, -2.214e-01)
+
+	// アンタレス・スピカなどを映す
+	Pause()
+	Transition(10)
+	SetScale(3.624e+02)
+	SetOrientation(5.339e-01, -5.324e-01, -6.303e-01, 1.847e-01)
+
+	// 天の川を映す
+	Pause()
+	Transition(15)
+	SetScale(7.144e+01)
+	SetOrientation(5.393e-01, -6.543e-01, -4.638e-01, -2.568e-01)
+
+	// 天の川銀河を映す
+	Pause()
+	Transition(10)
+	SetScale(1.108e+04)
+	SetOrientation(5.393e-01, -6.543e-01, -4.638e-01, -2.568e-01)
+
+	// 上から見た天の川銀河を映す
+	Pause()
+	Transition(10)
+	SetScale(5.690e+04)
+	SetOrientation(-4.466e-01, -5.288e-01, -6.779e-01, 2.478e-01)
+
+	// アンドロメダ銀河を映す
+	Pause()
+	Transition(25)
+	SetScale(2.899e+06)
+	SetOrientation(-7.991e-01, 3.603e-01, -3.767e-01, 2.994e-01)
+
+	// 引き、観測されている銀河全体を映す
+	Pause()
+	Transition(70)
+	SetScale(1.850e+09)
+	SetOrientation(-8.550e-01, 5.502e-02, 5.151e-01, 2.621e-02)
+
+	// 選択を全解除・天体名も非表示
+	Pause()
+	RemoveSelections(
+		// 太陽系の天体
+		PLNT_MERCURY, PLNT_VENUS, PLNT_EARTH, PLNT_MARS,
+		PLNT_JUPITER, PLNT_SATURN, PLNT_URANUS, PLNT_NEPTUNE,
+		PLNT_PLUTO,
+
+		// 著名な衛星
+		SAT_E_MOON, SAT_M_PHOBOS, SAT_M_DEIMOS, SAT_J_IO,
+		SAT_J_EUROPA, SAT_J_GANYMEDE, SAT_J_CALLISTO, SAT_J_AMALTHEA,
+		SAT_J_HIMALIA, SAT_S_MIMAS, SAT_S_ENCELADUS, SAT_S_TETHYS,
+		SAT_S_DIONE, SAT_S_RHEA, SAT_S_TITAN, SAT_S_IAPETUS,
+		SAT_U_ARIEL, SAT_U_UMBRIEL, SAT_U_TITANIA, SAT_U_OBERON,
+		SAT_U_MIRANDA, SAT_N_TRITON, SAT_N_NEREID, SAT_P_CHARON,
+
+		// 小惑星
+		MP_1, MP_90377, MP_134340, MP_136108,
+		MP_136199, MP_136472, MP_162173, MP_1I_2017_U1,
+
+		// 著名な恒星
+		HIP_7588, HIP_95947, HIP_17702, HIP_21421,
+		HIP_97649, HIP_80763, HIP_69673, HIP_27989,
+		HIP_30438, HIP_24608, HIP_36850, HIP_102098,
+		HIP_57632, HIP_113368, HIP_11767, HIP_37826,
+		HIP_37279, HIP_49669, HIP_24436, HIP_71683,
+		HIP_32349, HIP_65474, HIP_91262, HIP_20894,
+
+		// 銀河系中心ブラックホールの周りをまわる恒星
+		S_STAR_S1, S_STAR_S2, S_STAR_S8, S_STAR_S12,
+		S_STAR_S13, S_STAR_S14,
+
+		// VERA 天体
+		VERA_S269, VERA_ORION_NEBULA,
+
+		// 著名な銀河
+		NBG_NGC_224, NBG_TULLY_58, NBG_TULLY_62, NBG_NGC_598,
+		NBG_TULLY_178, NBG_TULLY_445, NBG_PGC_19441, NBG_UNDEF_1,
+		NBG_UGC_5364, NBG_UGC_5470, NBG_UGC_6253, NBG_UGC_9749,
+		NBG_UGC_10822, NBG_UGC_12613, NBG_NGC_4486, NBG_NGC_5194
+	)
+	ClearKeyGroup(CNST_SELECT)
+	SwitchOff(SW_SPACE_MODE)
+	SetTarget(PLNT_EARTH)
+
+	// ゆっくり地球に戻り、京都に着陸
+	Pause(0)
+	Transition(80)
+	SetScale(1.034e-13)
+	SetOrientation(3.033e-01, -2.211e-01, 2.467e-01, -8.935e-01)
+	
+	// プラネタリウムモードに戻す
+	Pause()
+	SetMainMode(MODE_MAIN_PLANETARIUM)
+	SetPlanetariumAngle(4.500e+01)
+	SwitchOn(DATE_DISP)
+
+	// 時間を戻す
+	Pause(1)
+	Transition(20)
+	SetDateTime(2024/9/29 13:00:0.0 9.0)
+
+	// 終了画像を表示
+	Pause()
+	OpenMediaFile(Planetarium_end.mif)
+
+	AtExit:
+	SetModesToDefault()
+	SetViewTarget(PLNT_EARTH)
+	ExecCommandSet(INIT)

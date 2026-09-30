@@ -1,0 +1,35 @@
+newmtl blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TESS_01_c.png
+bump TESS_01_n.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks TESS_01_s.png
+
+
+newmtl blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metalSet01_c.png
+bump metalSet01_n.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks metalSet01_s.png
+
+
+newmtl blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd foil_silverB_c.png
+bump foil_A_n.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks foil_silverB_spe.png
+

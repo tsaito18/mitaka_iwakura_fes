@@ -1,0 +1,12 @@
+\Center{Perhatian...} \\
+\Size[0.45]
+\Vspace[1.0]
+\Color[1,0.8,0.2]
+· Apabila Anda merasa tidak enak, silakan lepas kacamata.\\
+\Vspace[0.5]
+\Color[1,1,1]
+· Harap tidak menyentuh layar.\\
+\Vspace[0.5]
+· Harap matikan telepon seluler dan peralatan bersuara lainnya.\\
+\Vspace[0.5]
+· Dilarang makan dan minum selama pertunjukan.

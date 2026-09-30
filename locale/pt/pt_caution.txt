@@ -1,0 +1,12 @@
+\Center{Por favor...} \\
+\Size[0.45]
+\Vspace[1.0]
+\Color[1,0.8,0.2]
+· Se se sentir enjoado, tire os óculos. \\
+\Vspace[0.5]
+\Color[1,1,1]
+· Não toque no ecrã.\\
+\Vspace[0.5]
+· Desligue os telemóveis e outros dispositivos que possam fazer ruído.\\
+\Vspace[0.5]
+· Não coma ou beba durante a apresentação.

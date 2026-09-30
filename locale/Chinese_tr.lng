@@ -1,0 +1,15 @@
+NAME:			Chinese (Traditional)
+NAME_KEY:		LANG_CHINESE_TR
+ISO639:			zh
+LANG_ID:		zh_tr
+FONT:			msjh.ttc, msjh.ttf
+STRINGS:		./common/common.txt
+STRINGS:		./common/langlist.txt
+STRINGS:		./en/en_place_names.txt
+STRINGS:		./zh/zh_tr_strings.txt
+STRINGS:		./zh/zh_tr_menu_strings.txt
+STRINGS:		./zh/zh_tr_splash_strings.txt
+STRINGS:		./zh/zh_tr_place_names.txt
+CAUTION_TEXT:		./zh/zh_tr_caution.txt
+TITLE_IMAGE:		./en/en_4dtheater_title.png
+END_CREDITS:		./en/en_credit.txt

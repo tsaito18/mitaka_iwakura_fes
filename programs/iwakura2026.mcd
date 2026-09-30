@@ -1,0 +1,441 @@
+DefSequence[IWAKURA2026, PRESET]
+	KeyString(岩倉祭2026 地学部プラネタリウム)
+
+	SetMainMode(MODE_MAIN_PLANETARIUM)
+	SetDispMode(MODE_DISPLAY_DOME_MASTER)
+	SetPlanetariumAngle(4.500e+01)
+	SetDateTime(2026/10/3 13:00:0.0 9.0)
+	SetPlanetariumAzimuth(180.000)
+	SetPlanetariumLatitude(25.343)
+	SetHeadOrientation(1.000e+00, 0.000e+00, 0.000e+00, 0.000e+00)
+	SetLandingSite(Kyoto)
+	SetModesToDefault()
+	ChangeStarBrightness(DEFAULT)
+	SwitchSet(
+		SUN_DISP, SUN_GLARE,
+		PLANET_DISP, PLANET_SELECT, PLANET_CLOUD, PLANET_CITY_LIGHT,
+		MINOR_PLANET_DISP, MINOR_PLANET_SELECT,
+		TNO_DISP, TNO_SELECT, OORT_CLOUD_DISP,
+		STAR_DISP, STAR_SELECT,
+		SGR_A_ST_DISP, GALACTIC_CENTER_BG_DISP, GLOB_CLSTR_DISP,
+		OUR_GALAXY_DISP,
+		NEARBY_GALAXY_DISP, NEARBY_GALAXY_SELECT,
+		DISTANT_GALAXY_DISP, QSO_DISP,
+		GROUND_DISP,
+		DATE_DISP, ENABLE_SHADER,
+		ENABLE_BLACKOUT_SHORTCUT, SUBTITLES_DISP, CALC_ABERRATION
+	)
+	RemoveSelections(
+		HIP_102098, HIP_97649, HIP_91262, HIP_107315, HIP_3179,
+		PLNT_EARTH, PLNT_SATURN
+	)
+	ClearKeyGroup(CNST_SELECT)
+	ClearKeyGroup(ASTERISMS_SELECT)
+	SetTarget(PLNT_EARTH)
+	SetTransitionParams(DT1:3.0, DT2:3.0)
+
+	// タイトル画像を表示（13時の京都の空）
+	OpenMediaFile(Planetarium_title_2026.mif)
+
+	// 星の見え方を都市部並みに暗くし、20時まで時間を進める
+	Pause()
+	ChangeStarBrightness(DARKEN)
+	ChangeStarBrightness(DARKEN)
+	ChangeMWBrightness(DARKEN)
+	ChangeMWBrightness(DARKEN)
+	ChangeMWBrightness(DARKEN)
+	ChangeMWBrightness(DARKEN)
+	Transition(20)
+	SetDateTime(2026/10/3 20:00:0.0 9.0)
+
+	// 時刻を非表示
+	Pause(1)
+	SwitchOff(DATE_DISP)
+
+	// 真西の天頂付近を向く
+	Pause()
+	Transition(8)
+	SetPlanetariumAzimuth(270.000)
+
+	// デネブの名前を表示
+	Pause()
+	AddSelections(HIP_102098)
+	SwitchOn(STAR_NAME)
+
+	// アルタイルの名前を表示
+	Pause()
+	AddSelections(HIP_97649)
+	SwitchOn(STAR_NAME)
+
+	// ベガの名前を表示
+	Pause()
+	AddSelections(HIP_91262)
+	SwitchOn(STAR_NAME)
+
+	// はくちょう座・わし座・こと座と夏の大三角を表示
+	Pause()
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Cyg,
+		CNST_Aql,
+		CNST_Lyr
+	)
+	SetKeyGroup(
+		ASTERISMS_SELECT,
+		SUMMER_TRIANGLE
+	)
+	SwitchOn(
+		CONSTELLATION_NAME, CONSTELLATION_LINE,
+		CONSTELLATION_ILLUST, CONSTELLATION_SELECT_PLNT,
+		ASTERISM_DISP, ASTERISM_NAME, ASTERISM_SELECT_PLNT
+	)
+
+	// 東の空へ移動
+	Pause()
+	Transition(10)
+	SetPlanetariumAzimuth(100.000)
+
+	// ペガスス座とペガススの大四辺形を表示
+	Pause()
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Peg
+	)
+	AddKeyGroup(
+		ASTERISMS_SELECT,
+		GREAT_SQUARE_PEGASUS
+	)
+
+	// 北東の空へ移動し、カシオペヤ座を表示
+	Pause()
+	Transition(6)
+	SetPlanetariumAzimuth(35.000)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Cas
+	)
+
+	// 離陸
+	Pause()
+	SetMainMode(MODE_MAIN_SPACE)
+	SetTarget(PLNT_EARTH)
+	SetScale(1.034e-13)
+	SetOrientation(8.440e-01, 4.472e-01, 2.818e-01, -9.102e-02)
+	ChangeStarBrightness(DEFAULT)
+	ChangeMWBrightness(DEFAULT)
+	SwitchOff(CONSTELLATION_NAME, CONSTELLATION_ILLUST, ASTERISM_NAME)
+	AddSelections(HIP_107315, HIP_3179)
+	SwitchOn(
+		CONSTELLATION_LINE, CONSTELLATION_SELECT_SPACE,
+		ASTERISM_DISP, ASTERISM_SELECT_SPACE,
+		STAR_NAME, SUN_NAME
+	)
+
+	// 時間をかけて引き、星座を形作る星々の立体的な位置を映す
+	Pause(0)
+	Transition(6)
+	SetScale(3.000e-11)
+
+	Transition(8)
+	SetScale(3.000e-09)
+	SetOrientation(2.806e-01, 9.130e-01, 1.349e-01, -2.636e-01)
+
+	Transition(10)
+	SetScale(3.000e-01)
+
+	Transition(20)
+	SetScale(1.500e+02)
+	SetOrientation(6.401e-01, 7.089e-01, 2.337e-01, -1.819e-01)
+
+	// 太陽系が見える距離まで近づく
+	Pause()
+	SetTarget(SUN)
+	SwitchOff(CONSTELLATION_LINE, ASTERISM_DISP, STAR_NAME)
+	RemoveSelections(HIP_102098, HIP_97649, HIP_91262, HIP_107315, HIP_3179)
+	ClearKeyGroup(CNST_SELECT)
+	AddSelections(PLNT_EARTH, PLNT_SATURN)
+	SwitchOn(SUN_NAME, PLANET_NAME, PLANET_ORBIT)
+	Transition(12)
+	SetScale(1.000e-04)
+	SetOrientation(6.943e-01, 3.237e-01, -2.717e-01, -5.826e-01)
+
+	// 黄道面の北側から土星・地球・太陽の位置関係を映す
+	Pause()
+	Transition(10)
+	SetScale(8.000e-05)
+	SetOrientation(7.660e-01, 0.000e+00, 0.000e+00, -6.428e-01)
+	SetZoomMode(ZOOM_3)
+
+	// 土星の外側へ回り込み、土星をターゲットにする
+	Pause()
+	SetZoomMode(ZOOM_REAL_SCALE)
+	Transition(8)
+	SetScale(5.478e-04)
+	SetOrientation(4.709e-01, 4.315e-01, 5.198e-01, 5.673e-01)
+
+	Pause(0)
+	SetTarget(PLNT_SATURN)
+	SetScale(4.185e-04)
+	SetOrientation(4.796e-01, 4.219e-01, 5.082e-01, 5.777e-01)
+	SwitchOff(SUN_NAME, PLANET_ORBIT)
+	RemoveSelections(PLNT_EARTH)
+
+	// 土星へ接近し、輪を含む全体を映す
+	Pause(0)
+	Transition(20)
+	SetScale(1.500e-08)
+	SetOrientation(5.721e-01, 5.081e-01, -5.987e-01, -2.369e-01)
+	SwitchOff(PLANET_NAME)
+
+	// 輪の模様が見えるまでカメラを寄せる
+	Pause()
+	Transition(15)
+	SetScale(3.500e-09)
+	SetOrientation(7.517e-01, 5.851e-01, -2.597e-01, -1.584e-01)
+
+	// 土星の輪の拡大画像を表示
+	Pause()
+	OpenMediaFile(Saturn_rings_closeup.mif)
+
+	// 真上から土星の北極を映す
+	Pause()
+	Transition(15)
+	SetScale(9.000e-09)
+	SetOrientation(7.359e-01, -2.095e-01, -1.219e-01, -6.322e-01)
+
+	// 北極の六角形の画像を表示
+	Pause()
+	OpenMediaFile(Saturn_hexagon.mif)
+
+	// 土星から太陽系が見える距離まで引く
+	Pause()
+	Transition(10)
+	SetScale(4.185e-04)
+	SetOrientation(4.796e-01, 4.219e-01, 5.082e-01, 5.777e-01)
+	RemoveSelections(PLNT_SATURN)
+
+	// 地球をターゲットにする
+	Pause(0)
+	SetTarget(PLNT_EARTH)
+	SetScale(5.342e-04)
+	SetOrientation(4.714e-01, 4.310e-01, 5.192e-01, 5.678e-01)
+
+	// 地球に戻り、京都に着陸
+	Pause(0)
+	Transition(14)
+	SetScale(3.000e-09)
+	SetOrientation(2.806e-01, 9.130e-01, 1.349e-01, -2.636e-01)
+
+	Transition(6)
+	SetScale(3.000e-11)
+	SetOrientation(8.440e-01, 4.472e-01, 2.818e-01, -9.102e-02)
+
+	Transition(5)
+	SetScale(1.034e-13)
+
+	// プラネタリウムモードに戻し、紹介した星座とアステリズムを再表示
+	Pause(0)
+	SetMainMode(MODE_MAIN_PLANETARIUM)
+	SetPlanetariumAngle(4.500e+01)
+	SetPlanetariumLatitude(25.343)
+	SetPlanetariumAzimuth(35.000)
+	SetDateTime(2026/10/3 20:00:0.0 9.0)
+	ChangeStarBrightness(DEFAULT)
+	ChangeStarBrightness(DARKEN)
+	ChangeStarBrightness(DARKEN)
+	ChangeMWBrightness(DEFAULT)
+	ChangeMWBrightness(DARKEN)
+	ChangeMWBrightness(DARKEN)
+	ChangeMWBrightness(DARKEN)
+	ChangeMWBrightness(DARKEN)
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Cyg,
+		CNST_Aql,
+		CNST_Lyr,
+		CNST_Peg,
+		CNST_Cas
+	)
+	SetKeyGroup(
+		ASTERISMS_SELECT,
+		SUMMER_TRIANGLE,
+		GREAT_SQUARE_PEGASUS
+	)
+	SwitchOn(
+		CONSTELLATION_NAME, CONSTELLATION_LINE,
+		CONSTELLATION_ILLUST, CONSTELLATION_SELECT_PLNT,
+		ASTERISM_DISP, ASTERISM_NAME, ASTERISM_SELECT_PLNT
+	)
+
+	// 南を向き、黄道を表示
+	Pause()
+	SwitchOff(CONSTELLATION_ILLUST, ASTERISM_DISP, ASTERISM_NAME)
+	ClearKeyGroup(CNST_SELECT)
+	ClearKeyGroup(ASTERISMS_SELECT)
+	SwitchOn(GRID_ECLIPTIC_DISP)
+	Transition(6)
+	SetPlanetariumAzimuth(180.000)
+
+	// 黄道十二星座を誕生月順に表示
+	Pause(0.5)
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Ari
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Tau
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Gem
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Cnc
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Leo
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Vir
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Lib
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Sco
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Sgr
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Cap
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Aqr
+	)
+
+	Pause(0.5)
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Psc
+	)
+
+	// 大気をなくし、星と天の川を明るくして 88 星座をすべて表示
+	Pause()
+	SetAtmosphere(ATMOSPHERE_NONE)
+	ChangeStarBrightness(DEFAULT)
+	ChangeStarBrightness(BRIGHTEN)
+	ChangeMWBrightness(DEFAULT)
+	SwitchOff(CONSTELLATION_SELECT_PLNT)
+
+	// みずがめ座以外の星座を非表示
+	Pause()
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Aqr
+	)
+	SwitchOn(CONSTELLATION_SELECT_PLNT, CONSTELLATION_ILLUST)
+	SwitchOff(GRID_ECLIPTIC_DISP)
+	Transition(5)
+	SetPlanetariumAzimuth(165.000)
+
+	// わし座を再表示
+	Pause()
+	AddKeyGroup(
+		CNST_SELECT,
+		CNST_Aql
+	)
+
+	// 星座を非表示にし、星をさらに明るくする
+	Pause()
+	SwitchOff(
+		CONSTELLATION_NAME, CONSTELLATION_LINE, CONSTELLATION_ILLUST
+	)
+	ClearKeyGroup(CNST_SELECT)
+	ChangeStarBrightness(BRIGHTEN)
+
+	// 10月4日3時まで時間を進め、南東を向く
+	Pause()
+	Transition(20)
+	SetDateTime(2026/10/4 3:00:0.0 9.0)
+	SetPlanetariumAzimuth(140.000)
+
+	// オリオン座を表示
+	Pause(0)
+	SetKeyGroup(
+		CNST_SELECT,
+		CNST_Ori
+	)
+	SwitchOn(
+		CONSTELLATION_NAME, CONSTELLATION_LINE, CONSTELLATION_ILLUST
+	)
+
+	// 大気を戻し、明け方までゆっくり時間を進める
+	Pause()
+	SetAtmosphere(ATMOSPHERE_MULTIPLE)
+	Transition(35)
+	SetDateTime(2026/10/4 5:30:0.0 9.0)
+
+	// 表示を冒頭の状態に戻す
+	Pause()
+	SwitchOff(
+		CONSTELLATION_NAME, CONSTELLATION_LINE, CONSTELLATION_ILLUST,
+		CONSTELLATION_SELECT_PLNT, ASTERISM_SELECT_PLNT
+	)
+	ClearKeyGroup(CNST_SELECT)
+	ChangeStarBrightness(DEFAULT)
+	ChangeMWBrightness(DEFAULT)
+	SwitchOn(DATE_DISP)
+
+	// 13時まで時間を戻す
+	Pause(1)
+	Transition(20)
+	SetDateTime(2026/10/3 13:00:0.0 9.0)
+	SetPlanetariumAzimuth(180.000)
+
+	// 終了画像を表示
+	Pause()
+	OpenMediaFile(Planetarium_end_2026.mif)
+
+	AtExit:
+	SetModesToDefault()
+	ChangeStarBrightness(DEFAULT)
+	ChangeMWBrightness(DEFAULT)
+	ClearKeyGroup(CNST_SELECT)
+	ClearKeyGroup(ASTERISMS_SELECT)
+	RemoveSelections(
+		HIP_102098, HIP_97649, HIP_91262, HIP_107315, HIP_3179,
+		PLNT_EARTH, PLNT_SATURN
+	)
+	SetTransitionParams(DT1:1.0, DT2:1.0)
+	SetViewTarget(PLNT_EARTH)
+	ExecCommandSet(INIT)

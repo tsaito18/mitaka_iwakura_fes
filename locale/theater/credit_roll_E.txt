@@ -1,0 +1,173 @@
+\Center
+Data\\
+\Vspace[0.3]
+
+\Center{
+\Size[0.67]
+Planetary Orbital Elements, NASA JPL, Solar System Dynamics\\
+Planetary Satellite Mean Orbital Parameters, NASA JPL, Solar System Dynamics\\
+Ephemerides of planets between 1900 and 2100, Chapront+, 1996\\
+Orbital Elements of Minor Planets 1998, Batrakov+, 1997\\
+List of Transneptunian Objects, IAU Minor Planet Center\\
+The Hipparcos and Tycho Catalogues, ESA, 1997\\
+Globular Clusters in the Milky Way, Harris, 1997\\
+Nearby Galaxies Catalogue, Tully, 1988\\
+SDSS Data Release 4, Sloan Digital Sky Survey, 2005\\
+NGC 2000.0, \c Sky Publishing, Ed. Sinnott, 1988\\
+HORISONS System, NASA JPL\\
+GTOPO 30, U.S.Geological Survey\\
+Mars Global Surveyor MOLA data (MGS-M-MOLA-5-MEGDR-L3-V1.0), NASA, 2003\\
+Bright Star Catalogue, 5th Revised Ed., Hoffleit+, 1991\\
+Masses and Orbital Characteristics of Extrasolar Planets, California & Carnegie Planet Search\\
+Constellation Boundary Data, Davenhall+, 1989\\
+}
+
+\Vspace[2]
+
+
+
+\Center
+Images / Models\\
+
+\Vspace[0.5]
+
+\Center{
+\Size[0.67]
+Earth:Blue Marble, NASA Earth Observatory\\
+Vinus, Jupiter, Galilean satellites, Sturn ring: Bjorn Jonsson's collection\\
+The other planets, Sun, Moon, Uranus ring: James Hastings-Trew's collection\\
+Phobos, Dimos, Mimas: Caltech/JPL/USGS\\
+Titan: JPL/Caltech\\
+Charon: David Seal\\
+Wilky Way: Axel Mellinger's All Sky Milky Way Panorama\\
+Wilky Way in Infrared: The Two Micron All Sky Survey (2MASS), IPAC\\
+Magellanic Clouds: Youji Yanaka\\
+Constellation Illustration: Hatsuki Shima\\
+Cassini 3D Model: NASA JPL, and Syota Hirasawa\\
+Voyeger, Pioneer 3D models:Yuki Nakamura\\
+}
+
+\Vspace[2]
+
+
+
+
+\Center
+Cooperation\\
+
+\Vspace[0.5]
+
+\Center{
+\Size[0.67]
+Takayuki Saito\\
+Hiroki Sensyu\\
+Naoto Nakazato\\
+Hiroyuki Nakanishi\\
+Akiyoshi Nouda\\
+Tsuyoshi Hamada\\
+Youko Funato\\
+Tomoaki Matsumoto\\
+Naoki Yasuda\\
+Hideki Yahagi\\
+Keiichi Wada\\
+Kouji Wada\\
+Chan Sze Ting\\
+}
+
+\Vspace[2]
+
+
+
+
+
+%===== Thanks =====
+\Center
+Special Thanks to\\
+
+\Vspace[0.5]
+
+\Center{
+\Size[0.67]
+Public Information Office, NAOJ\\
+Subaru Telescope, NAOJ\\
+Division of Theoretical Astronomy, NAOJ\\
+Yoshihiko Mizumoto\\
+Masahiko Hayashi\\
+Yoshihiro Chikada\\
+Jun Hukue\\
+Kohji Tomisaka\\
+Yoshihiko Ninagawa\\
+Asako Miyaki\\
+}
+
+
+\Vspace[10]
+
+
+
+%===== Member =====
+\Center 4 Dimensional Digital Universe Project\\
+
+\Vspace[0.5]
+
+\Center{
+\Size[0.83]
+\Table[10, 10, 10]
+Project Leader&Shoken Miyama&NAOJ\\
+ &Junichiro Makino&NAOJ\\
+\Vspace[0.5]
+Project Adviser&Norio Kaifu&NAOJ\\
+\Vspace[0.5]
+
+Project Members&Hidehiko Agata&NAOJ\\
+ &Eiichiro Kokubo&NAOJ\\
+ &Mituru Hayashi&NAOJ\\
+ &Tsunehiko Kato&NAOJ\\
+ &Takaaki Takeda&NAOJ\\
+ &Yumi Iwashita&NAOJ\\
+ &Tomoko Ono&NAOJ\\
+ &Catherine Ishida&NAOJ\\
+ &Hitoshi Miura&Musashino Art University\\
+ &Toshikazu Ebisuzaki&&RIKEN\\
+ &Toshiyuki Takahei&RIKEN\\
+ &Sorahiko Nukatani&RIKEN\\
+ &Hidetoshi Tashiro&JSF\\
+ &Hikaru Okuno&JSF\\
+ &Takashi Nakamura&JSF\\
+}
+
+
+\Vspace[20]
+
+\Center{
+These results are based on "Construction of 4-Dimensional Digital Universe\\
+and Its Application to Research and Education" funded by Research and\\
+Development for Applying Advanced Computational Science and Technology\\
+of Japan Science and Technology Agency (ACT-JST: 2001-2004),\\
+and "Construction of an Image Distribution System for the 4-Dimensional\\
+Digital Universe " funded by the Special Coordination Fund for Promoting\\
+Science and Technology of the Japanese Ministry of Education, Culture,\\
+Sports, Science and Technology as part of their Program for the Effective\\
+Promotion of Joint Research with Industry, Academia and Government\\
+(2004 - 2007).
+}
+
+\Vspace[5]
+
+\Center Research Institution\\
+\Vspace[0.5]
+
+\Center{
+\Size[0.83]
+National Astronomical Observatory of Japan (NAOJ)\\
+Musashino Art University\\
+RIKEN\\
+Japan Science Foundation (JSF)\\
+Konica Minolta Planetarium Co., Ltd\\
+GOTO INC\\
+}
+
+
+
+\Vspace[7]
+

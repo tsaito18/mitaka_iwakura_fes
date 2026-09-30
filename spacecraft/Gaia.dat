@@ -1,0 +1,15 @@
+KEY:		SCF_GAIA
+MODEL:		gaia.obj
+SCALE:		0.015
+//OFFSET:		0,0,0
+TRAJECTORY:	gaia.ppi
+ORIGIN:		EARTH
+
+[default]
+NAME:			Gaia
+
+[ja]
+NAME:			ガイア
+
+[ja_ruby]
+NAME:			ガイア

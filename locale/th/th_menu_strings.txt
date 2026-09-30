@@ -1,0 +1,537 @@
+//=====  Menu  =====
+MENU_ROOT:	เมนูหลัก / Main Menu
+MENU_ROOT_MW:	เมนูหลัก / Main Menu
+MENU_MOVIE:	ภาพยนตร์
+MENU_IMAGE:	รูปภาพ
+MENU_AUDIO:	เสียง
+MENU_TARGET:	เป้าหมาย
+MENU_SCALE:	ขนาดระยะทาง
+
+MENU_CMD_BRIGHT_MW:	แสดงทางช้างเผือก
+MENU_CMD_MW:	ทางช้างเผือก
+MENU_CMD_GOTO_TARGET:	ไปยังเป้าหมาย
+MENU_CMD_GOTO_EARTH:	ไปที่โลก
+MENU_CMD_GOTO_PLEIADES:	ไปที่กระจุกดาวลูกไก่
+MENU_CMD_GOTO_M13:	ไปที่กระจุกดาว M13
+MENU_CMD_GOTO_GC:	ไปที่ใจกลางกาแล็กซี
+MENU_CMD_GOTO_CASSINI:	ไปที่ยานอวกาศแคสซินี
+MENU_CMD_GOTO_VIRGO:	ไปที่กระจุกกาแล็กซีเวอร์โก
+
+MENU_3D_CHART:	ภาพ 3 มิติ
+MENU_3DCHART_PLANETS:	ดาวเคราะห์
+MENU_3DCHART_DWARF_PLANETS:	วัตถุพ้นดาวเนปจูนขนาดใหญ่
+MENU_3DCHART_STAR_COLOR:	สีและอุณหภูมิของดาว
+
+MENU_DISP:	ตั้งค่าการแสดงผล
+MENU_DISP_GC:	กระจุกดาวทรงกลม
+MENU_DISP_NGC:	วัตถุในบัญชี NGC
+MENU_CMD_RESET_VIEWANGLE:	ตั้งค่ามุมมองเริ่มต้น
+MENU_CHK_HEADLIGHT:	สว่างทั้งดวง
+MENU_CHK_SURFACE_POINTER:	พิกัดและระดับพื้นผิวดาว
+MENU_CHK_VIEW_INFO:	แสดงข้อมูล
+
+MENU_DISP_PLANETS:	ดาวเคราะห์
+MENU_CHK_PLANET_DISP:	แสดงผล
+MENU_CHK_PLANET_NAME:	ชื่อ
+MENU_CHK_PLANET_ORBIT:	วงโคจร
+MENU_CHK_PLANET_AXIS:	แกนการหมุนรอบตัวเอง
+MENU_CHK_PLANET_CLOUD:	เมฆ
+MENU_CHK_PLANET_CITY_LIGHT:	แสงเมือง
+
+MENU_DISP_PLANET_ATMOSPHERE:	บรรยากาศ
+MENU_ATMOSPHERE_NONE:	ไม่มี
+MENU_ATMOSPHERE_SINGLE_SCAT:	การกระเจิงอย่างง่าย
+MENU_ATMOSPHERE_MULTI_SCAT:	การกระเจิงแบบซับซ้อน
+
+MENU_DISP_ECLIPSE:	เงาของดวงจันทร์
+MENU_CHK_ECLIPSE_DISP:	แสดง
+MENU_CHK_ECLIPSE_BORDER:	เส้นขอบเขตของเงามืด/เงามัว
+
+MENU_DISP_ZOOM_MODE:	อัตราการขยาย
+MENU_ZOOM_REAL_SCALE:	อัตราส่วนจริง
+MENU_ZOOM_1:	ขยาย 1
+MENU_ZOOM_2:	ขยาย 2
+MENU_ZOOM_3:	ขยาย 3
+MENU_ZOOM_4:	ขยาย 4
+MENU_ZOOM_5:	ขยาย 5
+
+MENU_DISP_AMP_TOPO:	อัตราการขยายภูมิประเทศ
+MENU_TOPO_ZOOM_REAL_SCALE:	อัตราส่วนจริง
+MENU_TOPO_ZOOM_1:	x2
+MENU_TOPO_ZOOM_2:	x5
+MENU_TOPO_ZOOM_3:	x10
+MENU_TOPO_ZOOM_4:	x20
+
+MENU_LANDING_MODE:	โหมดลงจอด
+MENU_LANDING_MODE_HORIZONTAL:	เส้นขอบฟ้า
+MENU_LANDING_MODE_SURFACE_VIEW:	แสดงพื้นผิว
+
+MENU_DISP_SATELLITES:	ดวงจันทร์บริวาร
+MENU_CHK_SATELLITE_DISP:	แสดง
+MENU_CHK_SATELLITE_NAME:	ชื่อ
+MENU_CHK_SATELLITE_ORBIT:	วงโคจร
+MENU_CHK_SATELLITE_SELECT:	ตัวอย่างดาวบริวารเท่านั้น
+
+MENU_DISP_MINOR_PLANETS:	ดาวเคราะห์ขนาดเล็ก
+MENU_CHK_MP_DISP:	แสดง
+MENU_CHK_MP_NAME:	ชื่อ
+MENU_CHK_MP_ORBIT:	วงโคจร
+MENU_CHK_MP_SELECT:	ตัวอย่างดาวเคราะห์น้อยเท่านั้น
+
+MENU_DISP_TNOS:	วัตถุพ้นดาวเนปจูน
+MENU_CHK_TNO_DISP:	แสดง
+MENU_CHK_TNO_NAME:	ชื่อ
+MENU_CHK_TNO_ORBIT:	วงโคจร
+MENU_CHK_TNO_SELECT:	ตัวอย่างวัตถุพ้นดาวเนปจูนเท่านั้น
+MENU_CHK_OORT_CLOUD:	เมฆออร์ต
+
+MENU_DISP_STARS:	ดาวฤกษ์
+MENU_CHK_STAR_DISP:	แสดง
+MENU_CHK_STAR_NAME:	ชื่อสามัญ
+MENU_CHK_STAR_NAME_SELECT:	ตัวอย่างดาวฤกษ์เท่านั้น
+MENU_CHK_STAR_BAYER:	ชื่อแบบ Bayer
+MENU_CHK_STAR_FRAMSTEED:	ชื่อแบบ Flamsteed
+MENU_CHK_STAR_HIP:	ชื่อแบบ HIP
+MENU_CHK_STAR_ORBIT:	วงโคจร
+MENU_CMD_STAR_BRIGHTEN:	เพิ่มความสว่าง
+MENU_CMD_STAR_DARKEN:	ลดความสว่าง
+MENU_CMD_STAR_DEFAULT_BRIGHTNESS:	ความสว่างเริ่มต้น
+
+MENU_STAR_MARK:	เครื่องหมาย
+MENU_MARK_NONE:	ไม่มี
+MENU_MARK_BINARIES:	ดาวคู่
+MENU_MARK_EXOPLANETS:	ดาวฤกษ์ที่มีดาวบริวาร
+
+MENU_DISP_GALACTIC_OBJECTS:	วัตถุในกาแล็กซี
+MENU_CHK_OUR_GALAXY:	กาแล็กซีของเรา
+MENU_CHK_SGR_A_STAR:	บริเวณ Sagittarius A
+MENU_CHK_VERA_OBJECT:	วัตถุสำรวจโดย VERA
+MENU_CHK_GC:	กระจุกดาวทรงกลม
+MENU_CHK_GAL_CENTER_BG:	พื้นหลังของใจกลางกาแล็กซี
+
+MENU_DISP_EXTRAGALACTIC_OBJECTS:	วัตถุนอกกาแล็กซี
+MENU_CHK_GALAXY_NEAR:	กาแล็กซีใกล้เคียง
+MENU_CHK_GALAXY_SDSS:	กาแล็กซีสำรวจโดย SDSS
+MENU_CHK_GALAXY_QSO:	วัตถุแบบ QSOs
+MENU_CHK_CMB:	รังสีไมโครเวฟพื้นหลัง
+MENU_CHK_MARK_VIRGO_CLUSTER:	เครื่องหมายแสดงกระจุกกาแล็กซี่ Virgo
+
+MENU_DISP_SCF:	ยานอวกาศ
+MENU_CHK_SPACECRAFT_DISP:	แสดง
+MENU_DISP_SPACECRAFT_TRAJECTORY:	วิถีการโคจร
+
+MENU_DISP_CNST:	กลุ่มดาว
+MENU_CHK_CNST_NAME:	ชื่อกลุ่มดาว
+MENU_CHK_CNST_LINE:	เส้นกลุ่มดาว
+MENU_CHK_CNST_ILLUST:	ภาพร่างกลุ่มดาว
+MENU_CHK_CNST_BND:	เส้นแบ่งเขตกลุ่มดาว
+
+MENU_DISP_MW:	ทางช้างเผือก
+MENU_MILKYWAY_NONE:	ไม่มี
+MENU_MILKYWAY_DEFAULT:	ทางช้างเผือก (ความสว่างมาตรฐาน)
+MENU_MILKYWAY_BRIGHT:	เพิ่มความสว่างทางช้างเผือก
+MENU_MILKYWAY_IR:	ทางช้างเผือกในย่านรังสีอินฟาเรด
+MENU_MILKYWAY_CMB:	รังสีไมโครเวฟพื้นหลัง
+MENU_MILKYWAY_GAIA:	ทางช้างเผือก (ข้อมูลจากยานไกอา)
+
+MENU_DISP_GRID:	เส้นกริด
+MENU_CHK_CLST_GRID:	พิกัดศูนย์สูตรท้องฟ้า
+MENU_CHK_ECLIPTIC:	สุริยวิถี
+MENU_CHK_HORIZON_COORD:	พิกัดเส้นขอบฟ้า
+MENU_CHK_GALACTIC_GRID:	พิกัดกาแล็กซี
+MENU_CHK_SCALE_CIRCLE:	แสดงระยะทาง (แบบวงกลม)
+MENU_CHK_SCALE_SQUARE:	แสดงระยะทาง (แบบสี่เหลี่ยม)
+
+MENU_TARGET:	เป้าหมาย
+MENU_TARGET_SS:	ดวงอาทิตย์และดาวเคราะห์
+MENU_TARGET_SS2:	ดวงจันทร์บริวาร
+MENU_TARGET_SS3:	ดาวเคราะห์น้อย
+MENU_TARGET_SS4:	วัตถุพ้นดาวเนปจูน
+MENU_TARGET_STAR:	ดาวฤกษ์
+MENU_TARGET_GALACTIC_OBJECT:	วัตถุในกาแล็กซี
+MENU_TARGET_EXTRAGALACTIC_OBJECT:	วัตถุนอกกาแล็กซี
+MENU_TARGET_SCF:	ยานอวกาศ
+
+MENU_PLANETARIUM_TARGET:	เป้าหมาย ในโหมด ท้องฟ้าจำลอง
+MENU_PLANETARIUM_TARGET_NONE:	ไม่มี
+MENU_PLANETARIUM_TARGET_SUN:	ดวงอาทิตย์
+MENU_PLANETARIUM_TARGET_MOON:	ดวงจันทร์
+MENU_PLANETARIUM_TARGET_MERCURY:	ดาวพุธ
+MENU_PLANETARIUM_TARGET_VENUS:	ดาวศุกร์
+MENU_PLANETARIUM_TARGET_MARS:	ดาวอังคาร
+MENU_PLANETARIUM_TARGET_JUPITER:	ดาวพฤหัสบดี
+MENU_PLANETARIUM_TARGET_SATURN:	ดาวเสาร์
+
+MENU_TIME:	เวลา
+MENU_CHK_DATE:	แสดงเวลา
+MENU_CMD_SET_PRESENT_TIME:	ตั้งเป็นเวลาปัจจุบัน
+MENU_CHK_DATE_FADE:	ค่อยๆจางลง
+MENU_CHK_REALTIME_MODE:	เวลาปัจจุบัน
+
+MENU_TIMESTEP:	เร่งเวลา
+MENU_TIMESTEP_1SEC:	1 วินาที
+MENU_TIMESTEP_10SEC:	10 วินาที
+MENU_TIMESTEP_1MIN:	1 นาที
+MENU_TIMESTEP_10MIN:	10 นาที
+MENU_TIMESTEP_1HOUR:	1 ชั่วโมง
+MENU_TIMESTEP_4HOURS:	4 ชั่วโมง
+MENU_TIMESTEP_1DAY:	1 วัน
+MENU_TIMESTEP_1WEEK:	1 สัปดาห์
+MENU_TIMESTEP_1MONTH:	1 เดือน
+MENU_TIMESTEP_1YEAR:	1 ปี
+MENU_TIMESTEP_10YEARS:	10 ปี
+MENU_TIMESTEP_100YEARS:	100 ปี
+
+MENU_SYSTEM:	ระบบ
+MENU_CHK_FULL_SCREEN:	โหมดเต็มจอ
+MENU_CHK_SUBTITLES:	โหมดคำบรรยายใต้ภาพ
+MENU_CHK_TITLE:	ชื่อเรื่อง
+MENU_CHK_ABOUT:	ข้อมูลเวอร์ชั่น
+MENU_CHK_DEBUG:	ข้อมูล Debug
+MENU_CHK_SINGLE_EYE:	ปิดภาพด้านซ้าย
+MENU_CHK_SHADER:	เปิดโหมดเงา
+MENU_CHK_BLACKOUT:	ปิดเงา
+MENU_CMD_EXIT_ALL:	ออกทั้งหมด
+
+MENU_PROGRAM:	เลือกโปรแกรม
+
+MENU_LANGUAGE:	ภาษา / Language
+
+MENU_FONT_SIZE:	ขนาดตัวอักษร
+MENU_FONT_SIZE_LARGEST:	ใหญ่ทึ่สุด
+MENU_FONT_SIZE_LARGER:	ใหญ่
+MENU_FONT_SIZE_MEDIUM:	กลาง
+MENU_FONT_SIZE_SMALLER:	เล็ก
+MENU_FONT_SIZE_SMALLEST:	เล็กที่สุด
+
+MENU_SPEED_FMT:	ความเร็ว (x%.2f)
+MENU_SPEED_FASTER:	เร็วขึ้น
+MENU_SPEED_SLOWER:	ช้าลง
+MENU_SPEED_DEFAULT:	ความเร็วมาตรฐาน
+
+MENU_LANDING_POS_NAME_FMT:	ลงจอดที่%s
+
+MENU_PRESET:	ตั้งค่าล่วงหน้า
+MENU_CMD_PRESET_SS:	ภาพรวมของระบบสุริยะ
+MENU_CMD_PRESET_VOYAGER_PATH:	ไล่ตามวิถีของยาน
+MENU_CMD_PRESET_NEW_HORIZONS:	ยานนิว ฮอร์ไรซอนส์์เฉียดเข้าใกล้พลูโตมากที่สุด
+MENU_CMD_PRESET_HAYABUSA_2:	ยานฮายาบูสะ2  เฉียดเข้าใกล้โลก
+MENU_CMD_PRESET_AKATSUKI:	ยานอาคัตสึกิ พยายามเข้าสู่วงโคจรรอบดาวศุกร์ ครั้งที่สอง
+MENU_CMD_PRESET_JUNO:	ยานจูโนเดินทางถึง่ดาวพฤหัสบดี
+MENU_CMD_PRESET_BLACKHOLE_GC:	หลุมดำมวลยิ่งยวดที่ ศูนยกลาง์กาแล็กซี
+MENU_CMD_PRESET_ECLIPSE_2009:	มุมมองจากอวกาศของสุริยุปราคา 22 กรกฎาคม 2552
+MENU_CMD_PRESET_ECLIPSE_2016:	สุริยุปราคาบางส่วน 9 มีนาคม 2559 ( โตเกียว, ญี่ปุ่น)
+MENU_CMD_PRESET_ECLIPSE_2016_2:	สุริยุปราคาเต็มดวง 9 มีนาคม 2559 (เตอร์นาเต, อินโดนีเซีย)
+MENU_CMD_PRESET_CASSINI:	ฉากสุดท้ายของยานแคสสินี
+MENU_CMD_PRESET_CASSINI_2:	ฉากสุดท้ายของยานแคสสินี (มุมองจากระยะไกล)
+
+
+
+//=====  Menu Bar  =====
+MENUB_FILE:	&ไฟล์
+MENUB_FILE_SAVE_IMAGE_AS:	&บันทึกรูปภาพเป็น...
+MENUB_FILE_SAVE_IMAGE_ARB:	บันทึกรูปภาพตามขนาดที่ต้องการ...
+MENUB_FILE_EXIT:	ออ&ก
+
+MENUB_LANDING:	&ลงจอด/ขึ้นบิน
+MENUB_LANDING_LANDING:	&ลงจอด/ขึ้นบิน
+MENUB_LANDING_POS_NAME_FMT:	ลงจอด&ที่%s
+MENUB_LANDING_MODE:	โหมด&ลงจอด
+MENUB_LANDING_MODE_HOR:	&เส้นขอบฟ้า
+MENUB_LANDING_MODE_SUR:	&แสดงพื้นผิว
+
+MENUB_TARGET:	&เป้าหมาย
+
+MENUB_TARGET_SUN_PLANETS:	ดวงอาทิตย์และ &ดาวเคราะห์
+MENUB_TARGET_SUN:	&ดวงอาทิตย์
+MENUB_TARGET_MERCURY:	&ดาวพุธ
+MENUB_TARGET_VENUS:	&ดาวศุกร์
+MENUB_TARGET_EARTH:	&โลก
+MENUB_TARGET_MARS:	ดาว&อังคาร
+MENUB_TARGET_JUPITER:	&ดาวพฤหัสบดี
+MENUB_TARGET_SATURN:	ดาว&เสาร์
+MENUB_TARGET_URANUS:	&ดาวยูเรนัส
+MENUB_TARGET_NEPTUNE:	&ดาวเนปจูน
+
+MENUB_TARGET_SATELLITES:	&ดวงจันทร์บริวาร
+MENUB_TARGET_MOON:	&ดวงจันทร์
+MENUB_TARGET_PHOBOS:	&โฟบอส
+MENUB_TARGET_DEIMOS:	&ไดมอส
+MENUB_TARGET_IO:	&ไอโอ
+MENUB_TARGET_EUROPA:	&ยูโรปา
+MENUB_TARGET_GANYMEDE:	&แกนีมีด
+MENUB_TARGET_CALLISTO:	&คัลลิสโต
+MENUB_TARGET_MIMAS:	มิมา&ส
+MENUB_TARGET_ENCELADUS:	เอ&นเซลาดัส
+MENUB_TARGET_TITAN:	&ไททัน
+MENUB_TARGET_IAPETUS:	ไอ&แอพิตัส
+MENUB_TARGET_TRITON:	ไท&รทัน
+MENUB_TARGET_CHARON:	ค&ารอน
+
+MENUB_TARGET_MINOR_PLANETS:	&ดาวเคราะห์น้อย
+MENUB_TARGET_CERES:	&ซีรีส
+MENUB_TARGET_ITOKAWA:	&อิโตกาวะ
+MENUB_TARGET_RYUGU:	&ริวงู
+MENUB_TARGET_CHARIKLO:	แ&คริโคล
+
+MENUB_TARGET_TNOS:	&วัตถุพ้นดาวเนปจูน
+MENUB_TARGET_PLUTO:	&ดาวพลูโต
+MENUB_TARGET_ERIS:	&อิริส
+MENUB_TARGET_HAUMEA:	&เฮาเมอา
+MENUB_TARGET_MAKEMAKE:	&มาเคะมาเคะ
+MENUB_TARGET_SEDNA:	&เซดนา
+
+MENUB_TARGET_STARS:	ดาว&ฤกษ์
+MENUB_TARGET_ALPHA_CEN:	&อัลฟา เซนทอรี
+MENUB_TARGET_SIRIUS:	&ซิริอัส
+MENUB_TARGET_PLEIADES:	&กระจุกดาวลูกไก่
+MENUB_TARGET_CASTOR:	&คาสเตอร์
+
+MENUB_TARGET_GALACTIC_OBJECTS:	&วัตถุในกาแล็กซี
+MENUB_TARGET_SGR_A_STAR:	&บริเวณ Sagittarius A*
+MENUB_TARGET_M13:	กระจุกดาวทรงกลม &M13
+MENUB_TARGET_OUR_GALAXY_CENTER:	กาแล็กซีทางช้างเผือก
+
+MENUB_TARGET_EXTRAGALACTIC_OBJECTS:	&วัตถุนอกกาแล็กซี
+MENUB_TARGET_ANDROMEDA_GAL:	&กาแล็กซี่แอนโดรเมดา
+MENUB_TARGET_VIRGO_CLUSTER:	&กระจุกกาแล็กซีเวอร์โก M87
+
+MENUB_TARGET_SPACECRAFT:	ยาน&อวกาศ
+MENUB_TARGET_PIONEER10:	ยานไพโอเนียร์ 10
+MENUB_TARGET_PIONEER11:	ยานไพโอเนียร์ 11 (&Q)
+MENUB_TARGET_VOYAGER1:	ยานวอยเอเจอร์ 1
+MENUB_TARGET_VOYAGER2:	ยานวอยเอเจอร์ 2 (&X)
+MENUB_TARGET_CASSINI:	ยานแคสซินี
+MENUB_TARGET_NEW_HORIZONS:	ยานนิว ฮอไรซอนส์
+MENUB_TARGET_GALILEO:	ยานกาลิเลโอ
+MENUB_TARGET_HAYABUSA2:	ยานฮายาบูซะ 2
+MENUB_TARGET_AKATSUKI:	ยานอาคัทสึกิ
+MENUB_TARGET_JUNO:	ยานจูโน
+MENUB_TARGET_KEPLER:	ยานเคปเลอร์
+MENUB_TARGET_GAIA:	ยานไกอา
+MENUB_TARGET_MOVE_TARGET:	&ไปยังเป้าหมาย
+
+MENUB_PLANETARIUM_TARGET:	เป้าหมาย ในโหมด ท้องฟ้าจำลอง
+MENUB_PLANETARIUM_TARGET_NONE:	ไม่มี
+MENUB_PLANETARIUM_TARGET_SUN:	ดวงอาทิตย์
+MENUB_PLANETARIUM_TARGET_MOON:	ดวงจันทร์
+MENUB_PLANETARIUM_TARGET_MERCURY:	ดาวพุธ
+MENUB_PLANETARIUM_TARGET_VENUS:	ดาวศุกร์
+MENUB_PLANETARIUM_TARGET_MARS:	ดาวอังคาร
+MENUB_PLANETARIUM_TARGET_JUPITER:	ดาวพฤหัสบดี
+MENUB_PLANETARIUM_TARGET_SATURN:	ดาว&เสาร์
+
+MENUB_PRESET:	&ตั้งค่าล่วงหน้า
+MENUB_PRESET_NEW_HORIZONS:	&ยานนิวฮอร์ไรซอนส์ส์เฉียดเข้าใกล้ล้พลูโตมากที่สุด
+MENUB_PRESET_HAYABUSA_2:	&ฮายาบูสะ 2  เฉียดเข้าใหล้โลก
+MENUB_PRESET_AKATSUKI:	&ยานอาคัตสึกิ พยายามเข้าสู่วงโคจรรอบดาวศุกร์ ครั้งที่สอง
+MENUB_PRESET_JUNO:	การมาถึงของจูโนที่ดาวพฤหัสบดี
+MENUB_PRESET_BLACKHOLE_GC:	หลุมดำ มวลมหาศาล ที่ ศูนย์ทางช้างเผือก
+MENUB_PRESET_ECLIPSE_2009:	สุริยุปราคา ของ 22 กรกฎาคม 2009 เท่าที่เห็นจาก อวกาศ
+MENUB_PRESET_ECLIPSE_2016:	บางส่วน สุริยุปราคา ของ 9 มีนาคม 2016 ( โตเกียวประเทศญี่ปุ่น )
+MENUB_PRESET_ECLIPSE_2016_2:	รวม สุริยุปราคา ของ 9 มีนาคม 2016 ( Ternate , อินโดนีเซีย)
+MENUB_PRESET_CASSINI:	ฉากสุดท้ายของยานแคสสินี
+MENUB_PRESET_CASSINI_2:	ฉากสุดท้ายของยานแคสสินี (มุมองจากระยะไกล)
+
+MENUB_SCALE:	&สเกล
+MENUB_SCALE_10MKM:	10 ล้าน กิโลเมตร
+MENUB_SCALE_1AU:	1 หน่วยดาราศาสตร์
+MENUB_SCALE_10AU:	10 หน่วยดาราศาสตร์
+MENUB_SCALE_100AU:	100 หน่วยดาราศาสตร์
+MENUB_SCALE_1KAU:	1000 หน่วยดาราศาสตร์
+MENUB_SCALE_10KAU:	10000 หน่วยดาราศาสตร์
+MENUB_SCALE_1LY:	1 ปีแสง (&6)
+MENUB_SCALE_10LY:	10 ปีแสง (&7)
+MENUB_SCALE_100LY:	100 ปีแสง (&8)
+MENUB_SCALE_1KLY:	1000 ปีแสง (&9)
+MENUB_SCALE_10KLY:	10000 ปีแสง (&A)
+MENUB_SCALE_100KLY:	100000 ปีแสง (&B)
+MENUB_SCALE_1MLY:	1 ล้านปีแสง (&C)
+MENUB_SCALE_10MLY:	10 ล้านปีแสง (&D)
+MENUB_SCALE_100MLY:	100 ล้านปีแสง (&E)
+MENUB_SCALE_1GLY:	1,000 ล้านปีแสง (&F)
+MENUB_SCALE_10GLY:	10,000 ล้านปีแสง (&G)
+
+MENUB_VIEW:	&มุมมองภาพ
+MENUB_VIEW_PLANET:	&ดาวเคราะห์
+MENUB_VIEW_PLANET_DISPLAY:	&แสดง
+MENUB_VIEW_PLANET_NAME:	&ชื่อ
+MENUB_VIEW_PLANET_ORBIT:	&วงโคจร
+MENUB_VIEW_PLANET_AXIS_ROTATION:	&แกนการหมุนรอบตัวเอง
+MENUB_VIEW_PLANET_ATMOSPHERE:	บรรยา&กาศ
+MENUB_VIEW_PLANET_ATMOSPHERE_NONE:	&ไม่มี
+MENUB_VIEW_PLANET_ATMOSPHERE_SINGLE:	&การกระเจิงอย่างง่าย
+MENUB_VIEW_PLANET_ATMOSPHERE_MULTIPLE:	&การกระเจิงแบบซับซ้อน
+MENUB_VIEW_PLANET_CLOUD:	&เมฆ
+MENUB_VIEW_PLANET_CITY_LIGHT:	แสง&เมือง
+MENUB_VIEW_PLANET_ECLIPSE:	เงาของดวงจันทร์
+MENUB_VIEW_PLANET_ECLIPSE_DISPLAY:	&แสดง
+MENUB_VIEW_PLANET_ECLIPSE_BORDER:	&ขอบเขต
+MENUB_VIEW_PLANET_MAG_RATE:	&อัตรากำลังขยาย
+MENUB_VIEW_PLANET_MAG_RATE_0:	อัตราส่วนจริง
+MENUB_VIEW_PLANET_MAG_RATE_1:	กำลังขยาย 1 (&1)
+MENUB_VIEW_PLANET_MAG_RATE_2:	กำลังขยาย 2 (&2)
+MENUB_VIEW_PLANET_MAG_RATE_3:	กำลังขยาย 3 (&3)
+MENUB_VIEW_PLANET_MAG_RATE_4:	กำลังขยาย 4 (&4)
+MENUB_VIEW_PLANET_MAG_RATE_5:	กำลังขยาย 5 (&5)
+MENUB_VIEW_PLANET_AMP_TOPO:	อัตราการขยาย&ภูมิประเทศ
+MENUB_VIEW_PLANET_AMP_TOPO_0:	อัตราส่วนจริง
+MENUB_VIEW_PLANET_AMP_TOPO_1:	x2 (&1)
+MENUB_VIEW_PLANET_AMP_TOPO_2:	x5 (&2)
+MENUB_VIEW_PLANET_AMP_TOPO_3:	x10 (&3)
+MENUB_VIEW_PLANET_AMP_TOPO_4:	x20 (&4)
+MENUB_VIEW_SATELLITE:	&ดวงจันทร์บริวาร
+MENUB_VIEW_SATELLITE_DISPLAY:	&แสดง
+MENUB_VIEW_SATELLITE_NAME:	&ชื่อ
+MENUB_VIEW_SATELLITE_ORBIT:	&วงโคจร
+MENUB_VIEW_SATELLITE_SELECT:	ตัวอย่างดาวบริวารเท่านั้น
+MENUB_VIEW_MINOR_PLANET:	&ดาวเคราะห์น้อย
+MENUB_VIEW_MINOR_PLANET_DISPLAY:	&แสดง
+MENUB_VIEW_MINOR_PLANET_NAME:	&ชื่อ
+MENUB_VIEW_MINOR_PLANET_ORBIT:	&วงโคจร
+MENUB_VIEW_MINOR_PLANET_SELECT:	ตัวอย่างดาวเคราะห์น้อยเท่านั้น
+MENUB_VIEW_TNO:	&วัตถุพ้นดาวเนปจูน
+MENUB_VIEW_TNO_DISPLAY:	&แสดง
+MENUB_VIEW_TNO_NAME:	&ชื่อ
+MENUB_VIEW_TNO_ORBIT:	&วงโคจร
+MENUB_VIEW_TNO_SELECT:	ตัวอย่างวัตถุพ้นดาวเนปจูนเท่านั้น
+MENUB_VIEW_OORT_CLOUD_DISPLAY:	เมฆ&ออร์ต
+MENUB_VIEW_STAR:	&ดาวฤกษ์
+MENUB_VIEW_STAR_DISPLAY:	&แสดง
+MENUB_VIEW_STAR_PROPER_NAME:	&ชื่อสามัญ
+MENUB_VIEW_STAR_SELECT:	ตัวอย่างดาวฤกษ์เท่านั้น (&S)
+MENUB_VIEW_STAR_BAYER:	&ชื่อแบบ Bayer
+MENUB_VIEW_STAR_FRAMSTEED:	&ชื่อแบบ Flamsteed
+MENUB_VIEW_STAR_HIP:	&ชื่อแบบ HIP
+MENUB_VIEW_STAR_ORBIT:	&วงโคจร
+MENUB_VIEW_STAR_MARK:	&เครื่องหมาย
+MENUB_VIEW_STAR_MARK_NONE:	&ไม่มี
+MENUB_VIEW_STAR_MARK_BINARY:	&ดาวคู่
+MENUB_VIEW_STAR_MARK_EXOPLANET:	ดาวฤกษ์ที่มีดาวเคราะห์นอกระบบสุริยะ
+MENUB_VIEW_STAR_BRIGHTEN:	เพิ่มความสว่าง
+MENUB_VIEW_STAR_DARKEN:	ลดความสว่าง
+MENUB_VIEW_STAR_DEFAULT:	ความสว่างมาตรฐาน
+MENUB_VIEW_GALACTIC_OBJECT:	วัตถุในกาแล็กซี่
+MENUB_VIEW_OUR_GALAXY:	กาแล็กซี่ทางช้างเผือก
+MENUB_VIEW_SGR_A_STAR:	บริเวณ Sagittarius A
+MENUB_VIEW_VERA:	วัตถุสำรวจโดย VERA
+MENUB_VIEW_GC:	&กระจุกดาวทรงกลม
+MENUB_VIEW_GAL_CENTER_BG:	พื้นหลังใจกลางกาแล็กซี
+MENUB_VIEW_EXTRAGALACTIC_OBJECT:	วัตถุนอกกาแล็กซี
+MENUB_VIEW_NBG:	&กาแล็กซีที่อยู่ใกล้เคียง
+MENUB_VIEW_SDSS:	กาแล็กซีสำรวจโดย SDSS
+MENUB_VIEW_QSO:	วัตถุ QSOs
+MENUB_VIEW_CMB:	รังสีไมโครเวฟพื้นหลัง
+MENUB_VIEW_GALAXY_MARK_VIRGO:	เครื่องหมายแสดงกระจุกกาแล็กซี่ Virgo
+MENUB_VIEW_SPACECRAFT:	&ยานอวกาศ
+MENUB_VIEW_SPACECRAFT_DISPLAY:	&แสดง
+MENUB_VIEW_SPACECRAFT_TRAJECTORY:	วิถีการโคจร
+MENUB_VIEW_SPACECRAFT_PIONEER10:	ยานไพโอเนียร์ 10
+MENUB_VIEW_SPACECRAFT_PIONEER11:	ยานไพโอเนียร์ 11
+MENUB_VIEW_SPACECRAFT_VOYAGER1:	ยานวอยเอเจอร์ 1
+MENUB_VIEW_SPACECRAFT_VOYAGER2:	ยานวอยเอเจอร์ 2
+MENUB_VIEW_SPACECRAFT_CASSINI:	ยานแคสซินี
+MENUB_VIEW_SPACECRAFT_NEW_HORIZONS:	ยานนิว ฮอร์ไรซอนส์
+MENUB_VIEW_SPACECRAFT_GALILEO:	ยานกาลิเลโอ
+MENUB_VIEW_SPACECRAFT_HAYABUSA2:	ยานฮายาบูสะ 2
+MENUB_VIEW_SPACECRAFT_AKATSUKI:	ยานอาคัตสึกิ
+MENUB_VIEW_SPACECRAFT_JUNO:	ยานอวกาศจูโน
+MENUB_VIEW_SPACECRAFT_KEPLER:	ยานอวกาศเคปเลอร์
+MENUB_VIEW_SPACECRAFT_GAIA:	ยานไกอา
+MENUB_VIEW_CONSTELLATION:	&กลุ่มดาว
+MENUB_VIEW_CONSTELLATION_NAME:	&ชื่อกลุ่มดาว
+MENUB_VIEW_CONSTELLATION_LINE:	&เส้นกลุ่มดาว
+MENUB_VIEW_CONSTELLATION_ILLUST:	ภาพร่างกลุ่มดาว
+MENUB_VIEW_CONSTELLATION_BOUNDARY:	เส้นแบ่งเขตกลุ่มดาว
+MENUB_VIEW_MILKYWAY:	&ทางช้างเผือก
+MENUB_VIEW_MILKYWAY_NONE:	&ไม่มี
+MENUB_VIEW_MILKYWAY_NORMAL:	ทางช้างเผือก (ความสว่างมาตรฐาน)
+MENUB_VIEW_MILKYWAY_BRIGHTER:	ทางช้างเผือก (ปกติ)
+MENUB_VIEW_MILKYWAY_IR:	เพิ่มความสว่างทางช้างเผือก
+MENUB_VIEW_MILKYWAY_CMB:	รังสีไมโครเวฟพื้นหลัง
+MENUB_VIEW_MILKYWAY_GAIA:	ทางช้างเผือก (ข้อมูลจากยานไกอา) (&G)
+MENUB_VIEW_GRID:	เส้นกริด
+MENUB_VIEW_GRID_EQ:	พิกัดศูนย์สูตรท้องฟ้า
+MENUB_VIEW_GRID_EC:	สุริยวิถี
+MENUB_VIEW_GRID_GALACTIC:	พิกัดกาแล็กซี
+MENUB_VIEW_GRID_HORIZONTAL:	&พิกัดเส้นขอบฟ้า
+MENUB_VIEW_SCALELINE:	เส้น &สเกล
+MENUB_VIEW_SCALELINE_CIRCLE:	แสดงระยะทาง (แบบวงกลม)
+MENUB_VIEW_SCALELINE_SQUARE:	แสดงระยะทาง (แบบสี่เหลี่ยม)
+MENUB_VIEW_PLANET_POINTER:	พิกัดและระดับพื้นผิวดาว
+MENUB_VIEW_HEADLIGHT:	สว่างทั้งดวง
+MENUB_VIEW_OBJECT_INFO:	หน้าต่างแสดงข้อมูลของวัตถุ
+MENUB_VIEW_VIEW_INFO:	แสดงข้อมูล
+MENUB_VIEW_RESET_VIEW:	รีเซ็ต &มุมมอง
+MENUB_VIEW_TEXTSIZE:	ขนาด&ตัวอักษร
+MENUB_VIEW_TEXTSIZE_LARGEST:	ใหญ่&ที่สุด
+MENUB_VIEW_TEXTSIZE_LARGER:	&ใหญ่
+MENUB_VIEW_TEXTSIZE_MEDIUM:	&ขนาดกลาง
+MENUB_VIEW_TEXTSIZE_SMALLER:	&เล็ก
+MENUB_VIEW_TEXTSIZE_SMALLEST:	เล็ก&ที่สุด
+MENUB_VIEW_TEXT_KERNING:	ปรับช่องไฟ &ตัวอักษร
+MENUB_VIEW_FULLSCREEN:	โหมดเต็มจอ (Alt+Enter)
+
+MENUB_TIME:	&เวลา
+MENUB_TIME_DISP:	แสดงเวลา
+MENUB_TIME_1SEC:	1 วินาที (&0)
+MENUB_TIME_10SEC:	10 วินาที (&1)
+MENUB_TIME_1MIN:	1 นาที(&2)
+MENUB_TIME_10MIN:	10 นาที(&3)
+MENUB_TIME_1HOUR:	1 ชั่วโมง(&4)
+MENUB_TIME_4HOURS:	4 ชั่วโมง(&5)
+MENUB_TIME_1DAY:	1 วัน(&6)
+MENUB_TIME_1WEEK:	1 สัปดาห์(&7)
+MENUB_TIME_1MONTH:	1 เดือน(&8)
+MENUB_TIME_1YEAR:	1 ปี(&9)
+MENUB_TIME_10YEARS:	10 ปี(&A)
+MENUB_TIME_100YEARS:	100 ปี(&B)
+MENUB_TIME_SETTING:	&ตั้งเวลา...
+MENUB_TIME_REALTIME_MODE:	โหมดเวลาปัจจุบัน
+
+MENUB_SETTING:	&ตั้งค่า
+MENUB_SETTING_DISP_MODE:	โหมดแสดงผล
+MENUB_SETTING_DISPMODE_NORMAL:	&ปกติ
+MENUB_SETTING_DISPMODE_ANAGLYPH:	ภาพสามมิติ(ขาว-ดำ)
+MENUB_SETTING_DISPMODE_COLOR_ANAGLYPH:	ภาพสามมิติ(สี)
+MENUB_SETTING_DISPMODE_SIDE_BY_SIDE:	ภาพซ้ายและขวา
+MENUB_SETTING_DISPMODE_TOP_AND_BOTTOM:	ภาพบนและล่าง
+MENUB_SETTING_DISPMODE_DOMEMASTER:	ระบบท้องฟ้าจำลอง
+
+MENUB_HELP:	&ช่วยเหลือ
+MENUB_HELP_ABOUT_FMT:	&เกี่ยวกับ %s...
+
+MENUB_LANGUAGE:	&ภาษา/Language
+
+
+
+//=====  Dialog Box  =====
+DLG_MB_EXIT_TITLE:	ออก
+DLG_MB_EXIT_QUERY_FMT:	คุณต้องการออกจากโปรแกรมหรือไม่?
+DLG_IMAGE_TITLE:	บันทึกภาพตามขนาดที่ต้องการ
+DLG_IMAGE_MAX_FMT:	ขนาดภาพใหญ่ที่สุด
+DLG_IMAGE_WIDTH:	ความกว้างของภาพ
+DLG_IMAGE_HEIGHT:	ความสูงของภาพ
+DLG_IMAGE_SIZE_MIN_CAUTION:	ขนาดความกว้างและความสูงของภาพต้องมากกว่าศูนย์
+DLG_IMAGE_SIZE_MAX_CAUTION:	ขนาดใหญ่สุดที่ … x …
+DLG_IMAGE_SAVE_BUTTON:	บันทึก
+DLG_IMAGE_CANCEL_BUTTON:	ยกเลิด
+DLG_TIME_TITLE:	ตั้งค่าเวลา
+DLG_TIME_DATE:	วันที่
+DLG_TIME_YEAR:	ปี
+DLG_TIME_TIME:	เวลา
+DLG_TIME_HOUR:	ชั่วโมง
+DLG_TIME_MINUTE:	นาที
+DLG_TIME_SECOND:	วินาที
+DLG_TIME_TONIGHT:	ตั้งเวลาเป็น 20:00 น.
+DLG_TIME_PRESENT_TIME:	ตั้งเวลาเป็นปัจจุบัน
+DLG_TIME_OK:	ตกลง
+DLG_TIME_APPLY:	ใช้งาน
+DLG_TIME_CANCEL:	ยกเลิก
+DLG_ABOUT_TITLE_FMT:	เกี่ยวกับ
+
+
+
+//=====  Save Image  =====
+SAVEIMAGE_FILTER:	JPEG (*.jpg)\0*.jpg\0PNG (*.png)\0*.png\0ไฟล์ bitmap  (*.bmp)\0*.bmp\0
+SAVEIMAGE_TITLE:	บันทึกรูปภาพเป็น...

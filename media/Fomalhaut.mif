@@ -1,0 +1,35 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\ALMA_Fomalhaut.jpg
+FILE_PATH:	.\images\ALMA_Fomalhaut.jpg
+
+
+[default]
+MENU_TITLE:	Fomalhaut
+
+[ja, ja_ruby]
+MENU_TITLE:	フォーマルハウト
+
+[es]
+MENU_TITLE:	Fomalhaut
+
+[fr]
+MENU_TITLE:	Fomalhaut
+
+[it]
+MENU_TITLE:	Fomalhaut
+
+[pt]
+MENU_TITLE:	Fomalhaut
+
+[id]
+MENU_TITLE:	Fomalhaut
+
+[th]
+MENU_TITLE:	โฟมัลฮอต
+
+[zh]
+MENU_TITLE:北落师门
+
+[zh_tr]
+MENU_TITLE:北落師門

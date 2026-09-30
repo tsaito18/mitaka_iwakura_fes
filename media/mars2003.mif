@@ -1,0 +1,38 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\Mars.jpg
+FILE_PATH:	.\images\Mars.jpg
+
+
+[default]
+MENU_TITLE:	Mars 2003
+
+[ja, ja_ruby]
+MENU_TITLE:	火星大接近 2003
+
+[ja_ruby]
+DISP_TITLE:	{火星|かせい}{大接近|だいせっきん} 2003
+
+[es]
+MENU_TITLE:	Marte 2003
+
+[fr]
+MENU_TITLE:	Mars 2003
+
+[it]
+MENU_TITLE:	Marte 2003
+
+[pt]
+MENU_TITLE:	Marte 2003
+
+[id]
+MENU_TITLE:	Mars 2003
+
+[th]
+MENU_TITLE:	ดาวอังคารใกล้โลก ค.ศ.2003
+
+[zh]
+MENU_TITLE:	火星异常接近 2003
+
+[zh_tr]
+MENU_TITLE:	2003年火星大衝

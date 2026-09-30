@@ -1,0 +1,537 @@
+//=====  Menu  =====
+MENU_ROOT:	Menu principal
+MENU_ROOT_MW:	Menu / Menu principal
+MENU_MOVIE:	Vidéos
+MENU_IMAGE:	Images
+MENU_AUDIO:	Audios
+MENU_TARGET:	Cible
+MENU_SCALE:	Échelle
+
+MENU_CMD_BRIGHT_MW:	Voie Lactée plus lumineuse
+MENU_CMD_MW:	Voie Lactée
+MENU_CMD_GOTO_TARGET:	Aller à la cible
+MENU_CMD_GOTO_EARTH:	Aller à la Terre
+MENU_CMD_GOTO_PLEIADES:	Aller aux Pléiades
+MENU_CMD_GOTO_M13:	Aller à M13
+MENU_CMD_GOTO_GC:	Aller au Centre Galactique
+MENU_CMD_GOTO_CASSINI:	Aller à Cassini
+MENU_CMD_GOTO_VIRGO:	Aller à l'Amas de la Vierge
+
+MENU_3D_CHART:	Tableaux 3D
+MENU_3DCHART_PLANETS:	Planètes du Système Solaire
+MENU_3DCHART_DWARF_PLANETS:	Grands objets transneptuniens
+MENU_3DCHART_STAR_COLOR:	Couleur et température d'étoiles
+
+MENU_DISP:	Réglage de l'affichage
+MENU_DISP_GC:	Amas globulaires
+MENU_DISP_NGC:	Objets NGC
+MENU_CMD_RESET_VIEWANGLE:	Réinitialiser l'angle de vue
+MENU_CHK_HEADLIGHT:	Phare
+MENU_CHK_SURFACE_POINTER:	Pointeur sur la surface
+MENU_CHK_VIEW_INFO:	Information de visualisation
+
+MENU_DISP_PLANETS:	Planètes
+MENU_CHK_PLANET_DISP:	Afficher
+MENU_CHK_PLANET_NAME:	Noms
+MENU_CHK_PLANET_ORBIT:	Orbites
+MENU_CHK_PLANET_AXIS:	Axe de rotation
+MENU_CHK_PLANET_CLOUD:	Nuage
+MENU_CHK_PLANET_CITY_LIGHT:	Lumières des villes
+
+MENU_DISP_PLANET_ATMOSPHERE:	Atmosphère
+MENU_ATMOSPHERE_NONE:	Aucun
+MENU_ATMOSPHERE_SINGLE_SCAT:	Diffusion seule
+MENU_ATMOSPHERE_MULTI_SCAT:	Diffusion multiple
+
+MENU_DISP_ECLIPSE:	Ombre des Lunes
+MENU_CHK_ECLIPSE_DISP:	Afficher
+MENU_CHK_ECLIPSE_BORDER:	Limites d'ombre / pénombre
+
+MENU_DISP_ZOOM_MODE:	Facteur de grossissement
+MENU_ZOOM_REAL_SCALE:	Échelle réelle
+MENU_ZOOM_1:	Grossissement 1
+MENU_ZOOM_2:	Grossissement 2
+MENU_ZOOM_3:	Grossissement 3
+MENU_ZOOM_4:	Grossissement 4
+MENU_ZOOM_5:	Grossissement 5
+
+MENU_DISP_AMP_TOPO:	Amplification de topographie
+MENU_TOPO_ZOOM_REAL_SCALE:	Échelle réelle
+MENU_TOPO_ZOOM_1:	x2
+MENU_TOPO_ZOOM_2:	x5
+MENU_TOPO_ZOOM_3:	x10
+MENU_TOPO_ZOOM_4:	x20
+
+MENU_LANDING_MODE:	Mode d'atterrissage
+MENU_LANDING_MODE_HORIZONTAL:	Horizontale
+MENU_LANDING_MODE_SURFACE_VIEW:	Surface-Vue
+
+MENU_DISP_SATELLITES:	Satellites
+MENU_CHK_SATELLITE_DISP:	Afficher
+MENU_CHK_SATELLITE_NAME:	Noms
+MENU_CHK_SATELLITE_ORBIT:	Orbites
+MENU_CHK_SATELLITE_SELECT:	Uniquement objets sélectionnés
+
+MENU_DISP_MINOR_PLANETS:	Planètes mineures
+MENU_CHK_MP_DISP:	Afficher
+MENU_CHK_MP_NAME:	Noms
+MENU_CHK_MP_ORBIT:	Orbites
+MENU_CHK_MP_SELECT:	Uniquement objets sélectionnés
+
+MENU_DISP_TNOS:	Objets transneptuniens
+MENU_CHK_TNO_DISP:	Afficher
+MENU_CHK_TNO_NAME:	Noms
+MENU_CHK_TNO_ORBIT:	Orbites
+MENU_CHK_TNO_SELECT:	Uniquement objets sélectionnés
+MENU_CHK_OORT_CLOUD:	Nuage d'Oort
+
+MENU_DISP_STARS:	Étoiles
+MENU_CHK_STAR_DISP:	Afficher
+MENU_CHK_STAR_NAME:	Noms propres
+MENU_CHK_STAR_NAME_SELECT:	Uniquement les noms propres sélectionnés
+MENU_CHK_STAR_BAYER:	Noms de Bayer
+MENU_CHK_STAR_FRAMSTEED:	Noms de Flamsteed
+MENU_CHK_STAR_HIP:	Numéros HIP
+MENU_CHK_STAR_ORBIT:	Orbites
+MENU_CMD_STAR_BRIGHTEN:	Plus lumineux
+MENU_CMD_STAR_DARKEN:	Moins lumineux
+MENU_CMD_STAR_DEFAULT_BRIGHTNESS:	Luminosité par défaut
+
+MENU_STAR_MARK:	Marquer
+MENU_MARK_NONE:	Aucun
+MENU_MARK_BINARIES:	Étoiles binaires
+MENU_MARK_EXOPLANETS:	Étoiles avec planètes
+
+MENU_DISP_GALACTIC_OBJECTS:	Objets galactiques
+MENU_CHK_OUR_GALAXY:	Notre Galaxie
+MENU_CHK_SGR_A_STAR:	Sagittarius A\S*
+MENU_CHK_VERA_OBJECT:	Objets de VERA
+MENU_CHK_GC:	Amas globulaires
+MENU_CHK_GAL_CENTER_BG:	Fond du Centre galactique
+
+MENU_DISP_EXTRAGALACTIC_OBJECTS:	Objets extragalactiques
+MENU_CHK_GALAXY_NEAR:	Galaxies proches
+MENU_CHK_GALAXY_SDSS:	Galaxies de SDSS
+MENU_CHK_GALAXY_QSO:	Quasars
+MENU_CHK_CMB:	Fond Diffus Cosmologique
+MENU_CHK_MARK_VIRGO_CLUSTER:	Marquer l'Amas de la Vierge
+
+MENU_DISP_SCF:	Sondes spatiales
+MENU_CHK_SPACECRAFT_DISP:	Afficher
+MENU_DISP_SPACECRAFT_TRAJECTORY:	Trajectoires
+
+MENU_DISP_CNST:	Constellations
+MENU_CHK_CNST_NAME:	Noms
+MENU_CHK_CNST_LINE:	Lignes
+MENU_CHK_CNST_ILLUST:	Illustrations
+MENU_CHK_CNST_BND:	Limites
+
+MENU_DISP_MW:	Voie Lactée
+MENU_MILKYWAY_NONE:	Aucun
+MENU_MILKYWAY_DEFAULT:	Voie Lactée (défaut)
+MENU_MILKYWAY_BRIGHT:	Voie Lactée (plus lumineuse)
+MENU_MILKYWAY_IR:	Voie Lactée (dans l'infrarouge)
+MENU_MILKYWAY_CMB:	Fond Diffus Cosmologique
+MENU_MILKYWAY_GAIA:	Voie lactée ( Observations de Gaia)
+
+MENU_DISP_GRID:	Grille / Échelles
+MENU_CHK_CLST_GRID:	Coordonnées équatoriales
+MENU_CHK_ECLIPTIC:	Écliptique
+MENU_CHK_HORIZON_COORD:	Coordonnées horizontales
+MENU_CHK_GALACTIC_GRID:	Coordonnées galactiques
+MENU_CHK_SCALE_CIRCLE:	Échelles (Cercle)
+MENU_CHK_SCALE_SQUARE:	Échelles (Carré)
+
+MENU_TARGET:	Cible
+MENU_TARGET_SS:	Soleil et planètes
+MENU_TARGET_SS2:	Satellites
+MENU_TARGET_SS3:	Planètes mineures
+MENU_TARGET_SS4:	Objets transneptuniens
+MENU_TARGET_STAR:	Étoiles
+MENU_TARGET_GALACTIC_OBJECT:	Objets galactiques
+MENU_TARGET_EXTRAGALACTIC_OBJECT:	Objets extragalactiques
+MENU_TARGET_SCF:	Sondes spatiales
+
+MENU_PLANETARIUM_TARGET:	Cible en mode Planetarium
+MENU_PLANETARIUM_TARGET_NONE:	Aucun
+MENU_PLANETARIUM_TARGET_SUN:	Soleil
+MENU_PLANETARIUM_TARGET_MOON:	Lune
+MENU_PLANETARIUM_TARGET_MERCURY:	Mercure
+MENU_PLANETARIUM_TARGET_VENUS:	Vénus
+MENU_PLANETARIUM_TARGET_MARS:	Mars
+MENU_PLANETARIUM_TARGET_JUPITER:	Jupiter
+MENU_PLANETARIUM_TARGET_SATURN:	Saturne
+
+MENU_TIME:	Temps
+MENU_CHK_DATE:	Afficher la date
+MENU_CMD_SET_PRESENT_TIME:	Mettre au temps présent
+MENU_CHK_DATE_FADE:	Disparaître
+MENU_CHK_REALTIME_MODE:	Mode temps-réel
+
+MENU_TIMESTEP:	Echelle de temps
+MENU_TIMESTEP_1SEC:	1 seconde
+MENU_TIMESTEP_10SEC:	10 secondes
+MENU_TIMESTEP_1MIN:	1 min
+MENU_TIMESTEP_10MIN:	10 min
+MENU_TIMESTEP_1HOUR:	1 heure
+MENU_TIMESTEP_4HOURS:	4 heures
+MENU_TIMESTEP_1DAY:	1 jour
+MENU_TIMESTEP_1WEEK:	1 semaine
+MENU_TIMESTEP_1MONTH:	1 mois
+MENU_TIMESTEP_1YEAR:	1 an
+MENU_TIMESTEP_10YEARS:	10 ans
+MENU_TIMESTEP_100YEARS:	100 ans
+
+MENU_SYSTEM:	Système
+MENU_CHK_FULL_SCREEN:	Plein Écran
+MENU_CHK_SUBTITLES:	Mode Sous-Titre
+MENU_CHK_TITLE:	Titre
+MENU_CHK_ABOUT:	Information sur la version
+MENU_CHK_DEBUG:	Information pour déboguer
+MENU_CHK_SINGLE_EYE:	Éteignez l'image de l'œil gauche
+MENU_CHK_SHADER:	En utilisant Shader
+MENU_CHK_BLACKOUT:	Mode écran noir
+MENU_CMD_EXIT_ALL:	Tout quitter
+
+MENU_PROGRAM:	Sélectionner le programme
+
+MENU_LANGUAGE:	Langue / Langage
+
+MENU_FONT_SIZE:	Taille du texte
+MENU_FONT_SIZE_LARGEST:	Plus grande
+MENU_FONT_SIZE_LARGER:	Grande
+MENU_FONT_SIZE_MEDIUM:	Moyenne
+MENU_FONT_SIZE_SMALLER:	Petite
+MENU_FONT_SIZE_SMALLEST:	Plus petite
+
+MENU_SPEED_FMT:	Vitesse (x%.2f)
+MENU_SPEED_FASTER:	Plus vite
+MENU_SPEED_SLOWER:	Plus lent
+MENU_SPEED_DEFAULT:	Vitesse par défaut
+
+MENU_LANDING_POS_NAME_FMT:	Atterrir sur %s
+
+MENU_PRESET:	Prédéfini
+MENU_CMD_PRESET_SS:	Vue complète du Système Solaire
+MENU_CMD_PRESET_VOYAGER_PATH:	Suivi de la trajectoire de Sondes Spatiales
+MENU_CMD_PRESET_NEW_HORIZONS:	Approche de New Horizons au plus près de Pluton
+MENU_CMD_PRESET_HAYABUSA_2:	Survol de la Terre par Hayabusa2
+MENU_CMD_PRESET_AKATSUKI:	La deuxième tentative d'Akatsuki d'entrer dans l'orbite de Vénus
+MENU_CMD_PRESET_JUNO:	Arrivée de Juno à Jupiter
+MENU_CMD_PRESET_BLACKHOLE_GC:	Trou noir supermassif au Centre Galactique
+MENU_CMD_PRESET_ECLIPSE_2009:	Éclipse solaire du 22 juillet 2009,  vu de l'espace
+MENU_CMD_PRESET_ECLIPSE_2016:	Eclipse partielle du Soleil le 9 Mars 2016 (Tokyo, Japon)
+MENU_CMD_PRESET_ECLIPSE_2016_2:	Eclipse totale du Soleil du 9 Mars 2016 (Ternate, Indonésie)
+MENU_CMD_PRESET_CASSINI:	Grand final de Cassini
+MENU_CMD_PRESET_CASSINI_2:	Grand final de Cassini (champ large)
+
+
+
+//=====  Menu Bar  =====
+MENUB_FILE:	&Fichier
+MENUB_FILE_SAVE_IMAGE_AS:	&Enregistrer l'image sous...
+MENUB_FILE_SAVE_IMAGE_ARB:	Enregistrer l'image en dimensions &arbitraires...
+MENUB_FILE_EXIT:	&Quitter
+
+MENUB_LANDING:	&Atterrir/Décoller
+MENUB_LANDING_LANDING:	&Atterrir/Décoller
+MENUB_LANDING_POS_NAME_FMT:	Atterrir &sur %s
+MENUB_LANDING_MODE:	&Mode d'atterrissage
+MENUB_LANDING_MODE_HOR:	&Horizontale
+MENUB_LANDING_MODE_SUR:	&Surface-Vue
+
+MENUB_TARGET:	&Cible
+
+MENUB_TARGET_SUN_PLANETS:	Soleil et Planètes
+MENUB_TARGET_SUN:	&Soleil
+MENUB_TARGET_MERCURY:	Me&rcure
+MENUB_TARGET_VENUS:	&Vénus
+MENUB_TARGET_EARTH:	&Terre
+MENUB_TARGET_MARS:	M&ars
+MENUB_TARGET_JUPITER:	&Jupiter
+MENUB_TARGET_SATURN:	Sa&turne
+MENUB_TARGET_URANUS:	&Uranus
+MENUB_TARGET_NEPTUNE:	&Neptune
+
+MENUB_TARGET_SATELLITES:	&Satellites
+MENUB_TARGET_MOON:	&Lune
+MENUB_TARGET_PHOBOS:	&Phobos
+MENUB_TARGET_DEIMOS:	&Déimos
+MENUB_TARGET_IO:	&Io
+MENUB_TARGET_EUROPA:	&Europe
+MENUB_TARGET_GANYMEDE:	&Ganymède
+MENUB_TARGET_CALLISTO:	&Callisto
+MENUB_TARGET_MIMAS:	Mima&s
+MENUB_TARGET_ENCELADUS:	E&ncelade
+MENUB_TARGET_TITAN:	&Titan
+MENUB_TARGET_IAPETUS:	&Japet
+MENUB_TARGET_TRITON:	T&riron
+MENUB_TARGET_CHARON:	C&haron
+
+MENUB_TARGET_MINOR_PLANETS:	&Astéroïdes
+MENUB_TARGET_CERES:	&Cérès
+MENUB_TARGET_ITOKAWA:	&Itokawa
+MENUB_TARGET_RYUGU:	&Ryugu
+MENUB_TARGET_CHARIKLO:	C&hariclo
+
+MENUB_TARGET_TNOS:	Objets &transneptuniens
+MENUB_TARGET_PLUTO:	&Pluton
+MENUB_TARGET_ERIS:	Ér&is
+MENUB_TARGET_HAUMEA:	&Haumea
+MENUB_TARGET_MAKEMAKE:	&Makemake
+MENUB_TARGET_SEDNA:	Se&dna
+
+MENUB_TARGET_STARS:	É&toiles
+MENUB_TARGET_ALPHA_CEN:	&Alpha Centauri
+MENUB_TARGET_SIRIUS:	&Sirius
+MENUB_TARGET_PLEIADES:	&Pléiades
+MENUB_TARGET_CASTOR:	&Castor
+
+MENUB_TARGET_GALACTIC_OBJECTS:	&Objets galactiques
+MENUB_TARGET_SGR_A_STAR:	&Sagittarius A*
+MENUB_TARGET_M13:	Amas Globulaire &M13
+MENUB_TARGET_OUR_GALAXY_CENTER:	Notre &Galaxie
+
+MENUB_TARGET_EXTRAGALACTIC_OBJECTS:	Objets &extragalactiques
+MENUB_TARGET_ANDROMEDA_GAL:	Galaxie d'&Andromède
+MENUB_TARGET_VIRGO_CLUSTER:	Amas de la &Vierge M87
+
+MENUB_TARGET_SPACECRAFT:	Sondes s&patiales
+MENUB_TARGET_PIONEER10:	Pioneer 10 (&P)
+MENUB_TARGET_PIONEER11:	Pioneer 11 (&Q)
+MENUB_TARGET_VOYAGER1:	Voyager I (&V)
+MENUB_TARGET_VOYAGER2:	Voyager II (&X)
+MENUB_TARGET_CASSINI:	&Cassini
+MENUB_TARGET_NEW_HORIZONS:	&New Horizons
+MENUB_TARGET_GALILEO:	&Galileo
+MENUB_TARGET_HAYABUSA2:	&Hayabusa2
+MENUB_TARGET_AKATSUKI:	&Akatsuki
+MENUB_TARGET_JUNO:	&Juno
+MENUB_TARGET_KEPLER:	&Kepler
+MENUB_TARGET_GAIA:	Gaia(&I)
+MENUB_TARGET_MOVE_TARGET:	&Aller à la Cible
+
+MENUB_PLANETARIUM_TARGET:	Cible en mode Planetarium
+MENUB_PLANETARIUM_TARGET_NONE:	Aucun
+MENUB_PLANETARIUM_TARGET_SUN:	Soleil
+MENUB_PLANETARIUM_TARGET_MOON:	Lune
+MENUB_PLANETARIUM_TARGET_MERCURY:	Mercure
+MENUB_PLANETARIUM_TARGET_VENUS:	Vénus
+MENUB_PLANETARIUM_TARGET_MARS:	Mars
+MENUB_PLANETARIUM_TARGET_JUPITER:	Jupiter
+MENUB_PLANETARIUM_TARGET_SATURN:	Saturne
+
+MENUB_PRESET:	&Prédéfini
+MENUB_PRESET_NEW_HORIZONS:	Approche  de &New Horizons au plus près de Pluton
+MENUB_PRESET_HAYABUSA_2:	Survol de la Terre par &Hayabusa2
+MENUB_PRESET_AKATSUKI:	Deuxième tentative d'&Akatsuki d'entrer dans l'orbite de Vénus
+MENUB_PRESET_JUNO:	Arrivée de Juno à Jupiter
+MENUB_PRESET_BLACKHOLE_GC:	Trou noir supermassif au Centre Galactique
+MENUB_PRESET_ECLIPSE_2009:	Éclipse Solaire du 22 juillet 2009, comme vu de l'Espace
+MENUB_PRESET_ECLIPSE_2016:	Eclipse partielle du Soleil le 9 Mars 2016 (Tokyo, Japon)
+MENUB_PRESET_ECLIPSE_2016_2:	Eclipse totale de Soleil du 9 Mars 2016 (Ternate, Indonésie)
+MENUB_PRESET_CASSINI:	Grand final de Cassini
+MENUB_PRESET_CASSINI_2:	Grand final de Cassini (champ large)
+
+MENUB_SCALE:	&Échelle
+MENUB_SCALE_10MKM:	10 millions de km (&0)
+MENUB_SCALE_1AU:	1 UA (&1)
+MENUB_SCALE_10AU:	10 UA (&2)
+MENUB_SCALE_100AU:	100 UA (&3)
+MENUB_SCALE_1KAU:	1 000 UA (&4)
+MENUB_SCALE_10KAU:	10 000 UA (&5)
+MENUB_SCALE_1LY:	1 année-lumière (&6)
+MENUB_SCALE_10LY:	10 années-lumière (&7)
+MENUB_SCALE_100LY:	100 années-lumière (&8)
+MENUB_SCALE_1KLY:	1 000 années-lumière (&9)
+MENUB_SCALE_10KLY:	10 000 années-lumière (&A)
+MENUB_SCALE_100KLY:	100 000 années-lumière (&B)
+MENUB_SCALE_1MLY:	1 million d'années-lumière (&C)
+MENUB_SCALE_10MLY:	10 millions d'années-lumière (&D)
+MENUB_SCALE_100MLY:	100 millions d'années-lumière (&E)
+MENUB_SCALE_1GLY:	1 milliard d'années-lumière (&F)
+MENUB_SCALE_10GLY:	10 milliards d'années-lumière (&G)
+
+MENUB_VIEW:	&Affichage
+MENUB_VIEW_PLANET:	&Planètes
+MENUB_VIEW_PLANET_DISPLAY:	&Afficher
+MENUB_VIEW_PLANET_NAME:	&Noms
+MENUB_VIEW_PLANET_ORBIT:	&Orbites
+MENUB_VIEW_PLANET_AXIS_ROTATION:	&Axe de rotation
+MENUB_VIEW_PLANET_ATMOSPHERE:	Atmo&sphère
+MENUB_VIEW_PLANET_ATMOSPHERE_NONE:	&Aucun
+MENUB_VIEW_PLANET_ATMOSPHERE_SINGLE:	Diffusion &seule
+MENUB_VIEW_PLANET_ATMOSPHERE_MULTIPLE:	Diffusion &multiple
+MENUB_VIEW_PLANET_CLOUD:	&Nuage
+MENUB_VIEW_PLANET_CITY_LIGHT:	Lumières de &Villes
+MENUB_VIEW_PLANET_ECLIPSE:	&Ombre des Lunes
+MENUB_VIEW_PLANET_ECLIPSE_DISPLAY:	&Afficher
+MENUB_VIEW_PLANET_ECLIPSE_BORDER:	&Limite
+MENUB_VIEW_PLANET_MAG_RATE:	Facteur de &grossissement
+MENUB_VIEW_PLANET_MAG_RATE_0:	Échelle réelle (&0)
+MENUB_VIEW_PLANET_MAG_RATE_1:	Grossissement 1 (&1)
+MENUB_VIEW_PLANET_MAG_RATE_2:	Grossissement 2 (&2)
+MENUB_VIEW_PLANET_MAG_RATE_3:	Grossissement 3 (&3)
+MENUB_VIEW_PLANET_MAG_RATE_4:	Grossissement 4 (&4)
+MENUB_VIEW_PLANET_MAG_RATE_5:	Grossissement 5 (&5)
+MENUB_VIEW_PLANET_AMP_TOPO:	Amplification de &topographie
+MENUB_VIEW_PLANET_AMP_TOPO_0:	Échelle réelle (&0)
+MENUB_VIEW_PLANET_AMP_TOPO_1:	x2 (&1)
+MENUB_VIEW_PLANET_AMP_TOPO_2:	x5 (&2)
+MENUB_VIEW_PLANET_AMP_TOPO_3:	x10 (&3)
+MENUB_VIEW_PLANET_AMP_TOPO_4:	x20 (&4)
+MENUB_VIEW_SATELLITE:	&Satellites
+MENUB_VIEW_SATELLITE_DISPLAY:	&Afficher
+MENUB_VIEW_SATELLITE_NAME:	&Noms
+MENUB_VIEW_SATELLITE_ORBIT:	&Orbites
+MENUB_VIEW_SATELLITE_SELECT:	Satellites &sélectionnés
+MENUB_VIEW_MINOR_PLANET:	&Planètes mineures
+MENUB_VIEW_MINOR_PLANET_DISPLAY:	&Afficher
+MENUB_VIEW_MINOR_PLANET_NAME:	&Noms
+MENUB_VIEW_MINOR_PLANET_ORBIT:	&Orbites
+MENUB_VIEW_MINOR_PLANET_SELECT:	Objets &sélectionnés
+MENUB_VIEW_TNO:	Objets &Transneptuniens
+MENUB_VIEW_TNO_DISPLAY:	&Afficher
+MENUB_VIEW_TNO_NAME:	&Noms
+MENUB_VIEW_TNO_ORBIT:	&Orbites
+MENUB_VIEW_TNO_SELECT:	Objets &sélectionnés
+MENUB_VIEW_OORT_CLOUD_DISPLAY:	Nuage d'Oo&rt
+MENUB_VIEW_STAR:	&Étoiles
+MENUB_VIEW_STAR_DISPLAY:	&Afficher
+MENUB_VIEW_STAR_PROPER_NAME:	&Noms propres
+MENUB_VIEW_STAR_SELECT:	Noms propres &sélectionnés
+MENUB_VIEW_STAR_BAYER:	Noms de &Bayer
+MENUB_VIEW_STAR_FRAMSTEED:	Noms de &Flamsteed
+MENUB_VIEW_STAR_HIP:	Numéros &HIP
+MENUB_VIEW_STAR_ORBIT:	&Orbites
+MENUB_VIEW_STAR_MARK:	&Marquer
+MENUB_VIEW_STAR_MARK_NONE:	&Aucun
+MENUB_VIEW_STAR_MARK_BINARY:	Étoiles &binaires
+MENUB_VIEW_STAR_MARK_EXOPLANET:	Étoiles avec &planètes
+MENUB_VIEW_STAR_BRIGHTEN:	Plus &lumineux
+MENUB_VIEW_STAR_DARKEN:	&Moins lumineux
+MENUB_VIEW_STAR_DEFAULT:	Luminosité &standard
+MENUB_VIEW_GALACTIC_OBJECT:	Objets &galactiques
+MENUB_VIEW_OUR_GALAXY:	&Notre Galaxie
+MENUB_VIEW_SGR_A_STAR:	&Sagittarius A*
+MENUB_VIEW_VERA:	Objets de &VERA
+MENUB_VIEW_GC:	Amas &globulaire
+MENUB_VIEW_GAL_CENTER_BG:	&Fond du Centre Galactique
+MENUB_VIEW_EXTRAGALACTIC_OBJECT:	Objets &extragalactiques
+MENUB_VIEW_NBG:	Galaxies &proches
+MENUB_VIEW_SDSS:	Galaxies de &SDSS
+MENUB_VIEW_QSO:	&Quasars
+MENUB_VIEW_CMB:	&Fond Diffus Cosmologique
+MENUB_VIEW_GALAXY_MARK_VIRGO:	Marquer l'Amas de la &Vierge
+MENUB_VIEW_SPACECRAFT:	&Sondes spatiales
+MENUB_VIEW_SPACECRAFT_DISPLAY:	&Afficher
+MENUB_VIEW_SPACECRAFT_TRAJECTORY:	&Trajectoires
+MENUB_VIEW_SPACECRAFT_PIONEER10:	Pioneer 10 (&P)
+MENUB_VIEW_SPACECRAFT_PIONEER11:	Pioneer 11 (&Q)
+MENUB_VIEW_SPACECRAFT_VOYAGER1:	Voyager I (&V)
+MENUB_VIEW_SPACECRAFT_VOYAGER2:	Voyager II (&X)
+MENUB_VIEW_SPACECRAFT_CASSINI:	Cassini (&C)
+MENUB_VIEW_SPACECRAFT_NEW_HORIZONS:	&New Horizons
+MENUB_VIEW_SPACECRAFT_GALILEO:	&Galileo
+MENUB_VIEW_SPACECRAFT_HAYABUSA2:	&Hayabusa2
+MENUB_VIEW_SPACECRAFT_AKATSUKI:	&Akatsuki
+MENUB_VIEW_SPACECRAFT_JUNO:	&Juno
+MENUB_VIEW_SPACECRAFT_KEPLER:	&Kepler
+MENUB_VIEW_SPACECRAFT_GAIA:	Gaia(&K)
+MENUB_VIEW_CONSTELLATION:	&Constellations
+MENUB_VIEW_CONSTELLATION_NAME:	&Noms
+MENUB_VIEW_CONSTELLATION_LINE:	&Lignes
+MENUB_VIEW_CONSTELLATION_ILLUST:	&Illustrations
+MENUB_VIEW_CONSTELLATION_BOUNDARY:	&Limites
+MENUB_VIEW_MILKYWAY:	&Voie Lactée
+MENUB_VIEW_MILKYWAY_NONE:	&Aucun
+MENUB_VIEW_MILKYWAY_NORMAL:	&Voie Lactée (standard)
+MENUB_VIEW_MILKYWAY_BRIGHTER:	Voie Lactée (plus &lumineux)
+MENUB_VIEW_MILKYWAY_IR:	Voie Lactée (dans l'&infrarouge)
+MENUB_VIEW_MILKYWAY_CMB:	&Fond Diffus Cosmologique
+MENUB_VIEW_MILKYWAY_GAIA:	Voie Lactée (& observations de Gaia)
+MENUB_VIEW_GRID:	Coo&rdonnées
+MENUB_VIEW_GRID_EQ:	Coordonnées é&quatoriales
+MENUB_VIEW_GRID_EC:	É&cliptique
+MENUB_VIEW_GRID_GALACTIC:	Coordonnées &galactiques
+MENUB_VIEW_GRID_HORIZONTAL:	Coordonnées &horizontales
+MENUB_VIEW_SCALELINE:	Échelle (&Lignes)
+MENUB_VIEW_SCALELINE_CIRCLE:	Échelles (&Cercle)
+MENUB_VIEW_SCALELINE_SQUARE:	Échelles (C&arré)
+MENUB_VIEW_PLANET_POINTER:	&Pointeur sur la surface
+MENUB_VIEW_HEADLIGHT:	P&hare
+MENUB_VIEW_OBJECT_INFO:	Fenêtre d'&information de l'objet
+MENUB_VIEW_VIEW_INFO:	Information de &vue
+MENUB_VIEW_RESET_VIEW:	Réinitialiser l'&angle de vue
+MENUB_VIEW_TEXTSIZE:	Taille du te&xte
+MENUB_VIEW_TEXTSIZE_LARGEST:	Plus g&rande
+MENUB_VIEW_TEXTSIZE_LARGER:	&Grande
+MENUB_VIEW_TEXTSIZE_MEDIUM:	&Moyenne
+MENUB_VIEW_TEXTSIZE_SMALLER:	&Petite
+MENUB_VIEW_TEXTSIZE_SMALLEST:	Plus p&etite
+MENUB_VIEW_TEXT_KERNING:	&Crénage
+MENUB_VIEW_FULLSCREEN:	Plein Écran Alt+Entrée
+
+MENUB_TIME:	&Temps
+MENUB_TIME_DISP:	&Afficher la date
+MENUB_TIME_1SEC:	1 seconde (&0)
+MENUB_TIME_10SEC:	10 secondes (&1)
+MENUB_TIME_1MIN:	1 min (&2)
+MENUB_TIME_10MIN:	10 min (&3)
+MENUB_TIME_1HOUR:	1 heure (&4)
+MENUB_TIME_4HOURS:	4 heures (&5)
+MENUB_TIME_1DAY:	1 jour (&6)
+MENUB_TIME_1WEEK:	1 semaine (&7)
+MENUB_TIME_1MONTH:	1 mois (&8)
+MENUB_TIME_1YEAR:	1 an (&9)
+MENUB_TIME_10YEARS:	10 ans (&A)
+MENUB_TIME_100YEARS:	100 ans (&B)
+MENUB_TIME_SETTING:	&Mettre la Date à...
+MENUB_TIME_REALTIME_MODE:	Mode temps &réel
+
+MENUB_SETTING:	&Configuration
+MENUB_SETTING_DISP_MODE:	Mode d'&affichage
+MENUB_SETTING_DISPMODE_NORMAL:	&Normal
+MENUB_SETTING_DISPMODE_ANAGLYPH:	&Anaglyphe (&Monochrome)
+MENUB_SETTING_DISPMODE_COLOR_ANAGLYPH:	Anaglyphe (&Couleur)
+MENUB_SETTING_DISPMODE_SIDE_BY_SIDE:	&Côte à côte
+MENUB_SETTING_DISPMODE_TOP_AND_BOTTOM:	&Dessus Dessous
+MENUB_SETTING_DISPMODE_DOMEMASTER:	&Dome Master
+
+MENUB_HELP:	&Aide
+MENUB_HELP_ABOUT_FMT:	&À propos de %s
+
+MENUB_LANGUAGE:	&Langue/Langage
+
+
+
+//=====  Dialog Box  =====
+DLG_MB_EXIT_TITLE:	Quitter
+DLG_MB_EXIT_QUERY_FMT:	Etes-vous sûr de vouloir quitter %s?
+DLG_IMAGE_TITLE:	Enregistrer l'image avec des dimension arbitraires
+DLG_IMAGE_MAX_FMT:	Max: %d
+DLG_IMAGE_WIDTH:	Largeur
+DLG_IMAGE_HEIGHT:	Hauteur
+DLG_IMAGE_SIZE_MIN_CAUTION:	Les deux valeurs doivent être plus grandes que zéro
+DLG_IMAGE_SIZE_MAX_CAUTION:	La taille maximale est %d x %d
+DLG_IMAGE_SAVE_BUTTON:	Enregistrer
+DLG_IMAGE_CANCEL_BUTTON:	Annuler
+DLG_TIME_TITLE:	Régler l'heure
+DLG_TIME_DATE:	Date
+DLG_TIME_YEAR:	Année
+DLG_TIME_TIME:	Temps
+DLG_TIME_HOUR:	h
+DLG_TIME_MINUTE:	m
+DLG_TIME_SECOND:	s
+DLG_TIME_TONIGHT:	Régler à 20:00
+DLG_TIME_PRESENT_TIME:	Régler au temps présent
+DLG_TIME_OK:	OK
+DLG_TIME_APPLY:	Appliquer
+DLG_TIME_CANCEL:	Annuler
+DLG_ABOUT_TITLE_FMT:	À propos de %s
+
+
+
+//=====  Save Image  =====
+SAVEIMAGE_FILTER:	JPEG (*.jpg)\0*.jpg\0PNG (*.png)\0*.png\0Bitmap File (*.bmp)\0*.bmp\0
+SAVEIMAGE_TITLE:	Enregistrer l'image sous...

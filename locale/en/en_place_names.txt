@@ -1,0 +1,2372 @@
+
+//---  Earth  ---
+// Poles
+PLACE_EARTH_NORTH_POLE:	North Pole
+PLACE_EARTH_SOUTH_POLE:	South Pole
+// Mountains
+PLACE_EARTH_MT_EVEREST:	Mt. Everest
+PLACE_EARTH_MT_BLANC:	Mt. Blanc
+PLACE_EARTH_KILIMANJARO_MT:	Kilimanjaro Mt.
+PLACE_EARTH_MT_MCKINLEY:	Mt. McKinley
+PLACE_EARTH_CERRO_ACONCAGUA:	Cerro Aconcagua
+// Inland seas
+PLACE_EARTH_BLACK_SEA:	Black Sea
+// Lakes
+PLACE_EARTH_CASPIAN_SEA:	Caspian Sea
+PLACE_EARTH_L_VICTORIA:	L. Victoria
+// Islands
+PLACE_EARTH_HAWAII_I:	Hawai`i Island
+// Countries
+PLACE_EARTH_JAPAN:	Japan
+// Observatories
+PLACE_EARTH_NAOJ:	NAOJ
+PLACE_EARTH_SUBARU:	Subaru Telescope
+PLACE_EARTH_ALMA:	ALMA
+PLACE_EARTH_HILO:	Hilo
+
+//---  Moon  ---
+// Craters
+PLACE_MOON_ABBE:                        Abbe
+PLACE_MOON_ABBOT:                       Abbot
+PLACE_MOON_ABEL:                        Abel
+PLACE_MOON_ABENEZRA:                    Abenezra
+PLACE_MOON_ABETTI:                      Abetti
+PLACE_MOON_ABULFEDA:                    Abulfeda
+PLACE_MOON_ABUL_WAFA:                   Abul Wáfa
+PLACE_MOON_ACOSTA:                      Acosta
+PLACE_MOON_ADAMS:                       Adams
+PLACE_MOON_AEPINUS:                     Aepinus
+PLACE_MOON_AGATHARCHIDES:               Agatharchides
+PLACE_MOON_AGRIPPA:	Agrippa
+PLACE_MOON_AIRY:                        Airy
+PLACE_MOON_AITKEN:                      Aitken
+PLACE_MOON_AKIS:                        Akis
+PLACE_MOON_ALAN:                        Alan
+PLACE_MOON_AL_BAKRI:                    Al-Bakri
+PLACE_MOON_ALBATEGNIUS:                 Albategnius
+PLACE_MOON_ALBERT:                      Albert
+PLACE_MOON_AL_BIRUNI:                   Al-Biruni
+PLACE_MOON_ALDEN:                       Alden
+PLACE_MOON_ALDER:                       Alder
+PLACE_MOON_ALDRIN:                      Aldrin
+PLACE_MOON_ALEKHIN:                     Alekhin
+PLACE_MOON_ALEXANDER:                   Alexander
+PLACE_MOON_ALFRAGANUS:                  Alfraganus
+PLACE_MOON_ALHAZEN:                     Alhazen
+PLACE_MOON_ALIACENSIS:                  Aliacensis
+PLACE_MOON_AL_KHWARIZMI:                Al-Khwarizmi
+PLACE_MOON_ALMANON:                     Almanon
+PLACE_MOON_AL_MARRAKUSHI:               Al-Marrakushi
+PLACE_MOON_ALOHA:                       Aloha
+PLACE_MOON_ALPETRAGIUS:                 Alpetragius
+PLACE_MOON_ALPHONSUS: 	Alphonsus
+PLACE_MOON_ALTER:                       Alter
+PLACE_MOON_AMEGHINO:                    Ameghino
+PLACE_MOON_AMICI:                       Amici
+PLACE_MOON_AMMONIUS:                    Ammonius
+PLACE_MOON_AMONTONS:                    Amontons
+PLACE_MOON_AMUNDSEN:                    Amundsen
+PLACE_MOON_ANAXAGORAS:                  Anaxagoras
+PLACE_MOON_ANAXIMANDER:                 Anaximander
+PLACE_MOON_ANAXIMENES:                  Anaximenes
+PLACE_MOON_ANDEL:                       Anděl
+PLACE_MOON_ANDERS:                      Anders
+PLACE_MOON_ANDERSON:                    Anderson
+PLACE_MOON_ANDERSSON:                   Andersson
+PLACE_MOON_ANDRONOV:                    Andronov
+PLACE_MOON_ANGO:                        Ango
+PLACE_MOON_ANGSTROM:                    Angström
+PLACE_MOON_ANN:                         Ann
+PLACE_MOON_ANNEGRIT:                    Annegrit
+PLACE_MOON_ANSGARIUS:                   Ansgarius
+PLACE_MOON_ANTONIADI:                   Antoniadi
+PLACE_MOON_ANUCHIN:                     Anuchin
+PLACE_MOON_ANVILLE:                     Anville
+PLACE_MOON_APIANUS:                     Apianus
+PLACE_MOON_APOLLO:                      Apollo
+PLACE_MOON_APOLLONIUS:  	Apollonius
+PLACE_MOON_APPLETON:                    Appleton
+PLACE_MOON_ARAGO:                       Arago
+PLACE_MOON_ARATUS:                      Aratus
+PLACE_MOON_ARCHIMEDES:	Archimedes
+PLACE_MOON_ARCHYTAS:                    Archytas
+PLACE_MOON_ARGELANDER:                  Argelander
+PLACE_MOON_ARIADAEUS:                   Ariadaeus
+PLACE_MOON_ARISTARCHUS: 	Aristarchus
+PLACE_MOON_ARISTILLUS:  	Aristillus
+PLACE_MOON_ARISTOTELES: 	Aristoteles
+PLACE_MOON_ARMINSKI:                    Armiński
+PLACE_MOON_ARMSTRONG:                   Armstrong
+PLACE_MOON_ARNOLD:                      Arnold
+PLACE_MOON_ARRHENIUS:                   Arrhenius
+PLACE_MOON_ARTAMONOV:                   Artamonov
+PLACE_MOON_ARTEM_EV:                    Artem'ev
+PLACE_MOON_ARTEMIS:                     Artemis
+PLACE_MOON_ARTSIMOVICH:                 Artsimovich
+PLACE_MOON_ARYABHATA:                   Aryabhata
+PLACE_MOON_ARZACHEL:                    Arzachel
+PLACE_MOON_ASADA:                       Asada
+PLACE_MOON_ASCLEPI:                     Asclepi
+PLACE_MOON_ASHBROOK:                    Ashbrook
+PLACE_MOON_ASTON:                       Aston
+PLACE_MOON_ATLAS: 	Atlas
+PLACE_MOON_ATWOOD:                      Atwood
+PLACE_MOON_AUTOLYCUS:	Autolycus
+PLACE_MOON_AUWERS:                      Auwers
+PLACE_MOON_AUZOUT:                      Auzout
+PLACE_MOON_AVERY:                       Avery
+PLACE_MOON_AVICENNA:                    Avicenna
+PLACE_MOON_AVOGADRO:                    Avogadro
+PLACE_MOON_AZOPHI:                      Azophi
+PLACE_MOON_BAADE:                       Baade
+PLACE_MOON_BABAKIN:                     Babakin
+PLACE_MOON_BABBAGE:                     Babbage
+PLACE_MOON_BABCOCK:                     Babcock
+PLACE_MOON_BACK:                        Back
+PLACE_MOON_BACKLUND:                    Backlund
+PLACE_MOON_BACO:                        Baco
+PLACE_MOON_BAILLAUD:                    Baillaud
+PLACE_MOON_BAILLY:                      Bailly
+PLACE_MOON_BAILY:                       Baily
+PLACE_MOON_BALANDIN:                    Balandin
+PLACE_MOON_BALBOA:                      Balboa
+PLACE_MOON_BALDET:                      Baldet
+PLACE_MOON_BALL:                        Ball
+PLACE_MOON_BALMER:                      Balmer
+PLACE_MOON_BANACHIEWICZ:                Banachiewicz
+PLACE_MOON_BANCROFT:                    Bancroft
+PLACE_MOON_BANTING:                     Banting
+PLACE_MOON_BARBIER:                     Barbier
+PLACE_MOON_BARKLA:                      Barkla
+PLACE_MOON_BARNARD:                     Barnard
+PLACE_MOON_BAROCIUS:                    Barocius
+PLACE_MOON_BARRINGER:                   Barringer
+PLACE_MOON_BARROW:                      Barrow
+PLACE_MOON_BARTELS:                     Bartels
+PLACE_MOON_BAWA:                        Bawa
+PLACE_MOON_BAYER:                       Bayer
+PLACE_MOON_BEALS:                       Beals
+PLACE_MOON_BEAUMONT:                    Beaumont
+PLACE_MOON_BECQUEREL:                   Becquerel
+PLACE_MOON_BECVAR:                      Bečvář
+PLACE_MOON_BEER:                        Beer
+PLACE_MOON_BEHAIM:                      Behaim
+PLACE_MOON_BEIJERINCK:                  Beijerinck
+PLACE_MOON_BEKETOV:                     Beketov
+PLACE_MOON_BELA:                        Béla
+PLACE_MOON_BEL_KOVICH:                  Bel'kovich
+PLACE_MOON_BELL:                        Bell
+PLACE_MOON_BELLINSGAUZEN:               Bellinsgauzen (Bellingshausen)
+PLACE_MOON_BELLOT:                      Bellot
+PLACE_MOON_BELOPOL_SKIY:                Belopol'skiy
+PLACE_MOON_BELYAEV:                     Belyaev
+PLACE_MOON_BENEDICT:                    Benedict
+PLACE_MOON_BERGMAN:                     Bergman
+PLACE_MOON_BERGSTRAND:                  Bergstrand
+PLACE_MOON_BERKNER:                     Berkner
+PLACE_MOON_BERLAGE:                     Berlage
+PLACE_MOON_BERNOULLI:                   Bernoulli
+PLACE_MOON_BEROSUS:                     Berosus
+PLACE_MOON_BERZELIUS:                   Berzelius
+PLACE_MOON_BESSARION:                   Bessarion
+PLACE_MOON_BESSEL:                      Bessel
+PLACE_MOON_BETTINUS:                    Bettinus
+PLACE_MOON_BHABHA:                      Bhabha
+PLACE_MOON_BIANCHINI:                   Bianchini
+PLACE_MOON_BIELA:                       Biela
+PLACE_MOON_BILHARZ:                     Bilharz
+PLACE_MOON_BILLY:                       Billy
+PLACE_MOON_BINGHAM:                     Bingham
+PLACE_MOON_BIOT:                        Biot
+PLACE_MOON_BIRKELAND:                   Birkeland
+PLACE_MOON_BIRKHOFF:                    Birkhoff
+PLACE_MOON_BIRMINGHAM:                  Birmingham
+PLACE_MOON_BIRT:                        Birt
+PLACE_MOON_BI_SHENG:                    Bi Sheng
+PLACE_MOON_BJERKNES:                    Bjerknes
+PLACE_MOON_BLACK:                       Black
+PLACE_MOON_BLACKETT:                    Blackett
+PLACE_MOON_BLAGG:                       Blagg
+PLACE_MOON_BLANCANUS: 	Blancanus
+PLACE_MOON_BLANCHARD:                   Blanchard
+PLACE_MOON_BLANCHINUS:                  Blanchinus
+PLACE_MOON_BLAZHKO:                     Blazhko
+PLACE_MOON_BLISS:                       Bliss
+PLACE_MOON_BOBILLIER:                   Bobillier
+PLACE_MOON_BOBONE:                      Bobone
+PLACE_MOON_BODE:                        Bode
+PLACE_MOON_BOETHIUS:                    Boethius
+PLACE_MOON_BOGUSLAWSKY:                 Boguslawsky
+PLACE_MOON_BOHNENBERGER:                Bohnenberger
+PLACE_MOON_BOHR:                        Bohr
+PLACE_MOON_BOK:                         Bok
+PLACE_MOON_BOLTZMANN:                   Boltzmann
+PLACE_MOON_BOLYAI:                      Bolyai
+PLACE_MOON_BOMBELLI:                    Bombelli
+PLACE_MOON_BONDARENKO:                  Bondarenko
+PLACE_MOON_BONPLAND:                    Bonpland
+PLACE_MOON_BOOLE:                       Boole
+PLACE_MOON_BORDA:                       Borda
+PLACE_MOON_BOREL:                       Borel
+PLACE_MOON_BORIS:                       Boris
+PLACE_MOON_BORMAN:                      Borman
+PLACE_MOON_BORN:                        Born
+PLACE_MOON_BORYA:                       Borya
+PLACE_MOON_BOSCH:                       Bosch
+PLACE_MOON_BOSCOVICH:                   Boscovich
+PLACE_MOON_BOSE:                        Bose
+PLACE_MOON_BOSS:                        Boss
+PLACE_MOON_BOUGUER:                     Bouguer
+PLACE_MOON_BOUSSINGAULT:                Boussingault
+PLACE_MOON_BOWDITCH:                    Bowditch
+PLACE_MOON_BOWEN:                       Bowen
+PLACE_MOON_BOYLE:                       Boyle
+PLACE_MOON_BRACKETT:                    Brackett
+PLACE_MOON_BRAGG:                       Bragg
+PLACE_MOON_BRASHEAR:                    Brashear
+PLACE_MOON_BRAUDE:                      Braude
+PLACE_MOON_BRAYLEY:                     Brayley
+PLACE_MOON_BREDIKHIN:                   Bredikhin
+PLACE_MOON_BREISLAK:                    Breislak
+PLACE_MOON_BRENNER:                     Brenner
+PLACE_MOON_BREWSTER:                    Brewster
+PLACE_MOON_BRIANCHON:                   Brianchon
+PLACE_MOON_BRIDGMAN:                    Bridgman
+PLACE_MOON_BRIGGS:                      Briggs
+PLACE_MOON_BRISBANE:                    Brisbane
+PLACE_MOON_BRONK:                       Bronk
+PLACE_MOON_BROUWER:                     Brouwer
+PLACE_MOON_BROWN:                       Brown
+PLACE_MOON_BRUCE:                       Bruce
+PLACE_MOON_BRUNNER:                     Brunner
+PLACE_MOON_BUCH:                        Buch
+PLACE_MOON_BUFFON:                      Buffon
+PLACE_MOON_BUISSON:                     Buisson
+PLACE_MOON_BULLIALDUS: 	Bullialdus
+PLACE_MOON_BUNSEN:                      Bunsen
+PLACE_MOON_BURCKHARDT:                  Burckhardt
+PLACE_MOON_BURG: 	Bürg
+PLACE_MOON_BURNHAM:                     Burnham
+PLACE_MOON_BUSCHING:                    Büsching
+PLACE_MOON_BUTLEROV:                    Butlerov
+PLACE_MOON_BUYS_BALLOT:                 Buys-Ballot
+PLACE_MOON_BYRD:                        Byrd
+PLACE_MOON_BYRGIUS:  	Byrgius
+PLACE_MOON_CABANNES:                    Cabannes
+PLACE_MOON_CABEUS:                      Cabeus
+PLACE_MOON_CAILLEUX:                    Cailleux
+PLACE_MOON_CAI_LUN:                     Cai Lun
+PLACE_MOON_CAJAL:                       Cajal
+PLACE_MOON_CAJORI:                      Cajori
+PLACE_MOON_CALIPPUS:                    Calippus
+PLACE_MOON_CAMERON:                     Cameron
+PLACE_MOON_CAMPANUS:                    Campanus
+PLACE_MOON_CAMPBELL:                    Campbell
+PLACE_MOON_CANNIZZARO:                  Cannizzaro
+PLACE_MOON_CANNON:                      Cannon
+PLACE_MOON_CANTOR:                      Cantor
+PLACE_MOON_CAPELLA:                     Capella
+PLACE_MOON_CAPUANUS:                    Capuanus
+PLACE_MOON_CARDANUS:                    Cardanus
+PLACE_MOON_CARLINI:                     Carlini
+PLACE_MOON_CARLOS:                      Carlos
+PLACE_MOON_CARMICHAEL:                  Carmichael
+PLACE_MOON_CARNOT:                      Carnot
+PLACE_MOON_CAROL:                       Carol
+PLACE_MOON_CARPENTER:                   Carpenter
+PLACE_MOON_CARREL:                      Carrel
+PLACE_MOON_CARRILLO:                    Carrillo
+PLACE_MOON_CARRINGTON:                  Carrington
+PLACE_MOON_CARTAN:                      Cartan
+PLACE_MOON_CARVER:                      Carver
+PLACE_MOON_CASATUS:                     Casatus
+PLACE_MOON_CASSEGRAIN:                  Cassegrain
+PLACE_MOON_CASSINI: 	Cassini
+PLACE_MOON_CATALAN:                     Catalán
+PLACE_MOON_CATHARINA:                   Catharina
+PLACE_MOON_CAUCHY:                      Cauchy
+PLACE_MOON_CAVALERIUS:                  Cavalerius
+PLACE_MOON_CAVENDISH:                   Cavendish
+PLACE_MOON_CAVENTOU:                    Caventou
+PLACE_MOON_CAYLEY:                      Cayley
+PLACE_MOON_CELSIUS:                     Celsius
+PLACE_MOON_CENSORINUS:                  Censorinus
+PLACE_MOON_CEPHEUS:                     Cepheus
+PLACE_MOON_CHACORNAC:                   Chacornac
+PLACE_MOON_CHADWICK:                    Chadwick
+PLACE_MOON_CHAFFEE:                     Chaffee
+PLACE_MOON_CHALLIS:                     Challis
+PLACE_MOON_CHALONGE:                    Chalonge
+PLACE_MOON_CHAMBERLIN:                  Chamberlin
+PLACE_MOON_CHAMPOLLION:                 Champollion
+PLACE_MOON_CHANDLER:                    Chandler
+PLACE_MOON_CHANG_HENG:                  Chang Heng
+PLACE_MOON_CHANG_NGO:                   Chang-Ngo
+PLACE_MOON_CHANT:                       Chant
+PLACE_MOON_CHAPLYGIN:                   Chaplygin
+PLACE_MOON_CHAPMAN:                     Chapman
+PLACE_MOON_CHAPPE:                      Chappe
+PLACE_MOON_CHAPPELL:                    Chappell
+PLACE_MOON_CHARLES:                     Charles
+PLACE_MOON_CHARLIER:                    Charlier
+PLACE_MOON_CHAUCER:                     Chaucer
+PLACE_MOON_CHAUVENET:                   Chauvenet
+PLACE_MOON_CHAWLA:                      Chawla
+PLACE_MOON_CHEBYSHEV:                   Chebyshev
+PLACE_MOON_CHERNYSHEV:                  Chernyshev
+PLACE_MOON_C_HERSCHEL:                  C. Herschel
+PLACE_MOON_CHEVALLIER:                  Chevallier
+PLACE_MOON_CHING_TE:                    Ching-Te
+PLACE_MOON_CHLADNI:                     Chladni
+PLACE_MOON_CHRETIEN:                    Chrétien
+PLACE_MOON_CICHUS:                      Cichus
+PLACE_MOON_CLAIRAUT:                    Clairaut
+PLACE_MOON_CLARK:                       Clark
+PLACE_MOON_CLAUSIUS:                    Clausius
+PLACE_MOON_CLAVIUS: 	Clavius
+PLACE_MOON_CLEOMEDES: 	Cleomedes
+PLACE_MOON_CLEOSTRATUS:                 Cleostratus
+PLACE_MOON_CLERKE:                      Clerke
+PLACE_MOON_C_MAYER:                     C. Mayer
+PLACE_MOON_COBLENTZ:                    Coblentz
+PLACE_MOON_COCKCROFT:                   Cockcroft
+PLACE_MOON_COLLINS:                     Collins
+PLACE_MOON_COLOMBO:                     Colombo
+PLACE_MOON_COMPTON:                     Compton
+PLACE_MOON_COMRIE:                      Comrie
+PLACE_MOON_COMSTOCK:                    Comstock
+PLACE_MOON_CONDON:                      Condon
+PLACE_MOON_CONDORCET:                   Condorcet
+PLACE_MOON_CONGREVE:                    Congreve
+PLACE_MOON_CONON:                       Conon
+PLACE_MOON_COOK:                        Cook
+PLACE_MOON_COOPER:                      Cooper
+PLACE_MOON_COPERNICUS:  	Copernicus
+PLACE_MOON_CORI:                        Cori
+PLACE_MOON_CORIOLIS:                    Coriolis
+PLACE_MOON_COUDER:                      Couder
+PLACE_MOON_COULOMB:                     Coulomb
+PLACE_MOON_COURTNEY:                    Courtney
+PLACE_MOON_CREMONA:                     Cremona
+PLACE_MOON_CRILE:                       Crile
+PLACE_MOON_CROCCO:                      Crocco
+PLACE_MOON_CROMMELIN:                   Crommelin
+PLACE_MOON_CROOKES:                     Crookes
+PLACE_MOON_CROZIER:                     Crozier
+PLACE_MOON_CRUGER:	Crüger
+PLACE_MOON_CTESIBIUS:                   Ctesibius
+PLACE_MOON_CURIE:                       Curie
+PLACE_MOON_CURTIS:                      Curtis
+PLACE_MOON_CURTIUS:                     Curtius
+PLACE_MOON_CUSANUS:                     Cusanus
+PLACE_MOON_CUVIER:                      Cuvier
+PLACE_MOON_CYRANO:                      Cyrano
+PLACE_MOON_CYRILLUS:                    Cyrillus
+PLACE_MOON_CYSATUS:                     Cysatus
+PLACE_MOON_DAEDALUS:                    Daedalus
+PLACE_MOON_DAG:                         Dag
+PLACE_MOON_DAGUERRE:                    Daguerre
+PLACE_MOON_DALE:                        Dale
+PLACE_MOON_D_ALEMBERT:                  d'Alembert
+PLACE_MOON_DALTON:                      Dalton
+PLACE_MOON_DALY:                        Daly
+PLACE_MOON_DAMOISEAU:                   Damoiseau
+PLACE_MOON_DANIELL:                     Daniell
+PLACE_MOON_DANJON:                      Danjon
+PLACE_MOON_DANTE:                       Dante
+PLACE_MOON_DARNEY:                      Darney
+PLACE_MOON_D_ARREST:                    D'Arrest
+PLACE_MOON_D_ARSONVAL:                  D'Arsonval
+PLACE_MOON_DARWIN:                      Darwin
+PLACE_MOON_DAS:                         Das
+PLACE_MOON_DAUBREE:                     Daubree
+PLACE_MOON_DA_VINCI:                    da Vinci
+PLACE_MOON_DAVISSON:                    Davisson
+PLACE_MOON_DAVY:                        Davy
+PLACE_MOON_DAWES:                       Dawes
+PLACE_MOON_DAWSON:                      Dawson
+PLACE_MOON_D_BROWN:                     D. Brown
+PLACE_MOON_DEBES:                       Debes
+PLACE_MOON_DEBUS:                       Debus
+PLACE_MOON_DEBYE:                       Debye
+PLACE_MOON_DECHEN:                      Dechen
+PLACE_MOON_DE_FOREST:                   De Forest
+PLACE_MOON_DE_GASPARIS:                 de Gasparis
+PLACE_MOON_DE_GERLACHE:                 de Gerlache
+PLACE_MOON_DELAMBRE:                    Delambre
+PLACE_MOON_DE_LA_RUE:                   De La Rue
+PLACE_MOON_DELAUNAY:                    Delaunay
+PLACE_MOON_DELIA:                       Delia
+PLACE_MOON_DELISLE:                     Delisle
+PLACE_MOON_DELLINGER:                   Dellinger
+PLACE_MOON_DELMOTTE:                    Delmotte
+PLACE_MOON_DELPORTE:                    Delporte
+PLACE_MOON_DELUC:                       Deluc
+PLACE_MOON_DEMBOWSKI:                   Dembowski
+PLACE_MOON_DEMOCRITUS:                  Democritus
+PLACE_MOON_DEMONAX:                     Demonax
+PLACE_MOON_DE_MORAES:                   De Moraes
+PLACE_MOON_DE_MORGAN:                   De Morgan
+PLACE_MOON_DENNING:                     Denning
+PLACE_MOON_DE_ROY:                      De Roy
+PLACE_MOON_DESARGUES:                   Desargues
+PLACE_MOON_DESCARTES:                   Descartes
+PLACE_MOON_DESEILLIGNY:                 Deseilligny
+PLACE_MOON_DE_SITTER:                   De Sitter
+PLACE_MOON_DESLANDRES:                  Deslandres
+PLACE_MOON_DEUTSCH:                     Deutsch
+PLACE_MOON_DE_VICO:                     De Vico
+PLACE_MOON_DE_VRIES:                    De Vries
+PLACE_MOON_DEWAR:                       Dewar
+PLACE_MOON_DIANA:                       Diana
+PLACE_MOON_DIDEROT:                     Diderot
+PLACE_MOON_DIONYSIUS:                   Dionysius
+PLACE_MOON_DIOPHANTUS:                  Diophantus
+PLACE_MOON_DIRICHLET:                   Dirichlet
+PLACE_MOON_DOBROVOL_SKIY:               Dobrovol'skiy
+PLACE_MOON_DOERFEL:                     Doerfel
+PLACE_MOON_DOLLOND:                     Dollond
+PLACE_MOON_DONATI:                      Donati
+PLACE_MOON_DONNA:                       Donna
+PLACE_MOON_DONNER:                      Donner
+PLACE_MOON_DOPPELMAYER:                 Doppelmayer
+PLACE_MOON_DOPPLER:                     Doppler
+PLACE_MOON_DOUGLASS:                    Douglass
+PLACE_MOON_DOVE:                        Dove
+PLACE_MOON_DRAPER:                      Draper
+PLACE_MOON_DREBBEL:                     Drebbel
+PLACE_MOON_DREYER:                      Dreyer
+PLACE_MOON_DRUDE:                       Drude
+PLACE_MOON_DRYDEN:                      Dryden
+PLACE_MOON_DRYGALSKI:                   Drygalski
+PLACE_MOON_DUBYAGO:                     Dubyago
+PLACE_MOON_DUFAY:                       Dufay
+PLACE_MOON_DUGAN:                       Dugan
+PLACE_MOON_DUNER:                       Dunér
+PLACE_MOON_DUNTHORNE:                   Dunthorne
+PLACE_MOON_DYSON:                       Dyson
+PLACE_MOON_DZIEWULSKI:                  Dziewulski
+PLACE_MOON_ECKERT:                      Eckert
+PLACE_MOON_EDDINGTON:                   Eddington
+PLACE_MOON_EDISON:                      Edison
+PLACE_MOON_EDITH:                       Edith
+PLACE_MOON_EGEDE:                       Egede
+PLACE_MOON_EHRLICH:                     Ehrlich
+PLACE_MOON_EICHSTADT:                   Eichstadt
+PLACE_MOON_EIJKMAN:                     Eijkman
+PLACE_MOON_EIMMART:                     Eimmart
+PLACE_MOON_EINSTEIN:                    Einstein
+PLACE_MOON_EINTHOVEN:                   Einthoven
+PLACE_MOON_ELGER:                       Elger
+PLACE_MOON_ELLERMAN:                    Ellerman
+PLACE_MOON_ELLISON:                     Ellison
+PLACE_MOON_ELMER:                       Elmer
+PLACE_MOON_ELVEY:                       Elvey
+PLACE_MOON_EMDEN:                       Emden
+PLACE_MOON_ENCKE: 	Encke
+PLACE_MOON_ENDYMION:  	Endymion
+PLACE_MOON_ENGEL_GARDT:                 Engel'gardt (Engelhardt)
+PLACE_MOON_EOTVOS:                      Eötvös
+PLACE_MOON_EPIGENES:                    Epigenes
+PLACE_MOON_EPIMENIDES:                  Epimenides
+PLACE_MOON_ERATOSTHENES:	Eratosthenes
+PLACE_MOON_ERLANGER:                    Erlanger
+PLACE_MOON_ERRO:                        Erro
+PLACE_MOON_ESCLANGON:                   Esclangon
+PLACE_MOON_ESNAULT_PELTERIE:            Esnault-Pelterie
+PLACE_MOON_ESPIN:                       Espin
+PLACE_MOON_EUCLIDES:                    Euclides
+PLACE_MOON_EUCTEMON:                    Euctemon
+PLACE_MOON_EUDOXUS: 	Eudoxus
+PLACE_MOON_EULER:	Euler
+PLACE_MOON_EVANS:                       Evans
+PLACE_MOON_EVDOKIMOV:                   Evdokimov
+PLACE_MOON_EVERSHED:                    Evershed
+PLACE_MOON_EWEN:                        Ewen
+PLACE_MOON_FABBRONI:                    Fabbroni
+PLACE_MOON_FABRICIUS:                   Fabricius
+PLACE_MOON_FABRY:                       Fabry
+PLACE_MOON_FAHRENHEIT:                  Fahrenheit
+PLACE_MOON_FAIROUZ:                     Fairouz
+PLACE_MOON_FARADAY:                     Faraday
+PLACE_MOON_FAUSTINI:                    Faustini
+PLACE_MOON_FAUTH:                       Fauth
+PLACE_MOON_FAYE:                        Faye
+PLACE_MOON_FECHNER:                     Fechner
+PLACE_MOON_FEDOROV:                     Fedorov
+PLACE_MOON_FELIX:                       Felix
+PLACE_MOON_FENYI:                       Fényi
+PLACE_MOON_FEOKTISTOV:                  Feoktistov
+PLACE_MOON_FERMAT:                      Fermat
+PLACE_MOON_FERMI:                       Fermi
+PLACE_MOON_FERNELIUS:                   Fernelius
+PLACE_MOON_FERSMAN:                     Fersman
+PLACE_MOON_FESENKOV:                    Fesenkov
+PLACE_MOON_FEUILLEE:                    Feuillée
+PLACE_MOON_FIBIGER:                     Fibiger
+PLACE_MOON_FINSCH:                      Finsch
+PLACE_MOON_FINSEN:                      Finsen
+PLACE_MOON_FIRMICUS:                    Firmicus
+PLACE_MOON_FIRSOV:                      Firsov
+PLACE_MOON_FISCHER:                     Fischer
+PLACE_MOON_FITZGERALD:                  Fitzgerald
+PLACE_MOON_FIZEAU:                      Fizeau
+PLACE_MOON_FLAMMARION:                  Flammarion
+PLACE_MOON_FLAMSTEED:                   Flamsteed
+PLACE_MOON_FLEMING:                     Fleming
+PLACE_MOON_FLORENSKY:                   Florensky
+PLACE_MOON_FLOREY:                      Florey
+PLACE_MOON_FOCAS:                       Focas
+PLACE_MOON_FONTANA:                     Fontana
+PLACE_MOON_FONTENELLE:                  Fontenelle
+PLACE_MOON_FOSTER:                      Foster
+PLACE_MOON_FOUCAULT:                    Foucault
+PLACE_MOON_FOURIER:                     Fourier
+PLACE_MOON_FOWLER:                      Fowler
+PLACE_MOON_FOX:                         Fox
+PLACE_MOON_FRACASTORIUS:                Fracastorius
+PLACE_MOON_FRA_MAURO:   	Fra Mauro
+PLACE_MOON_FRANCK:                      Franck
+PLACE_MOON_FRANKLIN:                    Franklin
+PLACE_MOON_FRANZ:                       Franz
+PLACE_MOON_FRAUNHOFER:                  Fraunhofer
+PLACE_MOON_FREDHOLM:                    Fredholm
+PLACE_MOON_FREUD:                       Freud
+PLACE_MOON_FREUNDLICH:                  Freundlich
+PLACE_MOON_FRIDMAN:                     Fridman (Friedmann)
+PLACE_MOON_FROELICH:                    Froelich
+PLACE_MOON_FROST:                       Frost
+PLACE_MOON_FRYXELL:                     Fryxell
+PLACE_MOON_FURNERIUS:                   Furnerius
+PLACE_MOON_GADOMSKI:                    Gadomski
+PLACE_MOON_GAGARIN:                     Gagarin
+PLACE_MOON_GALEN:                       Galen
+PLACE_MOON_GALILAEI:                    Galilaei
+PLACE_MOON_GALLE:                       Galle
+PLACE_MOON_GALOIS:                      Galois
+PLACE_MOON_GALVANI:                     Galvani
+PLACE_MOON_GAMBART:                     Gambart
+PLACE_MOON_GAMOW:                       Gamow
+PLACE_MOON_GANSKIY:                     Ganskiy (Hansky)
+PLACE_MOON_GANSWINDT:                   Ganswindt
+PLACE_MOON_GARAVITO:                    Garavito
+PLACE_MOON_GARDNER:                     Gardner
+PLACE_MOON_GARTNER:                     Gärtner
+PLACE_MOON_GASSENDI: 	Gassendi
+PLACE_MOON_GASTON:                      Gaston
+PLACE_MOON_GAUDIBERT:                   Gaudibert
+PLACE_MOON_GAURICUS:                    Gauricus
+PLACE_MOON_GAUSS:	Gauss
+PLACE_MOON_GAVRILOV:                    Gavrilov
+PLACE_MOON_GAY_LUSSAC:                  Gay-Lussac
+PLACE_MOON_G_BOND:                      G. Bond
+PLACE_MOON_GEBER:                       Geber
+PLACE_MOON_GEIGER:                      Geiger
+PLACE_MOON_GEISSLER:                    Geissler
+PLACE_MOON_GEMINUS:                     Geminus
+PLACE_MOON_GEMMA_FRISIUS:               Gemma Frisius
+PLACE_MOON_GENA:                        Gena
+PLACE_MOON_GERARD:                      Gerard
+PLACE_MOON_GERASIMOVICH:                Gerasimovich
+PLACE_MOON_GERNSBACK:                   Gernsback
+PLACE_MOON_GIBBS:                       Gibbs
+PLACE_MOON_GILBERT:                     Gilbert
+PLACE_MOON_GILL:                        Gill
+PLACE_MOON_GINZEL:                      Ginzel
+PLACE_MOON_GIOJA:                       Gioja
+PLACE_MOON_GIORDANO_BRUNO:              Giordano Bruno
+PLACE_MOON_GLAISHER:                    Glaisher
+PLACE_MOON_GLAUBER:                     Glauber
+PLACE_MOON_GLAZENAP:                    Glazenap
+PLACE_MOON_GLUSHKO:                     Glushko
+PLACE_MOON_GOCLENIUS:                   Goclenius
+PLACE_MOON_GODDARD:                     Goddard
+PLACE_MOON_GODIN:                       Godin
+PLACE_MOON_GOLDSCHMIDT:                 Goldschmidt
+PLACE_MOON_GOLGI:                       Golgi
+PLACE_MOON_GOLITSYN:                    Golitsyn
+PLACE_MOON_GOLOVIN:                     Golovin
+PLACE_MOON_GOODACRE:                    Goodacre
+PLACE_MOON_GORE:                        Gore
+PLACE_MOON_GOULD:                       Gould
+PLACE_MOON_GRACE:                       Grace
+PLACE_MOON_GRACHEV:                     Grachev
+PLACE_MOON_GRAFF:                       Graff
+PLACE_MOON_GRAVE:                       Grave
+PLACE_MOON_GREAVES:                     Greaves
+PLACE_MOON_GREEN:                       Green
+PLACE_MOON_GREGORY:                     Gregory
+PLACE_MOON_GRIGG:                       Grigg
+PLACE_MOON_GRIGNARD:                    Grignard
+PLACE_MOON_GRIMALDI:  	Grimaldi
+PLACE_MOON_GRISSOM:                     Grissom
+PLACE_MOON_GROTRIAN:                    Grotrian
+PLACE_MOON_GROVE:                       Grove
+PLACE_MOON_GRUEMBERGER:                 Gruemberger
+PLACE_MOON_GRUITHUISEN:                 Gruithuisen
+PLACE_MOON_GUERICKE:                    Guericke
+PLACE_MOON_GUILLAUME:                   Guillaume
+PLACE_MOON_GULLSTRAND:                  Gullstrand
+PLACE_MOON_GUM:                         Gum
+PLACE_MOON_GUTENBERG:                   Gutenberg
+PLACE_MOON_GUTHNICK:                    Guthnick
+PLACE_MOON_GUYOT:                       Guyot
+PLACE_MOON_GYLDEN:                      Gyldén
+PLACE_MOON_HABER:                       Haber
+PLACE_MOON_HAGECIUS:                    Hagecius
+PLACE_MOON_HAGEN:                       Hagen
+PLACE_MOON_HAHN:                        Hahn
+PLACE_MOON_HAIDINGER:                   Haidinger
+PLACE_MOON_HAINZEL:                     Hainzel
+PLACE_MOON_HALDANE:                     Haldane
+PLACE_MOON_HALE:                        Hale
+PLACE_MOON_HALL:                        Hall
+PLACE_MOON_HALLEY:                      Halley
+PLACE_MOON_HAMILTON:                    Hamilton
+PLACE_MOON_HANNO:                       Hanno
+PLACE_MOON_HANSEN:                      Hansen
+PLACE_MOON_HANSTEEN:                    Hansteen
+PLACE_MOON_HARDEN:                      Harden
+PLACE_MOON_HARDING:                     Harding
+PLACE_MOON_HARET:                       Haret
+PLACE_MOON_HARGREAVES:                  Hargreaves
+PLACE_MOON_HARKHEBI:                    Harkhebi
+PLACE_MOON_HARLAN:                      Harlan
+PLACE_MOON_HAROLD:                      Harold
+PLACE_MOON_HARPALUS:                    Harpalus
+PLACE_MOON_HARRIOT:                     Harriot
+PLACE_MOON_HARTMANN:                    Hartmann
+PLACE_MOON_HARTWIG:                     Hartwig
+PLACE_MOON_HARVEY:                      Harvey
+PLACE_MOON_HASE:                        Hase
+PLACE_MOON_HASKIN:                      Haskin
+PLACE_MOON_HATANAKA:                    Hatanaka
+PLACE_MOON_HAUSEN:                      Hausen
+PLACE_MOON_HAWORTH:                     Haworth
+PLACE_MOON_HAYFORD:                     Hayford
+PLACE_MOON_HAYN:                        Hayn
+PLACE_MOON_HEALY:                       Healy
+PLACE_MOON_HEAVISIDE:                   Heaviside
+PLACE_MOON_HECATAEUS:                   Hecataeus
+PLACE_MOON_HEDERVARI:                   Hédervári
+PLACE_MOON_HEDIN:                       Hedin
+PLACE_MOON_HEINRICH:                    Heinrich
+PLACE_MOON_HEINSIUS:                    Heinsius
+PLACE_MOON_HEIS:                        Heis
+PLACE_MOON_HELBERG:                     Helberg
+PLACE_MOON_HELICON:                     Helicon
+PLACE_MOON_HELL:                        Hell
+PLACE_MOON_HELMERT:                     Helmert
+PLACE_MOON_HELMHOLTZ:                   Helmholtz
+PLACE_MOON_HENDERSON:                   Henderson
+PLACE_MOON_HENDRIX:                     Hendrix
+PLACE_MOON_HENRY:                       Henry
+PLACE_MOON_HENRY_FRERES:                Henry Freres
+PLACE_MOON_HENYEY:                      Henyey
+PLACE_MOON_HERACLITUS:                  Heraclitus
+PLACE_MOON_HERCULES:	Hercules
+PLACE_MOON_HERIGONIUS:                  Herigonius
+PLACE_MOON_HERMANN:                     Hermann
+PLACE_MOON_HERMITE:                     Hermite
+PLACE_MOON_HERODOTUS:                   Herodotus
+PLACE_MOON_HERON:                       Heron (Hero)
+PLACE_MOON_HERSCHEL:   	Herschel
+PLACE_MOON_HERTZ:                       Hertz
+PLACE_MOON_HERTZSPRUNG:                 Hertzsprung
+PLACE_MOON_HESIODUS:                    Hesiodus
+PLACE_MOON_HESS:                        Hess
+PLACE_MOON_HEVELIUS:                    Hevelius
+PLACE_MOON_HEVESY:                      Hevesy
+PLACE_MOON_HEYMANS:                     Heymans
+PLACE_MOON_HEYROVSKY:                   Heyrovsky
+PLACE_MOON_H_G_WELLS:                   H. G. Wells
+PLACE_MOON_HILBERT:                     Hilbert
+PLACE_MOON_HILL:                        Hill
+PLACE_MOON_HIND:                        Hind
+PLACE_MOON_HINSHELWOOD:                 Hinshelwood
+PLACE_MOON_HIPPALUS:                    Hippalus
+PLACE_MOON_HIPPARCHUS:                  Hipparchus
+PLACE_MOON_HIPPOCRATES:                 Hippocrates
+PLACE_MOON_HIRAYAMA:                    Hirayama
+PLACE_MOON_HOFFMEISTER:                 Hoffmeister
+PLACE_MOON_HOGG:                        Hogg
+PLACE_MOON_HOHMANN:                     Hohmann
+PLACE_MOON_HOLDEN:                      Holden
+PLACE_MOON_HOLETSCHEK:                  Holetschek
+PLACE_MOON_HOMMEL:                      Hommel
+PLACE_MOON_HOOKE:                       Hooke
+PLACE_MOON_HOPMANN:                     Hopmann
+PLACE_MOON_HORNSBY:                     Hornsby
+PLACE_MOON_HORREBOW:                    Horrebow
+PLACE_MOON_HORROCKS:                    Horrocks
+PLACE_MOON_HORTENSIUS:                  Hortensius
+PLACE_MOON_HOUSSAY:                     Houssay
+PLACE_MOON_HOUTERMANS:                  Houtermans
+PLACE_MOON_HOUZEAU:                     Houzeau
+PLACE_MOON_HUBBLE:                      Hubble
+PLACE_MOON_HUGGINS:                     Huggins
+PLACE_MOON_HUMASON:                     Humason
+PLACE_MOON_HUMBOLDT: 	Humboldt
+PLACE_MOON_HUME:                        Hume
+PLACE_MOON_HUSBAND:                     Husband
+PLACE_MOON_HUTTON:                      Hutton
+PLACE_MOON_HUXLEY:                      Huxley
+PLACE_MOON_HYGINUS:                     Hyginus
+PLACE_MOON_HYPATIA:                     Hypatia
+PLACE_MOON_IAN:                         Ian
+PLACE_MOON_IBN_BAJJA:                   Ibn Bajja
+PLACE_MOON_IBN_BATTUTA:                 Ibn Battuta
+PLACE_MOON_IBN_FIRNAS:                  Ibn Firnas
+PLACE_MOON_IBN_RUSHD:                   Ibn-Rushd
+PLACE_MOON_IBN_YUNUS:                   Ibn Yunus
+PLACE_MOON_ICARUS:                      Icarus
+PLACE_MOON_IDELER:                      Ideler
+PLACE_MOON_IDEL_SON:                    Idel'son
+PLACE_MOON_IGOR:                        Igor
+PLACE_MOON_IL_IN:                       Il'in
+PLACE_MOON_INA:                         Ina
+PLACE_MOON_INGALLS:                     Ingalls
+PLACE_MOON_INGHIRAMI:                   Inghirami
+PLACE_MOON_INNES:                       Innes
+PLACE_MOON_IOFFE:                       Ioffe
+PLACE_MOON_ISABEL:                      Isabel
+PLACE_MOON_ISAEV:                       Isaev
+PLACE_MOON_ISIDORUS:                    Isidorus
+PLACE_MOON_ISIS:                        Isis
+PLACE_MOON_IVAN:                        Ivan
+PLACE_MOON_IZSAK:                       Izsak
+PLACE_MOON_JACKSON:                     Jackson
+PLACE_MOON_JACOBI:                      Jacobi
+PLACE_MOON_JANSEN:                      Jansen
+PLACE_MOON_JANSKY:                      Jansky
+PLACE_MOON_JANSSEN: 	Janssen
+PLACE_MOON_JARVIS:                      Jarvis
+PLACE_MOON_JEANS:                       Jeans
+PLACE_MOON_JEHAN:                       Jehan
+PLACE_MOON_JENKINS:                     Jenkins
+PLACE_MOON_JENNER:                      Jenner
+PLACE_MOON_JERIK:                       Jerik
+PLACE_MOON_J_HERSCHEL:                  J. Herschel
+PLACE_MOON_JOLIOT:                      Joliot
+PLACE_MOON_JOMO:                        Jomo
+PLACE_MOON_JOSE:                        José
+PLACE_MOON_JOULE:                       Joule
+PLACE_MOON_JOY:                         Joy
+PLACE_MOON_JULES_VERNE:                 Jules Verne
+PLACE_MOON_JULIENNE:                    Julienne
+PLACE_MOON_JULIUS_CAESAR: 	Julius Caesar
+PLACE_MOON_KAISER:                      Kaiser
+PLACE_MOON_KAMERLINGH_ONNES:            Kamerlingh Onnes
+PLACE_MOON_KANE:                        Kane
+PLACE_MOON_KANT:                        Kant
+PLACE_MOON_KAO:                         Kao
+PLACE_MOON_KAPTEYN:                     Kapteyn
+PLACE_MOON_KARIMA:                      Karima
+PLACE_MOON_KARPINSKIY:                  Karpinskiy
+PLACE_MOON_KARRER:                      Karrer
+PLACE_MOON_KASPER:                      Kasper
+PLACE_MOON_KASTNER:                     Kästner
+PLACE_MOON_KATCHALSKY:                  Katchalsky
+PLACE_MOON_KATHLEEN:                    Kathleen
+PLACE_MOON_KEARONS:                     Kearons
+PLACE_MOON_KEELER:                      Keeler
+PLACE_MOON_KEKULE:                      Kekulé
+PLACE_MOON_KELDYSH:                     Keldysh
+PLACE_MOON_KEPINSKI:                    Kepínski
+PLACE_MOON_KEPLER: 	Kepler
+PLACE_MOON_KHVOL_SON:                   Khvol'son
+PLACE_MOON_KIBAL_CHICH:                 Kibal'chich
+PLACE_MOON_KIDINNU:                     Kidinnu
+PLACE_MOON_KIES:                        Kies
+PLACE_MOON_KIESS:                       Kiess
+PLACE_MOON_KIMURA:                      Kimura
+PLACE_MOON_KINAU:                       Kinau
+PLACE_MOON_KING:                        King
+PLACE_MOON_KIRA:                        Kira
+PLACE_MOON_KIRCH:                       Kirch
+PLACE_MOON_KIRCHER:                     Kircher
+PLACE_MOON_KIRCHHOFF:                   Kirchhoff
+PLACE_MOON_KIRKWOOD:                    Kirkwood
+PLACE_MOON_KLAPROTH:                    Klaproth
+PLACE_MOON_KLEIN:                       Klein
+PLACE_MOON_KLEYMENOV:                   Kleymenov
+PLACE_MOON_KLUTE:                       Klute
+PLACE_MOON_KNOX_SHAW:                   Knox-Shaw
+PLACE_MOON_KOCH:                        Koch
+PLACE_MOON_KOCHER:                      Kocher
+PLACE_MOON_KOHLSCHUTTER:                Kohlschütter
+PLACE_MOON_KOLHORSTER:                  Kolhörster
+PLACE_MOON_KOLYA:                       Kolya
+PLACE_MOON_KOMAROV:                     Komarov
+PLACE_MOON_KONDRATYUK:                  Kondratyuk
+PLACE_MOON_KONIG:                       König
+PLACE_MOON_KONOPLEV:                    Konoplev
+PLACE_MOON_KONSTANTINOV:                Konstantinov
+PLACE_MOON_KOPFF:                       Kopff
+PLACE_MOON_KOROLEV:                     Korolev
+PLACE_MOON_KOSBERG:                     Kosberg
+PLACE_MOON_KOSTINSKIY:                  Kostinskiy
+PLACE_MOON_KOSTYA:                      Kostya
+PLACE_MOON_KOVALEVSKAYA:                Kovalevskaya
+PLACE_MOON_KOVAL_SKIY:                  Koval'skiy
+PLACE_MOON_KOZYREV:                     Kozyrev
+PLACE_MOON_KRAFFT:                      Krafft
+PLACE_MOON_KRAMAROV:                    Kramarov
+PLACE_MOON_KRAMERS:                     Kramers
+PLACE_MOON_KRASNOV:                     Krasnov
+PLACE_MOON_KRASOVSKIY:                  Krasovskiy
+PLACE_MOON_KREIKEN:                     Kreiken
+PLACE_MOON_KRIEGER:                     Krieger
+PLACE_MOON_KROGH:                       Krogh
+PLACE_MOON_KRUSENSTERN:                 Krusenstern
+PLACE_MOON_KRYLOV:                      Krylov
+PLACE_MOON_KUGLER:                      Kugler
+PLACE_MOON_KUHN:                        Kuhn
+PLACE_MOON_KUIPER:                      Kuiper
+PLACE_MOON_KULIK:                       Kulik
+PLACE_MOON_KUNDT:                       Kundt
+PLACE_MOON_KUNOWSKY:                    Kunowsky
+PLACE_MOON_KUO_SHOU_CHING:              Kuo Shou Ching
+PLACE_MOON_KURCHATOV:                   Kurchatov
+PLACE_MOON_LA_CAILLE:                   La Caille
+PLACE_MOON_LACCHINI:                    Lacchini
+PLACE_MOON_LA_CONDAMINE:                La Condamine
+PLACE_MOON_LACROIX:                     Lacroix
+PLACE_MOON_LADE:                        Lade
+PLACE_MOON_LAGALLA:                     Lagalla
+PLACE_MOON_LAGRANGE:                    Lagrange
+PLACE_MOON_LALANDE:                     Lalande
+PLACE_MOON_LALLEMAND:                   Lallemand
+PLACE_MOON_LAMARCK:                     Lamarck
+PLACE_MOON_LAMB:                        Lamb
+PLACE_MOON_LAMBERT:                     Lambert
+PLACE_MOON_LAME:                        Lamé
+PLACE_MOON_LAMECH:                      Lamèch
+PLACE_MOON_LAMONT:                      Lamont
+PLACE_MOON_LAMPLAND:                    Lampland
+PLACE_MOON_LANDAU:                      Landau
+PLACE_MOON_LANDER:                      Lander
+PLACE_MOON_LANDSTEINER:                 Landsteiner
+PLACE_MOON_LANE:                        Lane
+PLACE_MOON_LANGEMAK:                    Langemak
+PLACE_MOON_LANGEVIN:                    Langevin
+PLACE_MOON_LANGLEY:                     Langley
+PLACE_MOON_LANGMUIR:                    Langmuir
+PLACE_MOON_LANGRENUS:	Langrenus
+PLACE_MOON_LANSBERG:                    Lansberg
+PLACE_MOON_LA_PEROUSE:                  La Pérouse
+PLACE_MOON_LARMOR:                      Larmor
+PLACE_MOON_LASSELL:                     Lassell
+PLACE_MOON_LAUE:                        Laue
+PLACE_MOON_LAURITSEN:                   Lauritsen
+PLACE_MOON_LAVERAN:                     Laveran
+PLACE_MOON_LAVOISIER:                   Lavoisier
+PLACE_MOON_LAWRENCE:                    Lawrence
+PLACE_MOON_L_CLARK:                     L. Clark
+PLACE_MOON_LEAKEY:                      Leakey
+PLACE_MOON_LEAVITT:                     Leavitt
+PLACE_MOON_LEBEDEV:                     Lebedev
+PLACE_MOON_LEBEDINSKIY:                 Lebedinskiy
+PLACE_MOON_LEBESGUE:                    Lebesgue
+PLACE_MOON_LEE:                         Lee
+PLACE_MOON_LEEUWENHOEK:                 Leeuwenhoek
+PLACE_MOON_LEGENDRE:                    Legendre
+PLACE_MOON_LE_GENTIL:                   Le Gentil
+PLACE_MOON_LEHMANN:                     Lehmann
+PLACE_MOON_LEIBNITZ:                    Leibnitz
+PLACE_MOON_LEMAITRE:                    Lemaître
+PLACE_MOON_LE_MONNIER:                  Le Monnier
+PLACE_MOON_LENARD:                      Lenard
+PLACE_MOON_LENTS:                       Lents (Lenz)
+PLACE_MOON_LEONID:                      Leonid
+PLACE_MOON_LEONOV:                      Leonov
+PLACE_MOON_LEPAUTE:                     Lepaute
+PLACE_MOON_LETRONNE:                    Letronne
+PLACE_MOON_LEUCIPPUS:                   Leucippus
+PLACE_MOON_LEUSCHNER:                   Leuschner
+PLACE_MOON_LEV:                         Lev
+PLACE_MOON_LE_VERRIER:                  Le Verrier
+PLACE_MOON_LEVI_CIVITA:                 Levi-Civita
+PLACE_MOON_LEWIS:                       Lewis
+PLACE_MOON_LEXELL:                      Lexell
+PLACE_MOON_LEY:                         Ley
+PLACE_MOON_LICETUS:                     Licetus
+PLACE_MOON_LICHTENBERG:                 Lichtenberg
+PLACE_MOON_LICK:                        Lick
+PLACE_MOON_LIEBIG:                      Liebig
+PLACE_MOON_LILIUS:                      Lilius
+PLACE_MOON_LINDA:                       Linda
+PLACE_MOON_LINDBERGH:                   Lindbergh
+PLACE_MOON_LINDBLAD:                    Lindblad
+PLACE_MOON_LINDENAU:                    Lindenau
+PLACE_MOON_LINDSAY:                     Lindsay
+PLACE_MOON_LINNE:                       Linné
+PLACE_MOON_LIOUVILLE:                   Liouville
+PLACE_MOON_LIPPERSHEY:                  Lippershey
+PLACE_MOON_LIPPMANN:                    Lippmann
+PLACE_MOON_LIPSKIY:                     Lipskiy
+PLACE_MOON_LITKE:                       Litke
+PLACE_MOON_LITTROW:                     Littrow
+PLACE_MOON_LOBACHEVSKIY:                Lobachevskiy
+PLACE_MOON_LOCKYER:                     Lockyer
+PLACE_MOON_LODYGIN:                     Lodygin
+PLACE_MOON_LOEWY:                       Loewy
+PLACE_MOON_LOHRMANN:                    Lohrmann
+PLACE_MOON_LOHSE:                       Lohse
+PLACE_MOON_LOMONOSOV:                   Lomonosov
+PLACE_MOON_LONGOMONTANUS: 	Longomontanus
+PLACE_MOON_LORENTZ:                     Lorentz
+PLACE_MOON_LOUISE:                      Louise
+PLACE_MOON_LOUVILLE:                    Louville
+PLACE_MOON_LOVE:                        Love
+PLACE_MOON_LOVELACE:                    Lovelace
+PLACE_MOON_LOVELL:                      Lovell
+PLACE_MOON_LOWELL:                      Lowell
+PLACE_MOON_LUBBOCK:                     Lubbock
+PLACE_MOON_LUBINIEZKY:                  Lubiniezky
+PLACE_MOON_LUCIAN:                      Lucian
+PLACE_MOON_LUCRETIUS:                   Lucretius
+PLACE_MOON_LUDWIG:                      Ludwig
+PLACE_MOON_LUNDMARK:                    Lundmark
+PLACE_MOON_LUTHER:                      Luther
+PLACE_MOON_LYAPUNOV:                    Lyapunov
+PLACE_MOON_LYELL:                       Lyell
+PLACE_MOON_LYMAN:                       Lyman
+PLACE_MOON_LYOT:                        Lyot
+PLACE_MOON_MACH:                        Mach
+PLACE_MOON_MACLAURIN:                   Maclaurin
+PLACE_MOON_MACLEAR:                     Maclear
+PLACE_MOON_MACMILLAN:                   MacMillan
+PLACE_MOON_MACROBIUS:	Macrobius
+PLACE_MOON_MADLER:                      Mädler
+PLACE_MOON_MAESTLIN:                    Maestlin
+PLACE_MOON_MAGELHAENS:                  Magelhaens
+PLACE_MOON_MAGINUS:  	Maginus
+PLACE_MOON_MAIN:                        Main
+PLACE_MOON_MAIRAN:                      Mairan
+PLACE_MOON_MAKSUTOV:                    Maksutov
+PLACE_MOON_MALAPERT:                    Malapert
+PLACE_MOON_MALINKIN:                    Malinkin
+PLACE_MOON_MALLET:                      Mallet
+PLACE_MOON_MALYY:                       Malyy
+PLACE_MOON_MANDEL_SHTAM:                Mandel'shtam
+PLACE_MOON_M_ANDERSON:                  M. Anderson
+PLACE_MOON_MANILIUS:                    Manilius
+PLACE_MOON_MANNERS:                     Manners
+PLACE_MOON_MANUEL:                      Manuel
+PLACE_MOON_MANZINUS:                    Manzinus
+PLACE_MOON_MARALDI:                     Maraldi
+PLACE_MOON_MARCI:                       Marci
+PLACE_MOON_MARCONI:                     Marconi
+PLACE_MOON_MARCO_POLO:                  Marco Polo
+PLACE_MOON_MARINUS:                     Marinus
+PLACE_MOON_MARIOTTE:                    Mariotte
+PLACE_MOON_MARIUS:                      Marius
+PLACE_MOON_MARKOV:                      Markov
+PLACE_MOON_MARTH:                       Marth
+PLACE_MOON_MARY:                        Mary
+PLACE_MOON_MASKELYNE:                   Maskelyne
+PLACE_MOON_MASON:                       Mason
+PLACE_MOON_MAUNDER:                     Maunder
+PLACE_MOON_MAUPERTUIS:                  Maupertuis
+PLACE_MOON_MAUROLYCUS:                  Maurolycus
+PLACE_MOON_MAURY:                       Maury
+PLACE_MOON_MAVIS:                       Mavis
+PLACE_MOON_MAXWELL:	Maxwell
+PLACE_MOON_MCADIE:                      McAdie
+PLACE_MOON_MCAULIFFE:                   McAuliffe
+PLACE_MOON_MCCLURE:                     McClure
+PLACE_MOON_MCCOOL:                      McCool
+PLACE_MOON_MCDONALD:                    McDonald
+PLACE_MOON_MCKELLAR:                    McKellar
+PLACE_MOON_MCLAUGHLIN:                  McLaughlin
+PLACE_MOON_MCMATH:                      McMath
+PLACE_MOON_MCNAIR:                      McNair
+PLACE_MOON_MCNALLY:                     McNally
+PLACE_MOON_MECHNIKOV:                   Mechnikov
+PLACE_MOON_MEE:                         Mee
+PLACE_MOON_MEES:                        Mees
+PLACE_MOON_MEGGERS:                     Meggers
+PLACE_MOON_MEITNER:                     Meitner
+PLACE_MOON_MELISSA:                     Melissa
+PLACE_MOON_MENDEL:                      Mendel
+PLACE_MOON_MENDELEEV:                   Mendeleev
+PLACE_MOON_MENELAUS:                    Menelaus
+PLACE_MOON_MENZEL:                      Menzel
+PLACE_MOON_MERCATOR:                    Mercator
+PLACE_MOON_MERCURIUS:                   Mercurius
+PLACE_MOON_MERRILL:                     Merrill
+PLACE_MOON_MERSENIUS:                   Mersenius
+PLACE_MOON_MESHCHERSKIY:                Meshcherskiy
+PLACE_MOON_MESSALA:                     Messala
+PLACE_MOON_MESSIER:                     Messier
+PLACE_MOON_METIUS:  	Metius
+PLACE_MOON_METON:                       Meton
+PLACE_MOON_MEZENTSEV:                   Mezentsev
+PLACE_MOON_MICHAEL:                     Michael
+PLACE_MOON_MICHELSON:                   Michelson
+PLACE_MOON_MILANKOVIC:                  Milankovič
+PLACE_MOON_MILICHIUS:                   Milichius
+PLACE_MOON_MILLER:                      Miller
+PLACE_MOON_MILLIKAN:                    Millikan
+PLACE_MOON_MILLS:                       Mills
+PLACE_MOON_MILNE:                       Milne
+PLACE_MOON_MINEUR:                      Mineur
+PLACE_MOON_MINKOWSKI:                   Minkowski
+PLACE_MOON_MINNAERT:                    Minnaert
+PLACE_MOON_MITCHELL:                    Mitchell
+PLACE_MOON_MITRA:                       Mitra
+PLACE_MOON_MOBIUS:                      Mobius
+PLACE_MOON_MOHOROVICIC:                 Mohorovičić
+PLACE_MOON_MOIGNO:                      Moigno
+PLACE_MOON_MOISEEV:                     Moiseev
+PLACE_MOON_MOISSAN:                     Moissan
+PLACE_MOON_MOLTKE:                      Moltke
+PLACE_MOON_MONGE:                       Monge
+PLACE_MOON_MONIRA:                      Monira
+PLACE_MOON_MONTANARI:                   Montanari
+PLACE_MOON_MONTGOLFIER:                 Montgolfier
+PLACE_MOON_MOORE:                       Moore
+PLACE_MOON_MORETUS:                     Moretus
+PLACE_MOON_MORLEY:                      Morley
+PLACE_MOON_MOROZOV:                     Morozov
+PLACE_MOON_MORSE:                       Morse
+PLACE_MOON_MOSELEY:                     Moseley
+PLACE_MOON_MOSTING:                     Mösting
+PLACE_MOON_MOUCHEZ:                     Mouchez
+PLACE_MOON_MOULTON:                     Moulton
+PLACE_MOON_MULLER:                      Müller
+PLACE_MOON_MURAKAMI:                    Murakami
+PLACE_MOON_MURCHISON:                   Murchison
+PLACE_MOON_MUTUS:                       Mutus
+PLACE_MOON_NAGAOKA:                     Nagaoka
+PLACE_MOON_NANSEN:                      Nansen
+PLACE_MOON_NAONOBU:                     Naonobu
+PLACE_MOON_NASIREDDIN:                  Nasireddin
+PLACE_MOON_NASMYTH:                     Nasmyth
+PLACE_MOON_NASSAU:                      Nassau
+PLACE_MOON_NATASHA:                     Natasha
+PLACE_MOON_NAUMANN:                     Naumann
+PLACE_MOON_NEANDER:                     Neander
+PLACE_MOON_NEARCH:                      Nearch
+PLACE_MOON_NECHO:                       Necho
+PLACE_MOON_NEFED_EV:                    Nefed'ev
+PLACE_MOON_NEISON:                      Neison
+PLACE_MOON_NEPER:                       Neper
+PLACE_MOON_NERNST:                      Nernst
+PLACE_MOON_NEUJMIN:                     Neujmin
+PLACE_MOON_NEUMAYER:                    Neumayer
+PLACE_MOON_NEWCOMB:                     Newcomb
+PLACE_MOON_NEWTON:                      Newton
+PLACE_MOON_NICHOLSON:                   Nicholson
+PLACE_MOON_NICOLAI:                     Nicolai
+PLACE_MOON_NICOLLET:                    Nicollet
+PLACE_MOON_NIELSEN:                     Nielsen
+PLACE_MOON_NIEPCE:                      Niepce
+PLACE_MOON_NIJLAND:                     Nijland
+PLACE_MOON_NIKOLAEV:                    Nikolaev
+PLACE_MOON_NIKOLYA:                     Nikolya
+PLACE_MOON_NISHINA:                     Nishina
+PLACE_MOON_NOBEL:                       Nobel
+PLACE_MOON_NOBILE:                      Nobile
+PLACE_MOON_NOBILI:                      Nobili
+PLACE_MOON_NOGGERATH:                   Nöggerath
+PLACE_MOON_NONIUS:                      Nonius
+PLACE_MOON_NORMAN:                      Norman
+PLACE_MOON_NOETHER:                     Nöther
+PLACE_MOON_NUMEROV:                     Numerov
+PLACE_MOON_NUNN:                        Nunn
+PLACE_MOON_NUSL:                        Nušl
+PLACE_MOON_OBERTH:                      Oberth
+PLACE_MOON_OBRUCHEV:                    Obruchev
+PLACE_MOON_O_DAY:                       O'Day
+PLACE_MOON_OENOPIDES:                   Oenopides
+PLACE_MOON_OERSTED:                     Oersted
+PLACE_MOON_OHM:                         Ohm
+PLACE_MOON_OKEN:                        Oken
+PLACE_MOON_OLBERS:                      Olbers
+PLACE_MOON_OLCOTT:                      Olcott
+PLACE_MOON_OLIVIER:                     Olivier
+PLACE_MOON_OMAR_KHAYYAM:                Omar Khayyam
+PLACE_MOON_ONIZUKA:                     Onizuka
+PLACE_MOON_OPELT:                       Opelt
+PLACE_MOON_OPPENHEIMER:                 Oppenheimer
+PLACE_MOON_OPPOLZER:                    Oppolzer
+PLACE_MOON_ORESME:                      Oresme
+PLACE_MOON_ORLOV:                       Orlov
+PLACE_MOON_ORONTIUS:                    Orontius
+PLACE_MOON_OSAMA:                       Osama
+PLACE_MOON_OSIRIS:                      Osiris
+PLACE_MOON_OSMAN:                       Osman
+PLACE_MOON_OSTWALD:                     Ostwald
+PLACE_MOON_PALISA:                      Palisa
+PLACE_MOON_PALITZSCH:                   Palitzsch
+PLACE_MOON_PALLAS:                      Pallas
+PLACE_MOON_PALMIERI:                    Palmieri
+PLACE_MOON_PANETH:                      Paneth
+PLACE_MOON_PANNEKOEK:                   Pannekoek
+PLACE_MOON_PAPALEKSI:                   Papaleksi
+PLACE_MOON_PARACELSUS:                  Paracelsus
+PLACE_MOON_PARASKEVOPOULOS:             Paraskevopoulos
+PLACE_MOON_PARENAGO:                    Parenago
+PLACE_MOON_PARKHURST:                   Parkhurst
+PLACE_MOON_PARROT:                      Parrot
+PLACE_MOON_PARRY:                       Parry
+PLACE_MOON_PARSONS:                     Parsons
+PLACE_MOON_PASCAL:                      Pascal
+PLACE_MOON_PASCHEN:                     Paschen
+PLACE_MOON_PASTEUR:                     Pasteur
+PLACE_MOON_PATRICIA:                    Patricia
+PLACE_MOON_PATSAEV:                     Patsaev
+PLACE_MOON_PAULI:                       Pauli
+PLACE_MOON_PAVLOV:                      Pavlov
+PLACE_MOON_PAWSEY:                      Pawsey
+PLACE_MOON_PEARY:                       Peary
+PLACE_MOON_PEASE:                       Pease
+PLACE_MOON_PEEK:                        Peek
+PLACE_MOON_PEIRCE:                      Peirce
+PLACE_MOON_PEIRESCIUS:                  Peirescius
+PLACE_MOON_PENTLAND:                    Pentland
+PLACE_MOON_PEREL_MAN:                   Perel'man
+PLACE_MOON_PEREPELKIN:                  Perepelkin
+PLACE_MOON_PERKIN:                      Perkin
+PLACE_MOON_PERRINE:                     Perrine
+PLACE_MOON_PETAVIUS: 	Petavius
+PLACE_MOON_PETERMANN:                   Petermann
+PLACE_MOON_PETERS:                      Peters
+PLACE_MOON_PETIT:                       Petit
+PLACE_MOON_PETRIE:                      Petrie
+PLACE_MOON_PETROPAVLOVSKIY:             Petropavlovskiy
+PLACE_MOON_PETROV:                      Petrov
+PLACE_MOON_PETTIT:                      Pettit
+PLACE_MOON_PETZVAL:                     Petzval
+PLACE_MOON_PHILLIPS:                    Phillips
+PLACE_MOON_PHILOLAUS:                   Philolaus
+PLACE_MOON_PHOCYLIDES:                  Phocylides
+PLACE_MOON_PIAZZI:                      Piazzi
+PLACE_MOON_PIAZZI_SMYTH:                Piazzi Smyth
+PLACE_MOON_PICARD:                      Picard
+PLACE_MOON_PICCOLOMINI: 	Piccolomini
+PLACE_MOON_PICKERING:                   Pickering
+PLACE_MOON_PICTET:                      Pictet
+PLACE_MOON_PIKEL_NER:                   Pikel'ner
+PLACE_MOON_PILATRE:                     Pilâtre
+PLACE_MOON_PINGRE:                      Pingré
+PLACE_MOON_PIRQUET:                     Pirquet
+PLACE_MOON_PITATUS:                     Pitatus
+PLACE_MOON_PITISCUS:                    Pitiscus
+PLACE_MOON_PIZZETTI:                    Pizzetti
+PLACE_MOON_PLANA:                       Plana
+PLACE_MOON_PLANCK:                      Planck
+PLACE_MOON_PLANTE:                      Planté
+PLACE_MOON_PLASKETT:                    Plaskett
+PLACE_MOON_PLATO:  	Plato
+PLACE_MOON_PLAYFAIR:                    Playfair
+PLACE_MOON_PLINIUS:                     Plinius
+PLACE_MOON_PLUMMER:                     Plummer
+PLACE_MOON_PLUTARCH:                    Plutarch
+PLACE_MOON_POCZOBUTT:                   Poczobutt
+PLACE_MOON_POGSON:                      Pogson
+PLACE_MOON_POINCARE:                    Poincaré
+PLACE_MOON_POINSOT:                     Poinsot
+PLACE_MOON_POISSON:                     Poisson
+PLACE_MOON_POLYBIUS:                    Polybius
+PLACE_MOON_POLZUNOV:                    Polzunov
+PLACE_MOON_POMORTSEV:                   Pomortsev
+PLACE_MOON_PONCELET:                    Poncelet
+PLACE_MOON_PONS:                        Pons
+PLACE_MOON_PONTANUS:                    Pontanus
+PLACE_MOON_PONTECOULANT:                Pontécoulant
+PLACE_MOON_POPOV:                       Popov
+PLACE_MOON_PORTER:                      Porter
+PLACE_MOON_POSIDONIUS:   	Posidonius
+PLACE_MOON_POYNTING:                    Poynting
+PLACE_MOON_PRAGER:                      Prager
+PLACE_MOON_PRANDTL:                     Prandtl
+PLACE_MOON_PRIESTLEY:                   Priestley
+PLACE_MOON_PRINZ:                       Prinz
+PLACE_MOON_PRISCILLA:                   Priscilla
+PLACE_MOON_PROCLUS:                     Proclus
+PLACE_MOON_PROCTOR:                     Proctor
+PLACE_MOON_PROTAGORAS:                  Protagoras
+PLACE_MOON_PTOLEMAEUS:  	Ptolemaeus
+PLACE_MOON_PUISEUX:                     Puiseux
+PLACE_MOON_PUPIN:                       Pupin
+PLACE_MOON_PURBACH:  	Purbach
+PLACE_MOON_PURKYNE:                     Purkyně
+PLACE_MOON_PYTHAGORAS: 	Pythagoras
+PLACE_MOON_PYTHEAS:                     Pytheas
+PLACE_MOON_QUETELET:                    Quetelet
+PLACE_MOON_RABBI_LEVI:                  Rabbi Levi
+PLACE_MOON_RACAH:                       Racah
+PLACE_MOON_RAIMOND:                     Raimond
+PLACE_MOON_RAMAN:                       Raman
+PLACE_MOON_RAMON:                       Ramon
+PLACE_MOON_RAMSAY:                      Ramsay
+PLACE_MOON_RAMSDEN:                     Ramsden
+PLACE_MOON_RANKINE:                     Rankine
+PLACE_MOON_RASPLETIN:                   Raspletin
+PLACE_MOON_RAVI:                        Ravi
+PLACE_MOON_RAYET:                       Rayet
+PLACE_MOON_RAYLEIGH:                    Rayleigh
+PLACE_MOON_RAZUMOV:                     Razumov
+PLACE_MOON_REAUMUR:                     Réaumur
+PLACE_MOON_RECHT:                       Recht
+PLACE_MOON_REGIOMONTANUS:               Regiomontanus
+PLACE_MOON_REGNAULT:                    Regnault
+PLACE_MOON_REICHENBACH:                 Reichenbach
+PLACE_MOON_REIMARUS:                    Reimarus
+PLACE_MOON_REINER:                      Reiner
+PLACE_MOON_REINHOLD:  	Reinhold
+PLACE_MOON_REPSOLD:                     Repsold
+PLACE_MOON_RESNIK:                      Resnik
+PLACE_MOON_RESPIGHI:                    Respighi
+PLACE_MOON_RHAETICUS:                   Rhaeticus
+PLACE_MOON_RHEITA: 	Rheita
+PLACE_MOON_RICCIOLI:                    Riccioli
+PLACE_MOON_RICCIUS:                     Riccius
+PLACE_MOON_RICCO:                       Ricco
+PLACE_MOON_RICHARDS:                    Richards
+PLACE_MOON_RICHARDSON:                  Richardson
+PLACE_MOON_RIEDEL:                      Riedel
+PLACE_MOON_RIEMANN:                     Riemann
+PLACE_MOON_RITCHEY:                     Ritchey
+PLACE_MOON_RITTENHOUSE:                 Rittenhouse
+PLACE_MOON_RITTER:                      Ritter
+PLACE_MOON_RITZ:                        Ritz
+PLACE_MOON_ROBERT:                      Robert
+PLACE_MOON_ROBERTS:                     Roberts
+PLACE_MOON_ROBERTSON:                   Robertson
+PLACE_MOON_ROBINSON:                    Robinson
+PLACE_MOON_ROCCA:                       Rocca
+PLACE_MOON_ROCCO:                       Rocco
+PLACE_MOON_ROCHE:                       Roche
+PLACE_MOON_ROMEO:                       Romeo
+PLACE_MOON_ROMER:                       Römer
+PLACE_MOON_RONTGEN:                     Röntgen
+PLACE_MOON_ROSA:                        Rosa
+PLACE_MOON_ROSENBERGER:                 Rosenberger
+PLACE_MOON_ROSS:                        Ross
+PLACE_MOON_ROSSE:                       Rosse
+PLACE_MOON_ROSSELAND:                   Rosseland
+PLACE_MOON_ROST:                        Rost
+PLACE_MOON_ROTHMANN:                    Rothmann
+PLACE_MOON_ROWLAND:                     Rowland
+PLACE_MOON_ROZHDESTVENSKIY:             Rozhdestvenskiy
+PLACE_MOON_RUMFORD:                     Rumford
+PLACE_MOON_RUNGE:                       Runge
+PLACE_MOON_RUSSELL:                     Russell
+PLACE_MOON_RUTH:                        Ruth
+PLACE_MOON_RUTHERFORD:                  Rutherford
+PLACE_MOON_RUTHERFURD:                  Rutherfurd
+PLACE_MOON_RYDBERG:                     Rydberg
+PLACE_MOON_RYDER:                       Ryder
+PLACE_MOON_RYNIN:                       Rynin
+PLACE_MOON_SABATIER:                    Sabatier
+PLACE_MOON_SABINE:                      Sabine
+PLACE_MOON_SACROBOSCO:                  Sacrobosco
+PLACE_MOON_SAENGER:                     Saenger
+PLACE_MOON_SAFARIK:                     Šafařík
+PLACE_MOON_SAHA:                        Saha
+PLACE_MOON_SAMIR:                       Samir
+PLACE_MOON_SAMPSON:                     Sampson
+PLACE_MOON_SANFORD:                     Sanford
+PLACE_MOON_SANTBECH:                    Santbech
+PLACE_MOON_SANTOS_DUMONT:               Santos-Dumont
+PLACE_MOON_SARABHAI:                    Sarabhai
+PLACE_MOON_SARTON:                      Sarton
+PLACE_MOON_SASSERIDES:                  Sasserides
+PLACE_MOON_SAUNDER:                     Saunder
+PLACE_MOON_SAUSSURE:                    Saussure
+PLACE_MOON_SCALIGER:                    Scaliger
+PLACE_MOON_SCHAEBERLE:                  Schaeberle
+PLACE_MOON_SCHEELE:                     Scheele
+PLACE_MOON_SCHEINER:                    Scheiner
+PLACE_MOON_SCHIAPARELLI:                Schiaparelli
+PLACE_MOON_SCHICKARD: 	Schickard
+PLACE_MOON_SCHILLER:  	Schiller
+PLACE_MOON_SCHJELLERUP:                 Schjellerup
+PLACE_MOON_SCHLESINGER:                 Schlesinger
+PLACE_MOON_SCHLIEMANN:                  Schliemann
+PLACE_MOON_SCHLUTER:                    Schlüter
+PLACE_MOON_SCHMIDT:                     Schmidt
+PLACE_MOON_SCHNELLER:                   Schneller
+PLACE_MOON_SCHOMBERGER:                 Schomberger
+PLACE_MOON_SCHONFELD:                   Schönfeld
+PLACE_MOON_SCHORR:                      Schorr
+PLACE_MOON_SCHRODINGER:                 Schrödinger
+PLACE_MOON_SCHROTER:                    Schröter
+PLACE_MOON_SCHUBERT:                    Schubert
+PLACE_MOON_SCHUMACHER:                  Schumacher
+PLACE_MOON_SCHUSTER:                    Schuster
+PLACE_MOON_SCHWABE:                     Schwabe
+PLACE_MOON_SCHWARZSCHILD:               Schwarzschild
+PLACE_MOON_SCOBEE:                      Scobee
+PLACE_MOON_SCORESBY:                    Scoresby
+PLACE_MOON_SCOTT:                       Scott
+PLACE_MOON_SEARES:                      Seares
+PLACE_MOON_SECCHI:                      Secchi
+PLACE_MOON_SECHENOV:                    Sechenov
+PLACE_MOON_SEELIGER:                    Seeliger
+PLACE_MOON_SEGERS:                      Segers
+PLACE_MOON_SEGNER:                      Segner
+PLACE_MOON_SEIDEL:                      Seidel
+PLACE_MOON_SELEUCUS:                    Seleucus
+PLACE_MOON_SENECA:                      Seneca
+PLACE_MOON_SEYFERT:                     Seyfert
+PLACE_MOON_SHACKLETON:                  Shackleton
+PLACE_MOON_SHAHINAZ:                    Shahinaz
+PLACE_MOON_SHALER:                      Shaler
+PLACE_MOON_SHAPLEY:                     Shapley
+PLACE_MOON_SHARONOV:                    Sharonov
+PLACE_MOON_SHARP:                       Sharp
+PLACE_MOON_SHATALOV:                    Shatalov
+PLACE_MOON_SHAYN:                       Shayn
+PLACE_MOON_SHEEPSHANKS:                 Sheepshanks
+PLACE_MOON_SHERRINGTON:                 Sherrington
+PLACE_MOON_SHIRAKATSI:                  Shirakatsi
+PLACE_MOON_SHI_SHEN:                    Shi Shen
+PLACE_MOON_SHOEMAKER:                   Shoemaker
+PLACE_MOON_SHORT:                       Short
+PLACE_MOON_SHTERNBERG:                  Shternberg (Sternberg)
+PLACE_MOON_SHUCKBURGH:                  Shuckburgh
+PLACE_MOON_SHULEYKIN:                   Shuleykin
+PLACE_MOON_SIEDENTOPF:                  Siedentopf
+PLACE_MOON_SIERPINSKI:                  Sierpinski
+PLACE_MOON_SIKORSKY:                    Sikorsky
+PLACE_MOON_SILBERSCHLAG:                Silberschlag
+PLACE_MOON_SIMPELIUS:                   Simpelius
+PLACE_MOON_SINAS:                       Sinas
+PLACE_MOON_SIRSALIS:                    Sirsalis
+PLACE_MOON_SISAKYAN:                    Sisakyan
+PLACE_MOON_SITA:                        Sita
+PLACE_MOON_SKLODOWSKA:                  Sklodowska
+PLACE_MOON_SLAVA:                       Slava
+PLACE_MOON_SLIPHER:                     Slipher
+PLACE_MOON_SLOCUM:                      Slocum
+PLACE_MOON_SMITH:                       Smith
+PLACE_MOON_SMITHSON:                    Smithson
+PLACE_MOON_SMOLUCHOWSKI:                Smoluchowski
+PLACE_MOON_SNELLIUS:                    Snellius
+PLACE_MOON_SNIADECKI:                   Sniadecki
+PLACE_MOON_SODDY:                       Soddy
+PLACE_MOON_SOMERVILLE:                  Somerville
+PLACE_MOON_SOMMERFELD:                  Sommerfeld
+PLACE_MOON_SOMMERING:                   Sömmering
+PLACE_MOON_SORAYA:                      Soraya
+PLACE_MOON_SOSIGENES:                   Sosigenes
+PLACE_MOON_SOUTH:                       South
+PLACE_MOON_SPALLANZANI:                 Spallanzani
+PLACE_MOON_SPENCER_JONES:               Spencer Jones
+PLACE_MOON_SPORER:                      Spörer
+PLACE_MOON_SPURR:                       Spurr
+PLACE_MOON_STADIUS:                     Stadius
+PLACE_MOON_STARK:                       Stark
+PLACE_MOON_STEARNS:                     Stearns
+PLACE_MOON_STEBBINS:                    Stebbins
+PLACE_MOON_STEFAN:                      Stefan
+PLACE_MOON_STEIN:                       Stein
+PLACE_MOON_STEINHEIL:                   Steinheil
+PLACE_MOON_STEKLOV:                     Steklov
+PLACE_MOON_STELLA:                      Stella
+PLACE_MOON_STENO:                       Steno
+PLACE_MOON_STERNFELD:                   Sternfeld
+PLACE_MOON_STETSON:                     Stetson
+PLACE_MOON_STEVINUS: 	Stevinus
+PLACE_MOON_STEWART:                     Stewart
+PLACE_MOON_STIBORIUS:                   Stiborius
+PLACE_MOON_ST_JOHN:                     St. John
+PLACE_MOON_STOFLER:                     Stöfler
+PLACE_MOON_STOKES:                      Stokes
+PLACE_MOON_STOLETOV:                    Stoletov
+PLACE_MOON_STONEY:                      Stoney
+PLACE_MOON_STORMER:                     Störmer
+PLACE_MOON_STRABO:                      Strabo
+PLACE_MOON_STRATTON:                    Stratton
+PLACE_MOON_STREET:                      Street
+PLACE_MOON_STROMGREN:                   Strömgren
+PLACE_MOON_STRUVE:                      Struve
+PLACE_MOON_SUBBOTIN:                    Subbotin
+PLACE_MOON_SUESS:                       Suess
+PLACE_MOON_SULPICIUS_GALLUS:            Sulpicius Gallus
+PLACE_MOON_SUMNER:                      Sumner
+PLACE_MOON_SUNDMAN:                     Sundman
+PLACE_MOON_SUSAN:                       Susan
+PLACE_MOON_SVEDBERG:                    Svedberg
+PLACE_MOON_SVERDRUP:                    Sverdrup
+PLACE_MOON_SWANN:                       Swann
+PLACE_MOON_SWASEY:                      Swasey
+PLACE_MOON_SWIFT:                       Swift
+PLACE_MOON_SYLVESTER:                   Sylvester
+PLACE_MOON_SZILARD:                     Szilard
+PLACE_MOON_TACCHINI:                    Tacchini
+PLACE_MOON_TACITUS:                     Tacitus
+PLACE_MOON_TACQUET:                     Tacquet
+PLACE_MOON_TAIZO:                       Taizo
+PLACE_MOON_TALBOT:                      Talbot
+PLACE_MOON_TAMM:                        Tamm
+PLACE_MOON_TANNERUS:                    Tannerus
+PLACE_MOON_TARUNTIUS:                   Taruntius
+PLACE_MOON_TAYLOR:                      Taylor
+PLACE_MOON_TEBBUTT:                     Tebbutt
+PLACE_MOON_TEISSERENC:                  Teisserenc
+PLACE_MOON_TEMPEL:                      Tempel
+PLACE_MOON_TEN_BRUGGENCATE:             Ten Bruggencate
+PLACE_MOON_TERESHKOVA:                  Tereshkova
+PLACE_MOON_TESLA:                       Tesla
+PLACE_MOON_THALES:                      Thales
+PLACE_MOON_THEAETETUS:                  Theaetetus
+PLACE_MOON_THEBIT:                      Thebit
+PLACE_MOON_THEILER:                     Theiler
+PLACE_MOON_THEON_JUNIOR:                Theon Junior
+PLACE_MOON_THEON_SENIOR:                Theon Senior
+PLACE_MOON_THEOPHILUS:	Theophilus
+PLACE_MOON_THEOPHRASTUS:                Theophrastus
+PLACE_MOON_THIEL:                       Thiel
+PLACE_MOON_THIESSEN:                    Thiessen
+PLACE_MOON_THOMSON:                     Thomson
+PLACE_MOON_TIKHOMIROV:                  Tikhomirov
+PLACE_MOON_TIKHOV:                      Tikhov
+PLACE_MOON_TILING:                      Tiling
+PLACE_MOON_TIMAEUS:                     Timaeus
+PLACE_MOON_TIMIRYAZEV:                  Timiryazev
+PLACE_MOON_TIMOCHARIS: 	Timocharis
+PLACE_MOON_TISELIUS:                    Tiselius
+PLACE_MOON_TISSERAND:                   Tisserand
+PLACE_MOON_TITIUS:                      Titius
+PLACE_MOON_TITOV:                       Titov
+PLACE_MOON_T_MAYER:                     T. Mayer
+PLACE_MOON_TOLANSKY:                    Tolansky
+PLACE_MOON_TORRICELLI:                  Torricelli
+PLACE_MOON_TOSCANELLI:                  Toscanelli
+PLACE_MOON_TOWNLEY:                     Townley
+PLACE_MOON_TRALLES:                     Tralles
+PLACE_MOON_TRIESNECKER:                 Triesnecker
+PLACE_MOON_TROUVELOT:                   Trouvelot
+PLACE_MOON_TRUMPLER:                    Trumpler
+PLACE_MOON_TSANDER:                     Tsander (Zander)
+PLACE_MOON_TSERASKIY:                   Tseraskiy (Ceraski)
+PLACE_MOON_TSINGER:                     Tsinger (Zinger)
+PLACE_MOON_TSIOLKOVSKIY:                Tsiolkovskiy
+PLACE_MOON_TSU_CHUNG_CHI:               Tsu Chung-Chi
+PLACE_MOON_TUCKER:                      Tucker
+PLACE_MOON_TURNER:                      Turner
+PLACE_MOON_TYCHO:  	Tycho
+PLACE_MOON_TYNDALL:                     Tyndall
+PLACE_MOON_UKERT:                       Ukert
+PLACE_MOON_ULUGH_BEIGH:                 Ulugh Beigh
+PLACE_MOON_UREY:                        Urey
+PLACE_MOON_VAISALA:                     Väisälä
+PLACE_MOON_VALERA:                      Valera
+PLACE_MOON_VALIER:                      Valier
+PLACE_MOON_VAN_ALBADA:                  van Albada
+PLACE_MOON_VAN_BIESBROECK:              Van Biesbroeck
+PLACE_MOON_VAN_DE_GRAAFF:               Van de Graaff
+PLACE_MOON_VAN_DEN_BERGH:               Van den Bergh
+PLACE_MOON_VAN_DEN_BOS:                 van den Bos
+PLACE_MOON_VAN_DER_WAALS:               Van der Waals
+PLACE_MOON_VAN_GENT:                    Van Gent
+PLACE_MOON_VAN_MAANEN:                  Van Maanen
+PLACE_MOON_VAN_RHIJN:                   van Rhijn
+PLACE_MOON_VAN_T_HOFF:                  van't Hoff
+PLACE_MOON_VAN_VLECK:                   Van Vleck
+PLACE_MOON_VAN_WIJK:                    Van Wijk
+PLACE_MOON_VASCO_DA_GAMA:               Vasco da Gama
+PLACE_MOON_VASHAKIDZE:                  Vashakidze
+PLACE_MOON_VASYA:                       Vasya
+PLACE_MOON_VAVILOV:                     Vavilov
+PLACE_MOON_VEGA:                        Vega
+PLACE_MOON_VENDELINUS:	Vendelinus
+PLACE_MOON_VENING_MEINESZ:              Vening Meinesz
+PLACE_MOON_VENTRIS:                     Ventris
+PLACE_MOON_VERA:                        Vera
+PLACE_MOON_VERNADSKIY:                  Vernadskiy
+PLACE_MOON_VERNE:                       Verne
+PLACE_MOON_VERTREGT:                    Vertregt
+PLACE_MOON_VERY:                        Very
+PLACE_MOON_VESALIUS:                    Vesalius
+PLACE_MOON_VESTINE:                     Vestine
+PLACE_MOON_VETCHINKIN:                  Vetchinkin
+PLACE_MOON_VIETA:                       Vieta
+PLACE_MOON_VIL_EV:                      Vil'ev
+PLACE_MOON_VIRCHOW:                     Virchow
+PLACE_MOON_VIRTANEN:                    Virtanen
+PLACE_MOON_VITELLO:                     Vitello
+PLACE_MOON_VITRUVIUS:                   Vitruvius
+PLACE_MOON_VITYA:                       Vitya
+PLACE_MOON_VIVIANI:                     Viviani
+PLACE_MOON_VLACQ:                       Vlacq
+PLACE_MOON_VOGEL:                       Vogel
+PLACE_MOON_VOLKOV:                      Volkov
+PLACE_MOON_VOLTA:                       Volta
+PLACE_MOON_VOLTERRA:                    Volterra
+PLACE_MOON_VON_BAEYER:                  von Baeyer
+PLACE_MOON_VON_BEHRING:                 von Behring
+PLACE_MOON_VON_BEKESY:                  von Békésy
+PLACE_MOON_VON_BRAUN:                   von Braun
+PLACE_MOON_VON_DER_PAHLEN:              Von der Pahlen
+PLACE_MOON_VON_KARMAN:                  Von Kármán
+PLACE_MOON_VON_NEUMANN:                 Von Neumann
+PLACE_MOON_VON_ZEIPEL:                  Von Zeipel
+PLACE_MOON_VOSKRESENSKIY:               Voskresenskiy
+PLACE_MOON_WALKER:                      Walker
+PLACE_MOON_WALLACE:                     Wallace
+PLACE_MOON_WALLACH:                     Wallach
+PLACE_MOON_WALTER:                      Walter
+PLACE_MOON_WALTHER:                     Walther
+PLACE_MOON_WAN_HOO:                     Wan-Hoo (Van-Gu)
+PLACE_MOON_WAPOWSKI:                    Wapowski
+PLACE_MOON_WARGENTIN:                   Wargentin
+PLACE_MOON_WARNER:                      Warner
+PLACE_MOON_WATERMAN:                    Waterman
+PLACE_MOON_WATSON:                      Watson
+PLACE_MOON_WATT:                        Watt
+PLACE_MOON_WATTS:                       Watts
+PLACE_MOON_W_BOND:                      W. Bond
+PLACE_MOON_WEBB:                        Webb
+PLACE_MOON_WEBER:                       Weber
+PLACE_MOON_WEGENER:                     Wegener
+PLACE_MOON_WEIERSTRASS:                 Weierstrass
+PLACE_MOON_WEIGEL:                      Weigel
+PLACE_MOON_WEINEK:                      Weinek
+PLACE_MOON_WEISS:                       Weiss
+PLACE_MOON_WERNER:                      Werner
+PLACE_MOON_WEXLER:                      Wexler
+PLACE_MOON_WEYL:                        Weyl
+PLACE_MOON_WHEWELL:                     Whewell
+PLACE_MOON_WHIPPLE:                     Whipple
+PLACE_MOON_WHITE:                       White
+PLACE_MOON_WICHMANN:                    Wichmann
+PLACE_MOON_WIDMANNSTATTEN:              Widmannstätten
+PLACE_MOON_WIECHERT:                    Wiechert
+PLACE_MOON_WIENER:                      Wiener
+PLACE_MOON_WILDT:                       Wildt
+PLACE_MOON_WILHELM:                     Wilhelm
+PLACE_MOON_WILKINS:                     Wilkins
+PLACE_MOON_WILLIAMS:                    Williams
+PLACE_MOON_WILSING:                     Wilsing
+PLACE_MOON_WILSON:                      Wilson
+PLACE_MOON_WINKLER:                     Winkler
+PLACE_MOON_WINLOCK:                     Winlock
+PLACE_MOON_WINTHROP:                    Winthrop
+PLACE_MOON_WOHLER:                      Wöhler
+PLACE_MOON_WOLF:                        Wolf
+PLACE_MOON_WOLLASTON:                   Wollaston
+PLACE_MOON_WOLTJER:                     Woltjer
+PLACE_MOON_WOOD:                        Wood
+PLACE_MOON_WRIGHT:                      Wright
+PLACE_MOON_WROBLEWSKI:                  Wróblewski
+PLACE_MOON_WROTTESLEY:                  Wrottesley
+PLACE_MOON_WURZELBAUER:                 Wurzelbauer
+PLACE_MOON_WYLD:                        Wyld
+PLACE_MOON_XENOPHANES:                  Xenophanes
+PLACE_MOON_XENOPHON:                    Xenophon
+PLACE_MOON_YABLOCHKOV:                  Yablochkov
+PLACE_MOON_YAKOVKIN:                    Yakovkin
+PLACE_MOON_YAMAMOTO:                    Yamamoto
+PLACE_MOON_YANGEL_:                     Yangel'
+PLACE_MOON_YERKES:                      Yerkes
+PLACE_MOON_YOSHI:                       Yoshi
+PLACE_MOON_YOUNG:                       Young
+PLACE_MOON_ZACH:                        Zach
+PLACE_MOON_ZAGUT:                       Zagut
+PLACE_MOON_ZAHRINGER:                   Zähringer
+PLACE_MOON_ZANSTRA:                     Zanstra
+PLACE_MOON_ZASYADKO:                    Zasyadko
+PLACE_MOON_ZEEMAN:                      Zeeman
+PLACE_MOON_ZELINSKIY:                   Zelinskiy
+PLACE_MOON_ZENO: 	Zeno
+PLACE_MOON_ZERNIKE:                     Zernike
+PLACE_MOON_ZHANG_YUZHE:                 Zhang Yuzhe
+PLACE_MOON_ZHIRITSKIY:                  Zhiritskiy
+PLACE_MOON_ZHUKOVSKIY:                  Zhukovskiy
+PLACE_MOON_ZINNER:                      Zinner
+PLACE_MOON_ZOLLNER:                     Zöllner
+PLACE_MOON_ZSIGMONDY:                   Zsigmondy
+PLACE_MOON_ZUCCHIUS:                    Zucchius
+PLACE_MOON_ZUPUS:                       Zupus
+PLACE_MOON_ZWICKY:                      Zwicky
+// Oceans/Mares
+PLACE_MOON_OCEANUS_PROCELLARUM:	Oceanus Procellarum
+PLACE_MOON_MARE_ANGUIS:	Mare Anguis
+PLACE_MOON_MARE_AUSTRALE:	Mare Australe
+PLACE_MOON_MARE_COGNITUM:	Mare Cognitum
+PLACE_MOON_MARE_CRISIUM:	Mare Crisium
+PLACE_MOON_MARE_FECUNDITATIS:	Mare Fecunditatis
+PLACE_MOON_MARE_FRIGORIS:	Mare Frigoris
+PLACE_MOON_MARE_HUMBOLDTIANUM:	Mare Humboldtianum
+PLACE_MOON_MARE_HUMORUM:	Mare Humorum
+PLACE_MOON_MARE_IMBRIUM:	Mare Imbrium
+PLACE_MOON_MARE_INGENII:	Mare Ingenii
+PLACE_MOON_MARE_INSULARUM:	Mare Insularum
+PLACE_MOON_MARE_MARGINIS:	Mare Marginis
+PLACE_MOON_MARE_MOSCOVIENSE:	Mare Moscoviense
+PLACE_MOON_MARE_NECTARIS:	Mare Nectaris
+PLACE_MOON_MARE_NUBIUM:	Mare Nubium
+PLACE_MOON_MARE_ORIENTALE:	Mare Orientale
+PLACE_MOON_MARE_SERENITATIS:	Mare Serenitatis
+PLACE_MOON_MARE_SMYTHII:	Mare Smythii
+PLACE_MOON_MARE_SPUMANS:	Mare Spumans
+PLACE_MOON_MARE_TRANQUILLITATIS:	Mare Tranquillitatis
+PLACE_MOON_MARE_UNDARUM:	Mare Undarum
+PLACE_MOON_MARE_VAPORUM:	Mare Vaporum
+// Lacus
+PLACE_MOON_LACUS_AESTATIS:	Lacus Aestatis
+PLACE_MOON_LACUS_AUTUMNI:	Lacus Autumni
+PLACE_MOON_LACUS_BONITATIS:	Lacus Bonitatis
+PLACE_MOON_LACUS_DOLORIS:	Lacus Doloris
+PLACE_MOON_LACUS_EXCELLENTIAE:	Lacus Excellentiae
+PLACE_MOON_LACUS_FELICITATIS:	Lacus Felicitatis
+PLACE_MOON_LACUS_GAUDII:	Lacus Gaudii
+PLACE_MOON_LACUS_HIEMALIS:	Lacus Hiemalis
+PLACE_MOON_LACUS_LENITATIS:	Lacus Lenitatis
+PLACE_MOON_LACUS_LUXURIAE:	Lacus Luxuriae
+PLACE_MOON_LACUS_MORTIS:	Lacus Mortis
+PLACE_MOON_LACUS_OBLIVIONIS:	Lacus Oblivionis
+PLACE_MOON_LACUS_ODII:	Lacus Odii
+PLACE_MOON_LACUS_PERSEVERANTIAE:	Lacus Perseverantiae
+PLACE_MOON_LACUS_SOLITUDINIS:	Lacus Solitudinis
+PLACE_MOON_LACUS_SOMNIORUM:	Lacus Somniorum
+PLACE_MOON_LACUS_SPEI:	Lacus Spei
+PLACE_MOON_LACUS_TEMPORIS:	Lacus Temporis
+PLACE_MOON_LACUS_TIMORIS:	Lacus Timoris
+PLACE_MOON_LACUS_VERIS:	Lacus Veris
+// Sinus
+PLACE_MOON_SINUS_AESTUUM:	Sinus Aestuum
+PLACE_MOON_SINUS_AMORIS:	Sinus Amoris
+PLACE_MOON_SINUS_ASPERITATIS:	Sinus Asperitatis
+PLACE_MOON_SINUS_CONCORDIAE:	Sinus Concordiae
+PLACE_MOON_SINUS_FIDEI:	Sinus Fidei
+PLACE_MOON_SINUS_HONORIS:	Sinus Honoris
+PLACE_MOON_SINUS_IRIDUM:	Sinus Iridum
+PLACE_MOON_SINUS_LUNICUS:	Sinus Lunicus
+PLACE_MOON_SINUS_MEDII:	Sinus Medii
+PLACE_MOON_SINUS_RORIS:	Sinus Roris
+PLACE_MOON_SINUS_SUCCESSUS:	Sinus Successus
+// Palus
+PLACE_MOON_PALUS_EPIDEMIARUM:	Palus Epidemiarum
+PLACE_MOON_PALUS_PUTREDINIS:	Palus Putredinis
+PLACE_MOON_PALUS_SOMNI:	Palus Somni
+// Promontorium
+PLACE_MOON_PROMONTORIUM_AGARUM:	Promontorium Agarum
+PLACE_MOON_PROMONTORIUM_AGASSIZ:	Promontorium Agassiz
+PLACE_MOON_PROMONTORIUM_ARCHERUSIA:	Promontorium Archerusia
+PLACE_MOON_PROMONTORIUM_DEVILLE:	Promontorium Deville
+PLACE_MOON_PROMONTORIUM_FRESNEL:	Promontorium Fresnel
+PLACE_MOON_PROMONTORIUM_HERACLIDES:	Promontorium Heraclides
+PLACE_MOON_PROMONTORIUM_KELVIN:	Promontorium Kelvin
+PLACE_MOON_PROMONTORIUM_LAPLACE:	Promontorium Laplace
+PLACE_MOON_PROMONTORIUM_TAENARIUM:	Promontorium Taenarium
+// Montes/Mons
+PLACE_MOON_MONTES_AGRICOLA:	Montes Agricola
+PLACE_MOON_MONTES_ALPES:	Montes Alpes
+PLACE_MOON_MONTES_APENNINUS:	Montes Apenninus
+PLACE_MOON_MONTES_ARCHIMEDES:	Montes Archimedes
+PLACE_MOON_MONTES_CARPATUS:	Montes Carpatus
+PLACE_MOON_MONTES_CAUCASUS:	Montes Caucasus
+PLACE_MOON_MONTES_CORDILLERA:	Montes Cordillera
+PLACE_MOON_MONTES_HAEMUS:	Montes Haemus
+PLACE_MOON_MONTES_HARBINGER:	Montes Harbinger
+PLACE_MOON_MONTES_JURA:	Montes Jura
+PLACE_MOON_MONTES_PYRENAEUS:	Montes Pyrenaeus
+PLACE_MOON_MONTES_RECTI:	Montes Recti
+PLACE_MOON_MONTES_RIPHAEUS:	Montes Riphaeus
+PLACE_MOON_MONTES_ROOK:	Montes Rook
+PLACE_MOON_MONTES_SECCHI:	Montes Secchi
+PLACE_MOON_MONTES_SPITZBERGEN:	Montes Spitzbergen
+PLACE_MOON_MONTES_TAURUS:	Montes Taurus
+PLACE_MOON_MONTES_TENERIFFE:	Montes Teneriffe
+PLACE_MOON_MONS_AGNES:	Mons Agnes
+PLACE_MOON_MONS_AMPERE:	Mons Ampère
+PLACE_MOON_MONS_ANDRE:	Mons André
+PLACE_MOON_MONS_ARDESHIR:	Mons Ardeshir
+PLACE_MOON_MONS_ARGAEUS:	Mons Argaeus
+PLACE_MOON_MONS_BRADLEY:	Mons Bradley
+PLACE_MOON_MONS_DELISLE:	Mons Delisle
+PLACE_MOON_MONS_DIETER:	Mons Dieter
+PLACE_MOON_MONS_DILIP:	Mons Dilip
+PLACE_MOON_MONS_ESAM:	Mons Esam
+PLACE_MOON_MONS_GANAU:	Mons Ganau
+PLACE_MOON_MONS_GRUITHUISEN_DELTA:	Mons Gruithuisen Delta
+PLACE_MOON_MONS_GRUITHUISEN_GAMMA:	Mons Gruithuisen Gamma
+PLACE_MOON_MONS_HADLEY:	Mons Hadley
+PLACE_MOON_MONS_HADLEY_DELTA:	Mons Hadley Delta
+PLACE_MOON_MONS_HANSTEEN:	Mons Hansteen
+PLACE_MOON_MONS_HERODOTUS:	Mons Herodotus
+PLACE_MOON_MONS_HUYGENS:	Mons Huygens
+PLACE_MOON_MONS_LA_HIRE:	Mons La Hire
+PLACE_MOON_MONS_MARALDI:	Mons Maraldi
+PLACE_MOON_MONS_MORO:	Mons Moro
+PLACE_MOON_MONS_PENCK:	Mons Penck
+PLACE_MOON_MONS_PICO:	Mons Pico
+PLACE_MOON_MONS_PITON:	Mons Piton
+PLACE_MOON_MONS_RUMKER:	Mons Rümker
+PLACE_MOON_MONS_USOV:	Mons Usov
+PLACE_MOON_MONS_VINOGRADOV:	Mons Vinogradov
+PLACE_MOON_MONS_VITRUVIUS:	Mons Vitruvius
+PLACE_MOON_MONS_WOLFF:	Mons Wolff
+PLACE_MOON_MONT_BLANC:	Mont Blanc
+// Vallis
+PLACE_MOON_VALLIS_ALPES:	Vallis Alpes
+PLACE_MOON_VALLIS_BAADE:	Vallis Baade
+PLACE_MOON_VALLIS_BOHR:	Vallis Bohr
+PLACE_MOON_VALLIS_BOUVARD:	Vallis Bouvard
+PLACE_MOON_VALLIS_CAPELLA:	Vallis Capella
+PLACE_MOON_VALLIS_CHRISTEL:	Vallis Christel
+PLACE_MOON_VALLIS_INGHIRAMI:	Vallis Inghirami
+PLACE_MOON_VALLIS_KRISHNA:	Vallis Krishna
+PLACE_MOON_VALLIS_PALITZSCH:	Vallis Palitzsch
+PLACE_MOON_VALLIS_PLANCK:	Vallis Planck
+PLACE_MOON_VALLIS_RHEITA:	Vallis Rheita
+PLACE_MOON_VALLIS_SCHRODINGER:	Vallis Schrödinger
+PLACE_MOON_VALLIS_SCHROTERI:	Vallis Schröteri
+PLACE_MOON_VALLIS_SNELLIUS:	Vallis Snellius
+// Rupes
+PLACE_MOON_RUPES_ALTAI:	Rupes Altai
+PLACE_MOON_RUPES_BORIS:	Rupes Boris
+PLACE_MOON_RUPES_CAUCHY:	Rupes Cauchy
+PLACE_MOON_RUPES_KELVIN:	Rupes Kelvin
+PLACE_MOON_RUPES_LIEBIG:	Rupes Liebig
+PLACE_MOON_RUPES_MERCATOR:	Rupes Mercator
+PLACE_MOON_RUPES_RECTA:	Rupes Recta
+PLACE_MOON_RUPES_TOSCANELLI:	Rupes Toscanelli
+// Rimae/Rima
+PLACE_MOON_RIMA_AGATHARCHIDES:          Rima Agatharchides
+PLACE_MOON_RIMA_AGRICOLA:               Rima Agricola
+PLACE_MOON_RIMA_ARCHYTAS:               Rima Archytas
+PLACE_MOON_RIMA_ARIADAEUS:              Rima Ariadaeus
+PLACE_MOON_RIMA_ARTSIMOVICH:            Rima Artsimovich
+PLACE_MOON_RIMA_BILLY:                  Rima Billy
+PLACE_MOON_RIMA_BIRT:                   Rima Birt
+PLACE_MOON_RIMA_BRADLEY:                Rima Bradley
+PLACE_MOON_RIMA_BRAYLEY:                Rima Brayley
+PLACE_MOON_RIMA_CALIPPUS:               Rima Calippus
+PLACE_MOON_RIMA_CARDANUS:               Rima Cardanus
+PLACE_MOON_RIMA_CARMEN:                 Rima Carmen
+PLACE_MOON_RIMA_CAUCHY:                 Rima Cauchy
+PLACE_MOON_RIMA_CLEOMEDES:              Rima Cleomedes
+PLACE_MOON_RIMA_CLEOPATRA:              Rima Cleopatra
+PLACE_MOON_RIMA_CONON:                  Rima Conon
+PLACE_MOON_RIMA_DAWES:                  Rima Dawes
+PLACE_MOON_RIMA_DELISLE:                Rima Delisle
+PLACE_MOON_RIMA_DIOPHANTUS:             Rima Diophantus
+PLACE_MOON_RIMA_DRAPER:                 Rima Draper
+PLACE_MOON_RIMA_FLAMMARION:             Rima Flammarion
+PLACE_MOON_RIMA_FURNERIUS:              Rima Furnerius
+PLACE_MOON_RIMA_GALILAEI:               Rima Galilaei
+PLACE_MOON_RIMA_GARTNER:                Rima Gärtner
+PLACE_MOON_RIMA_GAY_LUSSAC:             Rima Gay-Lussac
+PLACE_MOON_RIMA_G_BOND:                 Rima G. Bond
+PLACE_MOON_RIMA_HADLEY:                 Rima Hadley
+PLACE_MOON_RIMA_HANSTEEN:               Rima Hansteen
+PLACE_MOON_RIMA_HESIODUS:               Rima Hesiodus
+PLACE_MOON_RIMA_HYGINUS:                Rima Hyginus
+PLACE_MOON_RIMA_JANSEN:                 Rima Jansen
+PLACE_MOON_RIMA_KRIEGER:                Rima Krieger
+PLACE_MOON_RIMA_MAIRAN:                 Rima Mairan
+PLACE_MOON_RIMA_MARCELLO:               Rima Marcello
+PLACE_MOON_RIMA_MARIUS:                 Rima Marius
+PLACE_MOON_RIMA_MESSIER:                Rima Messier
+PLACE_MOON_RIMA_MILICHIUS:              Rima Milichius
+PLACE_MOON_RIMA_OPPOLZER:               Rima Oppolzer
+PLACE_MOON_RIMA_REAUMUR:                Rima Réaumur
+PLACE_MOON_RIMA_REIKO:                  Rima Reiko
+PLACE_MOON_RIMA_RUDOLF:                 Rima Rudolf
+PLACE_MOON_RIMA_SCHROTER:               Rima Schröter
+PLACE_MOON_RIMA_SHARP:                  Rima Sharp
+PLACE_MOON_RIMA_SHEEPSHANKS:            Rima Sheepshanks
+PLACE_MOON_RIMA_SIEGFRIED:              Rima Siegfried
+PLACE_MOON_RIMA_SUESS:                  Rima Suess
+PLACE_MOON_RIMA_SUNG_MEI:               Rima Sung-Mei
+PLACE_MOON_RIMA_T_MAYER:                Rima T. Mayer
+PLACE_MOON_RIMA_VLADIMIR:               Rima Vladimir
+PLACE_MOON_RIMA_WAN_YU:                 Rima Wan-Yu
+PLACE_MOON_RIMA_YANGEL_:                Rima Yangel'
+PLACE_MOON_RIMA_ZAHIA:                  Rima Zahia
+PLACE_MOON_RIMAE_ALPHONSUS:             Rimae Alphonsus
+PLACE_MOON_RIMAE_APOLLONIUS:            Rimae Apollonius
+PLACE_MOON_RIMAE_ARCHIMEDES:            Rimae Archimedes
+PLACE_MOON_RIMAE_ARISTARCHUS:           Rimae Aristarchus
+PLACE_MOON_RIMAE_ARZACHEL:              Rimae Arzachel
+PLACE_MOON_RIMAE_ATLAS:                 Rimae Atlas
+PLACE_MOON_RIMAE_BODE:                  Rimae Bode
+PLACE_MOON_RIMAE_BOSCOVICH:             Rimae Boscovich
+PLACE_MOON_RIMAE_BURG:                  Rimae Bürg
+PLACE_MOON_RIMAE_CHACORNAC:             Rimae Chacornac
+PLACE_MOON_RIMAE_DANIELL:               Rimae Daniell
+PLACE_MOON_RIMAE_DARWIN:                Rimae Darwin
+PLACE_MOON_RIMAE_DE_GASPARIS:           Rimae de Gasparis
+PLACE_MOON_RIMAE_DOPPELMAYER:           Rimae Doppelmayer
+PLACE_MOON_RIMAE_FOCAS:                 Rimae Focas
+PLACE_MOON_RIMAE_FRESNEL:               Rimae Fresnel
+PLACE_MOON_RIMAE_GASSENDI:              Rimae Gassendi
+PLACE_MOON_RIMAE_GERARD:                Rimae Gerard
+PLACE_MOON_RIMAE_GOCLENIUS:             Rimae Goclenius
+PLACE_MOON_RIMAE_GRIMALDI:              Rimae Grimaldi
+PLACE_MOON_RIMAE_GUTENBERG:             Rimae Gutenberg
+PLACE_MOON_RIMAE_HASE:                  Rimae Hase
+PLACE_MOON_RIMAE_HERIGONIUS:            Rimae Herigonius
+PLACE_MOON_RIMAE_HEVELIUS:              Rimae Hevelius
+PLACE_MOON_RIMAE_HIPPALUS:              Rimae Hippalus
+PLACE_MOON_RIMAE_HYPATIA:               Rimae Hypatia
+PLACE_MOON_RIMAE_JANSSEN:               Rimae Janssen
+PLACE_MOON_RIMAE_KOPFF:                 Rimae Kopff
+PLACE_MOON_RIMAE_LITTROW:               Rimae Littrow
+PLACE_MOON_RIMAE_MACLEAR:               Rimae Maclear
+PLACE_MOON_RIMAE_MAESTLIN:              Rimae Maestlin
+PLACE_MOON_RIMAE_MAUPERTUIS:            Rimae Maupertuis
+PLACE_MOON_RIMAE_MENELAUS:              Rimae Menelaus
+PLACE_MOON_RIMAE_MERSENIUS:             Rimae Mersenius
+PLACE_MOON_RIMAE_OPELT:                 Rimae Opelt
+PLACE_MOON_RIMAE_PALMIERI:              Rimae Palmieri
+PLACE_MOON_RIMAE_PARRY:                 Rimae Parry
+PLACE_MOON_RIMAE_PETAVIUS:              Rimae Petavius
+PLACE_MOON_RIMAE_PETTIT:                Rimae Pettit
+PLACE_MOON_RIMAE_PITATUS:               Rimae Pitatus
+PLACE_MOON_RIMAE_PLATO:                 Rimae Plato
+PLACE_MOON_RIMAE_PLINIUS:               Rimae Plinius
+PLACE_MOON_RIMAE_POSIDONIUS:            Rimae Posidonius
+PLACE_MOON_RIMAE_PRINZ:                 Rimae Prinz
+PLACE_MOON_RIMAE_RAMSDEN:               Rimae Ramsden
+PLACE_MOON_RIMAE_REPSOLD:               Rimae Repsold
+PLACE_MOON_RIMAE_RICCIOLI:              Rimae Riccioli
+PLACE_MOON_RIMAE_RITTER:                Rimae Ritter
+PLACE_MOON_RIMAE_ROMER:                 Rimae Römer
+PLACE_MOON_RIMAE_SECCHI:                Rimae Secchi
+PLACE_MOON_RIMAE_SIRSALIS:              Rimae Sirsalis
+PLACE_MOON_RIMAE_SOSIGENES:             Rimae Sosigenes
+PLACE_MOON_RIMAE_SULPICIUS_GALLUS:      Rimae Sulpicius Gallus
+PLACE_MOON_RIMAE_TARUNTIUS:             Rimae Taruntius
+PLACE_MOON_RIMAE_THEAETETUS:            Rimae Theaetetus
+PLACE_MOON_RIMAE_TRIESNECKER:           Rimae Triesnecker
+PLACE_MOON_RIMA_EULER:                  Rima Euler
+PLACE_MOON_RIMAE_VASCO_DA_GAMA:         Rimae Vasco da Gama
+PLACE_MOON_RIMAE_ZUPUS:                 Rimae Zupus
+
+//---  Mars  ---
+// Poles
+PLACE_MARS_NORTH_POLAR_CAP:	North Polar Cap
+PLACE_MARS_SOUTH_POLAR_CAP:	South Polar Cap
+// Mons
+PLACE_MARS_OLYMPUS_MONS:	Olympus Mons.
+PLACE_MARS_THARSIS_MONTES:	Tharsis Montes.
+PLACE_MARS_ELYSIUM_MONS:	Elysium Mons.
+// Vallis
+PLACE_MARS_VALLES_MARINERIS:	Valles Marineris
+// Planum
+PLACE_MARS_SYRTIS_MAJOR:	Syrtis Major
+PLACE_MARS_MERIDIANI_PLANUM:	Meridiani Planum
+// Planitia
+PLACE_MARS_HELLAS:	Hellas
+PLACE_MARS_ELYSIUM_PLANITIA:	Elysium Planitia
+PLACE_MARS_ARGYRE_PLANITIA:	Argyre Planitia
+PLACE_MARS_ACIDALIA_PLANITIA:	Acidalia Planitia
+PLACE_MARS_ISIDIS_PLANITIA:	Isidis Planitia
+PLACE_MARS_CHRYSE_PLANITIA:	Chryse Planitia
+PLACE_MARS_ARCADIA_PLANITIA:	Arcadia Planitia
+PLACE_MARS_UTOPIA_PLANITIA:	Utopia Planitia
+PLACE_MARS_AMAZONIS_PLANITIA:	Amazonis Planitia
+// Crater
+PLACE_MARS_GUSEV_CRATER:	Gusev Crater
+PLACE_MARS_HUYGENS_CRATER:	Huygens Crater
+// Patera
+PLACE_MARS_ALBA_PATERA:	Alba Patera
+// Tholus
+PLACE_MARS_THARSIS_THOLUS:	Tharsis Tholus
+// Mensae
+PLACE_MARS_CYDONIA_MENSAE:	Cydonia Mensae
+// Labyrinthus
+PLACE_MARS_NOCTIS_LABYRINTHUS:	Noctis Labyrinthus
+PLACE_MARS_CERBERUS:	Cerberus
+// Rover/Lander
+PLACE_MARS_PHOENIX:	Phoenix
+PLACE_MARS_SPIRIT:	Spirit
+PLACE_MARS_OPPORTUNITY:	Opportunity
+PLACE_MARS_MARS_PATHFINDER:	Mars Pathfinder
+PLACE_MARS_VIKING1:	Viking1
+PLACE_MARS_VIKING2:	Viking2
+
+//---  Mercury  ---
+// Rupes, rupēs
+PLACE_MERCURY_ADVENTURE_RUPES:	Adventure Rupes
+PLACE_MERCURY_ALVIN_RUPES:	Alvin Rupes
+PLACE_MERCURY_ASTROLABE_RUPES:	Astrolabe Rupes
+PLACE_MERCURY_BEAGLE_RUPES:	Beagle Rupes
+PLACE_MERCURY_BELGICA_RUPES:	Belgica Rupes
+PLACE_MERCURY_BLOSSOM_RUPES:	Blossom Rupes
+PLACE_MERCURY_CALYPSO_RUPES:	Calypso Rupes
+PLACE_MERCURY_CARNEGIE_RUPES:	Carnegie Rupes
+PLACE_MERCURY_DISCOVERY_RUPES:	Discovery Rupes
+PLACE_MERCURY_DUYFKEN_RUPES:	Duyfken Rupes
+PLACE_MERCURY_ELTANIN_RUPES:	Eltanin Rupes
+PLACE_MERCURY_ENDEAVOUR_RUPES:	Endeavour Rupes
+PLACE_MERCURY_ENTERPRISE_RUPES:	Enterprise Rupes
+PLACE_MERCURY_FRAM_RUPES:	Fram Rupes
+PLACE_MERCURY_GJOA_RUPES:	Gjöa Rupes
+PLACE_MERCURY_HEEMSKERCK_RUPES:	Heemskerck Rupes
+PLACE_MERCURY_HERO_RUPES:	Hero Rupes
+PLACE_MERCURY_LA_DAUPHINE_RUPES:	La Dauphine Rupes
+PLACE_MERCURY_MIRNI_RUPES:	Mirni Rupes
+PLACE_MERCURY_NAUTILUS_RUPES:	Nautilus Rupes
+PLACE_MERCURY_PALMER_RUPES:	Palmer Rupes
+PLACE_MERCURY_PARAMOUR_RUPES:	Paramour Rupes
+PLACE_MERCURY_POURQUOI_PAS_RUPES:	Pourquoi-Pas Rupes
+PLACE_MERCURY_RESOLUTION_RUPES:	Resolution Rupes
+PLACE_MERCURY_SANTA_MARIA_RUPES:	Santa María Rupes
+PLACE_MERCURY_TERROR_RUPES:	Terror Rupes
+PLACE_MERCURY_UNITY_RUPES:	Unity Rupes
+PLACE_MERCURY_VICTORIA_RUPES:	Victoria Rupes
+PLACE_MERCURY_VOSTOK_RUPES:	Vostok Rupes
+PLACE_MERCURY_ZARYA_RUPES:	Zarya Rupes
+PLACE_MERCURY_ZEEHAEN_RUPES:	Zeehaen Rupes
+// Crater, craters
+PLACE_MERCURY_ABU_NUWAS:	Abu Nuwas
+PLACE_MERCURY_AFRICANUS_HORTON:	Africanus Horton
+PLACE_MERCURY_AHMAD_BABA:	Ahmad Baba
+PLACE_MERCURY_AILEY:	Ailey
+PLACE_MERCURY_AKSAKOV:	Aksakov
+PLACE_MERCURY_AKUTAGAWA:	Akutagawa
+PLACE_MERCURY_AL_AKHTAL:	Al-Akhtal
+PLACE_MERCURY_ALENCAR:	Alencar
+PLACE_MERCURY_AL_HAMADHANI:	Al-Hamadhani
+PLACE_MERCURY_AL_JAHIZ:	Al-Jāhiz
+PLACE_MERCURY_ALVER:	Alver
+PLACE_MERCURY_AMARAL:	Amaral
+PLACE_MERCURY_AMRU_AL_QAYS:	Amru Al-Qays
+PLACE_MERCURY_ANDAL:	Andal
+PLACE_MERCURY_ANEIRIN:	Aneirin
+PLACE_MERCURY_APOLLODORUS:	Apollodorus
+PLACE_MERCURY_ARISTOXENUS:	Aristoxenus
+PLACE_MERCURY_ASVAGHOSA:	Aśvaghosa
+PLACE_MERCURY_ATGET:	Atget
+PLACE_MERCURY_BACH:	Bach
+PLACE_MERCURY_BAGRYANA:	Bagryana
+PLACE_MERCURY_BALAGTAS:	Balagtas
+PLACE_MERCURY_BALANCHINE:	Balanchine
+PLACE_MERCURY_BALZAC:	Balzac
+PLACE_MERCURY_BARANAUSKAS:	Baranauskas
+PLACE_MERCURY_BARMA:	Barma
+PLACE_MERCURY_BARNEY:	Barney
+PLACE_MERCURY_BARTOK:	Bartók
+PLACE_MERCURY_BASHO:	Bashō
+PLACE_MERCURY_BECHET:	Bechet
+PLACE_MERCURY_BECKETT:	Beckett
+PLACE_MERCURY_BEETHOVEN:	Beethoven
+PLACE_MERCURY_BEK:	Bek
+PLACE_MERCURY_BELINSKIJ:	Belinskij
+PLACE_MERCURY_BELLO:	Bello
+PLACE_MERCURY_BENOIT:	Benoit
+PLACE_MERCURY_BERKEL:	Berkel
+PLACE_MERCURY_BERLIOZ:	Berlioz
+PLACE_MERCURY_BERNINI:	Bernini
+PLACE_MERCURY_BJORNSON:	Bjornson
+PLACE_MERCURY_BOCCACCIO:	Boccaccio
+PLACE_MERCURY_BOETHIUS:	Boethius
+PLACE_MERCURY_BOTTICELLI:	Botticelli
+PLACE_MERCURY_BOZNANSKA:	Boznańska
+PLACE_MERCURY_BRAHMS:	Brahms
+PLACE_MERCURY_BRAMANTE:	Bramante
+PLACE_MERCURY_BRONTE:	Brontë
+PLACE_MERCURY_BROOKS:	Brooks
+PLACE_MERCURY_BRUEGEL:	Bruegel
+PLACE_MERCURY_BRUNELLESCHI:	Brunelleschi
+PLACE_MERCURY_BURKE:	Burke
+PLACE_MERCURY_BURNS:	Burns
+PLACE_MERCURY_BYRON:	Byron
+PLACE_MERCURY_CALDER:	Calder
+PLACE_MERCURY_CALLICRATES:	Callicrates
+PLACE_MERCURY_CALVINO:	Calvino
+PLACE_MERCURY_CAMOES:	Camões
+PLACE_MERCURY_CAPOTE:	Capote
+PLACE_MERCURY_CARAVAGGIO:	Caravaggio
+PLACE_MERCURY_CARDUCCI:	Carducci
+PLACE_MERCURY_CAROLAN:	Carolan
+PLACE_MERCURY_CARUSO:	Caruso
+PLACE_MERCURY_CASTIGLIONE:	Castiglione
+PLACE_MERCURY_CATULLUS:	Catullus
+PLACE_MERCURY_CERVANTES:	Cervantes
+PLACE_MERCURY_CEZANNE:	Cézanne
+PLACE_MERCURY_CHAIKOVSKIJ:	Chaikovskij
+PLACE_MERCURY_CHAO_MENG_FU:	Chao Meng-Fu
+PLACE_MERCURY_CHEKHOV:	Chekhov
+PLACE_MERCURY_CHESTERTON:	Chesterton
+PLACE_MERCURY_CHIANG_K_UI:	Chiang K'ui
+PLACE_MERCURY_CHONG_CH_OL:	Chŏng Ch'ŏl
+PLACE_MERCURY_CHOPIN:	Chopin
+PLACE_MERCURY_CHU_TA:	Chu Ta
+PLACE_MERCURY_COLERIDGE:	Coleridge
+PLACE_MERCURY_COPLAND:	Copland
+PLACE_MERCURY_COPLEY:	Copley
+PLACE_MERCURY_COUPERIN:	Couperin
+PLACE_MERCURY_CUNNINGHAM:	Cunningham
+PLACE_MERCURY_DALI:	Dali
+PLACE_MERCURY_DAMER:	Damer
+PLACE_MERCURY_DARIO:	Darío
+PLACE_MERCURY_DAVID:	David
+PLACE_MERCURY_DEBUSSY:	Debussy
+PLACE_MERCURY_DEGAS:	Degas
+PLACE_MERCURY_DE_GRAFT:	de Graft
+PLACE_MERCURY_DELACROIX:	Delacroix
+PLACE_MERCURY_DERAIN:	Derain
+PLACE_MERCURY_DERZHAVIN:	Derzhavin
+PLACE_MERCURY_DESPREZ:	Despréz
+PLACE_MERCURY_DICKENS:	Dickens
+PLACE_MERCURY_DISNEY:	Disney
+PLACE_MERCURY_DOMINICI:	Dominici
+PLACE_MERCURY_DONELAITIS:	Donelaitis
+PLACE_MERCURY_DONNE:	Donne
+PLACE_MERCURY_DOSTOEVSKIJ:	Dostoevskij
+PLACE_MERCURY_DOWLAND:	Dowland
+PLACE_MERCURY_DRISCOLL:	Driscoll
+PLACE_MERCURY_DUCCIO:	Duccio
+PLACE_MERCURY_DU_FU:	Du Fu
+PLACE_MERCURY_DURER:	Dürer
+PLACE_MERCURY_DVORAK:	Dvorák
+PLACE_MERCURY_EASTMAN:	Eastman
+PLACE_MERCURY_ECHEGARAY:	Echegaray
+PLACE_MERCURY_EGONU:	Egonu
+PLACE_MERCURY_EITOKU:	Eitoku
+PLACE_MERCURY_ELLINGTON:	Ellington
+PLACE_MERCURY_EMINESCU:	Eminescu
+PLACE_MERCURY_ENHEDUANNA:	Enheduanna
+PLACE_MERCURY_ENSOR:	Ensor
+PLACE_MERCURY_ENWONWU:	Enwonwu
+PLACE_MERCURY_EQUIANO:	Equiano
+PLACE_MERCURY_ERTE:	Erté
+PLACE_MERCURY_FAULKNER:	Faulkner
+PLACE_MERCURY_FET:	Fet
+PLACE_MERCURY_FIRDOUSI:	Firdousi
+PLACE_MERCURY_FLAIANO:	Flaiano
+PLACE_MERCURY_FLAUBERT:	Flaubert
+PLACE_MERCURY_FONTEYN:	Fonteyn
+PLACE_MERCURY_FULLER:	Fuller
+PLACE_MERCURY_FUTABATEI:	Futabatei
+PLACE_MERCURY_GAINSBOROUGH:	Gainsborough
+PLACE_MERCURY_GAUDI:	Gaudí
+PLACE_MERCURY_GAUGUIN:	Gauguin
+PLACE_MERCURY_GEDDES:	Geddes
+PLACE_MERCURY_GHIBERTI:	Ghiberti
+PLACE_MERCURY_GIAMBOLOGNA:	Giambologna
+PLACE_MERCURY_GIBRAN:	Gibran
+PLACE_MERCURY_GIOTTO:	Giotto
+PLACE_MERCURY_GLINKA:	Glinka
+PLACE_MERCURY_GLUCK:	Gluck
+PLACE_MERCURY_GOETHE:	Goethe
+PLACE_MERCURY_GOGOL:	Gogol
+PLACE_MERCURY_GOYA:	Goya
+PLACE_MERCURY_GRAINGER:	Grainger
+PLACE_MERCURY_GRIEG:	Grieg
+PLACE_MERCURY_GROTELL:	Grotell
+PLACE_MERCURY_GUIDO_D_AREZZO:	Guido d'Arezzo
+PLACE_MERCURY_HAFIZ:	Hafiz
+PLACE_MERCURY_HALS:	Hals
+PLACE_MERCURY_HANDEL:	Handel
+PLACE_MERCURY_HAN_KAN:	Han Kan
+PLACE_MERCURY_HARUNOBU:	Harunobu
+PLACE_MERCURY_HAUPTMANN:	Hauptmann
+PLACE_MERCURY_HAWTHORNE:	Hawthorne
+PLACE_MERCURY_HAYDN:	Haydn
+PLACE_MERCURY_HEINE:	Heine
+PLACE_MERCURY_HEMINGWAY:	Hemingway
+PLACE_MERCURY_HENRI:	Henri
+PLACE_MERCURY_HESIOD:	Hesiod
+PLACE_MERCURY_HIROSHIGE:	Hiroshige
+PLACE_MERCURY_HITOMARO:	Hitomaro
+PLACE_MERCURY_HODGKINS:	Hodgkins
+PLACE_MERCURY_HOKUSAI:	Hokusai
+PLACE_MERCURY_HOLBEIN:	Holbein
+PLACE_MERCURY_HOLBERG:	Holberg
+PLACE_MERCURY_HOLST:	Holst
+PLACE_MERCURY_HOMER:	Homer
+PLACE_MERCURY_HOPPER:	Hopper
+PLACE_MERCURY_HORACE:	Horace
+PLACE_MERCURY_HOVNATANIAN:	Hovnatanian
+PLACE_MERCURY_HUGO:	Hugo
+PLACE_MERCURY_HUN_KAL:	Hun Kal
+PLACE_MERCURY_HURLEY:	Hurley
+PLACE_MERCURY_IBSEN:	Ibsen
+PLACE_MERCURY_ICTINUS:	Ictinus
+PLACE_MERCURY_IMHOTEP:	Imhotep
+PLACE_MERCURY_IVES:	Ives
+PLACE_MERCURY_IZQUIERDO:	Izquierdo
+PLACE_MERCURY_JANACEK:	Janáček
+PLACE_MERCURY_JOBIM:	Jobim
+PLACE_MERCURY_JOKAI:	Jókai
+PLACE_MERCURY_JOPLIN:	Joplin
+PLACE_MERCURY_JUDAH_HA_LEVI:	Judah Ha-Levi
+PLACE_MERCURY_KALIDASA:	Kālidāsā
+PLACE_MERCURY_KANDINSKY:	Kandinsky
+PLACE_MERCURY_KARSH:	Karsh
+PLACE_MERCURY_KEATS:	Keats
+PLACE_MERCURY_KENKO:	Kenkō
+PLACE_MERCURY_KEROUAC:	Kerouac
+PLACE_MERCURY_KERTESZ:	Kertész
+PLACE_MERCURY_KHANSA:	Khansa
+PLACE_MERCURY_KIPLING:	Kipling
+PLACE_MERCURY_KOBRO:	Kobro
+PLACE_MERCURY_KOFI:	Kofi
+PLACE_MERCURY_KOMEDA:	Komeda
+PLACE_MERCURY_KOSHO:	Kōshō
+PLACE_MERCURY_KUAN_HAN_CH_ING:	Kuan Han-Ch'ing
+PLACE_MERCURY_KUIPER:	Kuiper
+PLACE_MERCURY_KULTHUM:	Kulthum
+PLACE_MERCURY_KUNISADA:	Kunisada
+PLACE_MERCURY_KUNIYOSHI:	Kuniyoshi
+PLACE_MERCURY_KUROSAWA:	Kurosawa
+PLACE_MERCURY_KYOSAI:	Kyōsai
+PLACE_MERCURY_LANGE:	Lange
+PLACE_MERCURY_LARROCHA:	Larrocha
+PLACE_MERCURY_LAXNESS:	Laxness
+PLACE_MERCURY_L_ENGLE:	L’Engle
+PLACE_MERCURY_LENNON:	Lennon
+PLACE_MERCURY_LEOPARDI:	Leopardi
+PLACE_MERCURY_LERMONTOV:	Lermontov
+PLACE_MERCURY_LESSING:	Lessing
+PLACE_MERCURY_LIANG_K_AI:	Liang K'ai
+PLACE_MERCURY_LI_CH_ING_CHAO:	Li Ch'ing-Chao
+PLACE_MERCURY_LI_PO:	Li Po
+PLACE_MERCURY_LISMER:	Lismer
+PLACE_MERCURY_LISZT:	Liszt
+PLACE_MERCURY_LOVECRAFT:	Lovecraft
+PLACE_MERCURY_LU_HSUN:	Lu Hsun
+PLACE_MERCURY_LYSIPPUS:	Lysippus
+PLACE_MERCURY_MACHAUT:	Machaut
+PLACE_MERCURY_MA_CHIH_YUAN:	Ma Chih-Yuan
+PLACE_MERCURY_MAGRITTE:	Magritte
+PLACE_MERCURY_MAHLER:	Mahler
+PLACE_MERCURY_MANSART:	Mansart
+PLACE_MERCURY_MANSUR:	Mansur
+PLACE_MERCURY_MARCH:	March
+PLACE_MERCURY_MARK_TWAIN:	Mark Twain
+PLACE_MERCURY_MARTI:	Martí
+PLACE_MERCURY_MARTIAL:	Martial
+PLACE_MERCURY_MATABEI:	Matabei
+PLACE_MERCURY_MATISSE:	Matisse
+PLACE_MERCURY_MELVILLE:	Melville
+PLACE_MERCURY_MENA:	Mena
+PLACE_MERCURY_MENDELSSOHN:	Mendelssohn
+PLACE_MERCURY_MENDES_PINTO:	Mendes Pinto
+PLACE_MERCURY_MICHELANGELO:	Michelangelo
+PLACE_MERCURY_MICKIEWICZ:	Mickiewicz
+PLACE_MERCURY_MILTON:	Milton
+PLACE_MERCURY_MISTRAL:	Mistral
+PLACE_MERCURY_MOFOLO:	Mofolo
+PLACE_MERCURY_MOLIERE:	Molière
+PLACE_MERCURY_MONET:	Monet
+PLACE_MERCURY_MONK:	Monk
+PLACE_MERCURY_MONTEVERDI:	Monteverdi
+PLACE_MERCURY_MOODY:	Moody
+PLACE_MERCURY_MOZART:	Mozart
+PLACE_MERCURY_MUNCH:	Munch
+PLACE_MERCURY_MUNKACSY:	Munkácsy
+PLACE_MERCURY_MURASAKI:	Murasaki
+PLACE_MERCURY_MUSSORGSKIJ:	Mussorgskij
+PLACE_MERCURY_MYRON:	Myron
+PLACE_MERCURY_NABOKOV:	Nabokov
+PLACE_MERCURY_NAMATJIRA:	Namatjira
+PLACE_MERCURY_NAMPEYO:	Nampeyo
+PLACE_MERCURY_NAVOI:	Navoi
+PLACE_MERCURY_NAWAHI:	Nāwahī
+PLACE_MERCURY_NERUDA:	Neruda
+PLACE_MERCURY_NERVO:	Nervo
+PLACE_MERCURY_NEUMANN:	Neumann
+PLACE_MERCURY_NIZAMI:	Nizāmī
+PLACE_MERCURY_NUREYEV:	Nureyev
+PLACE_MERCURY_OKYO:	Ōkyo
+PLACE_MERCURY_OSKISON:	Oskison
+PLACE_MERCURY_OVID:	Ovid
+PLACE_MERCURY_PAHINUI:	Pahinui
+PLACE_MERCURY_PASCH:	Pasch
+PLACE_MERCURY_PETIPA:	Petipa
+PLACE_MERCURY_PETOFI:	Petőfi
+PLACE_MERCURY_PETRARCH:	Petrarch
+PLACE_MERCURY_PETRONIUS:	Petronius
+PLACE_MERCURY_PHIDIAS:	Phidias
+PLACE_MERCURY_PHILOXENUS:	Philoxenus
+PLACE_MERCURY_PICASSO:	Picasso
+PLACE_MERCURY_PIGALLE:	Pigalle
+PLACE_MERCURY_PLATH:	Plath
+PLACE_MERCURY_PO_CHU_I:	Po Chü-I
+PLACE_MERCURY_POE:	Poe
+PLACE_MERCURY_POLYGNOTUS:	Polygnotus
+PLACE_MERCURY_POPOVA:	Popova
+PLACE_MERCURY_PO_YA:	Po Ya
+PLACE_MERCURY_PRAXITELES:	Praxiteles
+PLACE_MERCURY_PROKOFIEV:	Prokofiev
+PLACE_MERCURY_PROUST:	Proust
+PLACE_MERCURY_PUCCINI:	Puccini
+PLACE_MERCURY_PURCELL:	Purcell
+PLACE_MERCURY_PUSHKIN:	Pushkin
+PLACE_MERCURY_QI_BAISHI:	Qi Baishi
+PLACE_MERCURY_QIU_YING:	Qiu Ying
+PLACE_MERCURY_RABELAIS:	Rabelais
+PLACE_MERCURY_RACHMANINOFF:	Rachmaninoff
+PLACE_MERCURY_RADEN_SALEH:	Raden Saleh
+PLACE_MERCURY_RADITLADI:	Raditladi
+PLACE_MERCURY_RAJNIS:	Rajnis
+PLACE_MERCURY_RAMEAU:	Rameau
+PLACE_MERCURY_RAPHAEL:	Raphael
+PLACE_MERCURY_RAVEL:	Ravel
+PLACE_MERCURY_REMARQUE:	Remarque
+PLACE_MERCURY_REMBRANDT:	Rembrandt
+PLACE_MERCURY_RENOIR:	Renoir
+PLACE_MERCURY_REPIN:	Repin
+PLACE_MERCURY_RIEMENSCHNEIDER:	Riemenschneider
+PLACE_MERCURY_RIKYU:	Rikyū
+PLACE_MERCURY_RILKE:	Rilke
+PLACE_MERCURY_RIMBAUD:	Rimbaud
+PLACE_MERCURY_RIVERA:	Rivera
+PLACE_MERCURY_RODIN:	Rodin
+PLACE_MERCURY_ROERICH:	Roerich
+PLACE_MERCURY_RUBENS:	Rubens
+PLACE_MERCURY_RUBLEV:	Rublev
+PLACE_MERCURY_RUDAKI:	Rūdaki
+PLACE_MERCURY_RUDE:	Rude
+PLACE_MERCURY_RUMI:	Rūmī
+PLACE_MERCURY_RUSTAVELI:	Rustaveli
+PLACE_MERCURY_RUYSCH:	Ruysch
+PLACE_MERCURY_SADI:	Sadī
+PLACE_MERCURY_SAIKAKU:	Saikaku
+PLACE_MERCURY_SANAI:	Sanai
+PLACE_MERCURY_SANDER:	Sander
+PLACE_MERCURY_SAPKOTA:	Sapkota
+PLACE_MERCURY_SARMIENTO:	Sarmiento
+PLACE_MERCURY_SAVAGE:	Savage
+PLACE_MERCURY_SAYAT_NOVA:	Sayat-Nova
+PLACE_MERCURY_SCARLATTI:	Scarlatti
+PLACE_MERCURY_SCHOENBERG:	Schoenberg
+PLACE_MERCURY_SCHUBERT:	Schubert
+PLACE_MERCURY_SCOPAS:	Scopas
+PLACE_MERCURY_SEI:	Sei
+PLACE_MERCURY_SEUSS:	Seuss
+PLACE_MERCURY_SHAKESPEARE:	Shakespeare
+PLACE_MERCURY_SHELLEY:	Shelley
+PLACE_MERCURY_SHER_GIL:	Sher-Gil
+PLACE_MERCURY_SHEVCHENKO:	Shevchenko
+PLACE_MERCURY_SHOLEM_ALEICHEM:	Sholem Aleichem
+PLACE_MERCURY_SIBELIUS:	Sibelius
+PLACE_MERCURY_SIMONIDES:	Simonides
+PLACE_MERCURY_SINAN:	Sinan
+PLACE_MERCURY_SMETANA:	Smetana
+PLACE_MERCURY_SNORRI:	Snorri
+PLACE_MERCURY_SOPHOCLES:	Sophocles
+PLACE_MERCURY_SOR_JUANA:	Sor Juana
+PLACE_MERCURY_SOSEKI:	Sōseki
+PLACE_MERCURY_SOTATSU:	Sōtatsu
+PLACE_MERCURY_SOUSA:	Sousa
+PLACE_MERCURY_SPITTELER:	Spitteler
+PLACE_MERCURY_STEICHEN:	Steichen
+PLACE_MERCURY_STEVENSON:	Stevenson
+PLACE_MERCURY_STIEGLITZ:	Stieglitz
+PLACE_MERCURY_STRAVINSKY:	Stravinsky
+PLACE_MERCURY_STRINDBERG:	Strindberg
+PLACE_MERCURY_SULLIVAN:	Sullivan
+PLACE_MERCURY_SUR_DAS:	Sūr Dās
+PLACE_MERCURY_SURIKOV:	Surikov
+PLACE_MERCURY_SVEINSDOTTIR:	Sveinsdóttir
+PLACE_MERCURY_TAKANOBU:	Takanobu
+PLACE_MERCURY_TAKAYOSHI:	Takayoshi
+PLACE_MERCURY_TANSEN:	Tansen
+PLACE_MERCURY_THAKUR:	Thākur
+PLACE_MERCURY_THEOPHANES:	Theophanes
+PLACE_MERCURY_THOREAU:	Thoreau
+PLACE_MERCURY_TINTORETTO:	Tintoretto
+PLACE_MERCURY_TITIAN:	Titian
+PLACE_MERCURY_TOLKIEN:	Tolkien
+PLACE_MERCURY_TOLSTOJ:	Tolstoj
+PLACE_MERCURY_TO_NGOC_VAN:	To Ngoc Van
+PLACE_MERCURY_TRYGGVADOTTIR:	Tryggvadóttir
+PLACE_MERCURY_TS_AI_WEN_CHI:	Ts'ai Wen-Chi
+PLACE_MERCURY_TS_AO_CHAN:	Ts'ao Chan
+PLACE_MERCURY_TSURAYUKI:	Tsurayuki
+PLACE_MERCURY_TUNG_YUAN:	Tung Yüan
+PLACE_MERCURY_TURGENEV:	Turgenev
+PLACE_MERCURY_TYAGARAJA:	Tyagaraja
+PLACE_MERCURY_UNKEI:	Unkei
+PLACE_MERCURY_USTAD_ISA:	Ustad Isa
+PLACE_MERCURY_VALMIKI:	Vālmiki
+PLACE_MERCURY_VAN_DIJCK:	Van Dijck
+PLACE_MERCURY_VAN_EYCK:	Van Eyck
+PLACE_MERCURY_VAN_GOGH:	van Gogh
+PLACE_MERCURY_VARMA:	Varma
+PLACE_MERCURY_VELAZQUEZ:	Velázquez
+PLACE_MERCURY_VERDI:	Verdi
+PLACE_MERCURY_VIEIRA_DA_SILVA:	Vieira da Silva
+PLACE_MERCURY_VILLA_LOBOS:	Villa-Lobos
+PLACE_MERCURY_VINCENTE:	Vincente
+PLACE_MERCURY_VIVALDI:	Vivaldi
+PLACE_MERCURY_VLAMINCK:	Vlaminck
+PLACE_MERCURY_VYASA:	Vyāsa
+PLACE_MERCURY_WAGNER:	Wagner
+PLACE_MERCURY_WANG_MENG:	Wang Meng
+PLACE_MERCURY_WARHOL:	Warhol
+PLACE_MERCURY_WATERS:	Waters
+PLACE_MERCURY_WERGELAND:	Wergeland
+PLACE_MERCURY_WHITMAN:	Whitman
+PLACE_MERCURY_WREN:	Wren
+PLACE_MERCURY_XIAO_ZHAO:	Xiao Zhao
+PLACE_MERCURY_YAKOVLEV:	[Yakovlev]
+PLACE_MERCURY_YAMADA:	Yamada
+PLACE_MERCURY_YEATS:	Yeats
+PLACE_MERCURY_YOSHIKAWA:	Yoshikawa
+PLACE_MERCURY_YUN_SON_DO:	Yun Sǒn-Do
+PLACE_MERCURY_ZEAMI:	Zeami
+PLACE_MERCURY_ZOLA:	Zola
+// Albedo Feature
+PLACE_MERCURY_APOLLONIA:	Apollonia
+PLACE_MERCURY_AURORA:	Aurora
+PLACE_MERCURY_AUSTRALIA:	Australia
+PLACE_MERCURY_BOREA:	Borea
+PLACE_MERCURY_CADUCEATA:	Caduceata
+PLACE_MERCURY_CYLLENE:	Cyllene
+PLACE_MERCURY_GALLIA:	Gallia
+PLACE_MERCURY_HELIOCAMINUS:	Heliocaminus
+PLACE_MERCURY_HESPERIS:	Hesperis
+PLACE_MERCURY_LIGURIA:	Liguria
+PLACE_MERCURY_PENTAS:	Pentas
+PLACE_MERCURY_PHAETHONTIAS:	Phaethontias
+PLACE_MERCURY_PIERIA:	Pieria
+PLACE_MERCURY_PLEIAS:	Pleias
+PLACE_MERCURY_SOLITUDO_ADMETEI:	Solitudo Admetei
+PLACE_MERCURY_SOLITUDO_ALARUM:	Solitudo Alarum
+PLACE_MERCURY_SOLITUDO_APHRODITES:	Solitudo Aphrodites
+PLACE_MERCURY_SOLITUDO_ARGIPHONTAE:	Solitudo Argiphontae
+PLACE_MERCURY_SOLITUDO_ATLANTIS:	Solitudo Atlantis
+PLACE_MERCURY_SOLITUDO_CRIOPHORI:	Solitudo Criophori
+PLACE_MERCURY_SOLITUDO_HELII:	Solitudo Helii
+PLACE_MERCURY_SOLITUDO_HERMAE_TRISMEGISTI:	Solitudo Hermae Trismegisti
+PLACE_MERCURY_SOLITUDO_HORARUM:	Solitudo Horarum
+PLACE_MERCURY_SOLITUDO_IOVIS:	Solitudo Iovis
+PLACE_MERCURY_SOLITUDO_LYCAONIS:	Solitudo Lycaonis
+PLACE_MERCURY_SOLITUDO_MAIAE:	Solitudo Maiae
+PLACE_MERCURY_SOLITUDO_MARTIS:	Solitudo Martis
+PLACE_MERCURY_SOLITUDO_NEPTUNI:	Solitudo Neptuni
+PLACE_MERCURY_SOLITUDO_PERSEPHONES:	Solitudo Persephones
+PLACE_MERCURY_SOLITUDO_PHOENICIS:	Solitudo Phoenicis
+PLACE_MERCURY_SOLITUDO_PROMETHEI:	Solitudo Promethei
+PLACE_MERCURY_TRICRENA:	Tricrena
+// Fossa, fossae
+PLACE_MERCURY_PANTHEON_FOSSAE:	Pantheon Fossae
+// Catena, catenae
+PLACE_MERCURY_ARECIBO_CATENA:	Arecibo Catena
+PLACE_MERCURY_GOLDSTONE_CATENA:	Goldstone Catena
+PLACE_MERCURY_HAYSTACK_CATENA:	Haystack Catena
+// Mons, montes
+PLACE_MERCURY_CALORIS_MONTES:	Caloris Montes
+// Dorsum, dorsa
+PLACE_MERCURY_ANTONIADI_DORSUM:	Antoniadi Dorsum
+PLACE_MERCURY_SCHIAPARELLI_DORSUM:	Schiaparelli Dorsum
+// Planitia, planitiae
+PLACE_MERCURY_BOREALIS_PLANITIA:	Borealis Planitia
+PLACE_MERCURY_BUDH_PLANITIA:	Budh Planitia
+PLACE_MERCURY_CALORIS_PLANITIA:	Caloris Planitia
+PLACE_MERCURY_ODIN_PLANITIA:	Odin Planitia
+PLACE_MERCURY_SOBKOU_PLANITIA:	Sobkou Planitia
+PLACE_MERCURY_SUISEI_PLANITIA:	Suisei Planitia
+PLACE_MERCURY_TIR_PLANITIA:	Tir Planitia
+// Vallis, valles
+PLACE_MERCURY_ANGKOR_VALLIS:	Angkor Vallis
+PLACE_MERCURY_CAHOKIA_VALLIS:	Cahokia Vallis
+PLACE_MERCURY_CARAL_VALLIS:	Caral Vallis
+PLACE_MERCURY_PAESTUM_VALLIS:	Paestum Vallis
+PLACE_MERCURY_TIMGAD_VALLIS:	Timgad Vallis

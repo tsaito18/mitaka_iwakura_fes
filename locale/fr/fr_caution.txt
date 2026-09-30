@@ -1,0 +1,12 @@
+\Center{S'il vous plaît …} \\
+\Size[0.45]
+\Vspace[1.0]
+\Color[1,0.8,0.2]
+· En cas de nausée, enlevez vos lunettes 3D\\
+\Vspace[0.5]
+\Color[1,1,1]
+· Prière de ne pas toucher les verres des lunettes 3D\\
+\Vspace[0.5]
+· Prière d'éteindre vos téléphones et autres alarmes\\
+\Vspace[0.5]
+· Prière de ne pas manger ni boire pendant la représentation\\

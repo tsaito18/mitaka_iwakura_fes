@@ -1,0 +1,15 @@
+NAME:			Chinese (Smplified)
+NAME_KEY:		LANG_CHINESE
+ISO639:			zh
+LANG_ID:		zh
+FONT:			msyh.ttc, msyh.ttf
+STRINGS:		./common/common.txt
+STRINGS:		./common/langlist.txt
+STRINGS:		./en/en_place_names.txt
+STRINGS:		./zh/zh_strings.txt
+STRINGS:		./zh/zh_menu_strings.txt
+STRINGS:		./zh/zh_splash_strings.txt
+STRINGS:		./zh/zh_place_names.txt
+CAUTION_TEXT:	./zh/zh_caution.txt
+TITLE_IMAGE:	./en/en_4dtheater_title.png
+END_CREDITS:	./en/en_credit.txt

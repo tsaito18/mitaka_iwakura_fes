@@ -1,0 +1,38 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\M13.jpg
+FILE_PATH:	.\images\M13.jpg
+
+
+[default]
+MENU_TITLE:	Globular Cluster M13
+
+[ja, ja_ruby]
+MENU_TITLE:	球状星団 M13
+
+[ja_ruby]
+DISP_TITLE:	{球状|きゅうじょう}{星団|せいだん} M13
+
+[es]
+MENU_TITLE:	Cúmulo Globular M13
+
+[fr]
+MENU_TITLE:	Amas globulaires M13
+
+[it]
+MENU_TITLE:	Ammasso globulare M13
+
+[pt]
+MENU_TITLE:	Enxame Globular M13
+
+[id]
+MENU_TITLE:	Gugusan Bola M13
+
+[th]
+MENU_TITLE:	กระจุกดาวทรงกลม M13
+
+[zh]
+MENU_TITLE:	球状星团 M13
+
+[zh_tr]
+MENU_TITLE:	球狀星團 M13

@@ -1,0 +1,44 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\M45.jpg
+FILE_PATH:	.\images\M45.jpg
+
+
+[default]
+MENU_TITLE:	Open Star Cluster Pleiades
+
+[ja, ja_ruby]
+MENU_TITLE:	すばる
+DISP_TITLE:	すばる（プレアデス星団）
+
+[ja_ruby]
+DISP_TITLE:	すばる（プレアデス{星団|せいだん}）
+
+[es]
+MENU_TITLE:	Las Pléyades
+DISP_TITLE:	Cúmulo Abierto de las Pléyades
+
+[fr]
+MENU_TITLE:	Les Pléiades
+DISP_TITLE:	Amas ouvert d'étoiles des Pléiades
+
+[it]
+MENU_TITLE:	Pleiadi
+DISP_TITLE:	Ammasso aperto delle Pleiadi
+
+[pt]
+MENU_TITLE:	Enxame Aberto das Plêiades
+
+[id]
+MENU_TITLE:	Gugus Bintang Terbuka Pleiades
+
+[th]
+MENU_TITLE:	กระจุกดาวลูกไก่
+
+[zh]
+MENU_TITLE:	昴星团
+DISP_TITLE:	昴星团（昴宿星团）
+
+[zh_tr]
+MENU_TITLE:	昴宿星團
+DISP_TITLE:	昴宿星團（Pleiades）

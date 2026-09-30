@@ -1,0 +1,38 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\S106.jpg
+FILE_PATH:	.\images\S106.jpg
+
+
+[default]
+MENU_TITLE:	Star-Forming Region S106
+
+[ja, ja_ruby]
+MENU_TITLE:	星形成領域 S106
+
+[ja_ruby]
+DISP_TITLE:	{星|ほし}{形成|けいせい}{領域|りょういき}
+
+[es]
+MENU_TITLE:	Región de Formación Estelar S106
+
+[fr]
+MENU_TITLE:	Région de formation d'étoiles S106
+
+[it]
+MENU_TITLE:	Regione di formazione stellare S106
+
+[pt]
+MENU_TITLE:	Região de Formação Estelar S106
+
+[id]
+MENU_TITLE:	Kawasan Pembentukan Bintang S106
+
+[th]
+MENU_TITLE:	บริเวณดาวเกิดใหม่ S106
+
+[zh]
+MENU_TITLE:	恒星形成区 S106
+
+[zh_tr]
+MENU_TITLE:	恆星誕生區域 S106

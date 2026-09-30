@@ -1,0 +1,12 @@
+\Center{Por favor...} \\
+\Size[0.45]
+\Vspace[1.0]
+\Color[1,0.8,0.2]
+· Si se siente mareado(a), quítese las gafas 3D.\\
+\Vspace[0.5]
+\Color[1,1,1]
+· No toque las lentes de las gafas 3D.\\
+\Vspace[0.5]
+· Apague su celular y otras alarmas.\\
+\Vspace[0.5]
+· No coma ni beba durante la presentación.

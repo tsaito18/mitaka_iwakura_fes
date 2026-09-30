@@ -1,0 +1,50 @@
+MEDIA_TYPE:	Image
+
+FILE_PATH:	.\images\ALMA_A2744_YD4.jpg
+FILE_PATH:	.\images\ALMA_A2744_YD4.jpg
+
+
+[default]
+MENU_TITLE:	Distant galaxy A2744_YD4
+DISP_TITLE: A galaxy 13.2 billion light years away
+
+[ja, ja_ruby]
+MENU_TITLE:	遠方銀河 A2744_YD4
+
+[ja]
+DISP_TITLE: 132億光年先の銀河
+
+[ja_ruby]
+DISP_TITLE:	132{億|おく}{光年|こうねん}{先|さき}の{銀河|ぎんが}
+
+[es]
+MENU_TITLE:	Galaxia distante A2744_YD4
+DISP_TITLE: La galaxia a 13.200 millones de años luz de distancia
+
+[fr]
+MENU_TITLE:	Galaxie distante A2744_YD4
+DISP_TITLE: La galaxie est distante de 13.2 milliards d'années-lumière
+
+[it]
+MENU_TITLE:	Galassia distante A2744_YD4
+DISP_TITLE: Galassia a 13.2 miliardi di anni luce di distanza
+
+[pt]
+MENU_TITLE:	Galáxia Distante A2744_YD4
+DISP_TITLE: A Galáxia a 13.2 mil milhoes de anos-luz de distância
+
+[id]
+MENU_TITLE:	Galaksi jauh A2744_YD4
+DISP_TITLE: Galaksi, 13,2 miliar tahun cahaya jauhnya
+
+[th]
+MENU_TITLE:	กาแล็กซีที่อยู่ห่างไกล A2744_YD4
+DISP_TITLE: กาแล็กซีที่อยู่ห่างจากโลก 13,200 ล้านปีแสง
+
+[zh]
+MENU_TITLE:遥远星系 A2744_YD4
+DISP_TITLE:星系-132亿光年
+
+[zh_tr]
+MENU_TITLE:遙遠星系 A2744_YD4
+DISP_TITLE:星系-132億光年

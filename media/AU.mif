@@ -1,0 +1,38 @@
+MEDIA_TYPE:	PopupImage
+
+FILE_PATH:	.\images\AU.jpg
+FILE_PATH:	.\images\AU.jpg
+
+
+[default]
+MENU_TITLE:	astronomical unit
+
+[ja, ja_ruby]
+MENU_TITLE:	天文単位
+
+[ja_ruby]
+DISP_TITLE:	{天文|てんもん}{単位|たんい}
+
+[es]
+MENU_TITLE:	Unidad Astronómica
+
+[fr]
+MENU_TITLE:	Unité astronomique
+
+[it]
+MENU_TITLE:	Unità Astronomica
+
+[pt]
+MENU_TITLE:	Unidades Astronómicas
+
+[id]
+MENU_TITLE:	Satuan Astronomi (sa)
+
+[th]
+MENU_TITLE:	หน่วยดาราศาสตร์
+
+[zh]
+MENU_TITLE:	天文单位
+
+[zh_tr]
+MENU_TITLE:	天文單位
