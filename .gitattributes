@@ -1,2 +1,6 @@
 data/Gaia_MW_intensity_map.dat filter=lfs diff=lfs merge=lfs -text
+data/earth_topo.dat filter=lfs diff=lfs merge=lfs -text
+data/mercury_topo.dat filter=lfs diff=lfs merge=lfs -text
+data/mars_topo.dat filter=lfs diff=lfs merge=lfs -text
+data/moon_topo.dat filter=lfs diff=lfs merge=lfs -text
 data/*_topo.dat filter=lfs diff=lfs merge=lfs -text
