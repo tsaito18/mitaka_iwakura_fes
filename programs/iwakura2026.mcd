@@ -180,12 +180,6 @@ DefSequence[IWAKURA2026, PRESET]
 	SetOrientation(5.721e-01, 5.081e-01, -5.987e-01, -2.369e-01)
 	SwitchOff(PLANET_NAME)
 
-	// 輪の模様が見えるまでカメラを寄せる
-	Pause()
-	Transition(15)
-	SetScale(3.500e-09)
-	SetOrientation(7.517e-01, 5.851e-01, -2.597e-01, -1.584e-01)
-
 	// 土星の輪の拡大画像を表示
 	Pause()
 	OpenMediaFile(Saturn_rings_closeup.mif)
@@ -408,7 +402,7 @@ DefSequence[IWAKURA2026, PRESET]
 	Pause(1)
 	SetZoomMode(ZOOM_5)
 	Transition(20)
-	SetDateTime(2026/10/3 13:00:0.0 9.0)
+	SetDateTime(2026/10/4 13:00:0.0 9.0)
 
 	// 終了画像を表示
 	Pause()
