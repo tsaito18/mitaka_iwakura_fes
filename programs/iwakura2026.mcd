@@ -10,6 +10,7 @@ DefSequence[IWAKURA2026, PRESET]
 	SetHeadOrientation(1.000e+00, 0.000e+00, 0.000e+00, 0.000e+00)
 	SetLandingSite(Kyoto)
 	SetModesToDefault()
+	SetZoomMode(ZOOM_5)
 	ChangeStarBrightness(DEFAULT)
 	SwitchSet(
 		SUN_DISP, SUN_GLARE,
@@ -27,7 +28,7 @@ DefSequence[IWAKURA2026, PRESET]
 	)
 	RemoveSelections(
 		HIP_102098, HIP_97649, HIP_91262, HIP_107315, HIP_3179,
-		PLNT_EARTH, PLNT_SATURN
+		PLNT_EARTH, PLNT_JUPITER, PLNT_SATURN
 	)
 	ClearKeyGroup(CNST_SELECT)
 	ClearKeyGroup(ASTERISMS_SELECT)
@@ -51,11 +52,7 @@ DefSequence[IWAKURA2026, PRESET]
 	// 時刻を非表示
 	Pause(1)
 	SwitchOff(DATE_DISP)
-
-	// 真西の天頂付近を向く
-	Pause()
-	Transition(8)
-	SetPlanetariumAzimuth(270.000)
+	SetZoomMode(ZOOM_REAL_SCALE)
 
 	// デネブの名前を表示
 	Pause()
@@ -90,11 +87,6 @@ DefSequence[IWAKURA2026, PRESET]
 		ASTERISM_DISP, ASTERISM_NAME, ASTERISM_SELECT_PLNT
 	)
 
-	// 東の空へ移動
-	Pause()
-	Transition(10)
-	SetPlanetariumAzimuth(100.000)
-
 	// ペガスス座とペガススの大四辺形を表示
 	Pause()
 	AddKeyGroup(
@@ -106,10 +98,8 @@ DefSequence[IWAKURA2026, PRESET]
 		GREAT_SQUARE_PEGASUS
 	)
 
-	// 北東の空へ移動し、カシオペヤ座を表示
+	// カシオペヤ座を表示
 	Pause()
-	Transition(6)
-	SetPlanetariumAzimuth(35.000)
 	AddKeyGroup(
 		CNST_SELECT,
 		CNST_Cas
@@ -120,7 +110,7 @@ DefSequence[IWAKURA2026, PRESET]
 	SetMainMode(MODE_MAIN_SPACE)
 	SetTarget(PLNT_EARTH)
 	SetScale(1.034e-13)
-	SetOrientation(8.440e-01, 4.472e-01, 2.818e-01, -9.102e-02)
+	SetOrientation(3.368e-01, -1.354e-01, -2.765e-02, -9.314e-01)
 	ChangeStarBrightness(DEFAULT)
 	ChangeMWBrightness(DEFAULT)
 	SwitchOff(CONSTELLATION_NAME, CONSTELLATION_ILLUST, ASTERISM_NAME)
@@ -138,7 +128,7 @@ DefSequence[IWAKURA2026, PRESET]
 
 	Transition(8)
 	SetScale(3.000e-09)
-	SetOrientation(2.806e-01, 9.130e-01, 1.349e-01, -2.636e-01)
+	SetOrientation(3.339e-01, 1.424e-01, -6.781e-01, -6.390e-01)
 
 	Transition(10)
 	SetScale(3.000e-01)
@@ -153,8 +143,9 @@ DefSequence[IWAKURA2026, PRESET]
 	SwitchOff(CONSTELLATION_LINE, ASTERISM_DISP, STAR_NAME)
 	RemoveSelections(HIP_102098, HIP_97649, HIP_91262, HIP_107315, HIP_3179)
 	ClearKeyGroup(CNST_SELECT)
-	AddSelections(PLNT_EARTH, PLNT_SATURN)
+	AddSelections(PLNT_EARTH, PLNT_JUPITER, PLNT_SATURN)
 	SwitchOn(SUN_NAME, PLANET_NAME, PLANET_ORBIT)
+	SetZoomMode(ZOOM_4)
 	Transition(12)
 	SetScale(1.000e-04)
 	SetOrientation(6.943e-01, 3.237e-01, -2.717e-01, -5.826e-01)
@@ -164,11 +155,13 @@ DefSequence[IWAKURA2026, PRESET]
 	Transition(10)
 	SetScale(8.000e-05)
 	SetOrientation(7.660e-01, 0.000e+00, 0.000e+00, -6.428e-01)
-	SetZoomMode(ZOOM_3)
+
+	// 惑星の大きさを実際の大きさに戻す
+	Pause()
+	SetZoomMode(ZOOM_REAL_SCALE)
 
 	// 土星の外側へ回り込み、土星をターゲットにする
 	Pause()
-	SetZoomMode(ZOOM_REAL_SCALE)
 	Transition(8)
 	SetScale(5.478e-04)
 	SetOrientation(4.709e-01, 4.315e-01, 5.198e-01, 5.673e-01)
@@ -178,7 +171,7 @@ DefSequence[IWAKURA2026, PRESET]
 	SetScale(4.185e-04)
 	SetOrientation(4.796e-01, 4.219e-01, 5.082e-01, 5.777e-01)
 	SwitchOff(SUN_NAME, PLANET_ORBIT)
-	RemoveSelections(PLNT_EARTH)
+	RemoveSelections(PLNT_EARTH, PLNT_JUPITER)
 
 	// 土星へ接近し、輪を含む全体を映す
 	Pause(0)
@@ -224,11 +217,11 @@ DefSequence[IWAKURA2026, PRESET]
 	Pause(0)
 	Transition(14)
 	SetScale(3.000e-09)
-	SetOrientation(2.806e-01, 9.130e-01, 1.349e-01, -2.636e-01)
+	SetOrientation(-3.339e-01, -1.424e-01, 6.781e-01, 6.390e-01)
 
 	Transition(6)
 	SetScale(3.000e-11)
-	SetOrientation(8.440e-01, 4.472e-01, 2.818e-01, -9.102e-02)
+	SetOrientation(-3.368e-01, 1.354e-01, 2.765e-02, 9.314e-01)
 
 	Transition(5)
 	SetScale(1.034e-13)
@@ -238,7 +231,7 @@ DefSequence[IWAKURA2026, PRESET]
 	SetMainMode(MODE_MAIN_PLANETARIUM)
 	SetPlanetariumAngle(4.500e+01)
 	SetPlanetariumLatitude(25.343)
-	SetPlanetariumAzimuth(35.000)
+	SetPlanetariumAzimuth(180.000)
 	SetDateTime(2026/10/3 20:00:0.0 9.0)
 	ChangeStarBrightness(DEFAULT)
 	ChangeStarBrightness(DARKEN)
@@ -267,14 +260,12 @@ DefSequence[IWAKURA2026, PRESET]
 		ASTERISM_DISP, ASTERISM_NAME, ASTERISM_SELECT_PLNT
 	)
 
-	// 南を向き、黄道を表示
+	// 黄道を表示
 	Pause()
 	SwitchOff(CONSTELLATION_ILLUST, ASTERISM_DISP, ASTERISM_NAME)
 	ClearKeyGroup(CNST_SELECT)
 	ClearKeyGroup(ASTERISMS_SELECT)
 	SwitchOn(GRID_ECLIPTIC_DISP)
-	Transition(6)
-	SetPlanetariumAzimuth(180.000)
 
 	// 黄道十二星座を誕生月順に表示
 	Pause(0.5)
@@ -365,8 +356,6 @@ DefSequence[IWAKURA2026, PRESET]
 	)
 	SwitchOn(CONSTELLATION_SELECT_PLNT, CONSTELLATION_ILLUST)
 	SwitchOff(GRID_ECLIPTIC_DISP)
-	Transition(5)
-	SetPlanetariumAzimuth(165.000)
 
 	// わし座を再表示
 	Pause()
@@ -383,11 +372,10 @@ DefSequence[IWAKURA2026, PRESET]
 	ClearKeyGroup(CNST_SELECT)
 	ChangeStarBrightness(BRIGHTEN)
 
-	// 10月4日3時まで時間を進め、南東を向く
+	// 10月4日3時まで時間を進める
 	Pause()
 	Transition(20)
 	SetDateTime(2026/10/4 3:00:0.0 9.0)
-	SetPlanetariumAzimuth(140.000)
 
 	// オリオン座を表示
 	Pause(0)
@@ -418,9 +406,9 @@ DefSequence[IWAKURA2026, PRESET]
 
 	// 13時まで時間を戻す
 	Pause(1)
+	SetZoomMode(ZOOM_5)
 	Transition(20)
 	SetDateTime(2026/10/3 13:00:0.0 9.0)
-	SetPlanetariumAzimuth(180.000)
 
 	// 終了画像を表示
 	Pause()
@@ -434,7 +422,7 @@ DefSequence[IWAKURA2026, PRESET]
 	ClearKeyGroup(ASTERISMS_SELECT)
 	RemoveSelections(
 		HIP_102098, HIP_97649, HIP_91262, HIP_107315, HIP_3179,
-		PLNT_EARTH, PLNT_SATURN
+		PLNT_EARTH, PLNT_JUPITER, PLNT_SATURN
 	)
 	SetTransitionParams(DT1:1.0, DT2:1.0)
 	SetViewTarget(PLNT_EARTH)
